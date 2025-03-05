@@ -1,0 +1,1438 @@
+{
+  "software": "CSPro", 
+  "version": 8.0, 
+  "fileType": "dictionary", 
+  "name": "LASSODD_DICT", 
+  "labels": [ { "text": "LassoDD" } ], 
+  "security": {
+    "allowDataViewerModifications": true, 
+    "allowExport": true, 
+    "cachedPasswordMinutes": 0, 
+    "settings": "eee205dca0fcfc56198b304cf520b67da95de59a377ae98ec5a9d078db06ae28"
+  }, 
+  "readOptimization": true, 
+  "recordType": {
+    "start": 1, 
+    "length": 1
+  }, 
+  "defaults": {
+    "decimalMark": true, 
+    "zeroFill": false
+  }, 
+  "relativePositions": true, 
+  "levels": [
+    {
+      "name": "LASSODD_LEVEL", 
+      "labels": [ { "text": "LassoDD Level" } ], 
+      "ids": {
+        "items": [
+          {
+            "name": "LASSODD_ID", 
+            "labels": [ { "text": "Control Number" } ], 
+            "contentType": "alpha", 
+            "start": 2, 
+            "length": 15
+          }
+        ]
+      }, 
+      "records": [
+        {
+          "name": "AGREEMENT", 
+          "labels": [ { "text": "Agreement" } ], 
+          "recordType": "0", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "DATA_PRIVACY", 
+              "labels": [ { "text": "Data Privacy" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "DATA_PRIVACY_VS1", 
+                  "labels": [ { "text": "Data Privacy" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "INTERVIEWER_ID", 
+              "labels": [ { "text": "Interviewer ID" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "TYPE_OF_INTERVIEW", 
+              "labels": [ { "text": "Type Of Interview" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "TYPE_OF_INTERVIEW_VS1", 
+                  "labels": [ { "text": "Type Of Interview" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Online Survey" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Telephone Interview" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Face to face Interview" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "name": "TYPE_OF_PROJECT_AFFECTED_PERSON_S", 
+          "labels": [ { "text": "Type of Project Affected Person/s" } ], 
+          "recordType": "6", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "TYPE_OF_PROJECT_AFFECTED_PERSON_S_1", 
+              "labels": [ { "text": "Type of Project Affected Person/s" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "TYPE_OF_PROJECT_AFFECTED_PERSON_S_1_VS1", 
+                  "labels": [ { "text": "Type of Project Affected Person/s" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Residing" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Non-Residing" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Corporation, Institution, Cooperative Association" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "name": "LOCATION_ADDRESS_OF_STRUCTURE_LAND_FARM_FISH_PEN", 
+          "labels": [ { "text": "Location/Address of Structure/Land/Farm/Fish Pen" } ], 
+          "recordType": "7", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "HOUSEHOLD_NUMBER_BUSINESS_NUMBER_IF_ANY", 
+              "labels": [ { "text": "Household Number / Business Number, if any:" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "UNIT_BLDG_NO", 
+              "labels": [ { "text": "Unit/Bldg. No." } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "STREET", 
+              "labels": [ { "text": "Street" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "VILLAGE_SUBDIVISION", 
+              "labels": [ { "text": "Village/Subdivision" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "BARANGAY", 
+              "labels": [ { "text": "Barangay" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "CITY_MUNICIPALITY", 
+              "labels": [ { "text": "City/Municipality" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }
+          ]
+        }, 
+        {
+          "name": "TO_BE_FILLED_UP_BY_ENCODER", 
+          "labels": [ { "text": "To be filled up by encoder" } ], 
+          "recordType": "8", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "TITLE_NO", 
+              "labels": [ { "text": "Title Number" } ], 
+              "contentType": "alpha", 
+              "length": 15
+            }, 
+            {
+              "name": "PIN", 
+              "labels": [ { "text": "PIN" } ], 
+              "contentType": "alpha", 
+              "length": 15
+            }, 
+            {
+              "name": "TD_NUMBER", 
+              "labels": [ { "text": "TD Number" } ], 
+              "contentType": "alpha", 
+              "length": 15
+            }, 
+            {
+              "name": "LOT_ID_NUMBER", 
+              "labels": [ { "text": "Lot ID Number" } ], 
+              "contentType": "alpha", 
+              "length": 15
+            }
+          ]
+        }, 
+        {
+          "name": "RESPONDENTS_PROFILE", 
+          "labels": [ { "text": "Respondent's Profile" } ], 
+          "recordType": "1", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "FIRST", 
+              "labels": [ { "text": "First" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "MIDDLE", 
+              "labels": [ { "text": "Middle" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "LAST", 
+              "labels": [ { "text": "Last" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "ARE_YOU_A_REPRESENTATIVE_OF_THE_PAP", 
+              "labels": [ { "text": "Are you a representative of the PAP" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "ARE_YOU_A_REPRESENTATIVE_OF_THE_PAP_VS1", 
+                  "labels": [ { "text": "Are you a representative of the PAP" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "A2_IF_REPRESENTATIVE_RELATIONSHIP_OF_THE_RESPOND", 
+              "labels": [ { "text": "A2. If representative, relationship of the respondent to the PAP." } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "A2_IF_REPRESENTATIVE_RELATIONSHIP_OF_THE_RESPOND_VS1", 
+                  "labels": [ { "text": "A2. If representative, relationship of the respondent to the PAP." } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Spouse" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Child" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Sibling" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Parent" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Worker/Employee" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Caretaker" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "7. Other Relatives (specify)" } ], 
+                      "pairs": [ { "value": "7" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "8. Others (specify)" } ], 
+                      "pairs": [ { "value": "8" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "CONTACT_NUMBER", 
+              "labels": [ { "text": "A3. Contact Number" } ], 
+              "contentType": "numeric", 
+              "length": 10, 
+              "zeroFill": true
+            }, 
+            {
+              "name": "SEX", 
+              "labels": [ { "text": "Sex" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "SEX_VS1", 
+                  "labels": [ { "text": "Sex" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Male" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Female" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "AGE", 
+              "labels": [ { "text": "Age" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }
+          ]
+        }, 
+        {
+          "name": "PAP_S_PROFILE", 
+          "labels": [ { "text": "PAP's Profile" } ], 
+          "recordType": "2", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "SAME_AS_RESPONDENT", 
+              "labels": [ { "text": "Same as Respondent?" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "SAME_AS_RESPONDENT_VS1", 
+                  "labels": [ { "text": "Same as Respondent?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "FIRST_1", 
+              "labels": [ { "text": "First" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "MIDDLE_1", 
+              "labels": [ { "text": "Middle" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "LAST_1", 
+              "labels": [ { "text": "Last" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "B2_CONTACT_NUMBER", 
+              "labels": [ { "text": "B2. Contact Number" } ], 
+              "contentType": "numeric", 
+              "length": 10, 
+              "zeroFill": true
+            }, 
+            {
+              "name": "MOBILE", 
+              "labels": [ { "text": "Mobile" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "LAND_LINE", 
+              "labels": [ { "text": "Land Line" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "B3_SEX", 
+              "labels": [ { "text": "B3. Sex" } ], 
+              "contentType": "alpha", 
+              "length": 2, 
+              "valueSets": [
+                {
+                  "name": "B3_SEX_VS1", 
+                  "labels": [ { "text": "B3. Sex" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Male" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Female" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "BIRTH_MONTH", 
+              "labels": [ { "text": "Birth Month" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "BIRTH_DAY", 
+              "labels": [ { "text": "Birth Day" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "BIRTH_YEAR", 
+              "labels": [ { "text": "Birth Year" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "CIVIL_STATUS", 
+              "labels": [ { "text": "B6. Civil Status" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "CIVIL_STATUS_VS1", 
+                  "labels": [ { "text": "B6. Civil Status" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Single" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Married" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Separated" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Widow/er" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Live-in" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "WITH_DEPENDENTS_1", 
+              "labels": [ { "text": "B7. With dependents?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "WITH_DEPENDENTS_1_VS1", 
+                  "labels": [ { "text": "B7. With dependents?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "RELIGION", 
+              "labels": [ { "text": "B8. Religion" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "RELIGION_VS1", 
+                  "labels": [ { "text": "B8. Religion" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Catholic" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Protestant" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Born Again" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Islam" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "INC" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Others" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "ETHNICITY", 
+              "labels": [ { "text": "B9. Ethnicity" } ], 
+              "contentType": "alpha", 
+              "length": 52, 
+              "valueSets": [
+                {
+                  "name": "ETHNICITY_VS1", 
+                  "labels": [ { "text": "B9. Ethnicity" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Tagalog" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Ilocano" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Bicolano" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Cebuano" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Aklanon" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Moro" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "7. IP" } ], 
+                      "pairs": [ { "value": "7" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "8. Kapampangan" } ], 
+                      "pairs": [ { "value": "8" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "9. Ilonggo" } ], 
+                      "pairs": [ { "value": "9" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "10. Mixed" } ], 
+                      "pairs": [ { "value": "10" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "11. Others" } ], 
+                      "pairs": [ { "value": "11" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "ETHNICITY_SPECIFY", 
+              "labels": [ { "text": "B9.1 Ethnicity Specify" } ], 
+              "contentType": "alpha", 
+              "subitem": true, 
+              "subitemOffset": 2, 
+              "length": 50
+            }, 
+            {
+              "name": "WHAT_ARE_YOU_LOSING_AS_A_RESULT_OF_THE_PROJECT_M", 
+              "labels": [ { "text": "B10. What are you losing as a result of the project? (Multiple Response)" } ], 
+              "contentType": "alpha", 
+              "length": 2, 
+              "valueSets": [
+                {
+                  "name": "WHAT_ARE_YOU_LOSING_AS_A_RESULT_OF_THE_PROJECT_M_VS1", 
+                  "labels": [ { "text": "B10. What are you losing as a result of the project? (Multiple Response)" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Residential / House Structure" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Business" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Residential Land" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Agricultural Land" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Company / Institutional Structure" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Business Owner Land" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Fish pen/pond" } ], 
+                      "pairs": [ { "value": "7" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Ancillary Structure (Toilet, Pig pen, Chicken Coop, etc.)" } ], 
+                      "pairs": [ { "value": "8" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "None (Rents residential land and house, ISF)" } ], 
+                      "pairs": [ { "value": "9" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Fruit Trees / Permanent Trees" } ], 
+                      "pairs": [ { "value": "10" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Agricultural Crops" } ], 
+                      "pairs": [ { "value": "11" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Others (specify)" } ], 
+                      "pairs": [ { "value": "12" } ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "name": "C_STRUCTURE_TYPE_AND_USE", 
+          "labels": [ { "text": "C Structure Type and Use" } ], 
+          "recordType": "3", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "IS_THERE_ANY_ASSOCIATED_STRUCTURE", 
+              "labels": [ { "text": "Is there any associated structure" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "IS_THERE_ANY_ASSOCIATED_STRUCTURE_VS1", 
+                  "labels": [ { "text": "Is there any associated structure" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "TYPE_OF_AFFECTED_STRUCTURE", 
+              "labels": [ { "text": "C1. Type of Affected Structure" } ], 
+              "contentType": "alpha", 
+              "length": 2, 
+              "valueSets": [
+                {
+                  "name": "TYPE_OF_AFFECTED_STRUCTURE_VS1", 
+                  "labels": [ { "text": "C1. Type of Affected Structure" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Single Detached" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Duplex" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Townhouse" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Rowhouse" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. LRB (2-5 floors)" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. MRB (6-15 floors)" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "7. HRB (16 floors and up)" } ], 
+                      "pairs": [ { "value": "7" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "8. One level, non-residential building" } ], 
+                      "pairs": [ { "value": "8" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "9. Shanty" } ], 
+                      "pairs": [ { "value": "9" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "10. Other ( please specify )" } ], 
+                      "pairs": [ { "value": "10" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "11. No Affected Structure" } ], 
+                      "pairs": [ { "value": "11" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "USE_OF_STRUCTURE", 
+              "labels": [ { "text": "C2. Use of Structure" } ], 
+              "contentType": "alpha", 
+              "length": 2, 
+              "valueSets": [
+                {
+                  "name": "USE_OF_STRUCTURE_VS1", 
+                  "labels": [ { "text": "C2. Use of Structure" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Residential" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Commercial" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Residential / Commercial" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Residential/Institutional" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Community Facility" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Others ( Please Specify )" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "MATERIAL_OF_MAIN_STRUCTURE", 
+              "labels": [ { "text": "C3. Material of Main Structure" } ], 
+              "contentType": "alpha", 
+              "length": 2, 
+              "valueSets": [
+                {
+                  "name": "MATERIAL_OF_MAIN_STRUCTURE_VS1", 
+                  "labels": [ { "text": "C3. Material of Main Structure" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Concrete" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Semi-concrete" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Light material (wood, bamboo, nipa, palm, etc.)" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Salvaged material (plastic, tin, cardboard, etc.)" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Mixed Materials" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Others ( Specify)" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "STATUS_CONDITION_OF_USE", 
+              "labels": [ { "text": "C4. Status/Condition of Use" } ], 
+              "contentType": "alpha", 
+              "length": 2, 
+              "valueSets": [
+                {
+                  "name": "STATUS_CONDITION_OF_USE_VS1", 
+                  "labels": [ { "text": "C4. Status/Condition of Use" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Occupied" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Abandoned/Vacant" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Under Construction" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "name": "C5_ASSOCIATED_STRUCTURE", 
+          "labels": [ { "text": "C5 Associated Structure" } ], 
+          "recordType": "4", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 15
+          }, 
+          "items": [
+            {
+              "name": "STRUCTURE_TAG", 
+              "labels": [ { "text": "C5. Structure Tag Number" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "TYPE_OF_ASSOCIATED_STRUCTURE", 
+              "labels": [ { "text": "C6. Type of Associated Structure" } ], 
+              "contentType": "alpha", 
+              "length": 50, 
+              "valueSets": [
+                {
+                  "name": "TYPE_OF_ASSOCIATED_STRUCTURE_VS1", 
+                  "labels": [ { "text": "C6. Type of Associated Structure" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Fence with gate" } ], 
+                      "pairs": [ { "value": "1. Fence with gate" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Fence" } ], 
+                      "pairs": [ { "value": "2.Fence" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "Shed" } ], 
+                      "pairs": [ { "value": "3.Shed" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "DO_YOU_WANT_TO_ADD_ANOTHER", 
+              "labels": [ { "text": "C7. Material of Associated Structure" } ], 
+              "contentType": "alpha", 
+              "length": 50, 
+              "valueSets": [
+                {
+                  "name": "DO_YOU_WANT_TO_ADD_ANOTHER_VS1", 
+                  "labels": [ { "text": "C7. Material of Associated Structure" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Concrete" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Semi-Concrete" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Light Material (wood, bamboo, nipa, palm, etc.)" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Salvaged Material (plastic, tin, cardboard, etc.)" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Mixed Material" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Others (Specify)" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "C8_USED_FOR_BUSINESS_PURPOSES", 
+              "labels": [ { "text": "C8. Used for Business Purposes?" } ], 
+              "contentType": "alpha", 
+              "length": 1
+            }, 
+            {
+              "name": "ASSOCIATED_STRUCTURE_1", 
+              "labels": [ { "text": "Associated Structure 1" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "ASSOCIATED_STRUCTURE_1_VS1", 
+                  "labels": [ { "text": "Associated Structure 1" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "ASSOCIATED_STRUCTURE_2", 
+              "labels": [ { "text": "Associated Structure 2" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "ASSOCIATED_STRUCTURE_2_VS1", 
+                  "labels": [ { "text": "Associated Structure 2" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "ADD_ANOTHER", 
+              "labels": [ { "text": "Add More Associated Structure" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "ADD_ANOTHER_VS1", 
+                  "labels": [ { "text": "Add More Associated Structure" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "name": "D_STRUCTURE_OWNERSHIP", 
+          "labels": [ { "text": "D Structure Ownership" } ], 
+          "recordType": "5", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "DO_YOU_OWN_THE_TAGGED_STRUCTURE", 
+              "labels": [ { "text": "D1. Do you own the tagged structure?" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "DO_YOU_OWN_THE_TAGGED_STRUCTURE_VS1", 
+                  "labels": [ { "text": "D1. Do you own the tagged structure?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "0" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "IF_YES", 
+              "labels": [ { "text": "D1.1 If, yes" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "IF_YES_VS1", 
+                  "labels": [ { "text": "D1.1 If, yes" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Only owner" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Co-owner" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "D1_2_STRUCTURE_OWNER_CO_OWNER_DETAILS", 
+              "labels": [ { "text": "D1.2 Structure Owner/Co-Owner Details" } ], 
+              "contentType": "alpha", 
+              "length": 50, 
+              "valueSets": [
+                {
+                  "name": "D1_2_STRUCTURE_OWNER_CO_OWNER_DETAILS_VS1", 
+                  "labels": [ { "text": "D1.2 Structure Owner/Co-Owner Details" } ], 
+                  "values": []
+                }
+              ]
+            }, 
+            {
+              "name": "FIRST_2", 
+              "labels": [ { "text": "First" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "MIDDLE_2", 
+              "labels": [ { "text": "Middle" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "LAST_2", 
+              "labels": [ { "text": "Last" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "GENDER", 
+              "labels": [ { "text": "Gender" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "GENDER_VS1", 
+                  "labels": [ { "text": "Gender" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Male" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Female" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "ADDRESS", 
+              "labels": [ { "text": "Address" } ], 
+              "contentType": "alpha", 
+              "length": 15, 
+              "valueSets": [
+                {
+                  "name": "ADDRESS_VS1", 
+                  "labels": [ { "text": "Address" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Within Project Area" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Other Province within Philippines" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Abroad" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Unknown" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. NA (Deceased)" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "CONTACT_NUMBER_1", 
+              "labels": [ { "text": "Contact Number" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "D1_3_STRUCTURE_OWNER_CO_OWNER_DETAILS_IF_MORE_TH", 
+              "labels": [ { "text": "D1.3 Structure Owner/Co-Owner Details (if more than one)" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "FIRST_3", 
+              "labels": [ { "text": "First" } ], 
+              "contentType": "alpha", 
+              "length": 15
+            }, 
+            {
+              "name": "MIDDLE_3", 
+              "labels": [ { "text": "Middle" } ], 
+              "contentType": "alpha", 
+              "length": 15
+            }, 
+            {
+              "name": "LAST_3", 
+              "labels": [ { "text": "Last" } ], 
+              "contentType": "alpha", 
+              "length": 15
+            }, 
+            {
+              "name": "GENDER_1", 
+              "labels": [ { "text": "Gender" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "GENDER_1_VS1", 
+                  "labels": [ { "text": "Gender" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Male" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "ADDRESS_1", 
+              "labels": [ { "text": "Address" } ], 
+              "contentType": "alpha", 
+              "length": 15, 
+              "valueSets": [
+                {
+                  "name": "ADDRESS_1_VS1", 
+                  "labels": [ { "text": "Address" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Within Project Area" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Other Province within Philippines" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Abroad" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Unknown" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. NA (Deceased)" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "CONTACT_NUMBER_2", 
+              "labels": [ { "text": "Contact Number" } ], 
+              "contentType": "numeric", 
+              "length": 10, 
+              "zeroFill": true
+            }, 
+            {
+              "name": "ADD_MORE_STRUCTURE_OWNER_CO_OWNER", 
+              "labels": [ { "text": "Add More Structure Owner/Co-Owner" } ], 
+              "contentType": "alpha", 
+              "length": 1
+            }, 
+            {
+              "name": "D1_4_HOW_DID_YOU_OBTAIN_THE_STRUCTURE", 
+              "labels": [ { "text": "D1.4 How did you obtain the structure?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "D1_4_HOW_DID_YOU_OBTAIN_THE_STRUCTURE_VS1", 
+                  "labels": [ { "text": "D1.4 How did you obtain the structure?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Purchase" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Inherited/Gratuitous Act" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Self-Built" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Relocated" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Donated / Gratuity" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Others ( specify )" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "D1_5_DO_YOU_RENT_OUT_THE_STRUCTURE", 
+              "labels": [ { "text": "D1.5 Do you rent out the structure?" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "D1_5_DO_YOU_RENT_OUT_THE_STRUCTURE_VS1", 
+                  "labels": [ { "text": "D1.5 Do you rent out the structure?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "name": "NAME_OF_RENTERS_TENANTS", 
+          "labels": [ { "text": "Name of renters/tenants" } ], 
+          "recordType": "9", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "FIRST_4", 
+              "labels": [ { "text": "First" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "LAST_4", 
+              "labels": [ { "text": "Last" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "CONTACT_NUMBER_3", 
+              "labels": [ { "text": "Contact Number" } ], 
+              "contentType": "numeric", 
+              "length": 10, 
+              "zeroFill": true
+            }, 
+            {
+              "name": "FIRST_5", 
+              "labels": [ { "text": "First" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "LAST_5", 
+              "labels": [ { "text": "Last" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "CONTACT_NUMBER_4", 
+              "labels": [ { "text": "Contact Number" } ], 
+              "contentType": "numeric", 
+              "length": 10, 
+              "zeroFill": true
+            }, 
+            {
+              "name": "FIRST_6", 
+              "labels": [ { "text": "First" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "LAST_6", 
+              "labels": [ { "text": "Last" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "CONTACT_NUMBER_5", 
+              "labels": [ { "text": "Contact Number" } ], 
+              "contentType": "numeric", 
+              "length": 10, 
+              "zeroFill": true
+            }, 
+            {
+              "name": "FIRST_7", 
+              "labels": [ { "text": "First" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "LAST_7", 
+              "labels": [ { "text": "Last" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "CONTACT_NUMBER_6", 
+              "labels": [ { "text": "Contact Number" } ], 
+              "contentType": "numeric", 
+              "length": 10, 
+              "zeroFill": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
