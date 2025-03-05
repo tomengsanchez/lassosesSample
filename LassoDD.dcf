@@ -1151,7 +1151,7 @@
               "name": "ADDRESS", 
               "labels": [ { "text": "Address" } ], 
               "contentType": "alpha", 
-              "length": 15, 
+              "length": 1, 
               "valueSets": [
                 {
                   "name": "ADDRESS_VS1", 
@@ -1185,8 +1185,8 @@
               "name": "CONTACT_NUMBER_1", 
               "labels": [ { "text": "Contact Number" } ], 
               "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": false
+              "length": 10, 
+              "zeroFill": true
             }, 
             {
               "name": "D1_3_STRUCTURE_OWNER_CO_OWNER_DETAILS_IF_MORE_TH", 
@@ -1199,19 +1199,19 @@
               "name": "FIRST_3", 
               "labels": [ { "text": "First" } ], 
               "contentType": "alpha", 
-              "length": 15
+              "length": 50
             }, 
             {
               "name": "MIDDLE_3", 
               "labels": [ { "text": "Middle" } ], 
               "contentType": "alpha", 
-              "length": 15
+              "length": 50
             }, 
             {
               "name": "LAST_3", 
               "labels": [ { "text": "Last" } ], 
               "contentType": "alpha", 
-              "length": 15
+              "length": 50
             }, 
             {
               "name": "GENDER_1", 
@@ -1228,7 +1228,7 @@
                       "pairs": [ { "value": "1" } ]
                     }, 
                     {
-                      "labels": [ { "text": "2" } ], 
+                      "labels": [ { "text": "2. Female" } ], 
                       "pairs": [ { "value": "2" } ]
                     }
                   ]
@@ -1239,7 +1239,7 @@
               "name": "ADDRESS_1", 
               "labels": [ { "text": "Address" } ], 
               "contentType": "alpha", 
-              "length": 15, 
+              "length": 50, 
               "valueSets": [
                 {
                   "name": "ADDRESS_1_VS1", 
@@ -1342,18 +1342,26 @@
                   ]
                 }
               ]
-            }
-          ]
-        }, 
-        {
-          "name": "NAME_OF_RENTERS_TENANTS", 
-          "labels": [ { "text": "Name of renters/tenants" } ], 
-          "recordType": "9", 
-          "occurrences": {
-            "required": true, 
-            "maximum": 1
-          }, 
-          "items": [
+            }, 
+            {
+              "name": "FIRST_8", 
+              "labels": [ { "text": "First" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "LAST_8", 
+              "labels": [ { "text": "Last" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "CONTACT_NUMBER_7", 
+              "labels": [ { "text": "Contact Number" } ], 
+              "contentType": "numeric", 
+              "length": 10, 
+              "zeroFill": true
+            }, 
             {
               "name": "FIRST_4", 
               "labels": [ { "text": "First" } ], 
@@ -1367,7 +1375,26 @@
               "length": 50
             }, 
             {
-              "name": "CONTACT_NUMBER_3", 
+              "name": "CONTACT", 
+              "labels": [ { "text": "Contact" } ], 
+              "contentType": "numeric", 
+              "length": 10, 
+              "zeroFill": true
+            }, 
+            {
+              "name": "FIRST_5_1", 
+              "labels": [ { "text": "First" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "LAST_5_1", 
+              "labels": [ { "text": "Last" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "CONTACT_NUMBER_3_1", 
               "labels": [ { "text": "Contact Number" } ], 
               "contentType": "numeric", 
               "length": 10, 
@@ -1386,15 +1413,182 @@
               "length": 50
             }, 
             {
-              "name": "CONTACT_NUMBER_4", 
+              "name": "CONTACT_NUMBER_3", 
               "labels": [ { "text": "Contact Number" } ], 
               "contentType": "numeric", 
               "length": 10, 
               "zeroFill": true
             }, 
             {
+              "name": "D1_7_HOW_MUCH_IS_THE_AVERAGE_RENT_PER_MONTH_PHP", 
+              "labels": [ { "text": "D1.7 How much is the average rent per month? (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 10, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "D1_8_DO_YOU_PAY_TAXES_FOR_THE_STRUCTURE", 
+              "labels": [ { "text": "D1.8 Do you pay taxes for the structure? " } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "D1_8_DO_YOU_PAY_TAXES_FOR_THE_STRUCTURE_VS1", 
+                  "labels": [ { "text": "D1.8 Do you pay taxes for the structure? " } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "D2_IF_NOT_THE_OWNER_WHAT_TYPE_OF_ARRANGEMENT_DO", 
+              "labels": [ { "text": "D2. If not the owner, what type of arrangement do you have with structure owner?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "D2_IF_NOT_THE_OWNER_WHAT_TYPE_OF_ARRANGEMENT_DO_VS1", 
+                  "labels": [ { "text": "D2. If not the owner, what type of arrangement do you have with structure owner?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Tenant/Renter/Lessee" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Rent free occupant" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Caretaker" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Sharer" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Occupant without owner’s permission" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "D3_WHAT_PROOF_DO_YOU_HAVE_TO_SHOW_ARRANGEMENT_WI", 
+              "labels": [ { "text": "D3 What proof do you have to show arrangement with owner?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "D3_WHAT_PROOF_DO_YOU_HAVE_TO_SHOW_ARRANGEMENT_WI_VS1", 
+                  "labels": [ { "text": "D3 What proof do you have to show arrangement with owner?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Written contract" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Verbal arrangement" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. None" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "name": "E_LAND_OWNERSHIP", 
+          "labels": [ { "text": "E. LAND OWNERSHIP" } ], 
+          "recordType": "9", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "E1_DO_YOU_OWN_THE_LAND_S_ANYWHERE_IN_THE_PROJECT", 
+              "labels": [ { "text": "E1. Do you own the land/s anywhere in the project area?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "E1_DO_YOU_OWN_THE_LAND_S_ANYWHERE_IN_THE_PROJECT_VS1", 
+                  "labels": [ { "text": "E1. Do you own the land/s anywhere in the project area?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "E1_2_IF_YES_WHAT_IS_THE_TENURE_STATUS_OF_THE_PAR", 
+              "labels": [ { "text": "E1.2 If Yes, what is the tenure status of the parcel " } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "E1_2_IF_YES_WHAT_IS_THE_TENURE_STATUS_OF_THE_PAR_VS1", 
+                  "labels": [ { "text": "E1.2 If Yes, what is the tenure status of the parcel " } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Fully owned" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Owner like possession" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Co-owned" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "NAME_OF_RENTERS_TENANTS", 
+              "labels": [ { "text": "E1.3 Name of Land Owner" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "NAME_OF_RENTERS_TENANTS_VS1", 
+                  "labels": [ { "text": "E1.3 Name of Land Owner" } ], 
+                  "values": []
+                }
+              ]
+            }, 
+            {
               "name": "FIRST_6", 
               "labels": [ { "text": "First" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "MIDDLE_4", 
+              "labels": [ { "text": "Middle" } ], 
               "contentType": "alpha", 
               "length": 50
             }, 
@@ -1405,30 +1599,480 @@
               "length": 50
             }, 
             {
-              "name": "CONTACT_NUMBER_5", 
-              "labels": [ { "text": "Contact Number" } ], 
+              "name": "E1_4_TYPE", 
+              "labels": [ { "text": "E1.4 Type" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "E1_4_TYPE_VS1", 
+                  "labels": [ { "text": "E1.4 Type" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Title Holder, appearing in the document" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Current Owner, the title is not yet transferred" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "E1_5_SEX", 
+              "labels": [ { "text": "E1.5 Sex" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "E1_5_SEX_VS1", 
+                  "labels": [ { "text": "E1.5 Sex" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Male" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Female" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "E1_6_ADDRESS", 
+              "labels": [ { "text": "E1.6 Address" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "E1_6_ADDRESS_VS1", 
+                  "labels": [ { "text": "E1.6 Address" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Within Project Area" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Other Province within Philippines" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Abroad" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Unknown" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. NA (Deceased)" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "ADD_MULTIPLE_LAND_OWNERS_INFORMATION", 
+              "labels": [ { "text": "Add Multiple Land Owners Information?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "ADD_MULTIPLE_LAND_OWNERS_INFORMATION_VS1", 
+                  "labels": [ { "text": "Add Multiple Land Owners Information?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "E1_7_REGISTERED_OWNER", 
+              "labels": [ { "text": "E1.7 Registered Owner:" } ], 
+              "contentType": "alpha", 
+              "length": 2, 
+              "valueSets": [
+                {
+                  "name": "E1_7_REGISTERED_OWNER_VS1", 
+                  "labels": [ { "text": "E1.7 Registered Owner:" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Husband only" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Wife only" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Both husband & wife" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Female Household Head" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Male Household Head" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Female Household Member" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "7. Male Household Member" } ], 
+                      "pairs": [ { "value": "7" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "8. Deceased Household Member" } ], 
+                      "pairs": [ { "value": "8" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "9. Non-relative" } ], 
+                      "pairs": [ { "value": "9" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "10. Corporation/Association" } ], 
+                      "pairs": [ { "value": "10" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "E2_DO_YOU_HAVE_A_VALID_LEGAL_DOCUMENT_TO_PROVE_O", 
+              "labels": [ { "text": "E2. Do you have a valid/ legal document to prove ownership of this land? " } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "E2_DO_YOU_HAVE_A_VALID_LEGAL_DOCUMENT_TO_PROVE_O_VS1", 
+                  "labels": [ { "text": "E2. Do you have a valid/ legal document to prove ownership of this land? " } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "E2_1_IF_YES_WHAT_IS_YOUR_PROOF_OF_OWNERSHIP_CAN", 
+              "labels": [ { "text": "E2.1 If yes, what is your proof of Ownership? (can be multiple responses)" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "E2_1_IF_YES_WHAT_IS_YOUR_PROOF_OF_OWNERSHIP_CAN_VS1", 
+                  "labels": [ { "text": "E2.1 If yes, what is your proof of Ownership? (can be multiple responses)" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Title (OCT/TCT/CLT/CLOA/CADT/CALT)" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Tax Declaration" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Deed of Sale" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Mortgage" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Contract" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Lease Purchase Agreement" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "7. Certificate of Lot Award / Occupancy" } ], 
+                      "pairs": [ { "value": "7" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "8. Others (specify)" } ], 
+                      "pairs": [ { "value": "8" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "9. None" } ], 
+                      "pairs": [ { "value": "9" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "E2_3_HOW_DID_YOU_OBTAIN_THE_LAND", 
+              "labels": [ { "text": "E2.3 How did you obtain the land?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "E2_3_HOW_DID_YOU_OBTAIN_THE_LAND_VS1", 
+                  "labels": [ { "text": "E2.3 How did you obtain the land?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Purchased" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Inherited" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Given" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Government Program" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Others (specify)" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "E2_4_DO_YOU_PAY_THE_REAL_ESTATE_TAX_FOR_THE_LAND", 
+              "labels": [ { "text": "E2.4 Do you pay the real estate tax for the land?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "E2_4_DO_YOU_PAY_THE_REAL_ESTATE_TAX_FOR_THE_LAND_VS1", 
+                  "labels": [ { "text": "E2.4 Do you pay the real estate tax for the land?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "E2_5_IF_YES_HOW_MUCH_PER_YEAR_PHP", 
+              "labels": [ { "text": "E2.5 If yes, how much per year? (Php)" } ], 
               "contentType": "numeric", 
               "length": 10, 
-              "zeroFill": true
+              "zeroFill": false
             }, 
             {
-              "name": "FIRST_7", 
-              "labels": [ { "text": "First" } ], 
+              "name": "E2_6_DO_YOU_HAVE_TENANT_LESSEES", 
+              "labels": [ { "text": "E2.6 Do you have tenant/lessees? " } ], 
               "contentType": "alpha", 
-              "length": 50
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "E2_6_DO_YOU_HAVE_TENANT_LESSEES_VS1", 
+                  "labels": [ { "text": "E2.6 Do you have tenant/lessees? " } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
             }, 
             {
-              "name": "LAST_7", 
-              "labels": [ { "text": "Last" } ], 
+              "name": "E2_7_IS_THIS_LOT_CURRENTLY_ON_LOAN_OR_USED_AS_MO", 
+              "labels": [ { "text": "E2.7 Is this lot currently on loan or used as mortgage to a bank or private entity?" } ], 
               "contentType": "alpha", 
-              "length": 50
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "E2_7_IS_THIS_LOT_CURRENTLY_ON_LOAN_OR_USED_AS_MO_VS1", 
+                  "labels": [ { "text": "E2.7 Is this lot currently on loan or used as mortgage to a bank or private entity?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
             }, 
             {
-              "name": "CONTACT_NUMBER_6", 
-              "labels": [ { "text": "Contact Number" } ], 
-              "contentType": "numeric", 
-              "length": 10, 
-              "zeroFill": true
+              "name": "E4_ASIDE_FROM_THIS_PARCEL_DO_YOU_OWN_ANY_OTHER_L", 
+              "labels": [ { "text": "E4. Aside from this parcel, do you own any other land within the project alignment?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "E4_ASIDE_FROM_THIS_PARCEL_DO_YOU_OWN_ANY_OTHER_L_VS1", 
+                  "labels": [ { "text": "E4. Aside from this parcel, do you own any other land within the project alignment?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "name": "F_LAND_TYPE_AND_USE", 
+          "labels": [ { "text": "F. LAND TYPE AND USE" } ], 
+          "recordType": "A", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "F1_TYPE_OF_LAND", 
+              "labels": [ { "text": "F1. Type of Land *" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "F1_TYPE_OF_LAND_VS1", 
+                  "labels": [ { "text": "F1. Type of Land *" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Private" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Public" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Right of Way (ROW)" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Ancestral Domain" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "F1_1_TYPE_OF_OWNERSHIP", 
+              "labels": [ { "text": "F1.1 Type of Ownership *" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "F1_1_TYPE_OF_OWNERSHIP_VS1", 
+                  "labels": [ { "text": "F1.1 Type of Ownership *" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Individual" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Multiple Owner" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Corporation" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Community Ownership (CMP, HOA, Coop)" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Goverment" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "F2_CURRENT_ACTUAL_USE_OF_LAND_CAN_BE_MULTIPLE_RE", 
+              "labels": [ { "text": "F2. Current Actual Use of Land (Can be multiple responses) *" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "F2_CURRENT_ACTUAL_USE_OF_LAND_CAN_BE_MULTIPLE_RE_VS1", 
+                  "labels": [ { "text": "F2. Current Actual Use of Land (Can be multiple responses) *" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Residential" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Industrial" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Commercial" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Institutional" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Agriculture" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Aquaculture" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "7. Vacant/Idle Land" } ], 
+                      "pairs": [ { "value": "7" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "8. Others (specify)" } ], 
+                      "pairs": [ { "value": "8" } ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

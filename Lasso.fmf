@@ -139,7 +139,7 @@ Item=C5_ASSOCIATED_STRUCTURE000
 Name=FORM009
 Label=D Structure Ownership
 Level=1
-Size=1597,600
+Size=1597,1080
   
 Item=DO_YOU_OWN_THE_TAGGED_STRUCTURE
 Item=IF_YES
@@ -160,27 +160,50 @@ Item=CONTACT_NUMBER_2
 Item=ADD_MORE_STRUCTURE_OWNER_CO_OWNER
 Item=D1_4_HOW_DID_YOU_OBTAIN_THE_STRUCTURE
 Item=D1_5_DO_YOU_RENT_OUT_THE_STRUCTURE
+Item=FIRST_8
+Item=LAST_8
+Item=CONTACT_NUMBER_7
+Item=FIRST_4
+Item=LAST_4
+Item=CONTACT
+Item=FIRST_5_1
+Item=LAST_5_1
+Item=CONTACT_NUMBER_3_1
+Item=FIRST_5
+Item=LAST_5
+Item=CONTACT_NUMBER_3
+Item=D1_7_HOW_MUCH_IS_THE_AVERAGE_RENT_PER_MONTH_PHP
+Item=D1_8_DO_YOU_PAY_TAXES_FOR_THE_STRUCTURE
+Item=D2_IF_NOT_THE_OWNER_WHAT_TYPE_OF_ARRANGEMENT_DO
+Item=D3_WHAT_PROOF_DO_YOU_HAVE_TO_SHOW_ARRANGEMENT_WI
   
 [EndForm]
   
 [Form]
 Name=FORM010
-Label=Name of renters/tenants
+Label=E. LAND OWNERSHIP
 Level=1
-Size=1597,390
+Size=1597,600
   
-Item=FIRST_4
-Item=LAST_4
-Item=CONTACT_NUMBER_3
-Item=FIRST_5
-Item=LAST_5
-Item=CONTACT_NUMBER_4
+Item=E1_DO_YOU_OWN_THE_LAND_S_ANYWHERE_IN_THE_PROJECT
+Item=E1_2_IF_YES_WHAT_IS_THE_TENURE_STATUS_OF_THE_PAR
+Item=NAME_OF_RENTERS_TENANTS
 Item=FIRST_6
+Item=MIDDLE_4
 Item=LAST_6
-Item=CONTACT_NUMBER_5
-Item=FIRST_7
-Item=LAST_7
-Item=CONTACT_NUMBER_6
+Item=E1_4_TYPE
+Item=E1_5_SEX
+Item=E1_6_ADDRESS
+Item=ADD_MULTIPLE_LAND_OWNERS_INFORMATION
+Item=E1_7_REGISTERED_OWNER
+Item=E2_DO_YOU_HAVE_A_VALID_LEGAL_DOCUMENT_TO_PROVE_O
+Item=E2_1_IF_YES_WHAT_IS_YOUR_PROOF_OF_OWNERSHIP_CAN
+Item=E2_3_HOW_DID_YOU_OBTAIN_THE_LAND
+Item=E2_4_DO_YOU_PAY_THE_REAL_ESTATE_TAX_FOR_THE_LAND
+Item=E2_5_IF_YES_HOW_MUCH_PER_YEAR_PHP
+Item=E2_6_DO_YOU_HAVE_TENANT_LESSEES
+Item=E2_7_IS_THIS_LOT_CURRENTLY_ON_LOAN_OR_USED_AS_MO
+Item=E4_ASIDE_FROM_THIS_PARCEL_DO_YOU_OWN_ANY_OTHER_L
   
 [EndForm]
   
@@ -1003,7 +1026,7 @@ Max=1
   
 [Field]
 Name=DO_YOU_OWN_THE_TAGGED_STRUCTURE
-Position=430,27,445,47
+Position=584,27,599,47
 Item=DO_YOU_OWN_THE_TAGGED_STRUCTURE,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=10
@@ -1015,7 +1038,7 @@ Text=D1. Do you own the tagged structure?
   
 [Field]
 Name=IF_YES
-Position=430,57,445,77
+Position=584,57,599,77
 Item=IF_YES,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=10
@@ -1027,7 +1050,7 @@ Text=D1.1 If, yes
   
 [Field]
 Name=D1_2_STRUCTURE_OWNER_CO_OWNER_DETAILS
-Position=430,87,840,107
+Position=584,87,994,107
 Item=D1_2_STRUCTURE_OWNER_CO_OWNER_DETAILS,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
@@ -1040,7 +1063,7 @@ Text=D1.2 Structure Owner/Co-Owner Details
   
 [Field]
 Name=FIRST_2
-Position=430,117,840,137
+Position=584,117,994,137
 Item=FIRST_2,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
@@ -1053,7 +1076,7 @@ Text=First
   
 [Field]
 Name=MIDDLE_2
-Position=430,147,840,167
+Position=584,147,994,167
 Item=MIDDLE_2,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
@@ -1066,7 +1089,7 @@ Text=Middle
   
 [Field]
 Name=LAST_2
-Position=430,177,840,197
+Position=584,177,994,197
 Item=LAST_2,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
@@ -1079,7 +1102,7 @@ Text=Last
   
 [Field]
 Name=GENDER
-Position=430,207,445,227
+Position=584,207,599,227
 Item=GENDER,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=10
@@ -1091,9 +1114,9 @@ Text=Gender
   
 [Field]
 Name=ADDRESS
-Position=430,237,641,257
+Position=584,237,599,257
 Item=ADDRESS,LASSODD_DICT
-DataCaptureType=CheckBox
+DataCaptureType=RadioButton
 Form=10
   
 [Text]
@@ -1103,7 +1126,7 @@ Text=Address
   
 [Field]
 Name=CONTACT_NUMBER_1
-Position=430,267,445,287
+Position=584,267,725,287
 Item=CONTACT_NUMBER_1,LASSODD_DICT
 DataCaptureType=TextBox
 Form=10
@@ -1115,7 +1138,7 @@ Text=Contact Number
   
 [Field]
 Name=D1_3_STRUCTURE_OWNER_CO_OWNER_DETAILS_IF_MORE_TH
-Position=430,297,445,317
+Position=584,297,599,317
 Item=D1_3_STRUCTURE_OWNER_CO_OWNER_DETAILS_IF_MORE_TH,LASSODD_DICT
 DataCaptureType=TextBox
 Form=10
@@ -1127,7 +1150,7 @@ Text=D1.3 Structure Owner/Co-Owner Details (if more than one)
   
 [Field]
 Name=FIRST_3
-Position=430,327,560,347
+Position=584,327,994,347
 Item=FIRST_3,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
@@ -1140,7 +1163,7 @@ Text=First
   
 [Field]
 Name=MIDDLE_3
-Position=430,357,560,377
+Position=584,357,994,377
 Item=MIDDLE_3,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
@@ -1153,7 +1176,7 @@ Text=Middle
   
 [Field]
 Name=LAST_3
-Position=430,387,560,407
+Position=584,387,994,407
 Item=LAST_3,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
@@ -1166,7 +1189,7 @@ Text=Last
   
 [Field]
 Name=GENDER_1
-Position=430,417,445,437
+Position=584,417,599,437
 Item=GENDER_1,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=10
@@ -1178,7 +1201,7 @@ Text=Gender
   
 [Field]
 Name=ADDRESS_1
-Position=430,447,641,467
+Position=584,447,1285,467
 Item=ADDRESS_1,LASSODD_DICT
 DataCaptureType=CheckBox
 Form=10
@@ -1190,7 +1213,7 @@ Text=Address
   
 [Field]
 Name=CONTACT_NUMBER_2
-Position=430,477,571,497
+Position=584,477,725,497
 Item=CONTACT_NUMBER_2,LASSODD_DICT
 DataCaptureType=TextBox
 Form=10
@@ -1202,7 +1225,7 @@ Text=Contact Number
   
 [Field]
 Name=ADD_MORE_STRUCTURE_OWNER_CO_OWNER
-Position=430,507,448,527
+Position=584,507,602,527
 Item=ADD_MORE_STRUCTURE_OWNER_CO_OWNER,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
@@ -1215,7 +1238,7 @@ Text=Add More Structure Owner/Co-Owner
   
 [Field]
 Name=D1_4_HOW_DID_YOU_OBTAIN_THE_STRUCTURE
-Position=430,537,445,557
+Position=584,537,599,557
 Item=D1_4_HOW_DID_YOU_OBTAIN_THE_STRUCTURE,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=10
@@ -1227,7 +1250,7 @@ Text=D1.4 How did you obtain the structure?
   
 [Field]
 Name=D1_5_DO_YOU_RENT_OUT_THE_STRUCTURE
-Position=430,567,445,587
+Position=584,567,599,587
 Item=D1_5_DO_YOU_RENT_OUT_THE_STRUCTURE,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=10
@@ -1236,57 +1259,256 @@ Form=10
 Position=50,570,269,586
 Text=D1.5 Do you rent out the structure?
  
-[EndGroup]
   
-[Group]
-Required=Yes
-Name=NAME_OF_RENTERS_TENANTS_FORM
-Label=Name of renters/tenants
-Form=11
-Max=1
+[Field]
+Name=FIRST_8
+Position=584,597,994,617
+Item=FIRST_8,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=10
+  
+[Text]
+Position=50,600,77,616
+Text=First
+ 
+  
+[Field]
+Name=LAST_8
+Position=584,627,994,647
+Item=LAST_8,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=10
+  
+[Text]
+Position=50,630,76,646
+Text=Last
+ 
+  
+[Field]
+Name=CONTACT_NUMBER_7
+Position=584,657,725,677
+Item=CONTACT_NUMBER_7,LASSODD_DICT
+DataCaptureType=TextBox
+Form=10
+  
+[Text]
+Position=50,660,152,676
+Text=Contact Number
+ 
   
 [Field]
 Name=FIRST_4
-Position=166,27,576,47
+Position=584,687,994,707
 Item=FIRST_4,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
-Form=11
+Form=10
   
 [Text]
-Position=50,30,77,46
+Position=50,690,77,706
 Text=First
  
   
 [Field]
 Name=LAST_4
-Position=166,57,576,77
+Position=584,717,994,737
 Item=LAST_4,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
-Form=11
+Form=10
   
 [Text]
-Position=50,60,76,76
+Position=50,720,76,736
 Text=Last
  
   
 [Field]
-Name=CONTACT_NUMBER_3
-Position=166,87,307,107
-Item=CONTACT_NUMBER_3,LASSODD_DICT
+Name=CONTACT
+Position=584,747,725,767
+Item=CONTACT,LASSODD_DICT
 DataCaptureType=TextBox
-Form=11
+Form=10
   
 [Text]
-Position=50,90,152,106
+Position=50,750,98,766
+Text=Contact
+ 
+  
+[Field]
+Name=FIRST_5_1
+Position=584,777,994,797
+Item=FIRST_5_1,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=10
+  
+[Text]
+Position=50,780,77,796
+Text=First
+ 
+  
+[Field]
+Name=LAST_5_1
+Position=584,807,994,827
+Item=LAST_5_1,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=10
+  
+[Text]
+Position=50,810,76,826
+Text=Last
+ 
+  
+[Field]
+Name=CONTACT_NUMBER_3_1
+Position=584,837,725,857
+Item=CONTACT_NUMBER_3_1,LASSODD_DICT
+DataCaptureType=TextBox
+Form=10
+  
+[Text]
+Position=50,840,152,856
 Text=Contact Number
  
   
 [Field]
 Name=FIRST_5
-Position=166,117,576,137
+Position=584,867,994,887
 Item=FIRST_5,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=10
+  
+[Text]
+Position=50,870,77,886
+Text=First
+ 
+  
+[Field]
+Name=LAST_5
+Position=584,897,994,917
+Item=LAST_5,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=10
+  
+[Text]
+Position=50,900,76,916
+Text=Last
+ 
+  
+[Field]
+Name=CONTACT_NUMBER_3
+Position=584,927,725,947
+Item=CONTACT_NUMBER_3,LASSODD_DICT
+DataCaptureType=TextBox
+Form=10
+  
+[Text]
+Position=50,930,152,946
+Text=Contact Number
+ 
+  
+[Field]
+Name=D1_7_HOW_MUCH_IS_THE_AVERAGE_RENT_PER_MONTH_PHP
+Position=584,957,725,977
+Item=D1_7_HOW_MUCH_IS_THE_AVERAGE_RENT_PER_MONTH_PHP,LASSODD_DICT
+DataCaptureType=TextBox
+Form=10
+  
+[Text]
+Position=50,960,385,976
+Text=D1.7 How much is the average rent per month? (Php)
+ 
+  
+[Field]
+Name=D1_8_DO_YOU_PAY_TAXES_FOR_THE_STRUCTURE
+Position=584,987,599,1007
+Item=D1_8_DO_YOU_PAY_TAXES_FOR_THE_STRUCTURE,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=10
+  
+[Text]
+Position=50,990,306,1006
+Text=D1.8 Do you pay taxes for the structure? 
+ 
+  
+[Field]
+Name=D2_IF_NOT_THE_OWNER_WHAT_TYPE_OF_ARRANGEMENT_DO
+Position=584,1017,599,1037
+Item=D2_IF_NOT_THE_OWNER_WHAT_TYPE_OF_ARRANGEMENT_DO,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=10
+  
+[Text]
+Position=50,1020,570,1036
+Text=D2. If not the owner, what type of arrangement do you have with structure owner?
+ 
+  
+[Field]
+Name=D3_WHAT_PROOF_DO_YOU_HAVE_TO_SHOW_ARRANGEMENT_WI
+Position=584,1047,599,1067
+Item=D3_WHAT_PROOF_DO_YOU_HAVE_TO_SHOW_ARRANGEMENT_WI,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=10
+  
+[Text]
+Position=50,1050,444,1066
+Text=D3 What proof do you have to show arrangement with owner?
+ 
+[EndGroup]
+  
+[Group]
+Required=Yes
+Name=E_LAND_OWNERSHIP_FORM
+Label=E. LAND OWNERSHIP
+Form=11
+Max=1
+  
+[Field]
+Name=E1_DO_YOU_OWN_THE_LAND_S_ANYWHERE_IN_THE_PROJECT
+Position=594,27,609,47
+Item=E1_DO_YOU_OWN_THE_LAND_S_ANYWHERE_IN_THE_PROJECT,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=11
+  
+[Text]
+Position=50,30,410,46
+Text=E1. Do you own the land/s anywhere in the project area?
+ 
+  
+[Field]
+Name=E1_2_IF_YES_WHAT_IS_THE_TENURE_STATUS_OF_THE_PAR
+Position=594,57,609,77
+Item=E1_2_IF_YES_WHAT_IS_THE_TENURE_STATUS_OF_THE_PAR,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=11
+  
+[Text]
+Position=50,60,364,76
+Text=E1.2 If Yes, what is the tenure status of the parcel 
+ 
+  
+[Field]
+Name=NAME_OF_RENTERS_TENANTS
+Position=594,87,612,107
+Item=NAME_OF_RENTERS_TENANTS,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=11
+  
+[Text]
+Position=50,90,215,106
+Text=E1.3 Name of Land Owner
+ 
+  
+[Field]
+Name=FIRST_6
+Position=594,117,1004,137
+Item=FIRST_6,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=11
@@ -1297,104 +1519,185 @@ Text=First
  
   
 [Field]
-Name=LAST_5
-Position=166,147,576,167
-Item=LAST_5,LASSODD_DICT
+Name=MIDDLE_4
+Position=594,147,1004,167
+Item=MIDDLE_4,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=11
   
 [Text]
-Position=50,150,76,166
-Text=Last
- 
-  
-[Field]
-Name=CONTACT_NUMBER_4
-Position=166,177,307,197
-Item=CONTACT_NUMBER_4,LASSODD_DICT
-DataCaptureType=TextBox
-Form=11
-  
-[Text]
-Position=50,180,152,196
-Text=Contact Number
- 
-  
-[Field]
-Name=FIRST_6
-Position=166,207,576,227
-Item=FIRST_6,LASSODD_DICT
-UseUnicodeTextBox=Yes
-DataCaptureType=TextBox
-Form=11
-  
-[Text]
-Position=50,210,77,226
-Text=First
+Position=50,150,93,166
+Text=Middle
  
   
 [Field]
 Name=LAST_6
-Position=166,237,576,257
+Position=594,177,1004,197
 Item=LAST_6,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=11
   
 [Text]
-Position=50,240,76,256
+Position=50,180,76,196
 Text=Last
  
   
 [Field]
-Name=CONTACT_NUMBER_5
-Position=166,267,307,287
-Item=CONTACT_NUMBER_5,LASSODD_DICT
-DataCaptureType=TextBox
+Name=E1_4_TYPE
+Position=594,207,609,227
+Item=E1_4_TYPE,LASSODD_DICT
+DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,270,152,286
-Text=Contact Number
+Position=50,210,111,226
+Text=E1.4 Type
  
   
 [Field]
-Name=FIRST_7
-Position=166,297,576,317
-Item=FIRST_7,LASSODD_DICT
-UseUnicodeTextBox=Yes
-DataCaptureType=TextBox
+Name=E1_5_SEX
+Position=594,237,609,257
+Item=E1_5_SEX,LASSODD_DICT
+DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,300,77,316
-Text=First
+Position=50,240,105,256
+Text=E1.5 Sex
  
   
 [Field]
-Name=LAST_7
-Position=166,327,576,347
-Item=LAST_7,LASSODD_DICT
-UseUnicodeTextBox=Yes
-DataCaptureType=TextBox
+Name=E1_6_ADDRESS
+Position=594,267,609,287
+Item=E1_6_ADDRESS,LASSODD_DICT
+DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,330,76,346
-Text=Last
+Position=50,270,130,286
+Text=E1.6 Address
  
   
 [Field]
-Name=CONTACT_NUMBER_6
-Position=166,357,307,377
-Item=CONTACT_NUMBER_6,LASSODD_DICT
+Name=ADD_MULTIPLE_LAND_OWNERS_INFORMATION
+Position=594,297,609,317
+Item=ADD_MULTIPLE_LAND_OWNERS_INFORMATION,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=11
+  
+[Text]
+Position=50,300,303,316
+Text=Add Multiple Land Owners Information?
+ 
+  
+[Field]
+Name=E1_7_REGISTERED_OWNER
+Position=594,327,623,347
+Item=E1_7_REGISTERED_OWNER,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=11
+  
+[Text]
+Position=50,330,198,346
+Text=E1.7 Registered Owner:
+ 
+  
+[Field]
+Name=E2_DO_YOU_HAVE_A_VALID_LEGAL_DOCUMENT_TO_PROVE_O
+Position=594,357,609,377
+Item=E2_DO_YOU_HAVE_A_VALID_LEGAL_DOCUMENT_TO_PROVE_O,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=11
+  
+[Text]
+Position=50,360,518,376
+Text=E2. Do you have a valid/ legal document to prove ownership of this land? 
+ 
+  
+[Field]
+Name=E2_1_IF_YES_WHAT_IS_YOUR_PROOF_OF_OWNERSHIP_CAN
+Position=594,387,609,407
+Item=E2_1_IF_YES_WHAT_IS_YOUR_PROOF_OF_OWNERSHIP_CAN,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=11
+  
+[Text]
+Position=50,390,509,406
+Text=E2.1 If yes, what is your proof of Ownership? (can be multiple responses)
+ 
+  
+[Field]
+Name=E2_3_HOW_DID_YOU_OBTAIN_THE_LAND
+Position=594,417,609,437
+Item=E2_3_HOW_DID_YOU_OBTAIN_THE_LAND,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=11
+  
+[Text]
+Position=50,420,267,436
+Text=E2.3 How did you obtain the land?
+ 
+  
+[Field]
+Name=E2_4_DO_YOU_PAY_THE_REAL_ESTATE_TAX_FOR_THE_LAND
+Position=594,447,609,467
+Item=E2_4_DO_YOU_PAY_THE_REAL_ESTATE_TAX_FOR_THE_LAND,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=11
+  
+[Text]
+Position=50,450,355,466
+Text=E2.4 Do you pay the real estate tax for the land?
+ 
+  
+[Field]
+Name=E2_5_IF_YES_HOW_MUCH_PER_YEAR_PHP
+Position=594,477,735,497
+Item=E2_5_IF_YES_HOW_MUCH_PER_YEAR_PHP,LASSODD_DICT
 DataCaptureType=TextBox
 Form=11
   
 [Text]
-Position=50,360,152,376
-Text=Contact Number
+Position=50,480,289,496
+Text=E2.5 If yes, how much per year? (Php)
+ 
+  
+[Field]
+Name=E2_6_DO_YOU_HAVE_TENANT_LESSEES
+Position=594,507,609,527
+Item=E2_6_DO_YOU_HAVE_TENANT_LESSEES,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=11
+  
+[Text]
+Position=50,510,265,526
+Text=E2.6 Do you have tenant/lessees? 
+ 
+  
+[Field]
+Name=E2_7_IS_THIS_LOT_CURRENTLY_ON_LOAN_OR_USED_AS_MO
+Position=594,537,609,557
+Item=E2_7_IS_THIS_LOT_CURRENTLY_ON_LOAN_OR_USED_AS_MO,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=11
+  
+[Text]
+Position=50,540,557,556
+Text=E2.7 Is this lot currently on loan or used as mortgage to a bank or private entity?
+ 
+  
+[Field]
+Name=E4_ASIDE_FROM_THIS_PARCEL_DO_YOU_OWN_ANY_OTHER_L
+Position=594,567,609,587
+Item=E4_ASIDE_FROM_THIS_PARCEL_DO_YOU_OWN_ANY_OTHER_L,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=11
+  
+[Text]
+Position=50,570,580,586
+Text=E4. Aside from this parcel, do you own any other land within the project alignment?
  
 [EndGroup]
   
