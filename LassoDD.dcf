@@ -1193,7 +1193,14 @@
               "labels": [ { "text": "D1.3 Structure Owner/Co-Owner Details (if more than one)" } ], 
               "contentType": "numeric", 
               "length": 1, 
-              "zeroFill": false
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "D1_3_STRUCTURE_OWNER_CO_OWNER_DETAILS_IF_MORE_TH_VS1", 
+                  "labels": [ { "text": "D1.3 Structure Owner/Co-Owner Details (if more than one)" } ], 
+                  "values": []
+                }
+              ]
             }, 
             {
               "name": "FIRST_3", 
@@ -1449,6 +1456,13 @@
               ]
             }, 
             {
+              "name": "D1_9_IF_YES_HOW_MUCH_IS_PAID_IN_TAXES_ANNUALLY", 
+              "labels": [ { "text": "D1.9 If Yes, how much is paid in taxes annually? " } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
               "name": "D2_IF_NOT_THE_OWNER_WHAT_TYPE_OF_ARRANGEMENT_DO", 
               "labels": [ { "text": "D2. If not the owner, what type of arrangement do you have with structure owner?" } ], 
               "contentType": "alpha", 
@@ -1483,6 +1497,13 @@
               ]
             }, 
             {
+              "name": "D2_1_IF_RENTER_SHARER_HOW_MUCH_IS_YOUR_RENT_SHAR", 
+              "labels": [ { "text": "D2.1 If Renter/Sharer, how much is your rent/share per month? ( Php )" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
               "name": "D3_WHAT_PROOF_DO_YOU_HAVE_TO_SHOW_ARRANGEMENT_WI", 
               "labels": [ { "text": "D3 What proof do you have to show arrangement with owner?" } ], 
               "contentType": "alpha", 
@@ -1503,6 +1524,28 @@
                     {
                       "labels": [ { "text": "3. None" } ], 
                       "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "D3_1_IF_WRITTEN_CONTRACT_WHAT_ARE_THE_TERMS", 
+              "labels": [ { "text": "D3.1 If written contract, what are the terms?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "D3_1_IF_WRITTEN_CONTRACT_WHAT_ARE_THE_TERMS_VS1", 
+                  "labels": [ { "text": "D3.1 If written contract, what are the terms?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Annual contract" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Others (Specify)" } ], 
+                      "pairs": [ { "value": "2" } ]
                     }
                   ]
                 }
@@ -1568,17 +1611,10 @@
               ]
             }, 
             {
-              "name": "NAME_OF_RENTERS_TENANTS", 
+              "name": "E1_3_NAME_OF_LAND_OWNER", 
               "labels": [ { "text": "E1.3 Name of Land Owner" } ], 
               "contentType": "alpha", 
-              "length": 1, 
-              "valueSets": [
-                {
-                  "name": "NAME_OF_RENTERS_TENANTS_VS1", 
-                  "labels": [ { "text": "E1.3 Name of Land Owner" } ], 
-                  "values": []
-                }
-              ]
+              "length": 1
             }, 
             {
               "name": "FIRST_6", 
@@ -1910,6 +1946,81 @@
               ]
             }, 
             {
+              "name": "E2_6_2_HOW_MUCH_IS_THE_RENT_SHARE", 
+              "labels": [ { "text": "E2.6.2 How much is the rent/share? " } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "E2_6_2_HOW_MUCH_IS_THE_RENT_SHARE_VS1", 
+                  "labels": [ { "text": "E2.6.2 How much is the rent/share? " } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Monthly" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Quarterly" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Bi-Annual" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Annually" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. By contract/tranche" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "MODE_OF_PAYMENT", 
+              "labels": [ { "text": "Mode of Payment" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "MODE_OF_PAYMENT_VS1", 
+                  "labels": [ { "text": "Mode of Payment" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Cash" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Check" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Bank Transfer" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Remittance" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Others (Specify)" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "AMOUNT_PHP", 
+              "labels": [ { "text": "Amount (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
               "name": "E2_7_IS_THIS_LOT_CURRENTLY_ON_LOAN_OR_USED_AS_MO", 
               "labels": [ { "text": "E2.7 Is this lot currently on loan or used as mortgage to a bank or private entity?" } ], 
               "contentType": "alpha", 
@@ -1926,6 +2037,85 @@
                     {
                       "labels": [ { "text": "2. No" } ], 
                       "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "E3_IF_NOT_THE_LANDOWNER_WHAT_IS_YOUR_ARRANGEMENT", 
+              "labels": [ { "text": "E3. If not the landowner, what is your arrangement with the owner?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "E3_IF_NOT_THE_LANDOWNER_WHAT_IS_YOUR_ARRANGEMENT_VS1", 
+                  "labels": [ { "text": "E3. If not the landowner, what is your arrangement with the owner?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Renting/Leasing" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Occupied with owner’s permission" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Acquired Right" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Occupied without owner’s permission" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Rent-free" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Tenant" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "7. Caretaker" } ], 
+                      "pairs": [ { "value": "7" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "8. Other (Specify)" } ], 
+                      "pairs": [ { "value": "8" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "E3_2_WHAT_IS_THE_SIZE_OF_YOUR_RENTED_AREA_SQUARE", 
+              "labels": [ { "text": "E3.2 What is the size of your rented area? (Square Meter)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "E3_3_WHAT_PROOF_DO_YOU_HAVE_TO_SHOW_ARRANGEMENT", 
+              "labels": [ { "text": "E3.3 What proof do you have to show arrangement with land owner?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "E3_3_WHAT_PROOF_DO_YOU_HAVE_TO_SHOW_ARRANGEMENT_VS1", 
+                  "labels": [ { "text": "E3.3 What proof do you have to show arrangement with land owner?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Written Contract" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Verbal Arrangement" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. None" } ], 
+                      "pairs": [ { "value": "3" } ]
                     }
                   ]
                 }
@@ -2073,6 +2263,2304 @@
                   ]
                 }
               ]
+            }
+          ]
+        }, 
+        {
+          "name": "G1_HOUSEHOLD_INFORMATION", 
+          "labels": [ { "text": "G1. HOUSEHOLD INFORMATION" } ], 
+          "recordType": "B", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "G1_1_1_NUMBER_OF_HOUSEHOLD_MEMBERS", 
+              "labels": [ { "text": "G1.1.1 Number of Household Members" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G2_1_DO_YOU_RESIDE_IN_THE_AFFECTED_AREA", 
+              "labels": [ { "text": "G2.1 Do you reside in the affected area? *" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "G2_1_DO_YOU_RESIDE_IN_THE_AFFECTED_AREA_VS1", 
+                  "labels": [ { "text": "G2.1 Do you reside in the affected area? *" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "G3_1_EXPENSE_ITEMS", 
+              "labels": [ { "text": "G3.1 Expense Items" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "G3_1_EXPENSE_ITEMS_VS1", 
+                  "labels": [ { "text": "G3.1 Expense Items" } ], 
+                  "values": []
+                }
+              ]
+            }, 
+            {
+              "name": "RENT_LAND_E3_1", 
+              "labels": [ { "text": "1. Rent (land) - E3.1" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "RENT_LAND_E3_1_VS1", 
+                  "labels": [ { "text": "1. Rent (land) - E3.1" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
+                      "pairs": [ { "value": "" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "G3.3 Remarks" } ], 
+                      "pairs": [ { "value": "" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "G3_2_ESTIMATED_COST_PHP_MONTH", 
+              "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_3_REMARKS", 
+              "labels": [ { "text": "G3.3 Remarks" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "RENT_HOUSE_ROOM_D2_1", 
+              "labels": [ { "text": "2. Rent (house/room) - D2.1" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_2_ESTIMATED_COST_PHP_MONTH_1", 
+              "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_3_REMARKS_1", 
+              "labels": [ { "text": "G3.3 Remarks" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "HOUSING_AMORTIZATION", 
+              "labels": [ { "text": "3. Housing amortization" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_2_ESTIMATED_COST_PHP_MONTH_2", 
+              "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_3_REMARKS_2", 
+              "labels": [ { "text": "G3.3 Remarks" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "CAR_MOTORCYCLE_AMORTIZATION", 
+              "labels": [ { "text": "4. Car/motorcycle amortization" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_2_ESTIMATED_COST_PHP_MONTH_3", 
+              "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_3_REMARKS_3", 
+              "labels": [ { "text": "G3.3 Remarks" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "SAVINGS", 
+              "labels": [ { "text": "5. Savings" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_2_ESTIMATED_COST_PHP_MONTH_4", 
+              "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_3_REMARKS_4", 
+              "labels": [ { "text": "G3.3 Remarks" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "IN_BANK", 
+              "labels": [ { "text": "In bank?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "IN_BANK_VS1", 
+                  "labels": [ { "text": "In bank?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "TAX_LAND_STRUCTURE_D1_10_E2_4", 
+              "labels": [ { "text": "6.Tax (Land/Structure) - D1.10, E2.4" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_2_ESTIMATED_COST_PHP_MONTH_5", 
+              "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_3_REMARKS_5", 
+              "labels": [ { "text": "G3.3 Remarks" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "FOOD_GROCERIES", 
+              "labels": [ { "text": "7. Food /Groceries" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_2_ESTIMATED_COST_PHP_MONTH_6", 
+              "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_3_REMARKS_6", 
+              "labels": [ { "text": "G3.3 Remarks" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "NON_FOOD_ITEMS_GROCERIES", 
+              "labels": [ { "text": "8. Non-Food Items/ Groceries" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_2_ESTIMATED_COST_PHP_MONTH_7", 
+              "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_3_REMARKS_7", 
+              "labels": [ { "text": "G3.3 Remarks" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "LIGHT_ELECTRICITY", 
+              "labels": [ { "text": "9. Light (Electricity)" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_2_ESTIMATED_COST_PHP_MONTH_8", 
+              "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
+              "contentType": "alpha", 
+              "length": 15
+            }, 
+            {
+              "name": "G3_3_REMARKS_8", 
+              "labels": [ { "text": "G3.3 Remarks" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "WATER", 
+              "labels": [ { "text": "10. Water" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_2_ESTIMATED_COST_PHP_MONTH_9", 
+              "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
+              "contentType": "alpha", 
+              "length": 15
+            }, 
+            {
+              "name": "G3_3_REMARKS_9", 
+              "labels": [ { "text": "G3.3 Remarks" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "EDUCATION", 
+              "labels": [ { "text": "11. Education" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_2_ESTIMATED_COST_PHP_MONTH_10", 
+              "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
+              "contentType": "alpha", 
+              "length": 15
+            }, 
+            {
+              "name": "G3_3_REMARKS_10", 
+              "labels": [ { "text": "G3.3 Remarks" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "COMMUNICATION_LANDLINE_MOBILE_PHONE", 
+              "labels": [ { "text": "12. Communication (landline/mobile phone)" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_2_ESTIMATED_COST_PHP_MONTH_11", 
+              "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_3_REMARKS_11", 
+              "labels": [ { "text": "G3.3 Remarks" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "INTERNET_CONNECTION", 
+              "labels": [ { "text": "13. Internet Connection" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_2_ESTIMATED_COST_PHP_MONTH_12", 
+              "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
+              "contentType": "alpha", 
+              "length": 15
+            }, 
+            {
+              "name": "G3_3_REMARKS_12", 
+              "labels": [ { "text": "G3.3 Remarks" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "CABLE_CONNECTION", 
+              "labels": [ { "text": "14. Cable Connection" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_2_ESTIMATED_COST_PHP_MONTH_13", 
+              "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
+              "contentType": "alpha", 
+              "length": 15
+            }, 
+            {
+              "name": "G3_3_REMARKS_13", 
+              "labels": [ { "text": "G3.3 Remarks" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "TRANSPORTATION_FARE_GAS", 
+              "labels": [ { "text": "15.Transportation (Fare/Gas)" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_2_ESTIMATED_COST_PHP_MONTH_14", 
+              "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
+              "contentType": "alpha", 
+              "length": 15
+            }, 
+            {
+              "name": "G3_3_REMARKS_14", 
+              "labels": [ { "text": "G3.3 Remarks" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "RECREATION_TRAVEL_EAT_OUT_ETC", 
+              "labels": [ { "text": "16. Recreation (Travel, Eat Out, etc.)" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_2_ESTIMATED_COST_PHP_MONTH_15", 
+              "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_3_REMARKS_15", 
+              "labels": [ { "text": "G3.3 Remarks" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "HEALTH_CHECK_UP_MAINTENANCE_MEDICINE", 
+              "labels": [ { "text": "17.Health (Check-up, Maintenance Medicine)" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_2_ESTIMATED_COST_PHP_MONTH_16", 
+              "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_3_REMARKS_16", 
+              "labels": [ { "text": "G3.3 Remarks" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "COOKING_LPG_GAS_CHARCOAL", 
+              "labels": [ { "text": "18. Cooking (LPG, Gas, Charcoal)" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_2_ESTIMATED_COST_PHP_MONTH_17", 
+              "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
+              "contentType": "alpha", 
+              "length": 15
+            }, 
+            {
+              "name": "G3_3_REMARKS_17", 
+              "labels": [ { "text": "G3.3 Remarks" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "LOAN_PAYMENT_AMORTIZATION_CAR_APPLIANCES_FURNITU", 
+              "labels": [ { "text": "19. Loan Payment/Amortization (Car, Appliances, Furniture, etc.)" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_2_ESTIMATED_COST_PHP_MONTH_18", 
+              "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
+              "contentType": "alpha", 
+              "length": 15
+            }, 
+            {
+              "name": "G3_3_REMARKS_18", 
+              "labels": [ { "text": "G3.3 Remarks" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "FINANCIAL_SUPPORT", 
+              "labels": [ { "text": "20. Financial Support" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_2_ESTIMATED_COST_PHP_MONTH_19", 
+              "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
+              "contentType": "alpha", 
+              "length": 15
+            }, 
+            {
+              "name": "G3_3_REMARKS_19", 
+              "labels": [ { "text": "G3.3 Remarks" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "SALARY_HOUSE_HELP_DRIVER_EMPLOYEE_ETC", 
+              "labels": [ { "text": "21. Salary (House help, Driver, Employee, etc)" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_2_ESTIMATED_COST_PHP_MONTH_20", 
+              "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_3_REMARKS_20", 
+              "labels": [ { "text": "G3.3 Remarks" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "OTHERS_SPECIFY", 
+              "labels": [ { "text": "22.Others (Specify)" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "G3_2_ESTIMATED_COST_PHP_MONTH_21", 
+              "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G3_3_REMARKS_21", 
+              "labels": [ { "text": "G3.3 Remarks" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "TOTAL_MONTHLY_EXPENDITURE", 
+              "labels": [ { "text": "TOTAL MONTHLY EXPENDITURE" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_HOUSEHOLD_GOODS_OWNED", 
+              "labels": [ { "text": "G4. HOUSEHOLD GOODS OWNED" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_1_ITEM", 
+              "labels": [ { "text": "G4.1 Item" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "HOUSE", 
+              "labels": [ { "text": "1. House" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_QUANTITY", 
+              "labels": [ { "text": "G4.2 Quantity" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_1_NO_OF_FUNCTIONING", 
+              "labels": [ { "text": "G4.2.1 No. of Functioning " } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G_4_2_2_NO_OF_NON_FUNCTIONING", 
+              "labels": [ { "text": "G.4.2.2. No. of Non-Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_3_TOTAL_NO", 
+              "labels": [ { "text": "G4.2.3. Total No." } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_3_SEX_OF_OWNERS", 
+              "labels": [ { "text": "G4.3 Sex of Owners" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "G4_3_SEX_OF_OWNERS_VS1", 
+                  "labels": [ { "text": "G4.3 Sex of Owners" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Male" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Female" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Both" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "G4_4_ESTIMATED_TOTAL_VALUE_PHP", 
+              "labels": [ { "text": "G4.4 Estimated Total Value (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "CAR", 
+              "labels": [ { "text": "2. Car" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_QUANTITY_1", 
+              "labels": [ { "text": "G4.2 Quantity" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_1_NO_OF_FUNCTIONING_1", 
+              "labels": [ { "text": "G4.2.1 No. of Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G_4_2_2_NO_OF_NON_FUNCTIONING_1", 
+              "labels": [ { "text": "G.4.2.2. No. of Non-Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_3_TOTAL_NO_1", 
+              "labels": [ { "text": "G4.2.3. Total No." } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_3_SEX_OF_OWNERS_1", 
+              "labels": [ { "text": "G4.3 Sex of Owners" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "G4_3_SEX_OF_OWNERS_1_VS1", 
+                  "labels": [ { "text": "G4.3 Sex of Owners" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Male" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Female" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Both" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "G4_4_ESTIMATED_TOTAL_VALUE_PHP_1", 
+              "labels": [ { "text": "G4.4 Estimated Total Value (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "BICYCLE", 
+              "labels": [ { "text": "3. Bicycle" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_QUANTITY_2", 
+              "labels": [ { "text": "G4.2 Quantity" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_1_NO_OF_FUNCTIONING_2", 
+              "labels": [ { "text": "G4.2.1 No. of Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G_4_2_2_NO_OF_NON_FUNCTIONING_2", 
+              "labels": [ { "text": "G.4.2.2. No. of Non-Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_3_TOTAL_NO_2", 
+              "labels": [ { "text": "G4.2.3. Total No. " } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_3_SEX_OF_OWNERS_2", 
+              "labels": [ { "text": "G4.3 Sex of Owners" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "G4_3_SEX_OF_OWNERS_2_VS1", 
+                  "labels": [ { "text": "G4.3 Sex of Owners" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Male" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Female" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Both" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "G4_2_QUANTITY_3", 
+              "labels": [ { "text": "G4.2 Quantity" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_1_NO_OF_FUNCTIONING_3", 
+              "labels": [ { "text": "G4.2.1 No. of Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G_4_2_2_NO_OF_NON_FUNCTIONING_3", 
+              "labels": [ { "text": "G.4.2.2. No. of Non-Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_3_TOTAL_NO_3", 
+              "labels": [ { "text": "G4.2.3. Total No." } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_3_SEX_OF_OWNERS_3", 
+              "labels": [ { "text": "G4.3 Sex of Owners" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "G4_3_SEX_OF_OWNERS_3_VS1", 
+                  "labels": [ { "text": "G4.3 Sex of Owners" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Male" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Female" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Both" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "G4_4_ESTIMATED_TOTAL_VALUE_PHP_2", 
+              "labels": [ { "text": "G4.4 Estimated Total Value (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "MOTORCYCLE", 
+              "labels": [ { "text": "5. Motorcycle" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_QUANTITY_4", 
+              "labels": [ { "text": "G4.2 Quantity" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_1_NO_OF_FUNCTIONING_4", 
+              "labels": [ { "text": "G4.2.1 No. of Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G_4_2_2_NO_OF_NON_FUNCTIONING_4", 
+              "labels": [ { "text": "G.4.2.2. No. of Non-Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_3_TOTAL_NO_4", 
+              "labels": [ { "text": "G4.2.3. Total No." } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_3_SEX_OF_OWNERS_4", 
+              "labels": [ { "text": "G4.3 Sex of Owners" } ], 
+              "contentType": "alpha", 
+              "length": 1
+            }, 
+            {
+              "name": "G4_4_ESTIMATED_TOTAL_VALUE_PHP_3", 
+              "labels": [ { "text": "G4.4 Estimated Total Value (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "LANDLINE_TELEPHONE", 
+              "labels": [ { "text": "6. Landline telephone" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_QUANTITY_5", 
+              "labels": [ { "text": "G4.2 Quantity" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_1_NO_OF_FUNCTIONING_5", 
+              "labels": [ { "text": "G4.2.1 No. of Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G_4_2_2_NO_OF_NON_FUNCTIONING_5", 
+              "labels": [ { "text": "G.4.2.2. No. of Non-Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_3_TOTAL_NO_5", 
+              "labels": [ { "text": "G4.2.3. Total No." } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_4_ESTIMATED_TOTAL_VALUE_PHP_4", 
+              "labels": [ { "text": "G4.4 Estimated Total Value (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "COMPUTER", 
+              "labels": [ { "text": "8. Computer" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_QUANTITY_6", 
+              "labels": [ { "text": "G4.2 Quantity" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_1_NO_OF_FUNCTIONING_6", 
+              "labels": [ { "text": "G4.2.1 No. of Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G_4_2_2_NO_OF_NON_FUNCTIONING_6", 
+              "labels": [ { "text": "G.4.2.2. No. of Non-Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_3_TOTAL_NO_6", 
+              "labels": [ { "text": "G4.2.3. Total No." } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_4_ESTIMATED_TOTAL_VALUE_PHP_5", 
+              "labels": [ { "text": "G4.4 Estimated Total Value (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "TV_SET", 
+              "labels": [ { "text": "9. TV set" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_QUANTITY_7", 
+              "labels": [ { "text": "G4.2 Quantity" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_1_NO_OF_FUNCTIONING_7", 
+              "labels": [ { "text": "G4.2.1 No. of Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G_4_2_2_NO_OF_NON_FUNCTIONING_7", 
+              "labels": [ { "text": "G.4.2.2. No. of Non-Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_3_TOTAL_NO_7", 
+              "labels": [ { "text": "G4.2.3. Total No." } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_4_ESTIMATED_TOTAL_VALUE_PHP_6", 
+              "labels": [ { "text": "G4.4 Estimated Total Value (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "VCD_DVD", 
+              "labels": [ { "text": "10. VCD/DVD" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_QUANTITY_8", 
+              "labels": [ { "text": "G4.2 Quantity" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_1_NO_OF_FUNCTIONING_8", 
+              "labels": [ { "text": "G4.2.1 No. of Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G_4_2_2_NO_OF_NON_FUNCTIONING_8", 
+              "labels": [ { "text": "G.4.2.2. No. of Non-Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_3_TOTAL_NO_8", 
+              "labels": [ { "text": "G4.2.3. Total No." } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_4_ESTIMATED_TOTAL_VALUE_PHP_7", 
+              "labels": [ { "text": "G4.4 Estimated Total Value (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "STEREO_COMPONENT", 
+              "labels": [ { "text": "11. Stereo Component" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_QUANTITY_9", 
+              "labels": [ { "text": "G4.2 Quantity" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_1_NO_OF_FUNCTIONING_9", 
+              "labels": [ { "text": "G4.2.1 No. of Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G_4_2_2_NO_OF_NON_FUNCTIONING_9", 
+              "labels": [ { "text": "G.4.2.2. No. of Non-Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_3_TOTAL_NO_9", 
+              "labels": [ { "text": "G4.2.3. Total No." } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_4_ESTIMATED_TOTAL_VALUE_PHP_8", 
+              "labels": [ { "text": "G4.4 Estimated Total Value (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "REFRIGERATOR", 
+              "labels": [ { "text": "12. Refrigerator" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_QUANTITY_10", 
+              "labels": [ { "text": "G4.2 Quantity" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_1_NO_OF_FUNCTIONING_10", 
+              "labels": [ { "text": "G4.2.1 No. of Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G_4_2_2_NO_OF_NON_FUNCTIONING_10", 
+              "labels": [ { "text": "G.4.2.2. No. of Non-Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_3_TOTAL_NO_10", 
+              "labels": [ { "text": "G4.2.3. Total No." } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_4_ESTIMATED_TOTAL_VALUE_PHP_9", 
+              "labels": [ { "text": "G4.4 Estimated Total Value (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "WASHING_MACHINE", 
+              "labels": [ { "text": "13. Washing machine" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_QUANTITY_11", 
+              "labels": [ { "text": "G4.2 Quantity" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_1_NO_OF_FUNCTIONING_11", 
+              "labels": [ { "text": "G4.2.1 No. of Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G_4_2_2_NO_OF_NON_FUNCTIONING_11", 
+              "labels": [ { "text": "G.4.2.2. No. of Non-Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_3_TOTAL_NO_11", 
+              "labels": [ { "text": "G4.2.3. Total No. " } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_4_ESTIMATED_TOTAL_VALUE_PHP_10", 
+              "labels": [ { "text": "G4.4 Estimated Total Value (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "OVEN_RANGE", 
+              "labels": [ { "text": "14. Oven/Range" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_QUANTITY_12", 
+              "labels": [ { "text": "G4.2 Quantity" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_1_NO_OF_FUNCTIONING_12", 
+              "labels": [ { "text": "G4.2.1 No. of Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G_4_2_2_NO_OF_NON_FUNCTIONING_12", 
+              "labels": [ { "text": "G.4.2.2. No. of Non-Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_3_TOTAL_NO_12", 
+              "labels": [ { "text": "G4.2.3. Total No. " } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_4_ESTIMATED_TOTAL_VALUE_PHP_11", 
+              "labels": [ { "text": "G4.4 Estimated Total Value (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "MICROWAVE", 
+              "labels": [ { "text": "15. Microwave" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_QUANTITY_13", 
+              "labels": [ { "text": "G4.2 Quantity" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_1_NO_OF_FUNCTIONING_13", 
+              "labels": [ { "text": "G4.2.1 No. of Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G_4_2_2_NO_OF_NON_FUNCTIONING_13", 
+              "labels": [ { "text": "G.4.2.2. No. of Non-Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_3_TOTAL_NO_13", 
+              "labels": [ { "text": "G4.2.3. Total No." } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_4_ESTIMATED_TOTAL_VALUE_PHP_12", 
+              "labels": [ { "text": "G4.4 Estimated Total Value (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "BED", 
+              "labels": [ { "text": "16. Bed" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_QUANTITY_14", 
+              "labels": [ { "text": "G4.2 Quantity" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_1_NO_OF_FUNCTIONING_14", 
+              "labels": [ { "text": "G4.2.1 No. of Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G_4_2_2_NO_OF_NON_FUNCTIONING_14", 
+              "labels": [ { "text": "G.4.2.2. No. of Non-Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_3_TOTAL_NO_14", 
+              "labels": [ { "text": "G4.2.3. Total No. " } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_4_ESTIMATED_TOTAL_VALUE_PHP_13", 
+              "labels": [ { "text": "G4.4 Estimated Total Value (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "SALA_SET", 
+              "labels": [ { "text": "17. Sala Set" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_QUANTITY_15", 
+              "labels": [ { "text": "G4.2 Quantity" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_1_NO_OF_FUNCTIONING_15", 
+              "labels": [ { "text": "G4.2.1 No. of Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G_4_2_2_NO_OF_NON_FUNCTIONING_15", 
+              "labels": [ { "text": "G.4.2.2. No. of Non-Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_3_TOTAL_NO_15", 
+              "labels": [ { "text": "G4.2.3. Total No." } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_4_ESTIMATED_TOTAL_VALUE_PHP_14", 
+              "labels": [ { "text": "G4.4 Estimated Total Value (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "DINING_SET", 
+              "labels": [ { "text": "18. Dining Set" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_QUANTITY_16", 
+              "labels": [ { "text": "G4.2 Quantity" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_1_NO_OF_FUNCTIONING_16", 
+              "labels": [ { "text": "G4.2.1 No. of Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G_4_2_2_NO_OF_NON_FUNCTIONING_16", 
+              "labels": [ { "text": "G.4.2.2. No. of Non-Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_3_TOTAL_NO_16", 
+              "labels": [ { "text": "G4.2.3. Total No." } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_4_ESTIMATED_TOTAL_VALUE_PHP_15", 
+              "labels": [ { "text": "G4.4 Estimated Total Value (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "ELECTRIC_FAN", 
+              "labels": [ { "text": "19. Electric Fan" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_QUANTITY_17", 
+              "labels": [ { "text": "G4.2 Quantity" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_1_NO_OF_FUNCTIONING_17", 
+              "labels": [ { "text": "G4.2.1 No. of Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G_4_2_2_NO_OF_NON_FUNCTIONING_17", 
+              "labels": [ { "text": "G.4.2.2. No. of Non-Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_3_TOTAL_NO_17", 
+              "labels": [ { "text": "G4.2.3. Total No." } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_4_ESTIMATED_TOTAL_VALUE_PHP_16", 
+              "labels": [ { "text": "G4.4 Estimated Total Value (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "AIRCON", 
+              "labels": [ { "text": "20. Aircon" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_QUANTITY_18", 
+              "labels": [ { "text": "G4.2 Quantity" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_1_NO_OF_FUNCTIONING_18", 
+              "labels": [ { "text": "G4.2.1 No. of Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G_4_2_2_NO_OF_NON_FUNCTIONING_18", 
+              "labels": [ { "text": "G.4.2.2. No. of Non-Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_3_TOTAL_NO_18", 
+              "labels": [ { "text": "G4.2.3. Total No. " } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_4_ESTIMATED_TOTAL_VALUE_PHP_17", 
+              "labels": [ { "text": "G4.4 Estimated Total Value (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "OTHERS_SPECIFY_1", 
+              "labels": [ { "text": "21. Others, specify" } ], 
+              "contentType": "alpha", 
+              "length": 15
+            }, 
+            {
+              "name": "G4_2_1_NO_OF_FUNCTIONING_19", 
+              "labels": [ { "text": "G4.2.1 No. of Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G_4_2_2_NO_OF_NON_FUNCTIONING_19", 
+              "labels": [ { "text": "G.4.2.2. No. of Non-Functioning" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_2_3_TOTAL_NO_19", 
+              "labels": [ { "text": "G4.2.3. Total No. " } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G4_4_ESTIMATED_TOTAL_VALUE_PHP_18", 
+              "labels": [ { "text": "G4.4 Estimated Total Value (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "G10_2_HAVE_YOU_AVAILED_OF_A_GOVERNMENT_HOUSING_P", 
+              "labels": [ { "text": "G10.2 Have you availed of a government housing program before? *" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "G10_2_HAVE_YOU_AVAILED_OF_A_GOVERNMENT_HOUSING_P_VS1", 
+                  "labels": [ { "text": "G10.2 Have you availed of a government housing program before? *" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "G10_5_DID_YOU_AVAIL_OF_BALIK_PROBINSYA_PROGRAM", 
+              "labels": [ { "text": "G10.5 Did you avail of Balik Probinsya Program? *" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "G10_5_DID_YOU_AVAIL_OF_BALIK_PROBINSYA_PROGRAM_VS1", 
+                  "labels": [ { "text": "G10.5 Did you avail of Balik Probinsya Program? *" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "G10_6_IF_PREVIOUSLY_RELOCATED_AND_HAVE_GONE_BACK", 
+              "labels": [ { "text": "G10.6 If previously relocated and have gone back to the area, what made you come back? *" } ], 
+              "contentType": "alpha", 
+              "length": 6, 
+              "valueSets": [
+                {
+                  "name": "G10_6_IF_PREVIOUSLY_RELOCATED_AND_HAVE_GONE_BACK_VS1", 
+                  "labels": [ { "text": "G10.6 If previously relocated and have gone back to the area, what made you come back? *" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. No work / Livelihood opportunities" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No access to public transportation" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. No access to / provision of utilities (light & water)" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. No available healthcare facilities" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. No near educational facilities" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Others (Specify)" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "7. Not Applicable" } ], 
+                      "pairs": [ { "value": "7" } ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "name": "H1_PROFILE_OF_BUSINESS_INSTITUTION", 
+          "labels": [ { "text": "H1. PROFILE OF BUSINESS/INSTITUTION" } ], 
+          "recordType": "C", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "H1_DO_YOU_OWN_OPERATE_A_BUSINESS_INSTITUTION_IN", 
+              "labels": [ { "text": "H1 Do you own/operate a business/institution in the affected area? " } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "H1_DO_YOU_OWN_OPERATE_A_BUSINESS_INSTITUTION_IN_VS1", 
+                  "labels": [ { "text": "H1 Do you own/operate a business/institution in the affected area? " } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "name": "I_CENSUS_OF_AGRICULTURE_AND_FISHERIES", 
+          "labels": [ { "text": "I. CENSUS OF AGRICULTURE AND FISHERIES" } ], 
+          "recordType": "D", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "I1_DO_YOU_OWN_OPERATE_AN_AGRICULTURE_AQUACULTURE", 
+              "labels": [ { "text": "I1 Do you own/operate an agriculture / aquaculture activities in the affected area?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "I1_DO_YOU_OWN_OPERATE_AN_AGRICULTURE_AQUACULTURE_VS1", 
+                  "labels": [ { "text": "I1 Do you own/operate an agriculture / aquaculture activities in the affected area?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "name": "J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_1", 
+          "labels": [ { "text": "J. LIVELIHOOD REHABILITATION MEASURES (may include more than one response)" } ], 
+          "recordType": "G", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2_1", 
+              "labels": [ { "text": "J1. In case you lose your job/close enterprise or business due to the implementation of the project, what type of livelihood assistance would you need?" } ], 
+              "contentType": "alpha", 
+              "length": 56, 
+              "valueSets": [
+                {
+                  "name": "J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2_1_VS1", 
+                  "labels": [ { "text": "J1. In case you lose your job/close enterprise or business due to the implementation of the project, what type of livelihood assistance would you need?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Job/employment within the current sector" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Any job/employment" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Financial assistance in finding new employment" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Replacement land/business structure" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Vocational/Skills Training" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Others (Specify):" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2", 
+              "labels": [ { "text": "J1. In case you lose your job/close enterprise or business due to the implementation of the project, what type of livelihood assistance would you need? Others" } ], 
+              "contentType": "alpha", 
+              "subitem": true, 
+              "subitemOffset": 6, 
+              "length": 20, 
+              "valueSets": [
+                {
+                  "name": "J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2_VS1", 
+                  "labels": [ { "text": "J1. In case you lose your job/close enterprise or business due to the implementation of the project, what type of livelihood assistance would you need? Others" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Job/employment within the current sector" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Any job/employment" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Financial assistance in finding new employment" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Replacement land/business structure" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Vocational/Skills Training" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Others (Specify):" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "J2_WHERE_IS_YOUR_PREFERRED_LOCATION_FOR_EMPLOYME_1", 
+              "labels": [ { "text": "J2. Where is your preferred location for employment or new business?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "J2_WHERE_IS_YOUR_PREFERRED_LOCATION_FOR_EMPLOYME_1_VS1", 
+                  "labels": [ { "text": "J2. Where is your preferred location for employment or new business?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Current barangay" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Any barangay within current city" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Any city within same province" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Near relocation site" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Other province" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Abroad/Outside the country" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "J3_WHAT_IS_ARE_YOUR_CURRENT_SKILLS_EXPERTISE_1", 
+              "labels": [ { "text": "J3. What is/are your current skills/expertise?" } ], 
+              "contentType": "alpha", 
+              "length": 2, 
+              "valueSets": [
+                {
+                  "name": "J3_WHAT_IS_ARE_YOUR_CURRENT_SKILLS_EXPERTISE_1_VS1", 
+                  "labels": [ { "text": "J3. What is/are your current skills/expertise?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Construction related" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Food Preparation/Technology" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Hotel/Restaurant related" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Automotive related" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Electronic/Electrical related" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Computer related" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "7. Health related" } ], 
+                      "pairs": [ { "value": "7" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "8. Clerical related" } ], 
+                      "pairs": [ { "value": "8" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "9. Sales related" } ], 
+                      "pairs": [ { "value": "9" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "10. Personal Services related" } ], 
+                      "pairs": [ { "value": "10" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "11. Design/Arts related" } ], 
+                      "pairs": [ { "value": "11" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "12. Dressmaking related" } ], 
+                      "pairs": [ { "value": "12" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "13. Agriculture related" } ], 
+                      "pairs": [ { "value": "13" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "14. Aquaculture Related" } ], 
+                      "pairs": [ { "value": "14" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "15. Business/Finance related" } ], 
+                      "pairs": [ { "value": "15" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "J4_WHAT_IS_ARE_YOUR_PREFERRED_VOCATIONAL_SKILLS_1", 
+              "labels": [ { "text": "J4. What is/are your preferred vocational/skills training?" } ], 
+              "contentType": "alpha", 
+              "length": 2, 
+              "valueSets": [
+                {
+                  "name": "J4_WHAT_IS_ARE_YOUR_PREFERRED_VOCATIONAL_SKILLS_1_VS1", 
+                  "labels": [ { "text": "J4. What is/are your preferred vocational/skills training?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Construction related" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Food Preparation/Technology" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Hotel/Restaurant related" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Automotive related" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Electronic/Electrical related" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Computer related" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "7. Health related" } ], 
+                      "pairs": [ { "value": "7" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "8. Clerical related" } ], 
+                      "pairs": [ { "value": "8" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "9. Sales related" } ], 
+                      "pairs": [ { "value": "9" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "10. Personal Services related" } ], 
+                      "pairs": [ { "value": "10" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "11. Design/Arts related" } ], 
+                      "pairs": [ { "value": "11" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "12. Dressmaking related" } ], 
+                      "pairs": [ { "value": "12" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "13. Agriculture related" } ], 
+                      "pairs": [ { "value": "13" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "14. Aquaculture Related" } ], 
+                      "pairs": [ { "value": "14" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "15. Business/Finance related" } ], 
+                      "pairs": [ { "value": "15" } ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "name": "K_PROJECT_AWARENESS", 
+          "labels": [ { "text": "K. PROJECT AWARENESS" } ], 
+          "recordType": "E", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "K1_HAVE_YOU_HEARD_ABOUT_THE_LASSO_2_PROJECT", 
+              "labels": [ { "text": "K1. Have you heard about the Lasso 2 project?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "K1_HAVE_YOU_HEARD_ABOUT_THE_LASSO_2_PROJECT_VS1", 
+                  "labels": [ { "text": "K1. Have you heard about the Lasso 2 project?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO", 
+              "labels": [ { "text": "K3. What are your overall issues and concerns about the project?" } ], 
+              "contentType": "alpha", 
+              "length": 50, 
+              "valueSets": [
+                {
+                  "name": "K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO_VS1", 
+                  "labels": [ { "text": "K3. What are your overall issues and concerns about the project?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. My house will be demolished/We will be relocated to another area." } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. My farming activity will be stopped" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Environment will be disturbed because of construction activities" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Trees and other natural land cover will significantly decrease" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. My business/livelihood will be affected" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. I will lose income" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "7. I will lose access to the river, land and other resources" } ], 
+                      "pairs": [ { "value": "7" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "8. Living environment in the area will get worse because of noise and vibration" } ], 
+                      "pairs": [ { "value": "8" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "9. Value of commercial and residential properties will decrease." } ], 
+                      "pairs": [ { "value": "9" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "10. Others (Specify)" } ], 
+                      "pairs": [ { "value": "10" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO_1", 
+              "labels": [ { "text": "K3. What are your overall issues and concerns about the project? Others" } ], 
+              "contentType": "alpha", 
+              "subitem": true, 
+              "subitemOffset": 10, 
+              "length": 30, 
+              "valueSets": [
+                {
+                  "name": "K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO_1_VS1", 
+                  "labels": [ { "text": "K3. What are your overall issues and concerns about the project? Others" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. My house will be demolished/We will be relocated to another area." } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. My farming activity will be stopped" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Environment will be disturbed because of construction activities" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Trees and other natural land cover will significantly decrease" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. My business/livelihood will be affected" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. I will lose income" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "7. I will lose access to the river, land and other resources" } ], 
+                      "pairs": [ { "value": "7" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "8. Living environment in the area will get worse because of noise and vibration" } ], 
+                      "pairs": [ { "value": "8" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "9. Value of commercial and residential properties will decrease." } ], 
+                      "pairs": [ { "value": "9" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "10. Others (Specify)" } ], 
+                      "pairs": [ { "value": "10" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "K4_DO_YOU_SUPPORT_THE_PROPOSED_PROJECT", 
+              "labels": [ { "text": "K4. Do you support the proposed project? " } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "K4_DO_YOU_SUPPORT_THE_PROPOSED_PROJECT_VS1", 
+                  "labels": [ { "text": "K4. Do you support the proposed project? " } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR", 
+              "labels": [ { "text": "K5. What are your recommendations to address your issues and concerns?" } ], 
+              "contentType": "alpha", 
+              "length": 56, 
+              "valueSets": [
+                {
+                  "name": "K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR_VS1_1", 
+                  "labels": [ { "text": "K5. What are your recommendations to address your issues and concerns?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Redesign the Project" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Provision of Compensation" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Financial Assistance" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Livelihood Restoration" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Relocation House/Structure" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Others:" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR_1", 
+              "labels": [ { "text": "K5. What are your recommendations to address your issues and concerns? Others" } ], 
+              "contentType": "alpha", 
+              "subitem": true, 
+              "subitemOffset": 6, 
+              "length": 40
+            }, 
+            {
+              "name": "K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO_1", 
+              "labels": [ { "text": "K2. What benefits do you think can be derived from this project?" } ], 
+              "contentType": "alpha", 
+              "length": 50, 
+              "valueSets": [
+                {
+                  "name": "K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO_1_VS1", 
+                  "labels": [ { "text": "K2. What benefits do you think can be derived from this project?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Create job/employment opportunities for the local" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Improve electrification in the rural areas" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Increase land value" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Open opportunities for new businesses/enterprises" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Others (specify):" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO", 
+              "labels": [ { "text": "K2. What benefits do you think can be derived from this project? Others" } ], 
+              "contentType": "alpha", 
+              "subitem": true, 
+              "subitemOffset": 0, 
+              "length": 30, 
+              "valueSets": [
+                {
+                  "name": "K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO_VS1", 
+                  "labels": [ { "text": "K2. What benefits do you think can be derived from this project? Others" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Create job/employment opportunities for the local" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Improve electrification in the rural areas" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Increase land value" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Open opportunities for new businesses/enterprises" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Others (specify):" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "name": "M_SUMMARY", 
+          "labels": [ { "text": "M. SUMMARY" } ], 
+          "recordType": "F", 
+          "occurrences": {
+            "required": true, 
+            "maximum": 1
+          }, 
+          "items": [
+            {
+              "name": "M_SUMMARY_FOR_PROJECT_AFFECTED_PERSONS_CATEGORY", 
+              "labels": [ { "text": "M. Summary for Project Affected Persons Category (can be multiple responses) *" } ], 
+              "contentType": "alpha", 
+              "length": 3, 
+              "valueSets": [
+                {
+                  "name": "M_SUMMARY_FOR_PROJECT_AFFECTED_PERSONS_CATEGORY_VS1", 
+                  "labels": [ { "text": "M. Summary for Project Affected Persons Category (can be multiple responses) *" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Household" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Institution" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Business Owner, Structure (Individual, Partnership)" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Business Owner (Corporation, Cooperative)" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Business Owner (land)" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Land Owner (residing)" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "7. Land Owner (not residing)" } ], 
+                      "pairs": [ { "value": "7" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "8. Farm/Fish Pen Owner (residing)" } ], 
+                      "pairs": [ { "value": "8" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "9. Farm/Fish Pen Owner (not residing)" } ], 
+                      "pairs": [ { "value": "9" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "10. Structure Owner (Non Residing)" } ], 
+                      "pairs": [ { "value": "10" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "RESPONDENT_NAME", 
+              "labels": [ { "text": "Respondent Name *" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "DATE_TIME", 
+              "labels": [ { "text": "MM" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "DD", 
+              "labels": [ { "text": "DD" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "YYYY", 
+              "labels": [ { "text": "YYYY" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "INTERVIEWER_NAME", 
+              "labels": [ { "text": "Interviewer Name *" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "MM", 
+              "labels": [ { "text": "MM" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "DD_1", 
+              "labels": [ { "text": "DD" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "YYYY_1", 
+              "labels": [ { "text": "YYYY" } ], 
+              "contentType": "numeric", 
+              "length": 4, 
+              "zeroFill": false
             }
           ]
         }
