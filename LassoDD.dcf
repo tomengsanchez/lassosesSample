@@ -6206,6 +6206,361 @@
                   ]
                 }
               ]
+            }, 
+            {
+              "name": "IF_YES_WHICH_OF_THE_FOLLOWING_ACTIVITIES_DOES_TH", 
+              "labels": [ { "text": "If Yes, which of the following activities does the household engage/operate primarily?(Multiple responses)" } ], 
+              "contentType": "alpha", 
+              "length": 7, 
+              "valueSets": [
+                {
+                  "name": "IF_YES_WHICH_OF_THE_FOLLOWING_ACTIVITIES_DOES_TH_VS1", 
+                  "labels": [ { "text": "If Yes, which of the following activities does the household engage/operate primarily?(Multiple responses)" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Growing of crops" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Orchid growing for sale" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Ornamental plant and flower gardening for sale (excluding orchid)" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Growing of plantable forest trees, fruit bearing trees, and palm seedlings for sale" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Vegetable growing" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Contract growing of trees" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "7. Others, specify" } ], 
+                      "pairs": [ { "value": "7" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I1_1_DO_YOU_OR_ANY_MEMBER_OF_YOUR_FAMILY_OWN_HAR", 
+              "labels": [ { "text": "I1.1 Do you or any member of your family own/harvest crops/trees in the affected area?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "I1_1_DO_YOU_OR_ANY_MEMBER_OF_YOUR_FAMILY_OWN_HAR_VS1", 
+                  "labels": [ { "text": "I1.1 Do you or any member of your family own/harvest crops/trees in the affected area?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I2_1_DO_YOU_OR_ANY_MEMBER_OF_YOUR_FAMILY_GRAZE_R", 
+              "labels": [ { "text": "I2.1 Do you or any member of your family graze/raise animals in the affected area?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "I2_1_DO_YOU_OR_ANY_MEMBER_OF_YOUR_FAMILY_GRAZE_R_VS1", 
+                  "labels": [ { "text": "I2.1 Do you or any member of your family graze/raise animals in the affected area?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I1_2_AFFECTED_TREES", 
+              "labels": [ { "text": "I1.2 Affected Trees:" } ], 
+              "contentType": "alpha", 
+              "length": 1
+            }, 
+            {
+              "name": "TIMBER_NAME", 
+              "labels": [ { "text": "1. Timber - Name" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "TIMBER_AGE", 
+              "labels": [ { "text": "1. Timber - Age " } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "TIMBER_QTY", 
+              "labels": [ { "text": "1. Timber - Qty" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "TIMBER_ANNUAL_HARVERT_PHP", 
+              "labels": [ { "text": "1. Timber - Annual Harvert (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "FRUIT_BEARING_NAME", 
+              "labels": [ { "text": "2. Fruit Bearing - Name" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "FRUIT_BEARING_AGE", 
+              "labels": [ { "text": "2. Fruit Bearing - Age" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "FRUIT_BEARING_QTY", 
+              "labels": [ { "text": "2. Fruit Bearing - Qty" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "FRUIT_BEARING_ANNUAL_HARVERT_PHP", 
+              "labels": [ { "text": "2. Fruit Bearing - Annual Harvert (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "PALMS_NAME", 
+              "labels": [ { "text": "3. Palms - Name" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "PALMS_AGE", 
+              "labels": [ { "text": "3. Palms - Age" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "PALMS_QTY", 
+              "labels": [ { "text": "3. Palms - Qty" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "PALMS_ANNUAL_HARVERT_PHP", 
+              "labels": [ { "text": "3. Palms - Annual Harvert (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "ORNAMENTAL_NAME", 
+              "labels": [ { "text": "4. Ornamental - Name" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "ORNAMENTAL_AGE", 
+              "labels": [ { "text": "4. Ornamental - Age" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "ORNAMENTAL_QTY", 
+              "labels": [ { "text": "4. Ornamental - Qty" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "ORNAMENTAL_ANNUAL_HARVERT_PHP", 
+              "labels": [ { "text": "4. Ornamental - Annual Harvert (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "OTHERS_NAME", 
+              "labels": [ { "text": "5. Others - Name" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "OTHERS_AGE", 
+              "labels": [ { "text": "5. Others - Age" } ], 
+              "contentType": "numeric", 
+              "length": 2, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "OTHERS_QTY", 
+              "labels": [ { "text": "5. Others - Qty" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "OTHERS_ANNUAL_HARVERT_PHP", 
+              "labels": [ { "text": "5. Others - Annual Harvert (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "I3_1_IS_THERE_ANY_MEMBER_OF_THIS_HOUSEHOLD_WHO_I", 
+              "labels": [ { "text": "I3.1 Is there any member of this household who is engage/operated in culturing fish, seaweeds or other aquatic plants and animals in a fishpond, fish cage or other types of aqua-farm in the affected area?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "I3_1_IS_THERE_ANY_MEMBER_OF_THIS_HOUSEHOLD_WHO_I_VS1", 
+                  "labels": [ { "text": "I3.1 Is there any member of this household who is engage/operated in culturing fish, seaweeds or other aquatic plants and animals in a fishpond, fish cage or other types of aqua-farm in the affected area?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "TOTAL_QTY_FOR_TYPE_OF_TREE", 
+              "labels": [ { "text": "Total Qty for Type of Tree" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "TOTAL_ANNUAL_HARVEST_PHP_FOR_TYPE_OF_TREE", 
+              "labels": [ { "text": "Total Annual Harvest (PHP) for Type of Tree" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "TYPE_OF_CROP", 
+              "labels": [ { "text": "TYPE OF CROP" } ], 
+              "contentType": "alpha", 
+              "length": 1
+            }, 
+            {
+              "name": "RICE_NAME", 
+              "labels": [ { "text": "1. Rice - Name" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "RICE_AREA_SQM", 
+              "labels": [ { "text": "1. Rice - Area SQM" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "RICE_ANNUAL_HARVEST_PHP", 
+              "labels": [ { "text": "1. Rice - Annual Harvest (Php)" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "CORN_NAME", 
+              "labels": [ { "text": "2. Corn - Name" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "CORN_AREA_SQM", 
+              "labels": [ { "text": "2. Corn - Area SQM" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "CORN_ANNUAL_HARVEST_PHP", 
+              "labels": [ { "text": "2. Corn - Annual Harvest (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "ROOT_CROP_NAME", 
+              "labels": [ { "text": "3. Root crop - Name" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "ROOT_CROP_AREA_SQM", 
+              "labels": [ { "text": "3. Root crop - Area SQM" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "ROOT_CROP_ANNUAL_HARVEST_PHP", 
+              "labels": [ { "text": "3. Root crop - Annual Harvest (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "ORCHID_NAME_S", 
+              "labels": [ { "text": "4. Orchid - Name/s" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "ORCHID_AREA_SQM", 
+              "labels": [ { "text": "4. Orchid - Area SQM" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "ORCHID_ANNUAL_HARVEST_PHP", 
+              "labels": [ { "text": "4. Orchid - Annual Harvest (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "VEGETABLE_ANNUAL_NAME", 
+              "labels": [ { "text": "5. Vegetable (Annual) - Name" } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
             }
           ]
         }, 
