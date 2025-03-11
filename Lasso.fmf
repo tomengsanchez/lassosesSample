@@ -520,7 +520,7 @@ Item=H2_3_4_SKILLS_2
 Name=FORM014
 Label=I. CENSUS OF AGRICULTURE AND FISHERIES
 Level=1
-Size=1597,1290
+Size=1597,1860
   
 Item=I1_DO_YOU_OWN_OPERATE_AN_AGRICULTURE_AQUACULTURE
 Item=IF_YES_WHICH_OF_THE_FOLLOWING_ACTIVITIES_DOES_TH
@@ -564,6 +564,25 @@ Item=ORCHID_NAME_S
 Item=ORCHID_AREA_SQM
 Item=ORCHID_ANNUAL_HARVEST_PHP
 Item=VEGETABLE_ANNUAL_NAME
+Item=VEGETABLE_ANNUAL_AREA_SQM
+Item=VEGETABLE_ANNUAL_ANNUAL_HARVEST_PHP
+Item=VEGETABLE_PERENNIAL_NAME
+Item=VEGETABLE_PERENNIAL_AREA_SQM
+Item=VEGETABLE_PERENNIAL_ANNUAL_HARVEST_PHP
+Item=FRUIT_ANNUAL_NAME
+Item=FRUIT_ANNUAL_AREA_SQM
+Item=FRUIT_ANNUAL_ANNUAL_HARVEST_PHP
+Item=FRUIT_PERENNIAL_NAME
+Item=FRUIT_PERENNIAL_AREA_SQM
+Item=FRUIT_PERENNIAL_ANNUAL_HARVEST_PHP
+Item=OTHER_ANNUAL_CROPS_NAME_S
+Item=OTHER_ANNUAL_CROPS_AREA_SQM
+Item=OTHER_ANNUAL_CROPS_ANNUAL_HARVEST_PHP
+Item=OTHER_PERENNIAL_CROPS_NAME_S
+Item=OTHER_PERENNIAL_CROPS_AREA_SQM
+Item=OTHER_PERENNIAL_CROPS_ANNUAL_HARVEST_PHP
+Item=TOTAL_SQ_METER_FOR_TYPE_FO_CROP
+Item=TOTAL_ANNUAL_HARVEST_PHP_FOR_TYPE_OF_CROP
   
 [EndForm]
   
@@ -6084,6 +6103,239 @@ Form=15
 [Text]
 Position=50,1260,236,1276
 Text=5. Vegetable (Annual) - Name
+ 
+  
+[Field]
+Name=VEGETABLE_ANNUAL_AREA_SQM
+Position=1356,1287,1567,1307
+Item=VEGETABLE_ANNUAL_AREA_SQM,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,1290,263,1306
+Text=5. Vegetable (Annual) - Area SQM
+ 
+  
+[Field]
+Name=VEGETABLE_ANNUAL_ANNUAL_HARVEST_PHP
+Position=1356,1317,1567,1337
+Item=VEGETABLE_ANNUAL_ANNUAL_HARVEST_PHP,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,1320,332,1336
+Text=5. Vegetable (Annual) - Annual Harvest (Php)
+ 
+  
+[Field]
+Name=VEGETABLE_PERENNIAL_NAME
+Position=1356,1347,1766,1367
+Item=VEGETABLE_PERENNIAL_NAME,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,1350,253,1366
+Text=6. Vegetable (Perennial) - Name
+ 
+  
+[Field]
+Name=VEGETABLE_PERENNIAL_AREA_SQM
+Position=1356,1377,1567,1397
+Item=VEGETABLE_PERENNIAL_AREA_SQM,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,1380,280,1396
+Text=6. Vegetable (Perennial) - Area SQM
+ 
+  
+[Field]
+Name=VEGETABLE_PERENNIAL_ANNUAL_HARVEST_PHP
+Position=1356,1407,1567,1427
+Item=VEGETABLE_PERENNIAL_ANNUAL_HARVEST_PHP,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,1410,349,1426
+Text=6. Vegetable (Perennial) - Annual Harvest (Php)
+ 
+  
+[Field]
+Name=FRUIT_ANNUAL_NAME
+Position=1356,1437,1766,1457
+Item=FRUIT_ANNUAL_NAME,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,1440,200,1456
+Text=7. Fruit (Annual) - Name
+ 
+  
+[Field]
+Name=FRUIT_ANNUAL_AREA_SQM
+Position=1356,1467,1567,1487
+Item=FRUIT_ANNUAL_AREA_SQM,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,1470,227,1486
+Text=7. Fruit (Annual) - Area SQM
+ 
+  
+[Field]
+Name=FRUIT_ANNUAL_ANNUAL_HARVEST_PHP
+Position=1356,1497,1567,1517
+Item=FRUIT_ANNUAL_ANNUAL_HARVEST_PHP,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,1500,296,1516
+Text=7. Fruit (Annual) - Annual Harvest (Php)
+ 
+  
+[Field]
+Name=FRUIT_PERENNIAL_NAME
+Position=1356,1527,1766,1547
+Item=FRUIT_PERENNIAL_NAME,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,1530,217,1546
+Text=8. Fruit (Perennial) - Name
+ 
+  
+[Field]
+Name=FRUIT_PERENNIAL_AREA_SQM
+Position=1356,1557,1567,1577
+Item=FRUIT_PERENNIAL_AREA_SQM,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,1560,244,1576
+Text=8. Fruit (Perennial) - Area SQM
+ 
+  
+[Field]
+Name=FRUIT_PERENNIAL_ANNUAL_HARVEST_PHP
+Position=1356,1587,1567,1607
+Item=FRUIT_PERENNIAL_ANNUAL_HARVEST_PHP,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,1590,313,1606
+Text=8. Fruit (Perennial) - Annual Harvest (Php)
+ 
+  
+[Field]
+Name=OTHER_ANNUAL_CROPS_NAME_S
+Position=1356,1617,1766,1637
+Item=OTHER_ANNUAL_CROPS_NAME_S,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,1620,248,1636
+Text=9. Other Annual Crops - Name/s
+ 
+  
+[Field]
+Name=OTHER_ANNUAL_CROPS_AREA_SQM
+Position=1356,1647,1567,1667
+Item=OTHER_ANNUAL_CROPS_AREA_SQM,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,1650,265,1666
+Text=9. Other Annual Crops - Area SQM
+ 
+  
+[Field]
+Name=OTHER_ANNUAL_CROPS_ANNUAL_HARVEST_PHP
+Position=1356,1677,1567,1697
+Item=OTHER_ANNUAL_CROPS_ANNUAL_HARVEST_PHP,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,1680,334,1696
+Text=9. Other Annual Crops - Annual Harvest (Php)
+ 
+  
+[Field]
+Name=OTHER_PERENNIAL_CROPS_NAME_S
+Position=1356,1707,1766,1727
+Item=OTHER_PERENNIAL_CROPS_NAME_S,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,1710,272,1726
+Text=10. Other Perennial Crops - Name/s
+ 
+  
+[Field]
+Name=OTHER_PERENNIAL_CROPS_AREA_SQM
+Position=1356,1737,1567,1757
+Item=OTHER_PERENNIAL_CROPS_AREA_SQM,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,1740,289,1756
+Text=10. Other Perennial Crops - Area SQM
+ 
+  
+[Field]
+Name=OTHER_PERENNIAL_CROPS_ANNUAL_HARVEST_PHP
+Position=1356,1767,1567,1787
+Item=OTHER_PERENNIAL_CROPS_ANNUAL_HARVEST_PHP,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,1770,358,1786
+Text=10. Other Perennial Crops - Annual Harvest (Php)
+ 
+  
+[Field]
+Name=TOTAL_SQ_METER_FOR_TYPE_FO_CROP
+Position=1356,1797,1567,1817
+Item=TOTAL_SQ_METER_FOR_TYPE_FO_CROP,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,1800,251,1816
+Text=Total SQ Meter for Type fo Crop
+ 
+  
+[Field]
+Name=TOTAL_ANNUAL_HARVEST_PHP_FOR_TYPE_OF_CROP
+Position=1356,1827,1567,1847
+Item=TOTAL_ANNUAL_HARVEST_PHP_FOR_TYPE_OF_CROP,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,1830,325,1846
+Text=Total Annual Harvest (Php) for Type of Crop
  
 [EndGroup]
   

@@ -6561,6 +6561,134 @@
               "contentType": "numeric", 
               "length": 1, 
               "zeroFill": false
+            }, 
+            {
+              "name": "VEGETABLE_ANNUAL_AREA_SQM", 
+              "labels": [ { "text": "5. Vegetable (Annual) - Area SQM" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "VEGETABLE_ANNUAL_ANNUAL_HARVEST_PHP", 
+              "labels": [ { "text": "5. Vegetable (Annual) - Annual Harvest (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "VEGETABLE_PERENNIAL_NAME", 
+              "labels": [ { "text": "6. Vegetable (Perennial) - Name" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "VEGETABLE_PERENNIAL_AREA_SQM", 
+              "labels": [ { "text": "6. Vegetable (Perennial) - Area SQM" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "VEGETABLE_PERENNIAL_ANNUAL_HARVEST_PHP", 
+              "labels": [ { "text": "6. Vegetable (Perennial) - Annual Harvest (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "FRUIT_ANNUAL_NAME", 
+              "labels": [ { "text": "7. Fruit (Annual) - Name" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "FRUIT_ANNUAL_AREA_SQM", 
+              "labels": [ { "text": "7. Fruit (Annual) - Area SQM" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "FRUIT_ANNUAL_ANNUAL_HARVEST_PHP", 
+              "labels": [ { "text": "7. Fruit (Annual) - Annual Harvest (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "FRUIT_PERENNIAL_NAME", 
+              "labels": [ { "text": "8. Fruit (Perennial) - Name" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "FRUIT_PERENNIAL_AREA_SQM", 
+              "labels": [ { "text": "8. Fruit (Perennial) - Area SQM" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "FRUIT_PERENNIAL_ANNUAL_HARVEST_PHP", 
+              "labels": [ { "text": "8. Fruit (Perennial) - Annual Harvest (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "OTHER_ANNUAL_CROPS_NAME_S", 
+              "labels": [ { "text": "9. Other Annual Crops - Name/s" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "OTHER_ANNUAL_CROPS_AREA_SQM", 
+              "labels": [ { "text": "9. Other Annual Crops - Area SQM" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "OTHER_ANNUAL_CROPS_ANNUAL_HARVEST_PHP", 
+              "labels": [ { "text": "9. Other Annual Crops - Annual Harvest (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "OTHER_PERENNIAL_CROPS_NAME_S", 
+              "labels": [ { "text": "10. Other Perennial Crops - Name/s" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "OTHER_PERENNIAL_CROPS_AREA_SQM", 
+              "labels": [ { "text": "10. Other Perennial Crops - Area SQM" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "OTHER_PERENNIAL_CROPS_ANNUAL_HARVEST_PHP", 
+              "labels": [ { "text": "10. Other Perennial Crops - Annual Harvest (Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "TOTAL_SQ_METER_FOR_TYPE_FO_CROP", 
+              "labels": [ { "text": "Total SQ Meter for Type fo Crop" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "TOTAL_ANNUAL_HARVEST_PHP_FOR_TYPE_OF_CROP", 
+              "labels": [ { "text": "Total Annual Harvest (Php) for Type of Crop" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
             }
           ]
         }, 
