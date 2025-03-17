@@ -6689,6 +6689,360 @@
               "contentType": "numeric", 
               "length": 15, 
               "zeroFill": false
+            }, 
+            {
+              "name": "I1_5_WHAT_IS_THE_PLANTING_PATTERN_OF_THE_CROPS_F", 
+              "labels": [ { "text": "I1.5 What is the planting pattern of the crops (for annual crops only)?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "I1_5_WHAT_IS_THE_PLANTING_PATTERN_OF_THE_CROPS_F_VS1", 
+                  "labels": [ { "text": "I1.5 What is the planting pattern of the crops (for annual crops only)?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Mono-Cropping" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Inter Cropping" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Mixed Cropping" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I1_6_WHAT_IS_THE_PLANTING_PATTERN_OF_THE_CROPS_F", 
+              "labels": [ { "text": "I1.6 What is the planting pattern of the crops (for perennial crops / trees only)?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "I1_6_WHAT_IS_THE_PLANTING_PATTERN_OF_THE_CROPS_F_VS1", 
+                  "labels": [ { "text": "I1.6 What is the planting pattern of the crops (for perennial crops / trees only)?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Compact" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Scattered" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I1_7_WHAT_IS_THE_SCALE_OF_CROP_PRODUCTION", 
+              "labels": [ { "text": "I1.7 What is the scale of crop production?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "I1_7_WHAT_IS_THE_SCALE_OF_CROP_PRODUCTION_VS1", 
+                  "labels": [ { "text": "I1.7 What is the scale of crop production?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Subsistence Farming" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Small to medium scale farming" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Plantation" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I1_8_HOW_ARE_THE_CROPS_UTILIZED", 
+              "labels": [ { "text": "I1.8 How are the crops utilized?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "I1_8_HOW_ARE_THE_CROPS_UTILIZED_VS1", 
+                  "labels": [ { "text": "I1.8 How are the crops utilized?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. For family consumption only?" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. For Profit" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Both" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I1_9_HOW_ARE_THE_FOREST_TREES_FRUIT_BEARING_TREE", 
+              "labels": [ { "text": "I1.9 How are the forest trees, fruit bearing trees, palms and ornamental utilized?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "I1_9_HOW_ARE_THE_FOREST_TREES_FRUIT_BEARING_TREE_VS1", 
+                  "labels": [ { "text": "I1.9 How are the forest trees, fruit bearing trees, palms and ornamental utilized?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. For family consumption only?" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. For Profit" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Both" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I1_10_PRIMARY_PRODUCT_GOODS_PRODUCED", 
+              "labels": [ { "text": "I1.10 Primary product / goods produced:" } ], 
+              "contentType": "alpha", 
+              "length": 50
+            }, 
+            {
+              "name": "I1_11_WHAT_IS_THE_PRIMARY_SOURCE_OF_WATER_IRRIGA", 
+              "labels": [ { "text": "I1.11 What is the primary source of water / irrigation for the crops / trees?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "I1_11_WHAT_IS_THE_PRIMARY_SOURCE_OF_WATER_IRRIGA_VS1", 
+                  "labels": [ { "text": "I1.11 What is the primary source of water / irrigation for the crops / trees?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. National Irrigation System" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Communal Irrigation System" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Tube Well" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Dug Well" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Surface / Ram Pump" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Small Farm Reservoir (SFR)" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "7. Shallow Well Impounding (SWIP)" } ], 
+                      "pairs": [ { "value": "7" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "8. Small Diversion Dam (SDD)" } ], 
+                      "pairs": [ { "value": "8" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "9. Level 3" } ], 
+                      "pairs": [ { "value": "9" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I2_1_DO_YOU_OR_ANY_MEMBER_OF_YOUR_FAMILY_GRAZE_R_1", 
+              "labels": [ { "text": "I2.1 Do you or any member of your family graze/raise animals in the affected area?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "I2_1_DO_YOU_OR_ANY_MEMBER_OF_YOUR_FAMILY_GRAZE_R_1_VS1", 
+                  "labels": [ { "text": "I2.1 Do you or any member of your family graze/raise animals in the affected area?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I2_2_IF_YES_WHICH_OF_THE_FOLLOWING_ACTIVITIES_AR", 
+              "labels": [ { "text": "I2.2 If Yes, which of the following activities are you engage in?" } ], 
+              "contentType": "alpha", 
+              "length": 8, 
+              "valueSets": [
+                {
+                  "name": "I2_2_IF_YES_WHICH_OF_THE_FOLLOWING_ACTIVITIES_AR_VS1", 
+                  "labels": [ { "text": "I2.2 If Yes, which of the following activities are you engage in?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Livestock raising" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Poultry Production" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Animal breeding" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Raising of animal for racing/cockfighting" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Herding of cattle" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Vermiculture" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "7. Sericulture/silk/cocoon production" } ], 
+                      "pairs": [ { "value": "7" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "8. Bee culture/honey production" } ], 
+                      "pairs": [ { "value": "8" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "9. Others, specify" } ], 
+                      "pairs": [ { "value": "9" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I2_3_SCALE_OF_PRODUCTION", 
+              "labels": [ { "text": "I2.3 Scale of production:" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "I2_3_SCALE_OF_PRODUCTION_VS1", 
+                  "labels": [ { "text": "I2.3 Scale of production:" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Subsistence" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Small to medium scale" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Commercial Scale" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I2_4_WHAT_IS_THE_PURPOSE_USE_OF_LIVESTOCK_ANIMAL", 
+              "labels": [ { "text": "I2.4 What is the purpose/use of livestock/animal raising?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "I2_4_WHAT_IS_THE_PURPOSE_USE_OF_LIVESTOCK_ANIMAL_VS1", 
+                  "labels": [ { "text": "I2.4 What is the purpose/use of livestock/animal raising?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Raising animals/livestock for food" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Raising animals/livestock for profit" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Both" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I2_5_LIVESTOCK_OTHER_ANIMALS", 
+              "labels": [ { "text": "I2.5 Livestock/other animals" } ], 
+              "contentType": "alpha", 
+              "length": 1
+            }, 
+            {
+              "name": "CATTLE_COW_NO_OF_HEADS", 
+              "labels": [ { "text": "1. Cattle (Cow) (No. of Heads)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "CATTLE_COW_ANNUAL_INCOME", 
+              "labels": [ { "text": "1. Cattle (Cow) (Annual Income)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "CARABAO_NO_HEADS", 
+              "labels": [ { "text": "2. Carabao (No. Heads)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "CARABAO_ANNUAL_INCOME", 
+              "labels": [ { "text": "2. Carabao (Annual Income)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "SWINE_PIG_NO_OF_HEADS", 
+              "labels": [ { "text": "3. Swine (Pig) (No. of Heads)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "SWINE_PIG_ANNUAL_INCOME", 
+              "labels": [ { "text": "3. Swine (Pig) (Annual Income)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
             }
           ]
         }, 

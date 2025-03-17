@@ -520,7 +520,7 @@ Item=H2_3_4_SKILLS_2
 Name=FORM014
 Label=I. CENSUS OF AGRICULTURE AND FISHERIES
 Level=1
-Size=1597,1860
+Size=1597,2400
   
 Item=I1_DO_YOU_OWN_OPERATE_AN_AGRICULTURE_AQUACULTURE
 Item=IF_YES_WHICH_OF_THE_FOLLOWING_ACTIVITIES_DOES_TH
@@ -583,6 +583,24 @@ Item=OTHER_PERENNIAL_CROPS_AREA_SQM
 Item=OTHER_PERENNIAL_CROPS_ANNUAL_HARVEST_PHP
 Item=TOTAL_SQ_METER_FOR_TYPE_FO_CROP
 Item=TOTAL_ANNUAL_HARVEST_PHP_FOR_TYPE_OF_CROP
+Item=I1_5_WHAT_IS_THE_PLANTING_PATTERN_OF_THE_CROPS_F
+Item=I1_6_WHAT_IS_THE_PLANTING_PATTERN_OF_THE_CROPS_F
+Item=I1_7_WHAT_IS_THE_SCALE_OF_CROP_PRODUCTION
+Item=I1_8_HOW_ARE_THE_CROPS_UTILIZED
+Item=I1_9_HOW_ARE_THE_FOREST_TREES_FRUIT_BEARING_TREE
+Item=I1_10_PRIMARY_PRODUCT_GOODS_PRODUCED
+Item=I1_11_WHAT_IS_THE_PRIMARY_SOURCE_OF_WATER_IRRIGA
+Item=I2_1_DO_YOU_OR_ANY_MEMBER_OF_YOUR_FAMILY_GRAZE_R_1
+Item=I2_2_IF_YES_WHICH_OF_THE_FOLLOWING_ACTIVITIES_AR
+Item=I2_3_SCALE_OF_PRODUCTION
+Item=I2_4_WHAT_IS_THE_PURPOSE_USE_OF_LIVESTOCK_ANIMAL
+Item=I2_5_LIVESTOCK_OTHER_ANIMALS
+Item=CATTLE_COW_NO_OF_HEADS
+Item=CATTLE_COW_ANNUAL_INCOME
+Item=CARABAO_NO_HEADS
+Item=CARABAO_ANNUAL_INCOME
+Item=SWINE_PIG_NO_OF_HEADS
+Item=SWINE_PIG_ANNUAL_INCOME
   
 [EndForm]
   
@@ -6336,6 +6354,224 @@ Form=15
 [Text]
 Position=50,1830,325,1846
 Text=Total Annual Harvest (Php) for Type of Crop
+ 
+  
+[Field]
+Name=I1_5_WHAT_IS_THE_PLANTING_PATTERN_OF_THE_CROPS_F
+Position=1356,1857,1371,1877
+Item=I1_5_WHAT_IS_THE_PLANTING_PATTERN_OF_THE_CROPS_F,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=15
+  
+[Text]
+Position=50,1860,484,1876
+Text=I1.5 What is the planting pattern of the crops (for annual crops only)?
+ 
+  
+[Field]
+Name=I1_6_WHAT_IS_THE_PLANTING_PATTERN_OF_THE_CROPS_F
+Position=1356,1887,1371,1907
+Item=I1_6_WHAT_IS_THE_PLANTING_PATTERN_OF_THE_CROPS_F,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=15
+  
+[Text]
+Position=50,1890,544,1906
+Text=I1.6 What is the planting pattern of the crops (for perennial crops / trees only)?
+ 
+  
+[Field]
+Name=I1_7_WHAT_IS_THE_SCALE_OF_CROP_PRODUCTION
+Position=1356,1917,1371,1937
+Item=I1_7_WHAT_IS_THE_SCALE_OF_CROP_PRODUCTION,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=15
+  
+[Text]
+Position=50,1920,312,1936
+Text=I1.7 What is the scale of crop production?
+ 
+  
+[Field]
+Name=I1_8_HOW_ARE_THE_CROPS_UTILIZED
+Position=1356,1947,1371,1967
+Item=I1_8_HOW_ARE_THE_CROPS_UTILIZED,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=15
+  
+[Text]
+Position=50,1950,250,1966
+Text=I1.8 How are the crops utilized?
+ 
+  
+[Field]
+Name=I1_9_HOW_ARE_THE_FOREST_TREES_FRUIT_BEARING_TREE
+Position=1356,1977,1371,1997
+Item=I1_9_HOW_ARE_THE_FOREST_TREES_FRUIT_BEARING_TREE,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=15
+  
+[Text]
+Position=50,1980,558,1996
+Text=I1.9 How are the forest trees, fruit bearing trees, palms and ornamental utilized?
+ 
+  
+[Field]
+Name=I1_10_PRIMARY_PRODUCT_GOODS_PRODUCED
+Position=1356,2007,1766,2027
+Item=I1_10_PRIMARY_PRODUCT_GOODS_PRODUCED,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2010,303,2026
+Text=I1.10 Primary product / goods produced:
+ 
+  
+[Field]
+Name=I1_11_WHAT_IS_THE_PRIMARY_SOURCE_OF_WATER_IRRIGA
+Position=1356,2037,1371,2057
+Item=I1_11_WHAT_IS_THE_PRIMARY_SOURCE_OF_WATER_IRRIGA,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=15
+  
+[Text]
+Position=50,2040,513,2056
+Text=I1.11 What is the primary source of water / irrigation for the crops / trees?
+ 
+  
+[Field]
+Name=I2_1_DO_YOU_OR_ANY_MEMBER_OF_YOUR_FAMILY_GRAZE_R_1
+Position=1356,2067,1371,2087
+Item=I2_1_DO_YOU_OR_ANY_MEMBER_OF_YOUR_FAMILY_GRAZE_R_1,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=15
+  
+[Text]
+Position=50,2070,577,2086
+Text=I2.1 Do you or any member of your family graze/raise animals in the affected area?
+ 
+  
+[Field]
+Name=I2_2_IF_YES_WHICH_OF_THE_FOLLOWING_ACTIVITIES_AR
+Position=1356,2097,1469,2117
+Item=I2_2_IF_YES_WHICH_OF_THE_FOLLOWING_ACTIVITIES_AR,LASSODD_DICT
+DataCaptureType=CheckBox
+Form=15
+  
+[Text]
+Position=50,2100,447,2116
+Text=I2.2 If Yes, which of the following activities are you engage in?
+ 
+  
+[Field]
+Name=I2_3_SCALE_OF_PRODUCTION
+Position=1356,2127,1371,2147
+Item=I2_3_SCALE_OF_PRODUCTION,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=15
+  
+[Text]
+Position=50,2130,204,2146
+Text=I2.3 Scale of production:
+ 
+  
+[Field]
+Name=I2_4_WHAT_IS_THE_PURPOSE_USE_OF_LIVESTOCK_ANIMAL
+Position=1356,2157,1371,2177
+Item=I2_4_WHAT_IS_THE_PURPOSE_USE_OF_LIVESTOCK_ANIMAL,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=15
+  
+[Text]
+Position=50,2160,406,2176
+Text=I2.4 What is the purpose/use of livestock/animal raising?
+ 
+  
+[Field]
+Name=I2_5_LIVESTOCK_OTHER_ANIMALS
+Position=1356,2187,1374,2207
+Item=I2_5_LIVESTOCK_OTHER_ANIMALS,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2190,226,2206
+Text=I2.5 Livestock/other animals
+ 
+  
+[Field]
+Name=CATTLE_COW_NO_OF_HEADS
+Position=1356,2217,1567,2237
+Item=CATTLE_COW_NO_OF_HEADS,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2220,234,2236
+Text=1. Cattle (Cow) (No. of Heads)
+ 
+  
+[Field]
+Name=CATTLE_COW_ANNUAL_INCOME
+Position=1356,2247,1567,2267
+Item=CATTLE_COW_ANNUAL_INCOME,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2250,250,2266
+Text=1. Cattle (Cow) (Annual Income)
+ 
+  
+[Field]
+Name=CARABAO_NO_HEADS
+Position=1356,2277,1567,2297
+Item=CARABAO_NO_HEADS,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2280,195,2296
+Text=2. Carabao (No. Heads)
+ 
+  
+[Field]
+Name=CARABAO_ANNUAL_INCOME
+Position=1356,2307,1567,2327
+Item=CARABAO_ANNUAL_INCOME,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2310,227,2326
+Text=2. Carabao (Annual Income)
+ 
+  
+[Field]
+Name=SWINE_PIG_NO_OF_HEADS
+Position=1356,2337,1567,2357
+Item=SWINE_PIG_NO_OF_HEADS,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2340,230,2356
+Text=3. Swine (Pig) (No. of Heads)
+ 
+  
+[Field]
+Name=SWINE_PIG_ANNUAL_INCOME
+Position=1356,2367,1567,2387
+Item=SWINE_PIG_ANNUAL_INCOME,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2370,246,2386
+Text=3. Swine (Pig) (Annual Income)
  
 [EndGroup]
   
