@@ -1503,6 +1503,13 @@
               "zeroFill": true
             }, 
             {
+              "name": "D1_6_NUMBER_OF_RENTERS_TENANTS_IF_ANY", 
+              "labels": [ { "text": "D1.6 Number of renters/tenants, if any ): *" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
               "name": "D1_7_HOW_MUCH_IS_THE_AVERAGE_RENT_PER_MONTH_PHP", 
               "labels": [ { "text": "D1.7 How much is the average rent per month? (Php)" } ], 
               "contentType": "numeric", 
@@ -2955,6 +2962,158 @@
               ]
             }, 
             {
+              "name": "G1_3_6_IF_WAGE_BASED_WHAT_IS_THE_STATUS_OF_EMPLO", 
+              "labels": [ { "text": "G1.3.6 If wage-based, what is the status of employment? *" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "G1_3_6_IF_WAGE_BASED_WHAT_IS_THE_STATUS_OF_EMPLO_VS1", 
+                  "labels": [ { "text": "G1.3.6 If wage-based, what is the status of employment? *" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Permanent/Regular" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Contractual/Project Based" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Temporary/ Casual" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Seasonal/ Intermittent" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Others, please specify" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "G1_3_7_IF_WAGE_BASED_WHAT_TYPE_PLEASE_SPECIFY", 
+              "labels": [ { "text": "G1.3.7 If wage-based what type? (please specify) *" } ], 
+              "contentType": "alpha", 
+              "length": 2, 
+              "valueSets": [
+                {
+                  "name": "G1_3_7_IF_WAGE_BASED_WHAT_TYPE_PLEASE_SPECIFY_VS1", 
+                  "labels": [ { "text": "G1.3.7 If wage-based what type? (please specify) *" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Office Work" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Public Official" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Sales/Vendor" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Driver" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Househelp" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Construction Worker" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "7. Industry Worker" } ], 
+                      "pairs": [ { "value": "7" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "8. Farm work" } ], 
+                      "pairs": [ { "value": "8" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "9. Fishing activity" } ], 
+                      "pairs": [ { "value": "9" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "10. Production/Factory Workers" } ], 
+                      "pairs": [ { "value": "10" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "11. Aviation" } ], 
+                      "pairs": [ { "value": "11" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "12. Arts" } ], 
+                      "pairs": [ { "value": "12" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "13. Business (worker receiving salary)" } ], 
+                      "pairs": [ { "value": "13" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "14. Law Enforcement" } ], 
+                      "pairs": [ { "value": "14" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "15. Media" } ], 
+                      "pairs": [ { "value": "15" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "16. Medical" } ], 
+                      "pairs": [ { "value": "16" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "17. Service Industry" } ], 
+                      "pairs": [ { "value": "17" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "18. Teaching" } ], 
+                      "pairs": [ { "value": "18" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "19. Technology" } ], 
+                      "pairs": [ { "value": "19" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "20. Animal Career" } ], 
+                      "pairs": [ { "value": "20" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "21. Military Service" } ], 
+                      "pairs": [ { "value": "21" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "22. Clergy Profession" } ], 
+                      "pairs": [ { "value": "22" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "23. Sea-based Careers" } ], 
+                      "pairs": [ { "value": "23" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "24. OFW" } ], 
+                      "pairs": [ { "value": "24" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "25. Engineering Professionals" } ], 
+                      "pairs": [ { "value": "25" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "26. Others, specify" } ], 
+                      "pairs": [ { "value": "26" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
               "name": "G1_4_1_SECONDARY_SOURCE_OF_INCOME", 
               "labels": [ { "text": "G1.4.1 Secondary Source of Income *" } ], 
               "contentType": "alpha", 
@@ -3086,6 +3245,40 @@
                     {
                       "labels": [ { "text": "7. Irregular, Please specify" } ], 
                       "pairs": [ { "value": "7" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "G1_4_5_IF_LAND_BASED_WHAT_TYPE", 
+              "labels": [ { "text": "G1.4.5 If land-based, what type? *" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "G1_4_5_IF_LAND_BASED_WHAT_TYPE_VS1", 
+                  "labels": [ { "text": "G1.4.5 If land-based, what type? *" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Crop Production" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Fish Production" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Livestock/poultry production" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Mix" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Others, specify" } ], 
+                      "pairs": [ { "value": "5" } ]
                     }
                   ]
                 }
@@ -7040,6 +7233,736 @@
             {
               "name": "SWINE_PIG_ANNUAL_INCOME", 
               "labels": [ { "text": "3. Swine (Pig) (Annual Income)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "GOAT_NO_OF_HEADS", 
+              "labels": [ { "text": "4. Goat (No. of Heads)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "GOAT_ANNUAL_INCOME", 
+              "labels": [ { "text": "4. Goat (Annual Income)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "SHEEP", 
+              "labels": [ { "text": "5. Sheep (No. of Heads)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "SHEEP_ANNUAL_INCOME", 
+              "labels": [ { "text": "5. Sheep (Annual Income)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "HORSE_NO_OF_HEADS", 
+              "labels": [ { "text": "6. Horse (No. of Heads)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "HORSE_ANNUAL_INCOME", 
+              "labels": [ { "text": "6. Horse (Annual Income)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "RACE_HORSE", 
+              "labels": [ { "text": "7. Race Horse (No. of Heads)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "RACE_HORSE_ANNUAL_INCOME", 
+              "labels": [ { "text": "7. Race Horse (Annual Income)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "BREEDER_DOGS_NO_OF_HEADS", 
+              "labels": [ { "text": "8. Breeder dogs (No. of Heads)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "BREEDER_DOGS_ANNUAL_INCOME", 
+              "labels": [ { "text": "8. Breeder dogs (Annual Income)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "OTHER_LIVESTOCK_ANIMALS_SPECIFY_BELOW", 
+              "labels": [ { "text": "9. Other livestock/animals, specify below" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "OTHER_LIVESTOCK_ANIMALS_SPECIFY_BELOW_1", 
+              "labels": [ { "text": "9. Other livestock/animals, specify below" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "OTHER_LIVESTOCK_ANIMALS_SPECIFY_BELOW_2", 
+              "labels": [ { "text": "9. Other livestock/animals, specify below" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "NATIVE_CHICKEN_NO_OF_BIRDS", 
+              "labels": [ { "text": "1. Native Chicken (No. of Birds)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "NATIVE_CHICKEN_ANNUAL_INCOME", 
+              "labels": [ { "text": "1. Native Chicken (Annual Income)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "BROILER_CHICKEN_NO_OF_BIRDS", 
+              "labels": [ { "text": "2. Broiler Chicken (No. of Birds)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "BROILER_CHICKEN_ANNUAL_INCOME", 
+              "labels": [ { "text": "2. Broiler Chicken (Annual Income)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "LAYER_CHICKEN_NO_OF_BIRDS", 
+              "labels": [ { "text": "3. Layer Chicken (No. of Birds)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "LAYER_CHICKEN_NO_BIRDS", 
+              "labels": [ { "text": "3. Layer Chicken (Annual Income)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "GAME_FOWL", 
+              "labels": [ { "text": "4. Game Fowl (No. of Birds)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "GAME_FOWL_ANNUAL_INCOME", 
+              "labels": [ { "text": "4. Game Fowl (Annual Income)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "BROILER_DUCK_NO_OF_BIRDS", 
+              "labels": [ { "text": "1. Broiler Duck (No. of Birds) " } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "BROILER_DUCK_ANNUAL_INCOME", 
+              "labels": [ { "text": "1. Broiler Duck (Annual Income)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "LAYER_DUCK_NO_OF_BIRDS", 
+              "labels": [ { "text": "2. Layer Duck (No. of Birds)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "LAYER_DUCK_ANNUAL_INCOME", 
+              "labels": [ { "text": "2. Layer Duck (Annual Income)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "BREEDER_DUCK_NO_OF_BIRDS", 
+              "labels": [ { "text": "3. Breeder Duck (No. of Birds)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "BREEDER_DUCK_ANNUAL_INCOME", 
+              "labels": [ { "text": "3. Breeder Duck (Annual Income)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "QUAIL_DUCK_NO_OF_BIRDS", 
+              "labels": [ { "text": "4. Quail Duck (No. of Birds)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "QUAIL_DUCK_ANNUAL_INCOME", 
+              "labels": [ { "text": "4. Quail Duck (Annual Income)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "OTHER_POULTRY_SPECIFY_BELOW", 
+              "labels": [ { "text": "5. Other Poultry, specify below" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "OTHER_POULTRY_SPECIFY_BELOW_1", 
+              "labels": [ { "text": "5. Other Poultry, specify below" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "I3_1_IS_THERE_ANY_MEMBER_OF_THIS_HOUSEHOLD_WHO_I_1", 
+              "labels": [ { "text": "I3.1 Is there any member of this household who is engage/operated in culturing fish, seaweeds or other aquatic plants and animals in a fishpond, fish cage or other types of aqua-farm in the affected area?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "I3_1_IS_THERE_ANY_MEMBER_OF_THIS_HOUSEHOLD_WHO_I_1_VS1", 
+                  "labels": [ { "text": "I3.1 Is there any member of this household who is engage/operated in culturing fish, seaweeds or other aquatic plants and animals in a fishpond, fish cage or other types of aqua-farm in the affected area?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I3_2_FISH_PEN_POND_INFORMATION", 
+              "labels": [ { "text": "I3.2 Fish Pen / Pond Information" } ], 
+              "contentType": "alpha", 
+              "length": 1
+            }, 
+            {
+              "name": "I3_2_1_FRESH_WATER_AQUAMARINE_PRODUCTS_1", 
+              "labels": [ { "text": "I3.2.1 Fresh Water / Aquamarine Products" } ], 
+              "contentType": "alpha", 
+              "length": 1
+            }, 
+            {
+              "name": "TILAPIA", 
+              "labels": [ { "text": "1. TIlapia" } ], 
+              "contentType": "alpha", 
+              "length": 1
+            }, 
+            {
+              "name": "I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA", 
+              "labels": [ { "text": "I3.2.2 Size of fish cage/pen/pond (in ha)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "I3_2_3_NUMBER_OF_CAGES_PENS", 
+              "labels": [ { "text": "I3.2.3 Number of Cages / Pens" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "I3_2_4_ANNUAL_HARVEST_IN_PHP", 
+              "labels": [ { "text": "I3.2.4 Annual Harvest (In Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "MILK_FISH_BANGUS", 
+              "labels": [ { "text": "2. Milk Fish / Bangus" } ], 
+              "contentType": "alpha", 
+              "length": 1
+            }, 
+            {
+              "name": "I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_1", 
+              "labels": [ { "text": "I3.2.2 Size of fish cage/pen/pond (in ha)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "I3_2_3_NUMBER_OF_CAGES_PENS_1", 
+              "labels": [ { "text": "I3.2.3 Number of Cages / Pens" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "I3_2_4_ANNUAL_HARVEST_IN_PHP_1", 
+              "labels": [ { "text": "I3.2.4 Annual Harvest (In Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "CRUSTACEANS", 
+              "labels": [ { "text": "3. Crustaceans" } ], 
+              "contentType": "alpha", 
+              "length": 1
+            }, 
+            {
+              "name": "I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_2", 
+              "labels": [ { "text": "I3.2.2 Size of fish cage/pen/pond (in ha)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "I3_2_3_NUMBER_OF_CAGES_PENS_2", 
+              "labels": [ { "text": "I3.2.3 Number of Cages / Pens" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "I3_2_4_ANNUAL_HARVEST_IN_PHP_2", 
+              "labels": [ { "text": "I3.2.4 Annual Harvest (In Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "SEAWEED", 
+              "labels": [ { "text": "4. Seaweed" } ], 
+              "contentType": "alpha", 
+              "length": 1
+            }, 
+            {
+              "name": "I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_3", 
+              "labels": [ { "text": "I3.2.2 Size of fish cage/pen/pond (in ha)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "I3_2_3_NUMBER_OF_CAGES_PENS_3", 
+              "labels": [ { "text": "I3.2.3 Number of Cages / Pens" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "I3_2_4_ANNUAL_HARVEST_IN_PHP_3", 
+              "labels": [ { "text": "I3.2.4 Annual Harvest (In Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "WATER_LILY", 
+              "labels": [ { "text": "5. Water Lily" } ], 
+              "contentType": "alpha", 
+              "length": 1
+            }, 
+            {
+              "name": "I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_4", 
+              "labels": [ { "text": "I3.2.2 Size of fish cage/pen/pond (in ha)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "I3_2_3_NUMBER_OF_CAGES_PENS_4", 
+              "labels": [ { "text": "I3.2.3 Number of Cages / Pens" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "I3_2_4_ANNUAL_HARVEST_IN_PHP_4", 
+              "labels": [ { "text": "I3.2.4 Annual Harvest (In Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "OTHERS", 
+              "labels": [ { "text": "6. Others:" } ], 
+              "contentType": "alpha", 
+              "length": 1
+            }, 
+            {
+              "name": "SPECIFY", 
+              "labels": [ { "text": "Specify" } ], 
+              "contentType": "alpha", 
+              "length": 20
+            }, 
+            {
+              "name": "I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_5", 
+              "labels": [ { "text": "I3.2.2 Size of fish cage/pen/pond (in ha)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "I3_2_3_NUMBER_OF_CAGES_PENS_5", 
+              "labels": [ { "text": "I3.2.3 Number of Cages / Pens" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "I3_2_4_ANNUAL_HARVEST_IN_PHP_5", 
+              "labels": [ { "text": "I3.2.4 Annual Harvest (In Php)" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "I3_3_TOTAL", 
+              "labels": [ { "text": "I3.3 Total" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "I3_4_WHAT_IS_THE_SCALE_OF_FISH_PEN_POND_OPERATIO", 
+              "labels": [ { "text": "I3.4 What is the scale of fish pen/pond operation?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "I3_4_WHAT_IS_THE_SCALE_OF_FISH_PEN_POND_OPERATIO_VS1", 
+                  "labels": [ { "text": "I3.4 What is the scale of fish pen/pond operation?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Subsistence" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Small to Medium Scale" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Commercial Scale" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I3_5_HOW_IS_THE_FISH_PEN_POND_UTILIZED", 
+              "labels": [ { "text": "I3.5 How is the fish pen/pond utilized?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "I3_5_HOW_IS_THE_FISH_PEN_POND_UTILIZED_VS1", 
+                  "labels": [ { "text": "I3.5 How is the fish pen/pond utilized?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. For family consumption only" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. For profit" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Both" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I3_6_DO_YOU_CATCH_FISH_IN_THE_AFFECTED_AREA", 
+              "labels": [ { "text": "I3.6 Do you catch fish in the affected area? " } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "I3_6_DO_YOU_CATCH_FISH_IN_THE_AFFECTED_AREA_VS1", 
+                  "labels": [ { "text": "I3.6 Do you catch fish in the affected area? " } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I4_1_DID_YOU_ANSWER_YES_IN_ANY_ONE_I1_I2_I3_ABOV", 
+              "labels": [ { "text": "I4.1 Did you answer YES in any one (I1, I2, I3) above? " } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "I4_1_DID_YOU_ANSWER_YES_IN_ANY_ONE_I1_I2_I3_ABOV_VS1", 
+                  "labels": [ { "text": "I4.1 Did you answer YES in any one (I1, I2, I3) above? " } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I4_2_DID_YOU_REGISTER_YOUR_LAND_WATER_BASED_ACTI", 
+              "labels": [ { "text": "I4.2 Did you register your land/water-based activity?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "I4_2_DID_YOU_REGISTER_YOUR_LAND_WATER_BASED_ACTI_VS1", 
+                  "labels": [ { "text": "I4.2 Did you register your land/water-based activity?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I4_3_DO_YOU_HAVE_PAID_AGRICULTURE_AQUACULTURE_WO", 
+              "labels": [ { "text": "I4.3 Do you have paid agriculture/aquaculture workers?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "I4_3_DO_YOU_HAVE_PAID_AGRICULTURE_AQUACULTURE_WO_VS1", 
+                  "labels": [ { "text": "I4.3 Do you have paid agriculture/aquaculture workers?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I4_4_HOW_MANY_PAID_AGRICULTURAL_AQUACULTURE_FISH", 
+              "labels": [ { "text": "I4.4 How many paid agricultural/aquaculture/fishery workers do you employ? " } ], 
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false, 
+              "valueSets": [
+                {
+                  "name": "I4_4_HOW_MANY_PAID_AGRICULTURAL_AQUACULTURE_FISH_VS1", 
+                  "labels": [ { "text": "I4.4 How many paid agricultural/aquaculture/fishery workers do you employ? " } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. 1-9" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. 10-99" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. 100-199" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. 200 and up" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I4_5_DO_YOU_OWN_THE_OPERATION_OF_THE_AGRICULTURE", 
+              "labels": [ { "text": "I4.5 Do you own the operation of the agriculture/aquaculture?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "I4_5_DO_YOU_OWN_THE_OPERATION_OF_THE_AGRICULTURE_VS1", 
+                  "labels": [ { "text": "I4.5 Do you own the operation of the agriculture/aquaculture?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. No" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Solely owned" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Co-owned" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Group owned" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Owned by someone else" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I4_6_DO_YOU_OWN_THE_AFFECTED_LAND_BODY_OF_WATER", 
+              "labels": [ { "text": "I4.6 Do you own the affected land/body of water?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "I4_6_DO_YOU_OWN_THE_AFFECTED_LAND_BODY_OF_WATER_VS1", 
+                  "labels": [ { "text": "I4.6 Do you own the affected land/body of water?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Yes" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. No" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I4_7_IF_NOT_WHAT_IS_YOUR_ARRANGEMENT_WITH_THE_LA", 
+              "labels": [ { "text": "I4.7 If not, what is your arrangement with the landowner or lake/marine administrator?" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "I4_7_IF_NOT_WHAT_IS_YOUR_ARRANGEMENT_WITH_THE_LA_VS1", 
+                  "labels": [ { "text": "I4.7 If not, what is your arrangement with the landowner or lake/marine administrator?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Tenant" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Sharecropper" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Lessee" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Occupied without permission" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Occupied with permission" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Mortgaged/pawned*" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "7. Others (Specify)" } ], 
+                      "pairs": [ { "value": "7" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "I4_8_IF_TENANT_LESSEE_HOW_MUCH_DO_YOU_PAY_THE_LA", 
+              "labels": [ { "text": "I4.8 If Tenant/Lessee, how much do you pay the landowner per year? ( Php )" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "I4_9_WHAT_IS_THE_SIZE_OF_THE_RENTED_LEASED_USED", 
+              "labels": [ { "text": "I4.9 What is the size of the rented/leased/used area? ( sq.m. )" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "I4_10_IF_SHARECROPPER_WHAT_IS_YOUR_SHARING_ARRAN", 
+              "labels": [ { "text": "I4.10 If sharecropper, what is your sharing arrangement with the owner?" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "OWNER", 
+              "labels": [ { "text": "% owner" } ], 
+              "contentType": "numeric", 
+              "length": 15, 
+              "zeroFill": false
+            }, 
+            {
+              "name": "SHARECROPPER", 
+              "labels": [ { "text": "% sharecropper" } ], 
               "contentType": "numeric", 
               "length": 15, 
               "zeroFill": false

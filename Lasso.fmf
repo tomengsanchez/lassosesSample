@@ -140,7 +140,7 @@ Item=C5_ASSOCIATED_STRUCTURE000
 Name=FORM009
 Label=D Structure Ownership
 Level=1
-Size=1597,1200
+Size=1597,1230
   
 Item=DO_YOU_OWN_THE_TAGGED_STRUCTURE
 Item=IF_YES
@@ -174,6 +174,7 @@ Item=CONTACT_NUMBER_3_1
 Item=FIRST_5
 Item=LAST_5
 Item=CONTACT_NUMBER_3
+Item=D1_6_NUMBER_OF_RENTERS_TENANTS_IF_ANY
 Item=D1_7_HOW_MUCH_IS_THE_AVERAGE_RENT_PER_MONTH_PHP
 Item=D1_8_DO_YOU_PAY_TAXES_FOR_THE_STRUCTURE
 Item=D1_9_IF_YES_HOW_MUCH_IS_PAID_IN_TAXES_ANNUALLY
@@ -236,7 +237,7 @@ Item=F2_CURRENT_ACTUAL_USE_OF_LAND_CAN_BE_MULTIPLE_RE_1
 Name=FORM012
 Label=G1. HOUSEHOLD INFORMATION
 Level=1
-Size=1597,7260
+Size=1597,7350
   
 Item=G1_1_1_NUMBER_OF_HOUSEHOLD_MEMBERS
 Item=G2_1_2_NAME
@@ -256,10 +257,13 @@ Item=G1_3_1_MAIN_SOURCE_OF_INCOME_1
 Item=G1_3_2_INCOME_PHP_MONTH
 Item=G1_3_3_LOCATION
 Item=G1_3_4_BASIS_OF_INCOME_PAYMENT
+Item=G1_3_6_IF_WAGE_BASED_WHAT_IS_THE_STATUS_OF_EMPLO
+Item=G1_3_7_IF_WAGE_BASED_WHAT_TYPE_PLEASE_SPECIFY
 Item=G1_4_1_SECONDARY_SOURCE_OF_INCOME
 Item=G1_4_2_INCOME_PHP_MONTH
 Item=G1_4_3_LOCATION
 Item=G1_4_4_BASIS_OF_INCOME_PAYMENT
+Item=G1_4_5_IF_LAND_BASED_WHAT_TYPE
 Item=G1_4_6_IF_WAGE_BASED_WHAT_IS_THE_STATUS_OF_EMPLO
 Item=G1_4_7_IF_WAGE_BASED_WHAT_TYPE_PLEASE_SPECIFY
 Item=G1_5_1_CURRENT_SKILLS
@@ -520,7 +524,7 @@ Item=H2_3_4_SKILLS_2
 Name=FORM014
 Label=I. CENSUS OF AGRICULTURE AND FISHERIES
 Level=1
-Size=1597,2400
+Size=1597,4650
   
 Item=I1_DO_YOU_OWN_OPERATE_AN_AGRICULTURE_AQUACULTURE
 Item=IF_YES_WHICH_OF_THE_FOLLOWING_ACTIVITIES_DOES_TH
@@ -601,6 +605,81 @@ Item=CARABAO_NO_HEADS
 Item=CARABAO_ANNUAL_INCOME
 Item=SWINE_PIG_NO_OF_HEADS
 Item=SWINE_PIG_ANNUAL_INCOME
+Item=GOAT_NO_OF_HEADS
+Item=GOAT_ANNUAL_INCOME
+Item=SHEEP
+Item=SHEEP_ANNUAL_INCOME
+Item=HORSE_NO_OF_HEADS
+Item=HORSE_ANNUAL_INCOME
+Item=RACE_HORSE
+Item=RACE_HORSE_ANNUAL_INCOME
+Item=BREEDER_DOGS_NO_OF_HEADS
+Item=BREEDER_DOGS_ANNUAL_INCOME
+Item=OTHER_LIVESTOCK_ANIMALS_SPECIFY_BELOW
+Item=OTHER_LIVESTOCK_ANIMALS_SPECIFY_BELOW_1
+Item=OTHER_LIVESTOCK_ANIMALS_SPECIFY_BELOW_2
+Item=NATIVE_CHICKEN_NO_OF_BIRDS
+Item=NATIVE_CHICKEN_ANNUAL_INCOME
+Item=BROILER_CHICKEN_NO_OF_BIRDS
+Item=BROILER_CHICKEN_ANNUAL_INCOME
+Item=LAYER_CHICKEN_NO_OF_BIRDS
+Item=LAYER_CHICKEN_NO_BIRDS
+Item=GAME_FOWL
+Item=GAME_FOWL_ANNUAL_INCOME
+Item=BROILER_DUCK_NO_OF_BIRDS
+Item=BROILER_DUCK_ANNUAL_INCOME
+Item=LAYER_DUCK_NO_OF_BIRDS
+Item=LAYER_DUCK_ANNUAL_INCOME
+Item=BREEDER_DUCK_NO_OF_BIRDS
+Item=BREEDER_DUCK_ANNUAL_INCOME
+Item=QUAIL_DUCK_NO_OF_BIRDS
+Item=QUAIL_DUCK_ANNUAL_INCOME
+Item=OTHER_POULTRY_SPECIFY_BELOW
+Item=OTHER_POULTRY_SPECIFY_BELOW_1
+Item=I3_1_IS_THERE_ANY_MEMBER_OF_THIS_HOUSEHOLD_WHO_I_1
+Item=I3_2_FISH_PEN_POND_INFORMATION
+Item=I3_2_1_FRESH_WATER_AQUAMARINE_PRODUCTS_1
+Item=TILAPIA
+Item=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA
+Item=I3_2_3_NUMBER_OF_CAGES_PENS
+Item=I3_2_4_ANNUAL_HARVEST_IN_PHP
+Item=MILK_FISH_BANGUS
+Item=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_1
+Item=I3_2_3_NUMBER_OF_CAGES_PENS_1
+Item=I3_2_4_ANNUAL_HARVEST_IN_PHP_1
+Item=CRUSTACEANS
+Item=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_2
+Item=I3_2_3_NUMBER_OF_CAGES_PENS_2
+Item=I3_2_4_ANNUAL_HARVEST_IN_PHP_2
+Item=SEAWEED
+Item=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_3
+Item=I3_2_3_NUMBER_OF_CAGES_PENS_3
+Item=I3_2_4_ANNUAL_HARVEST_IN_PHP_3
+Item=WATER_LILY
+Item=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_4
+Item=I3_2_3_NUMBER_OF_CAGES_PENS_4
+Item=I3_2_4_ANNUAL_HARVEST_IN_PHP_4
+Item=OTHERS
+Item=SPECIFY
+Item=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_5
+Item=I3_2_3_NUMBER_OF_CAGES_PENS_5
+Item=I3_2_4_ANNUAL_HARVEST_IN_PHP_5
+Item=I3_3_TOTAL
+Item=I3_4_WHAT_IS_THE_SCALE_OF_FISH_PEN_POND_OPERATIO
+Item=I3_5_HOW_IS_THE_FISH_PEN_POND_UTILIZED
+Item=I3_6_DO_YOU_CATCH_FISH_IN_THE_AFFECTED_AREA
+Item=I4_1_DID_YOU_ANSWER_YES_IN_ANY_ONE_I1_I2_I3_ABOV
+Item=I4_2_DID_YOU_REGISTER_YOUR_LAND_WATER_BASED_ACTI
+Item=I4_3_DO_YOU_HAVE_PAID_AGRICULTURE_AQUACULTURE_WO
+Item=I4_4_HOW_MANY_PAID_AGRICULTURAL_AQUACULTURE_FISH
+Item=I4_5_DO_YOU_OWN_THE_OPERATION_OF_THE_AGRICULTURE
+Item=I4_6_DO_YOU_OWN_THE_AFFECTED_LAND_BODY_OF_WATER
+Item=I4_7_IF_NOT_WHAT_IS_YOUR_ARRANGEMENT_WITH_THE_LA
+Item=I4_8_IF_TENANT_LESSEE_HOW_MUCH_DO_YOU_PAY_THE_LA
+Item=I4_9_WHAT_IS_THE_SIZE_OF_THE_RENTED_LEASED_USED
+Item=I4_10_IF_SHARECROPPER_WHAT_IS_YOUR_SHARING_ARRAN
+Item=OWNER
+Item=SHARECROPPER
   
 [EndForm]
   
@@ -1879,86 +1958,98 @@ Text=Contact Number
  
   
 [Field]
+Name=D1_6_NUMBER_OF_RENTERS_TENANTS_IF_ANY
+Position=584,987,795,1007
+Item=D1_6_NUMBER_OF_RENTERS_TENANTS_IF_ANY,LASSODD_DICT
+DataCaptureType=TextBox
+Form=10
+  
+[Text]
+Position=50,990,309,1006
+Text=D1.6 Number of renters/tenants, if any ): *
+ 
+  
+[Field]
 Name=D1_7_HOW_MUCH_IS_THE_AVERAGE_RENT_PER_MONTH_PHP
-Position=584,987,725,1007
+Position=584,1017,725,1037
 Item=D1_7_HOW_MUCH_IS_THE_AVERAGE_RENT_PER_MONTH_PHP,LASSODD_DICT
 DataCaptureType=TextBox
 Form=10
   
 [Text]
-Position=50,990,385,1006
+Position=50,1020,385,1036
 Text=D1.7 How much is the average rent per month? (Php)
  
   
 [Field]
 Name=D1_8_DO_YOU_PAY_TAXES_FOR_THE_STRUCTURE
-Position=584,1017,599,1037
+Position=584,1047,599,1067
 Item=D1_8_DO_YOU_PAY_TAXES_FOR_THE_STRUCTURE,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=10
   
 [Text]
-Position=50,1020,306,1036
+Position=50,1050,306,1066
 Text=D1.8 Do you pay taxes for the structure? 
  
   
 [Field]
 Name=D1_9_IF_YES_HOW_MUCH_IS_PAID_IN_TAXES_ANNUALLY
-Position=584,1047,795,1067
+Position=584,1077,795,1097
 Item=D1_9_IF_YES_HOW_MUCH_IS_PAID_IN_TAXES_ANNUALLY,LASSODD_DICT
 DataCaptureType=TextBox
 Form=10
   
 [Text]
-Position=50,1050,360,1066
+Position=50,1080,360,1096
 Text=D1.9 If Yes, how much is paid in taxes annually? 
  
   
 [Field]
 Name=D2_IF_NOT_THE_OWNER_WHAT_TYPE_OF_ARRANGEMENT_DO
-Position=584,1077,599,1097
+Position=584,1107,599,1127
 Item=D2_IF_NOT_THE_OWNER_WHAT_TYPE_OF_ARRANGEMENT_DO,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=10
   
 [Text]
-Position=50,1080,570,1096
+Position=50,1110,570,1126
 Text=D2. If not the owner, what type of arrangement do you have with structure owner?
  
   
 [Field]
 Name=D2_1_IF_RENTER_SHARER_HOW_MUCH_IS_YOUR_RENT_SHAR
-Position=584,1107,795,1127
+Position=584,1137,795,1157
 Item=D2_1_IF_RENTER_SHARER_HOW_MUCH_IS_YOUR_RENT_SHAR,LASSODD_DICT
 DataCaptureType=TextBox
 Form=10
   
 [Text]
-Position=50,1110,492,1126
+Position=50,1140,492,1156
 Text=D2.1 If Renter/Sharer, how much is your rent/share per month? ( Php )
  
   
 [Field]
 Name=D3_WHAT_PROOF_DO_YOU_HAVE_TO_SHOW_ARRANGEMENT_WI
-Position=584,1137,599,1157
+Position=584,1167,599,1187
 Item=D3_WHAT_PROOF_DO_YOU_HAVE_TO_SHOW_ARRANGEMENT_WI,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=10
   
 [Text]
-Position=50,1140,444,1156
+Position=50,1170,444,1186
 Text=D3 What proof do you have to show arrangement with owner?
  
   
 [Field]
 Name=D3_1_IF_WRITTEN_CONTRACT_WHAT_ARE_THE_TERMS
-Position=584,1167,599,1187
+Position=584,1197,599,1217
 Item=D3_1_IF_WRITTEN_CONTRACT_WHAT_ARE_THE_TERMS,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=10
   
 [Text]
-Position=50,1170,327,1186
+Position=50,1200,327,1216
 Text=D3.1 If written contract, what are the terms?
  
 [EndGroup]
@@ -2571,216 +2662,215 @@ Text=G1.3.4 Basis of Income Payment *
  
   
 [Field]
-Name=G1_4_1_SECONDARY_SOURCE_OF_INCOME
+Name=G1_3_6_IF_WAGE_BASED_WHAT_IS_THE_STATUS_OF_EMPLO
 Position=646,567,661,587
+Item=G1_3_6_IF_WAGE_BASED_WHAT_IS_THE_STATUS_OF_EMPLO,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=13
+  
+[Text]
+Position=50,570,415,586
+Text=G1.3.6 If wage-based, what is the status of employment? *
+ 
+  
+[Field]
+Name=G1_3_7_IF_WAGE_BASED_WHAT_TYPE_PLEASE_SPECIFY
+Position=646,597,675,617
+Item=G1_3_7_IF_WAGE_BASED_WHAT_TYPE_PLEASE_SPECIFY,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=13
+  
+[Text]
+Position=50,600,367,616
+Text=G1.3.7 If wage-based what type? (please specify) *
+ 
+  
+[Field]
+Name=G1_4_1_SECONDARY_SOURCE_OF_INCOME
+Position=646,627,661,647
 Item=G1_4_1_SECONDARY_SOURCE_OF_INCOME,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,570,286,586
+Position=50,630,286,646
 Text=G1.4.1 Secondary Source of Income *
  
   
 [Field]
 Name=G1_4_2_INCOME_PHP_MONTH
-Position=646,597,857,617
+Position=646,657,857,677
 Item=G1_4_2_INCOME_PHP_MONTH,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,600,229,616
+Position=50,660,229,676
 Text=G1.4.2 Income (Php/Month) *
  
   
 [Field]
 Name=G1_4_3_LOCATION
-Position=646,627,661,647
+Position=646,687,661,707
 Item=G1_4_3_LOCATION,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,630,157,646
+Position=50,690,157,706
 Text=G1.4.3 Location *
  
   
 [Field]
 Name=G1_4_4_BASIS_OF_INCOME_PAYMENT
-Position=646,657,661,677
+Position=646,717,661,737
 Item=G1_4_4_BASIS_OF_INCOME_PAYMENT,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,660,262,676
+Position=50,720,262,736
 Text=G1.4.4 Basis of Income Payment *
  
   
 [Field]
+Name=G1_4_5_IF_LAND_BASED_WHAT_TYPE
+Position=646,747,661,767
+Item=G1_4_5_IF_LAND_BASED_WHAT_TYPE,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=13
+  
+[Text]
+Position=50,750,262,766
+Text=G1.4.5 If land-based, what type? *
+ 
+  
+[Field]
 Name=G1_4_6_IF_WAGE_BASED_WHAT_IS_THE_STATUS_OF_EMPLO
-Position=646,687,661,707
+Position=646,777,661,797
 Item=G1_4_6_IF_WAGE_BASED_WHAT_IS_THE_STATUS_OF_EMPLO,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,690,415,706
+Position=50,780,415,796
 Text=G1.4.6 If wage-based, what is the status of employment? *
  
   
 [Field]
 Name=G1_4_7_IF_WAGE_BASED_WHAT_TYPE_PLEASE_SPECIFY
-Position=646,717,675,737
+Position=646,807,675,827
 Item=G1_4_7_IF_WAGE_BASED_WHAT_TYPE_PLEASE_SPECIFY,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,720,367,736
+Position=50,810,367,826
 Text=G1.4.7 If wage-based what type? (please specify) *
  
   
 [Field]
 Name=G1_5_1_CURRENT_SKILLS
-Position=646,747,815,767
+Position=646,837,815,857
 Item=G1_5_1_CURRENT_SKILLS,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,750,187,766
+Position=50,840,187,856
 Text=G1.5.1 Current Skills *
  
   
 [Field]
 Name=G1_5_2_PREFERRED_SKILLS_TRAINING
-Position=646,777,815,797
+Position=646,867,815,887
 Item=G1_5_2_PREFERRED_SKILLS_TRAINING,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,780,257,796
+Position=50,870,257,886
 Text=G1.5.2 Preferred Skills Training *
  
   
 [Field]
 Name=G1_5_3_LOCATION_OF_ORGANIZATION
-Position=646,807,731,827
+Position=646,897,731,917
 Item=G1_5_3_LOCATION_OF_ORGANIZATION,LASSODD_DICT
 DataCaptureType=CheckBox
 Form=13
   
 [Text]
-Position=50,810,250,826
+Position=50,900,250,916
 Text=G1.5.3 Location of Organization
  
   
 [Field]
 Name=G1_5_4_VULNERABILITY
-Position=646,837,759,857
+Position=646,927,759,947
 Item=G1_5_4_VULNERABILITY,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,840,183,856
+Position=50,930,183,946
 Text=G1.5.4 Vulnerability *
  
   
 [Field]
 Name=G1_5_5_WHO_TAKES_CARE_OF_VULNERABLE_HOUSEHOLD_ME
-Position=646,867,661,887
+Position=646,957,661,977
 Item=G1_5_5_WHO_TAKES_CARE_OF_VULNERABLE_HOUSEHOLD_ME,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,870,423,886
+Position=50,960,423,976
 Text=G1.5.5 Who takes care of vulnerable household member? *
  
   
 [Field]
 Name=G2_1_DO_YOU_RESIDE_IN_THE_AFFECTED_AREA
-Position=646,897,661,917
+Position=646,987,661,1007
 Item=G2_1_DO_YOU_RESIDE_IN_THE_AFFECTED_AREA,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,900,314,916
+Position=50,990,314,1006
 Text=G2.1 Do you reside in the affected area? *
  
   
 [Field]
 Name=G3_1_EXPENSE_ITEMS
-Position=646,927,664,947
+Position=646,1017,664,1037
 Item=G3_1_EXPENSE_ITEMS,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,930,174,946
+Position=50,1020,174,1036
 Text=G3.1 Expense Items
  
   
 [Field]
 Name=RENT_LAND_E3_1
-Position=646,957,664,977
+Position=646,1047,664,1067
 Item=RENT_LAND_E3_1,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,960,172,976
+Position=50,1050,172,1066
 Text=1. Rent (land) - E3.1
  
   
 [Field]
 Name=G3_2_ESTIMATED_COST_PHP_MONTH
-Position=646,987,857,1007
-Item=G3_2_ESTIMATED_COST_PHP_MONTH,LASSODD_DICT
-DataCaptureType=TextBox
-Form=13
-  
-[Text]
-Position=50,990,255,1006
-Text=G3.2 Estimated Cost (Php/Month)
- 
-  
-[Field]
-Name=G3_3_REMARKS
-Position=646,1017,816,1037
-Item=G3_3_REMARKS,LASSODD_DICT
-UseUnicodeTextBox=Yes
-DataCaptureType=TextBox
-Form=13
-  
-[Text]
-Position=50,1020,137,1036
-Text=G3.3 Remarks
- 
-  
-[Field]
-Name=RENT_HOUSE_ROOM_D2_1
-Position=646,1047,661,1067
-Item=RENT_HOUSE_ROOM_D2_1,LASSODD_DICT
-DataCaptureType=TextBox
-Form=13
-  
-[Text]
-Position=50,1050,220,1066
-Text=2. Rent (house/room) - D2.1
- 
-  
-[Field]
-Name=G3_2_ESTIMATED_COST_PHP_MONTH_1
 Position=646,1077,857,1097
-Item=G3_2_ESTIMATED_COST_PHP_MONTH_1,LASSODD_DICT
+Item=G3_2_ESTIMATED_COST_PHP_MONTH,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
@@ -2790,9 +2880,9 @@ Text=G3.2 Estimated Cost (Php/Month)
  
   
 [Field]
-Name=G3_3_REMARKS_1
+Name=G3_3_REMARKS
 Position=646,1107,816,1127
-Item=G3_3_REMARKS_1,LASSODD_DICT
+Item=G3_3_REMARKS,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -2803,21 +2893,21 @@ Text=G3.3 Remarks
  
   
 [Field]
-Name=HOUSING_AMORTIZATION
+Name=RENT_HOUSE_ROOM_D2_1
 Position=646,1137,661,1157
-Item=HOUSING_AMORTIZATION,LASSODD_DICT
+Item=RENT_HOUSE_ROOM_D2_1,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,1140,200,1156
-Text=3. Housing amortization
+Position=50,1140,220,1156
+Text=2. Rent (house/room) - D2.1
  
   
 [Field]
-Name=G3_2_ESTIMATED_COST_PHP_MONTH_2
+Name=G3_2_ESTIMATED_COST_PHP_MONTH_1
 Position=646,1167,857,1187
-Item=G3_2_ESTIMATED_COST_PHP_MONTH_2,LASSODD_DICT
+Item=G3_2_ESTIMATED_COST_PHP_MONTH_1,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
@@ -2827,9 +2917,9 @@ Text=G3.2 Estimated Cost (Php/Month)
  
   
 [Field]
-Name=G3_3_REMARKS_2
+Name=G3_3_REMARKS_1
 Position=646,1197,816,1217
-Item=G3_3_REMARKS_2,LASSODD_DICT
+Item=G3_3_REMARKS_1,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -2840,21 +2930,21 @@ Text=G3.3 Remarks
  
   
 [Field]
-Name=CAR_MOTORCYCLE_AMORTIZATION
+Name=HOUSING_AMORTIZATION
 Position=646,1227,661,1247
-Item=CAR_MOTORCYCLE_AMORTIZATION,LASSODD_DICT
+Item=HOUSING_AMORTIZATION,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,1230,245,1246
-Text=4. Car/motorcycle amortization
+Position=50,1230,200,1246
+Text=3. Housing amortization
  
   
 [Field]
-Name=G3_2_ESTIMATED_COST_PHP_MONTH_3
+Name=G3_2_ESTIMATED_COST_PHP_MONTH_2
 Position=646,1257,857,1277
-Item=G3_2_ESTIMATED_COST_PHP_MONTH_3,LASSODD_DICT
+Item=G3_2_ESTIMATED_COST_PHP_MONTH_2,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
@@ -2864,9 +2954,9 @@ Text=G3.2 Estimated Cost (Php/Month)
  
   
 [Field]
-Name=G3_3_REMARKS_3
+Name=G3_3_REMARKS_2
 Position=646,1287,816,1307
-Item=G3_3_REMARKS_3,LASSODD_DICT
+Item=G3_3_REMARKS_2,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -2877,21 +2967,21 @@ Text=G3.3 Remarks
  
   
 [Field]
-Name=SAVINGS
+Name=CAR_MOTORCYCLE_AMORTIZATION
 Position=646,1317,661,1337
-Item=SAVINGS,LASSODD_DICT
+Item=CAR_MOTORCYCLE_AMORTIZATION,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,1320,115,1336
-Text=5. Savings
+Position=50,1320,245,1336
+Text=4. Car/motorcycle amortization
  
   
 [Field]
-Name=G3_2_ESTIMATED_COST_PHP_MONTH_4
+Name=G3_2_ESTIMATED_COST_PHP_MONTH_3
 Position=646,1347,857,1367
-Item=G3_2_ESTIMATED_COST_PHP_MONTH_4,LASSODD_DICT
+Item=G3_2_ESTIMATED_COST_PHP_MONTH_3,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
@@ -2901,9 +2991,9 @@ Text=G3.2 Estimated Cost (Php/Month)
  
   
 [Field]
-Name=G3_3_REMARKS_4
+Name=G3_3_REMARKS_3
 Position=646,1377,816,1397
-Item=G3_3_REMARKS_4,LASSODD_DICT
+Item=G3_3_REMARKS_3,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -2914,70 +3004,70 @@ Text=G3.3 Remarks
  
   
 [Field]
-Name=IN_BANK
+Name=SAVINGS
 Position=646,1407,661,1427
-Item=IN_BANK,LASSODD_DICT
-DataCaptureType=RadioButton
-Form=13
-  
-[Text]
-Position=50,1410,105,1426
-Text=In bank?
- 
-  
-[Field]
-Name=TAX_LAND_STRUCTURE_D1_10_E2_4
-Position=646,1437,661,1457
-Item=TAX_LAND_STRUCTURE_D1_10_E2_4,LASSODD_DICT
+Item=SAVINGS,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,1440,271,1456
-Text=6.Tax (Land/Structure) - D1.10, E2.4
+Position=50,1410,115,1426
+Text=5. Savings
  
   
 [Field]
-Name=G3_2_ESTIMATED_COST_PHP_MONTH_5
-Position=646,1467,857,1487
-Item=G3_2_ESTIMATED_COST_PHP_MONTH_5,LASSODD_DICT
+Name=G3_2_ESTIMATED_COST_PHP_MONTH_4
+Position=646,1437,857,1457
+Item=G3_2_ESTIMATED_COST_PHP_MONTH_4,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,1470,255,1486
+Position=50,1440,255,1456
 Text=G3.2 Estimated Cost (Php/Month)
  
   
 [Field]
-Name=G3_3_REMARKS_5
-Position=646,1497,816,1517
-Item=G3_3_REMARKS_5,LASSODD_DICT
+Name=G3_3_REMARKS_4
+Position=646,1467,816,1487
+Item=G3_3_REMARKS_4,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,1500,137,1516
+Position=50,1470,137,1486
 Text=G3.3 Remarks
  
   
 [Field]
-Name=FOOD_GROCERIES
+Name=IN_BANK
+Position=646,1497,661,1517
+Item=IN_BANK,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=13
+  
+[Text]
+Position=50,1500,105,1516
+Text=In bank?
+ 
+  
+[Field]
+Name=TAX_LAND_STRUCTURE_D1_10_E2_4
 Position=646,1527,661,1547
-Item=FOOD_GROCERIES,LASSODD_DICT
+Item=TAX_LAND_STRUCTURE_D1_10_E2_4,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,1530,166,1546
-Text=7. Food /Groceries
+Position=50,1530,271,1546
+Text=6.Tax (Land/Structure) - D1.10, E2.4
  
   
 [Field]
-Name=G3_2_ESTIMATED_COST_PHP_MONTH_6
+Name=G3_2_ESTIMATED_COST_PHP_MONTH_5
 Position=646,1557,857,1577
-Item=G3_2_ESTIMATED_COST_PHP_MONTH_6,LASSODD_DICT
+Item=G3_2_ESTIMATED_COST_PHP_MONTH_5,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
@@ -2987,9 +3077,9 @@ Text=G3.2 Estimated Cost (Php/Month)
  
   
 [Field]
-Name=G3_3_REMARKS_6
+Name=G3_3_REMARKS_5
 Position=646,1587,816,1607
-Item=G3_3_REMARKS_6,LASSODD_DICT
+Item=G3_3_REMARKS_5,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3000,21 +3090,21 @@ Text=G3.3 Remarks
  
   
 [Field]
-Name=NON_FOOD_ITEMS_GROCERIES
+Name=FOOD_GROCERIES
 Position=646,1617,661,1637
-Item=NON_FOOD_ITEMS_GROCERIES,LASSODD_DICT
+Item=FOOD_GROCERIES,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,1620,233,1636
-Text=8. Non-Food Items/ Groceries
+Position=50,1620,166,1636
+Text=7. Food /Groceries
  
   
 [Field]
-Name=G3_2_ESTIMATED_COST_PHP_MONTH_7
+Name=G3_2_ESTIMATED_COST_PHP_MONTH_6
 Position=646,1647,857,1667
-Item=G3_2_ESTIMATED_COST_PHP_MONTH_7,LASSODD_DICT
+Item=G3_2_ESTIMATED_COST_PHP_MONTH_6,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
@@ -3024,9 +3114,9 @@ Text=G3.2 Estimated Cost (Php/Month)
  
   
 [Field]
-Name=G3_3_REMARKS_7
+Name=G3_3_REMARKS_6
 Position=646,1677,816,1697
-Item=G3_3_REMARKS_7,LASSODD_DICT
+Item=G3_3_REMARKS_6,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3037,22 +3127,21 @@ Text=G3.3 Remarks
  
   
 [Field]
-Name=LIGHT_ELECTRICITY
+Name=NON_FOOD_ITEMS_GROCERIES
 Position=646,1707,661,1727
-Item=LIGHT_ELECTRICITY,LASSODD_DICT
+Item=NON_FOOD_ITEMS_GROCERIES,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,1710,171,1726
-Text=9. Light (Electricity)
+Position=50,1710,233,1726
+Text=8. Non-Food Items/ Groceries
  
   
 [Field]
-Name=G3_2_ESTIMATED_COST_PHP_MONTH_8
-Position=646,1737,776,1757
-Item=G3_2_ESTIMATED_COST_PHP_MONTH_8,LASSODD_DICT
-UseUnicodeTextBox=Yes
+Name=G3_2_ESTIMATED_COST_PHP_MONTH_7
+Position=646,1737,857,1757
+Item=G3_2_ESTIMATED_COST_PHP_MONTH_7,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
@@ -3062,9 +3151,9 @@ Text=G3.2 Estimated Cost (Php/Month)
  
   
 [Field]
-Name=G3_3_REMARKS_8
+Name=G3_3_REMARKS_7
 Position=646,1767,816,1787
-Item=G3_3_REMARKS_8,LASSODD_DICT
+Item=G3_3_REMARKS_7,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3075,21 +3164,21 @@ Text=G3.3 Remarks
  
   
 [Field]
-Name=WATER
+Name=LIGHT_ELECTRICITY
 Position=646,1797,661,1817
-Item=WATER,LASSODD_DICT
+Item=LIGHT_ELECTRICITY,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,1800,110,1816
-Text=10. Water
+Position=50,1800,171,1816
+Text=9. Light (Electricity)
  
   
 [Field]
-Name=G3_2_ESTIMATED_COST_PHP_MONTH_9
+Name=G3_2_ESTIMATED_COST_PHP_MONTH_8
 Position=646,1827,776,1847
-Item=G3_2_ESTIMATED_COST_PHP_MONTH_9,LASSODD_DICT
+Item=G3_2_ESTIMATED_COST_PHP_MONTH_8,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3100,9 +3189,9 @@ Text=G3.2 Estimated Cost (Php/Month)
  
   
 [Field]
-Name=G3_3_REMARKS_9
+Name=G3_3_REMARKS_8
 Position=646,1857,816,1877
-Item=G3_3_REMARKS_9,LASSODD_DICT
+Item=G3_3_REMARKS_8,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3113,21 +3202,21 @@ Text=G3.3 Remarks
  
   
 [Field]
-Name=EDUCATION
+Name=WATER
 Position=646,1887,661,1907
-Item=EDUCATION,LASSODD_DICT
+Item=WATER,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,1890,135,1906
-Text=11. Education
+Position=50,1890,110,1906
+Text=10. Water
  
   
 [Field]
-Name=G3_2_ESTIMATED_COST_PHP_MONTH_10
+Name=G3_2_ESTIMATED_COST_PHP_MONTH_9
 Position=646,1917,776,1937
-Item=G3_2_ESTIMATED_COST_PHP_MONTH_10,LASSODD_DICT
+Item=G3_2_ESTIMATED_COST_PHP_MONTH_9,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3138,9 +3227,9 @@ Text=G3.2 Estimated Cost (Php/Month)
  
   
 [Field]
-Name=G3_3_REMARKS_10
+Name=G3_3_REMARKS_9
 Position=646,1947,816,1967
-Item=G3_3_REMARKS_10,LASSODD_DICT
+Item=G3_3_REMARKS_9,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3151,21 +3240,22 @@ Text=G3.3 Remarks
  
   
 [Field]
-Name=COMMUNICATION_LANDLINE_MOBILE_PHONE
+Name=EDUCATION
 Position=646,1977,661,1997
-Item=COMMUNICATION_LANDLINE_MOBILE_PHONE,LASSODD_DICT
+Item=EDUCATION,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,1980,328,1996
-Text=12. Communication (landline/mobile phone)
+Position=50,1980,135,1996
+Text=11. Education
  
   
 [Field]
-Name=G3_2_ESTIMATED_COST_PHP_MONTH_11
-Position=646,2007,857,2027
-Item=G3_2_ESTIMATED_COST_PHP_MONTH_11,LASSODD_DICT
+Name=G3_2_ESTIMATED_COST_PHP_MONTH_10
+Position=646,2007,776,2027
+Item=G3_2_ESTIMATED_COST_PHP_MONTH_10,LASSODD_DICT
+UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
   
@@ -3175,9 +3265,9 @@ Text=G3.2 Estimated Cost (Php/Month)
  
   
 [Field]
-Name=G3_3_REMARKS_11
+Name=G3_3_REMARKS_10
 Position=646,2037,816,2057
-Item=G3_3_REMARKS_11,LASSODD_DICT
+Item=G3_3_REMARKS_10,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3188,22 +3278,21 @@ Text=G3.3 Remarks
  
   
 [Field]
-Name=INTERNET_CONNECTION
+Name=COMMUNICATION_LANDLINE_MOBILE_PHONE
 Position=646,2067,661,2087
-Item=INTERNET_CONNECTION,LASSODD_DICT
+Item=COMMUNICATION_LANDLINE_MOBILE_PHONE,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,2070,197,2086
-Text=13. Internet Connection
+Position=50,2070,328,2086
+Text=12. Communication (landline/mobile phone)
  
   
 [Field]
-Name=G3_2_ESTIMATED_COST_PHP_MONTH_12
-Position=646,2097,776,2117
-Item=G3_2_ESTIMATED_COST_PHP_MONTH_12,LASSODD_DICT
-UseUnicodeTextBox=Yes
+Name=G3_2_ESTIMATED_COST_PHP_MONTH_11
+Position=646,2097,857,2117
+Item=G3_2_ESTIMATED_COST_PHP_MONTH_11,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
@@ -3213,9 +3302,9 @@ Text=G3.2 Estimated Cost (Php/Month)
  
   
 [Field]
-Name=G3_3_REMARKS_12
+Name=G3_3_REMARKS_11
 Position=646,2127,816,2147
-Item=G3_3_REMARKS_12,LASSODD_DICT
+Item=G3_3_REMARKS_11,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3226,21 +3315,21 @@ Text=G3.3 Remarks
  
   
 [Field]
-Name=CABLE_CONNECTION
+Name=INTERNET_CONNECTION
 Position=646,2157,661,2177
-Item=CABLE_CONNECTION,LASSODD_DICT
+Item=INTERNET_CONNECTION,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,2160,185,2176
-Text=14. Cable Connection
+Position=50,2160,197,2176
+Text=13. Internet Connection
  
   
 [Field]
-Name=G3_2_ESTIMATED_COST_PHP_MONTH_13
+Name=G3_2_ESTIMATED_COST_PHP_MONTH_12
 Position=646,2187,776,2207
-Item=G3_2_ESTIMATED_COST_PHP_MONTH_13,LASSODD_DICT
+Item=G3_2_ESTIMATED_COST_PHP_MONTH_12,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3251,9 +3340,9 @@ Text=G3.2 Estimated Cost (Php/Month)
  
   
 [Field]
-Name=G3_3_REMARKS_13
+Name=G3_3_REMARKS_12
 Position=646,2217,816,2237
-Item=G3_3_REMARKS_13,LASSODD_DICT
+Item=G3_3_REMARKS_12,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3264,21 +3353,21 @@ Text=G3.3 Remarks
  
   
 [Field]
-Name=TRANSPORTATION_FARE_GAS
+Name=CABLE_CONNECTION
 Position=646,2247,661,2267
-Item=TRANSPORTATION_FARE_GAS,LASSODD_DICT
+Item=CABLE_CONNECTION,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,2250,229,2266
-Text=15.Transportation (Fare/Gas)
+Position=50,2250,185,2266
+Text=14. Cable Connection
  
   
 [Field]
-Name=G3_2_ESTIMATED_COST_PHP_MONTH_14
+Name=G3_2_ESTIMATED_COST_PHP_MONTH_13
 Position=646,2277,776,2297
-Item=G3_2_ESTIMATED_COST_PHP_MONTH_14,LASSODD_DICT
+Item=G3_2_ESTIMATED_COST_PHP_MONTH_13,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3289,9 +3378,9 @@ Text=G3.2 Estimated Cost (Php/Month)
  
   
 [Field]
-Name=G3_3_REMARKS_14
+Name=G3_3_REMARKS_13
 Position=646,2307,816,2327
-Item=G3_3_REMARKS_14,LASSODD_DICT
+Item=G3_3_REMARKS_13,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3302,21 +3391,22 @@ Text=G3.3 Remarks
  
   
 [Field]
-Name=RECREATION_TRAVEL_EAT_OUT_ETC
+Name=TRANSPORTATION_FARE_GAS
 Position=646,2337,661,2357
-Item=RECREATION_TRAVEL_EAT_OUT_ETC,LASSODD_DICT
+Item=TRANSPORTATION_FARE_GAS,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,2340,278,2356
-Text=16. Recreation (Travel, Eat Out, etc.)
+Position=50,2340,229,2356
+Text=15.Transportation (Fare/Gas)
  
   
 [Field]
-Name=G3_2_ESTIMATED_COST_PHP_MONTH_15
-Position=646,2367,857,2387
-Item=G3_2_ESTIMATED_COST_PHP_MONTH_15,LASSODD_DICT
+Name=G3_2_ESTIMATED_COST_PHP_MONTH_14
+Position=646,2367,776,2387
+Item=G3_2_ESTIMATED_COST_PHP_MONTH_14,LASSODD_DICT
+UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
   
@@ -3326,9 +3416,9 @@ Text=G3.2 Estimated Cost (Php/Month)
  
   
 [Field]
-Name=G3_3_REMARKS_15
+Name=G3_3_REMARKS_14
 Position=646,2397,816,2417
-Item=G3_3_REMARKS_15,LASSODD_DICT
+Item=G3_3_REMARKS_14,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3339,21 +3429,21 @@ Text=G3.3 Remarks
  
   
 [Field]
-Name=HEALTH_CHECK_UP_MAINTENANCE_MEDICINE
+Name=RECREATION_TRAVEL_EAT_OUT_ETC
 Position=646,2427,661,2447
-Item=HEALTH_CHECK_UP_MAINTENANCE_MEDICINE,LASSODD_DICT
+Item=RECREATION_TRAVEL_EAT_OUT_ETC,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,2430,332,2446
-Text=17.Health (Check-up, Maintenance Medicine)
+Position=50,2430,278,2446
+Text=16. Recreation (Travel, Eat Out, etc.)
  
   
 [Field]
-Name=G3_2_ESTIMATED_COST_PHP_MONTH_16
+Name=G3_2_ESTIMATED_COST_PHP_MONTH_15
 Position=646,2457,857,2477
-Item=G3_2_ESTIMATED_COST_PHP_MONTH_16,LASSODD_DICT
+Item=G3_2_ESTIMATED_COST_PHP_MONTH_15,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
@@ -3363,9 +3453,9 @@ Text=G3.2 Estimated Cost (Php/Month)
  
   
 [Field]
-Name=G3_3_REMARKS_16
+Name=G3_3_REMARKS_15
 Position=646,2487,816,2507
-Item=G3_3_REMARKS_16,LASSODD_DICT
+Item=G3_3_REMARKS_15,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3376,22 +3466,21 @@ Text=G3.3 Remarks
  
   
 [Field]
-Name=COOKING_LPG_GAS_CHARCOAL
+Name=HEALTH_CHECK_UP_MAINTENANCE_MEDICINE
 Position=646,2517,661,2537
-Item=COOKING_LPG_GAS_CHARCOAL,LASSODD_DICT
+Item=HEALTH_CHECK_UP_MAINTENANCE_MEDICINE,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,2520,260,2536
-Text=18. Cooking (LPG, Gas, Charcoal)
+Position=50,2520,332,2536
+Text=17.Health (Check-up, Maintenance Medicine)
  
   
 [Field]
-Name=G3_2_ESTIMATED_COST_PHP_MONTH_17
-Position=646,2547,776,2567
-Item=G3_2_ESTIMATED_COST_PHP_MONTH_17,LASSODD_DICT
-UseUnicodeTextBox=Yes
+Name=G3_2_ESTIMATED_COST_PHP_MONTH_16
+Position=646,2547,857,2567
+Item=G3_2_ESTIMATED_COST_PHP_MONTH_16,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
@@ -3401,9 +3490,9 @@ Text=G3.2 Estimated Cost (Php/Month)
  
   
 [Field]
-Name=G3_3_REMARKS_17
+Name=G3_3_REMARKS_16
 Position=646,2577,816,2597
-Item=G3_3_REMARKS_17,LASSODD_DICT
+Item=G3_3_REMARKS_16,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3414,21 +3503,21 @@ Text=G3.3 Remarks
  
   
 [Field]
-Name=LOAN_PAYMENT_AMORTIZATION_CAR_APPLIANCES_FURNITU
+Name=COOKING_LPG_GAS_CHARCOAL
 Position=646,2607,661,2627
-Item=LOAN_PAYMENT_AMORTIZATION_CAR_APPLIANCES_FURNITU,LASSODD_DICT
+Item=COOKING_LPG_GAS_CHARCOAL,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,2610,458,2626
-Text=19. Loan Payment/Amortization (Car, Appliances, Furniture, etc.)
+Position=50,2610,260,2626
+Text=18. Cooking (LPG, Gas, Charcoal)
  
   
 [Field]
-Name=G3_2_ESTIMATED_COST_PHP_MONTH_18
+Name=G3_2_ESTIMATED_COST_PHP_MONTH_17
 Position=646,2637,776,2657
-Item=G3_2_ESTIMATED_COST_PHP_MONTH_18,LASSODD_DICT
+Item=G3_2_ESTIMATED_COST_PHP_MONTH_17,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3439,9 +3528,9 @@ Text=G3.2 Estimated Cost (Php/Month)
  
   
 [Field]
-Name=G3_3_REMARKS_18
+Name=G3_3_REMARKS_17
 Position=646,2667,816,2687
-Item=G3_3_REMARKS_18,LASSODD_DICT
+Item=G3_3_REMARKS_17,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3452,21 +3541,21 @@ Text=G3.3 Remarks
  
   
 [Field]
-Name=FINANCIAL_SUPPORT
+Name=LOAN_PAYMENT_AMORTIZATION_CAR_APPLIANCES_FURNITU
 Position=646,2697,661,2717
-Item=FINANCIAL_SUPPORT,LASSODD_DICT
+Item=LOAN_PAYMENT_AMORTIZATION_CAR_APPLIANCES_FURNITU,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,2700,185,2716
-Text=20. Financial Support
+Position=50,2700,458,2716
+Text=19. Loan Payment/Amortization (Car, Appliances, Furniture, etc.)
  
   
 [Field]
-Name=G3_2_ESTIMATED_COST_PHP_MONTH_19
+Name=G3_2_ESTIMATED_COST_PHP_MONTH_18
 Position=646,2727,776,2747
-Item=G3_2_ESTIMATED_COST_PHP_MONTH_19,LASSODD_DICT
+Item=G3_2_ESTIMATED_COST_PHP_MONTH_18,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3477,9 +3566,9 @@ Text=G3.2 Estimated Cost (Php/Month)
  
   
 [Field]
-Name=G3_3_REMARKS_19
+Name=G3_3_REMARKS_18
 Position=646,2757,816,2777
-Item=G3_3_REMARKS_19,LASSODD_DICT
+Item=G3_3_REMARKS_18,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3490,21 +3579,22 @@ Text=G3.3 Remarks
  
   
 [Field]
-Name=SALARY_HOUSE_HELP_DRIVER_EMPLOYEE_ETC
+Name=FINANCIAL_SUPPORT
 Position=646,2787,661,2807
-Item=SALARY_HOUSE_HELP_DRIVER_EMPLOYEE_ETC,LASSODD_DICT
+Item=FINANCIAL_SUPPORT,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,2790,340,2806
-Text=21. Salary (House help, Driver, Employee, etc)
+Position=50,2790,185,2806
+Text=20. Financial Support
  
   
 [Field]
-Name=G3_2_ESTIMATED_COST_PHP_MONTH_20
-Position=646,2817,857,2837
-Item=G3_2_ESTIMATED_COST_PHP_MONTH_20,LASSODD_DICT
+Name=G3_2_ESTIMATED_COST_PHP_MONTH_19
+Position=646,2817,776,2837
+Item=G3_2_ESTIMATED_COST_PHP_MONTH_19,LASSODD_DICT
+UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
   
@@ -3514,9 +3604,9 @@ Text=G3.2 Estimated Cost (Php/Month)
  
   
 [Field]
-Name=G3_3_REMARKS_20
+Name=G3_3_REMARKS_19
 Position=646,2847,816,2867
-Item=G3_3_REMARKS_20,LASSODD_DICT
+Item=G3_3_REMARKS_19,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3527,22 +3617,21 @@ Text=G3.3 Remarks
  
   
 [Field]
-Name=OTHERS_SPECIFY
-Position=646,2877,816,2897
-Item=OTHERS_SPECIFY,LASSODD_DICT
-UseUnicodeTextBox=Yes
+Name=SALARY_HOUSE_HELP_DRIVER_EMPLOYEE_ETC
+Position=646,2877,661,2897
+Item=SALARY_HOUSE_HELP_DRIVER_EMPLOYEE_ETC,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,2880,168,2896
-Text=22.Others (Specify)
+Position=50,2880,340,2896
+Text=21. Salary (House help, Driver, Employee, etc)
  
   
 [Field]
-Name=G3_2_ESTIMATED_COST_PHP_MONTH_21
+Name=G3_2_ESTIMATED_COST_PHP_MONTH_20
 Position=646,2907,857,2927
-Item=G3_2_ESTIMATED_COST_PHP_MONTH_21,LASSODD_DICT
+Item=G3_2_ESTIMATED_COST_PHP_MONTH_20,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
@@ -3552,9 +3641,9 @@ Text=G3.2 Estimated Cost (Php/Month)
  
   
 [Field]
-Name=G3_3_REMARKS_21
+Name=G3_3_REMARKS_20
 Position=646,2937,816,2957
-Item=G3_3_REMARKS_21,LASSODD_DICT
+Item=G3_3_REMARKS_20,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3565,1724 +3654,1762 @@ Text=G3.3 Remarks
  
   
 [Field]
+Name=OTHERS_SPECIFY
+Position=646,2967,816,2987
+Item=OTHERS_SPECIFY,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=13
+  
+[Text]
+Position=50,2970,168,2986
+Text=22.Others (Specify)
+ 
+  
+[Field]
+Name=G3_2_ESTIMATED_COST_PHP_MONTH_21
+Position=646,2997,857,3017
+Item=G3_2_ESTIMATED_COST_PHP_MONTH_21,LASSODD_DICT
+DataCaptureType=TextBox
+Form=13
+  
+[Text]
+Position=50,3000,255,3016
+Text=G3.2 Estimated Cost (Php/Month)
+ 
+  
+[Field]
+Name=G3_3_REMARKS_21
+Position=646,3027,816,3047
+Item=G3_3_REMARKS_21,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=13
+  
+[Text]
+Position=50,3030,137,3046
+Text=G3.3 Remarks
+ 
+  
+[Field]
 Name=TOTAL_MONTHLY_EXPENDITURE
-Position=646,2967,857,2987
+Position=646,3057,857,3077
 Item=TOTAL_MONTHLY_EXPENDITURE,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,2970,254,2986
+Position=50,3060,254,3076
 Text=TOTAL MONTHLY EXPENDITURE
  
   
 [Field]
 Name=G4_HOUSEHOLD_GOODS_OWNED
-Position=646,2997,661,3017
+Position=646,3087,661,3107
 Item=G4_HOUSEHOLD_GOODS_OWNED,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3000,261,3016
+Position=50,3090,261,3106
 Text=G4. HOUSEHOLD GOODS OWNED
  
   
 [Field]
 Name=G4_1_ITEM
-Position=646,3027,661,3047
+Position=646,3117,661,3137
 Item=G4_1_ITEM,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3030,110,3046
+Position=50,3120,110,3136
 Text=G4.1 Item
  
   
 [Field]
 Name=HOUSE
-Position=646,3057,661,3077
+Position=646,3147,661,3167
 Item=HOUSE,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3060,104,3076
+Position=50,3150,104,3166
 Text=1. House
  
   
 [Field]
 Name=G4_2_QUANTITY
-Position=646,3087,661,3107
+Position=646,3177,661,3197
 Item=G4_2_QUANTITY,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3090,135,3106
+Position=50,3180,135,3196
 Text=G4.2 Quantity
  
   
 [Field]
 Name=G4_2_1_NO_OF_FUNCTIONING
-Position=646,3117,857,3137
+Position=646,3207,857,3227
 Item=G4_2_1_NO_OF_FUNCTIONING,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3120,213,3136
+Position=50,3210,213,3226
 Text=G4.2.1 No. of Functioning 
  
   
 [Field]
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING
-Position=646,3147,857,3167
+Position=646,3237,857,3257
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3150,246,3166
+Position=50,3240,246,3256
 Text=G.4.2.2. No. of Non-Functioning
  
   
 [Field]
 Name=G4_2_3_TOTAL_NO
-Position=646,3177,857,3197
+Position=646,3267,857,3287
 Item=G4_2_3_TOTAL_NO,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3180,154,3196
+Position=50,3270,154,3286
 Text=G4.2.3. Total No.
  
   
 [Field]
 Name=G4_3_SEX_OF_OWNERS
-Position=646,3207,661,3227
+Position=646,3297,661,3317
 Item=G4_3_SEX_OF_OWNERS,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,3210,175,3226
+Position=50,3300,175,3316
 Text=G4.3 Sex of Owners
  
   
 [Field]
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP
-Position=646,3237,857,3257
+Position=646,3327,857,3347
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3240,258,3256
+Position=50,3330,258,3346
 Text=G4.4 Estimated Total Value (Php)
  
   
 [Field]
 Name=CAR
-Position=646,3267,661,3287
+Position=646,3357,661,3377
 Item=CAR,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3270,87,3286
+Position=50,3360,87,3376
 Text=2. Car
  
   
 [Field]
 Name=G4_2_QUANTITY_1
-Position=646,3297,661,3317
+Position=646,3387,661,3407
 Item=G4_2_QUANTITY_1,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3300,135,3316
+Position=50,3390,135,3406
 Text=G4.2 Quantity
  
   
 [Field]
 Name=G4_2_1_NO_OF_FUNCTIONING_1
-Position=646,3327,857,3347
+Position=646,3417,857,3437
 Item=G4_2_1_NO_OF_FUNCTIONING_1,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3330,209,3346
+Position=50,3420,209,3436
 Text=G4.2.1 No. of Functioning
  
   
 [Field]
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_1
-Position=646,3357,857,3377
+Position=646,3447,857,3467
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_1,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3360,246,3376
+Position=50,3450,246,3466
 Text=G.4.2.2. No. of Non-Functioning
  
   
 [Field]
 Name=G4_2_3_TOTAL_NO_1
-Position=646,3387,857,3407
+Position=646,3477,857,3497
 Item=G4_2_3_TOTAL_NO_1,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3390,154,3406
+Position=50,3480,154,3496
 Text=G4.2.3. Total No.
  
   
 [Field]
 Name=G4_3_SEX_OF_OWNERS_1
-Position=646,3417,661,3437
+Position=646,3507,661,3527
 Item=G4_3_SEX_OF_OWNERS_1,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,3420,175,3436
+Position=50,3510,175,3526
 Text=G4.3 Sex of Owners
  
   
 [Field]
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_1
-Position=646,3447,857,3467
+Position=646,3537,857,3557
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_1,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3450,258,3466
+Position=50,3540,258,3556
 Text=G4.4 Estimated Total Value (Php)
  
   
 [Field]
 Name=BICYCLE
-Position=646,3477,661,3497
+Position=646,3567,661,3587
 Item=BICYCLE,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3480,111,3496
+Position=50,3570,111,3586
 Text=3. Bicycle
  
   
 [Field]
 Name=G4_2_QUANTITY_2
-Position=646,3507,661,3527
+Position=646,3597,661,3617
 Item=G4_2_QUANTITY_2,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3510,135,3526
+Position=50,3600,135,3616
 Text=G4.2 Quantity
  
   
 [Field]
 Name=G4_2_1_NO_OF_FUNCTIONING_2
-Position=646,3537,857,3557
+Position=646,3627,857,3647
 Item=G4_2_1_NO_OF_FUNCTIONING_2,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3540,209,3556
+Position=50,3630,209,3646
 Text=G4.2.1 No. of Functioning
  
   
 [Field]
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_2
-Position=646,3567,857,3587
+Position=646,3657,857,3677
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_2,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3570,246,3586
+Position=50,3660,246,3676
 Text=G.4.2.2. No. of Non-Functioning
  
   
 [Field]
 Name=G4_2_3_TOTAL_NO_2
-Position=646,3597,857,3617
+Position=646,3687,857,3707
 Item=G4_2_3_TOTAL_NO_2,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3600,158,3616
+Position=50,3690,158,3706
 Text=G4.2.3. Total No. 
  
   
 [Field]
 Name=G4_3_SEX_OF_OWNERS_2
-Position=646,3627,661,3647
+Position=646,3717,661,3737
 Item=G4_3_SEX_OF_OWNERS_2,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,3630,175,3646
+Position=50,3720,175,3736
 Text=G4.3 Sex of Owners
  
   
 [Field]
 Name=G4_2_QUANTITY_3
-Position=646,3657,661,3677
+Position=646,3747,661,3767
 Item=G4_2_QUANTITY_3,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3660,135,3676
+Position=50,3750,135,3766
 Text=G4.2 Quantity
  
   
 [Field]
 Name=G4_2_1_NO_OF_FUNCTIONING_3
-Position=646,3687,857,3707
+Position=646,3777,857,3797
 Item=G4_2_1_NO_OF_FUNCTIONING_3,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3690,209,3706
+Position=50,3780,209,3796
 Text=G4.2.1 No. of Functioning
  
   
 [Field]
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_3
-Position=646,3717,857,3737
+Position=646,3807,857,3827
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_3,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3720,246,3736
+Position=50,3810,246,3826
 Text=G.4.2.2. No. of Non-Functioning
  
   
 [Field]
 Name=G4_2_3_TOTAL_NO_3
-Position=646,3747,857,3767
+Position=646,3837,857,3857
 Item=G4_2_3_TOTAL_NO_3,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3750,154,3766
+Position=50,3840,154,3856
 Text=G4.2.3. Total No.
  
   
 [Field]
 Name=G4_3_SEX_OF_OWNERS_3
-Position=646,3777,661,3797
+Position=646,3867,661,3887
 Item=G4_3_SEX_OF_OWNERS_3,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,3780,175,3796
+Position=50,3870,175,3886
 Text=G4.3 Sex of Owners
  
   
 [Field]
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_2
-Position=646,3807,857,3827
+Position=646,3897,857,3917
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_2,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3810,258,3826
+Position=50,3900,258,3916
 Text=G4.4 Estimated Total Value (Php)
  
   
 [Field]
 Name=MOTORCYCLE
-Position=646,3837,661,3857
+Position=646,3927,661,3947
 Item=MOTORCYCLE,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3840,134,3856
+Position=50,3930,134,3946
 Text=5. Motorcycle
  
   
 [Field]
 Name=G4_2_QUANTITY_4
-Position=646,3867,661,3887
+Position=646,3957,661,3977
 Item=G4_2_QUANTITY_4,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3870,135,3886
+Position=50,3960,135,3976
 Text=G4.2 Quantity
  
   
 [Field]
 Name=G4_2_1_NO_OF_FUNCTIONING_4
-Position=646,3897,857,3917
+Position=646,3987,857,4007
 Item=G4_2_1_NO_OF_FUNCTIONING_4,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3900,209,3916
+Position=50,3990,209,4006
 Text=G4.2.1 No. of Functioning
  
   
 [Field]
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_4
-Position=646,3927,857,3947
+Position=646,4017,857,4037
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_4,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3930,246,3946
+Position=50,4020,246,4036
 Text=G.4.2.2. No. of Non-Functioning
  
   
 [Field]
 Name=G4_2_3_TOTAL_NO_4
-Position=646,3957,857,3977
+Position=646,4047,857,4067
 Item=G4_2_3_TOTAL_NO_4,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3960,154,3976
+Position=50,4050,154,4066
 Text=G4.2.3. Total No.
  
   
 [Field]
 Name=G4_3_SEX_OF_OWNERS_4
-Position=646,3987,664,4007
+Position=646,4077,664,4097
 Item=G4_3_SEX_OF_OWNERS_4,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3990,175,4006
+Position=50,4080,175,4096
 Text=G4.3 Sex of Owners
  
   
 [Field]
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_3
-Position=646,4017,857,4037
+Position=646,4107,857,4127
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_3,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4020,258,4036
+Position=50,4110,258,4126
 Text=G4.4 Estimated Total Value (Php)
  
   
 [Field]
 Name=LANDLINE_TELEPHONE
-Position=646,4047,661,4067
+Position=646,4137,661,4157
 Item=LANDLINE_TELEPHONE,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4050,189,4066
+Position=50,4140,189,4156
 Text=6. Landline telephone
  
   
 [Field]
 Name=G4_2_QUANTITY_5
-Position=646,4077,661,4097
+Position=646,4167,661,4187
 Item=G4_2_QUANTITY_5,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4080,135,4096
+Position=50,4170,135,4186
 Text=G4.2 Quantity
  
   
 [Field]
 Name=G4_2_1_NO_OF_FUNCTIONING_5
-Position=646,4107,857,4127
+Position=646,4197,857,4217
 Item=G4_2_1_NO_OF_FUNCTIONING_5,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4110,209,4126
+Position=50,4200,209,4216
 Text=G4.2.1 No. of Functioning
  
   
 [Field]
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_5
-Position=646,4137,857,4157
+Position=646,4227,857,4247
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_5,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4140,246,4156
+Position=50,4230,246,4246
 Text=G.4.2.2. No. of Non-Functioning
  
   
 [Field]
 Name=G4_2_3_TOTAL_NO_5
-Position=646,4167,857,4187
+Position=646,4257,857,4277
 Item=G4_2_3_TOTAL_NO_5,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4170,154,4186
+Position=50,4260,154,4276
 Text=G4.2.3. Total No.
  
   
 [Field]
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_4
-Position=646,4197,857,4217
+Position=646,4287,857,4307
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_4,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4200,258,4216
+Position=50,4290,258,4306
 Text=G4.4 Estimated Total Value (Php)
  
   
 [Field]
 Name=COMPUTER
-Position=646,4227,661,4247
+Position=646,4317,661,4337
 Item=COMPUTER,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4230,127,4246
+Position=50,4320,127,4336
 Text=8. Computer
  
   
 [Field]
 Name=G4_2_QUANTITY_6
-Position=646,4257,661,4277
+Position=646,4347,661,4367
 Item=G4_2_QUANTITY_6,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4260,135,4276
+Position=50,4350,135,4366
 Text=G4.2 Quantity
  
   
 [Field]
 Name=G4_2_1_NO_OF_FUNCTIONING_6
-Position=646,4287,857,4307
+Position=646,4377,857,4397
 Item=G4_2_1_NO_OF_FUNCTIONING_6,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4290,209,4306
+Position=50,4380,209,4396
 Text=G4.2.1 No. of Functioning
  
   
 [Field]
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_6
-Position=646,4317,857,4337
+Position=646,4407,857,4427
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_6,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4320,246,4336
+Position=50,4410,246,4426
 Text=G.4.2.2. No. of Non-Functioning
  
   
 [Field]
 Name=G4_2_3_TOTAL_NO_6
-Position=646,4347,857,4367
+Position=646,4437,857,4457
 Item=G4_2_3_TOTAL_NO_6,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4350,154,4366
+Position=50,4440,154,4456
 Text=G4.2.3. Total No.
  
   
 [Field]
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_5
-Position=646,4377,857,4397
+Position=646,4467,857,4487
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_5,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4380,258,4396
+Position=50,4470,258,4486
 Text=G4.4 Estimated Total Value (Php)
  
   
 [Field]
 Name=TV_SET
-Position=646,4407,661,4427
+Position=646,4497,661,4517
 Item=TV_SET,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4410,104,4426
+Position=50,4500,104,4516
 Text=9. TV set
  
   
 [Field]
 Name=G4_2_QUANTITY_7
-Position=646,4437,661,4457
+Position=646,4527,661,4547
 Item=G4_2_QUANTITY_7,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4440,135,4456
+Position=50,4530,135,4546
 Text=G4.2 Quantity
  
   
 [Field]
 Name=G4_2_1_NO_OF_FUNCTIONING_7
-Position=646,4467,857,4487
+Position=646,4557,857,4577
 Item=G4_2_1_NO_OF_FUNCTIONING_7,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4470,209,4486
+Position=50,4560,209,4576
 Text=G4.2.1 No. of Functioning
  
   
 [Field]
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_7
-Position=646,4497,857,4517
+Position=646,4587,857,4607
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_7,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4500,246,4516
+Position=50,4590,246,4606
 Text=G.4.2.2. No. of Non-Functioning
  
   
 [Field]
 Name=G4_2_3_TOTAL_NO_7
-Position=646,4527,857,4547
+Position=646,4617,857,4637
 Item=G4_2_3_TOTAL_NO_7,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4530,154,4546
+Position=50,4620,154,4636
 Text=G4.2.3. Total No.
  
   
 [Field]
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_6
-Position=646,4557,857,4577
+Position=646,4647,857,4667
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_6,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4560,258,4576
+Position=50,4650,258,4666
 Text=G4.4 Estimated Total Value (Php)
  
   
 [Field]
 Name=VCD_DVD
-Position=646,4587,661,4607
+Position=646,4677,661,4697
 Item=VCD_DVD,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4590,130,4606
+Position=50,4680,130,4696
 Text=10. VCD/DVD
  
   
 [Field]
 Name=G4_2_QUANTITY_8
-Position=646,4617,661,4637
+Position=646,4707,661,4727
 Item=G4_2_QUANTITY_8,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4620,135,4636
+Position=50,4710,135,4726
 Text=G4.2 Quantity
  
   
 [Field]
 Name=G4_2_1_NO_OF_FUNCTIONING_8
-Position=646,4647,857,4667
+Position=646,4737,857,4757
 Item=G4_2_1_NO_OF_FUNCTIONING_8,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4650,209,4666
+Position=50,4740,209,4756
 Text=G4.2.1 No. of Functioning
  
   
 [Field]
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_8
-Position=646,4677,857,4697
+Position=646,4767,857,4787
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_8,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4680,246,4696
+Position=50,4770,246,4786
 Text=G.4.2.2. No. of Non-Functioning
  
   
 [Field]
 Name=G4_2_3_TOTAL_NO_8
-Position=646,4707,857,4727
+Position=646,4797,857,4817
 Item=G4_2_3_TOTAL_NO_8,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4710,154,4726
+Position=50,4800,154,4816
 Text=G4.2.3. Total No.
  
   
 [Field]
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_7
-Position=646,4737,857,4757
+Position=646,4827,857,4847
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_7,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4740,258,4756
+Position=50,4830,258,4846
 Text=G4.4 Estimated Total Value (Php)
  
   
 [Field]
 Name=STEREO_COMPONENT
-Position=646,4767,661,4787
+Position=646,4857,661,4877
 Item=STEREO_COMPONENT,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4770,191,4786
+Position=50,4860,191,4876
 Text=11. Stereo Component
  
   
 [Field]
 Name=G4_2_QUANTITY_9
-Position=646,4797,661,4817
+Position=646,4887,661,4907
 Item=G4_2_QUANTITY_9,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4800,135,4816
+Position=50,4890,135,4906
 Text=G4.2 Quantity
  
   
 [Field]
 Name=G4_2_1_NO_OF_FUNCTIONING_9
-Position=646,4827,857,4847
+Position=646,4917,857,4937
 Item=G4_2_1_NO_OF_FUNCTIONING_9,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4830,209,4846
+Position=50,4920,209,4936
 Text=G4.2.1 No. of Functioning
  
   
 [Field]
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_9
-Position=646,4857,857,4877
+Position=646,4947,857,4967
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_9,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4860,246,4876
+Position=50,4950,246,4966
 Text=G.4.2.2. No. of Non-Functioning
  
   
 [Field]
 Name=G4_2_3_TOTAL_NO_9
-Position=646,4887,857,4907
+Position=646,4977,857,4997
 Item=G4_2_3_TOTAL_NO_9,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4890,154,4906
+Position=50,4980,154,4996
 Text=G4.2.3. Total No.
  
   
 [Field]
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_8
-Position=646,4917,857,4937
+Position=646,5007,857,5027
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_8,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4920,258,4936
+Position=50,5010,258,5026
 Text=G4.4 Estimated Total Value (Php)
  
   
 [Field]
 Name=REFRIGERATOR
-Position=646,4947,661,4967
+Position=646,5037,661,5057
 Item=REFRIGERATOR,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4950,148,4966
+Position=50,5040,148,5056
 Text=12. Refrigerator
  
   
 [Field]
 Name=G4_2_QUANTITY_10
-Position=646,4977,661,4997
+Position=646,5067,661,5087
 Item=G4_2_QUANTITY_10,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,4980,135,4996
+Position=50,5070,135,5086
 Text=G4.2 Quantity
  
   
 [Field]
 Name=G4_2_1_NO_OF_FUNCTIONING_10
-Position=646,5007,857,5027
+Position=646,5097,857,5117
 Item=G4_2_1_NO_OF_FUNCTIONING_10,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5010,209,5026
+Position=50,5100,209,5116
 Text=G4.2.1 No. of Functioning
  
   
 [Field]
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_10
-Position=646,5037,857,5057
+Position=646,5127,857,5147
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_10,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5040,246,5056
+Position=50,5130,246,5146
 Text=G.4.2.2. No. of Non-Functioning
  
   
 [Field]
 Name=G4_2_3_TOTAL_NO_10
-Position=646,5067,857,5087
+Position=646,5157,857,5177
 Item=G4_2_3_TOTAL_NO_10,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5070,154,5086
+Position=50,5160,154,5176
 Text=G4.2.3. Total No.
  
   
 [Field]
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_9
-Position=646,5097,857,5117
+Position=646,5187,857,5207
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_9,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5100,258,5116
+Position=50,5190,258,5206
 Text=G4.4 Estimated Total Value (Php)
  
   
 [Field]
 Name=WASHING_MACHINE
-Position=646,5127,661,5147
+Position=646,5217,661,5237
 Item=WASHING_MACHINE,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5130,186,5146
+Position=50,5220,186,5236
 Text=13. Washing machine
  
   
 [Field]
 Name=G4_2_QUANTITY_11
-Position=646,5157,661,5177
+Position=646,5247,661,5267
 Item=G4_2_QUANTITY_11,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5160,135,5176
+Position=50,5250,135,5266
 Text=G4.2 Quantity
  
   
 [Field]
 Name=G4_2_1_NO_OF_FUNCTIONING_11
-Position=646,5187,857,5207
+Position=646,5277,857,5297
 Item=G4_2_1_NO_OF_FUNCTIONING_11,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5190,209,5206
+Position=50,5280,209,5296
 Text=G4.2.1 No. of Functioning
  
   
 [Field]
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_11
-Position=646,5217,857,5237
+Position=646,5307,857,5327
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_11,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5220,246,5236
+Position=50,5310,246,5326
 Text=G.4.2.2. No. of Non-Functioning
  
   
 [Field]
 Name=G4_2_3_TOTAL_NO_11
-Position=646,5247,857,5267
+Position=646,5337,857,5357
 Item=G4_2_3_TOTAL_NO_11,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5250,158,5266
+Position=50,5340,158,5356
 Text=G4.2.3. Total No. 
  
   
 [Field]
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_10
-Position=646,5277,857,5297
+Position=646,5367,857,5387
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_10,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5280,258,5296
+Position=50,5370,258,5386
 Text=G4.4 Estimated Total Value (Php)
  
   
 [Field]
 Name=OVEN_RANGE
-Position=646,5307,661,5327
+Position=646,5397,661,5417
 Item=OVEN_RANGE,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5310,150,5326
+Position=50,5400,150,5416
 Text=14. Oven/Range
  
   
 [Field]
 Name=G4_2_QUANTITY_12
-Position=646,5337,661,5357
+Position=646,5427,661,5447
 Item=G4_2_QUANTITY_12,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5340,135,5356
+Position=50,5430,135,5446
 Text=G4.2 Quantity
  
   
 [Field]
 Name=G4_2_1_NO_OF_FUNCTIONING_12
-Position=646,5367,857,5387
+Position=646,5457,857,5477
 Item=G4_2_1_NO_OF_FUNCTIONING_12,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5370,209,5386
+Position=50,5460,209,5476
 Text=G4.2.1 No. of Functioning
  
   
 [Field]
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_12
-Position=646,5397,857,5417
+Position=646,5487,857,5507
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_12,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5400,246,5416
+Position=50,5490,246,5506
 Text=G.4.2.2. No. of Non-Functioning
  
   
 [Field]
 Name=G4_2_3_TOTAL_NO_12
-Position=646,5427,857,5447
+Position=646,5517,857,5537
 Item=G4_2_3_TOTAL_NO_12,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5430,158,5446
+Position=50,5520,158,5536
 Text=G4.2.3. Total No. 
  
   
 [Field]
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_11
-Position=646,5457,857,5477
+Position=646,5547,857,5567
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_11,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5460,258,5476
+Position=50,5550,258,5566
 Text=G4.4 Estimated Total Value (Php)
  
   
 [Field]
 Name=MICROWAVE
-Position=646,5487,661,5507
+Position=646,5577,661,5597
 Item=MICROWAVE,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5490,141,5506
+Position=50,5580,141,5596
 Text=15. Microwave
  
   
 [Field]
 Name=G4_2_QUANTITY_13
-Position=646,5517,661,5537
+Position=646,5607,661,5627
 Item=G4_2_QUANTITY_13,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5520,135,5536
+Position=50,5610,135,5626
 Text=G4.2 Quantity
  
   
 [Field]
 Name=G4_2_1_NO_OF_FUNCTIONING_13
-Position=646,5547,857,5567
+Position=646,5637,857,5657
 Item=G4_2_1_NO_OF_FUNCTIONING_13,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5550,209,5566
+Position=50,5640,209,5656
 Text=G4.2.1 No. of Functioning
  
   
 [Field]
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_13
-Position=646,5577,857,5597
+Position=646,5667,857,5687
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_13,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5580,246,5596
+Position=50,5670,246,5686
 Text=G.4.2.2. No. of Non-Functioning
  
   
 [Field]
 Name=G4_2_3_TOTAL_NO_13
-Position=646,5607,857,5627
+Position=646,5697,857,5717
 Item=G4_2_3_TOTAL_NO_13,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5610,154,5626
+Position=50,5700,154,5716
 Text=G4.2.3. Total No.
  
   
 [Field]
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_12
-Position=646,5637,857,5657
+Position=646,5727,857,5747
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_12,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5640,258,5656
+Position=50,5730,258,5746
 Text=G4.4 Estimated Total Value (Php)
  
   
 [Field]
 Name=BED
-Position=646,5667,661,5687
+Position=646,5757,661,5777
 Item=BED,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5670,97,5686
+Position=50,5760,97,5776
 Text=16. Bed
  
   
 [Field]
 Name=G4_2_QUANTITY_14
-Position=646,5697,661,5717
+Position=646,5787,661,5807
 Item=G4_2_QUANTITY_14,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5700,135,5716
+Position=50,5790,135,5806
 Text=G4.2 Quantity
  
   
 [Field]
 Name=G4_2_1_NO_OF_FUNCTIONING_14
-Position=646,5727,857,5747
+Position=646,5817,857,5837
 Item=G4_2_1_NO_OF_FUNCTIONING_14,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5730,209,5746
+Position=50,5820,209,5836
 Text=G4.2.1 No. of Functioning
  
   
 [Field]
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_14
-Position=646,5757,857,5777
+Position=646,5847,857,5867
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_14,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5760,246,5776
+Position=50,5850,246,5866
 Text=G.4.2.2. No. of Non-Functioning
  
   
 [Field]
 Name=G4_2_3_TOTAL_NO_14
-Position=646,5787,857,5807
+Position=646,5877,857,5897
 Item=G4_2_3_TOTAL_NO_14,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5790,158,5806
+Position=50,5880,158,5896
 Text=G4.2.3. Total No. 
  
   
 [Field]
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_13
-Position=646,5817,857,5837
+Position=646,5907,857,5927
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_13,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5820,258,5836
+Position=50,5910,258,5926
 Text=G4.4 Estimated Total Value (Php)
  
   
 [Field]
 Name=SALA_SET
-Position=646,5847,661,5867
+Position=646,5937,661,5957
 Item=SALA_SET,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5850,126,5866
+Position=50,5940,126,5956
 Text=17. Sala Set
  
   
 [Field]
 Name=G4_2_QUANTITY_15
-Position=646,5877,661,5897
+Position=646,5967,661,5987
 Item=G4_2_QUANTITY_15,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5880,135,5896
+Position=50,5970,135,5986
 Text=G4.2 Quantity
  
   
 [Field]
 Name=G4_2_1_NO_OF_FUNCTIONING_15
-Position=646,5907,857,5927
+Position=646,5997,857,6017
 Item=G4_2_1_NO_OF_FUNCTIONING_15,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5910,209,5926
+Position=50,6000,209,6016
 Text=G4.2.1 No. of Functioning
  
   
 [Field]
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_15
-Position=646,5937,857,5957
+Position=646,6027,857,6047
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_15,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5940,246,5956
+Position=50,6030,246,6046
 Text=G.4.2.2. No. of Non-Functioning
  
   
 [Field]
 Name=G4_2_3_TOTAL_NO_15
-Position=646,5967,857,5987
+Position=646,6057,857,6077
 Item=G4_2_3_TOTAL_NO_15,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5970,154,5986
+Position=50,6060,154,6076
 Text=G4.2.3. Total No.
  
   
 [Field]
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_14
-Position=646,5997,857,6017
+Position=646,6087,857,6107
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_14,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6000,258,6016
+Position=50,6090,258,6106
 Text=G4.4 Estimated Total Value (Php)
  
   
 [Field]
 Name=DINING_SET
-Position=646,6027,661,6047
+Position=646,6117,661,6137
 Item=DINING_SET,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6030,138,6046
+Position=50,6120,138,6136
 Text=18. Dining Set
  
   
 [Field]
 Name=G4_2_QUANTITY_16
-Position=646,6057,661,6077
+Position=646,6147,661,6167
 Item=G4_2_QUANTITY_16,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6060,135,6076
+Position=50,6150,135,6166
 Text=G4.2 Quantity
  
   
 [Field]
 Name=G4_2_1_NO_OF_FUNCTIONING_16
-Position=646,6087,857,6107
+Position=646,6177,857,6197
 Item=G4_2_1_NO_OF_FUNCTIONING_16,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6090,209,6106
+Position=50,6180,209,6196
 Text=G4.2.1 No. of Functioning
  
   
 [Field]
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_16
-Position=646,6117,857,6137
+Position=646,6207,857,6227
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_16,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6120,246,6136
+Position=50,6210,246,6226
 Text=G.4.2.2. No. of Non-Functioning
  
   
 [Field]
 Name=G4_2_3_TOTAL_NO_16
-Position=646,6147,857,6167
+Position=646,6237,857,6257
 Item=G4_2_3_TOTAL_NO_16,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6150,154,6166
+Position=50,6240,154,6256
 Text=G4.2.3. Total No.
  
   
 [Field]
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_15
-Position=646,6177,857,6197
+Position=646,6267,857,6287
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_15,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6180,258,6196
+Position=50,6270,258,6286
 Text=G4.4 Estimated Total Value (Php)
  
   
 [Field]
 Name=ELECTRIC_FAN
-Position=646,6207,661,6227
+Position=646,6297,661,6317
 Item=ELECTRIC_FAN,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6210,147,6226
+Position=50,6300,147,6316
 Text=19. Electric Fan
  
   
 [Field]
 Name=G4_2_QUANTITY_17
-Position=646,6237,661,6257
+Position=646,6327,661,6347
 Item=G4_2_QUANTITY_17,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6240,135,6256
+Position=50,6330,135,6346
 Text=G4.2 Quantity
  
   
 [Field]
 Name=G4_2_1_NO_OF_FUNCTIONING_17
-Position=646,6267,857,6287
+Position=646,6357,857,6377
 Item=G4_2_1_NO_OF_FUNCTIONING_17,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6270,209,6286
+Position=50,6360,209,6376
 Text=G4.2.1 No. of Functioning
  
   
 [Field]
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_17
-Position=646,6297,857,6317
+Position=646,6387,857,6407
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_17,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6300,246,6316
+Position=50,6390,246,6406
 Text=G.4.2.2. No. of Non-Functioning
  
   
 [Field]
 Name=G4_2_3_TOTAL_NO_17
-Position=646,6327,857,6347
+Position=646,6417,857,6437
 Item=G4_2_3_TOTAL_NO_17,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6330,154,6346
+Position=50,6420,154,6436
 Text=G4.2.3. Total No.
  
   
 [Field]
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_16
-Position=646,6357,857,6377
+Position=646,6447,857,6467
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_16,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6360,258,6376
+Position=50,6450,258,6466
 Text=G4.4 Estimated Total Value (Php)
  
   
 [Field]
 Name=AIRCON
-Position=646,6387,661,6407
+Position=646,6477,661,6497
 Item=AIRCON,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6390,113,6406
+Position=50,6480,113,6496
 Text=20. Aircon
  
   
 [Field]
 Name=G4_2_QUANTITY_18
-Position=646,6417,661,6437
+Position=646,6507,661,6527
 Item=G4_2_QUANTITY_18,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6420,135,6436
+Position=50,6510,135,6526
 Text=G4.2 Quantity
  
   
 [Field]
 Name=G4_2_1_NO_OF_FUNCTIONING_18
-Position=646,6447,857,6467
+Position=646,6537,857,6557
 Item=G4_2_1_NO_OF_FUNCTIONING_18,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6450,209,6466
+Position=50,6540,209,6556
 Text=G4.2.1 No. of Functioning
  
   
 [Field]
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_18
-Position=646,6477,857,6497
+Position=646,6567,857,6587
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_18,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6480,246,6496
+Position=50,6570,246,6586
 Text=G.4.2.2. No. of Non-Functioning
  
   
 [Field]
 Name=G4_2_3_TOTAL_NO_18
-Position=646,6507,857,6527
+Position=646,6597,857,6617
 Item=G4_2_3_TOTAL_NO_18,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6510,158,6526
+Position=50,6600,158,6616
 Text=G4.2.3. Total No. 
  
   
 [Field]
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_17
-Position=646,6537,857,6557
+Position=646,6627,857,6647
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_17,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6540,258,6556
+Position=50,6630,258,6646
 Text=G4.4 Estimated Total Value (Php)
  
   
 [Field]
 Name=OTHERS_SPECIFY_1
-Position=646,6567,776,6587
+Position=646,6657,776,6677
 Item=OTHERS_SPECIFY_1,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6570,165,6586
+Position=50,6660,165,6676
 Text=21. Others, specify
  
   
 [Field]
 Name=G4_2_1_NO_OF_FUNCTIONING_19
-Position=646,6597,857,6617
+Position=646,6687,857,6707
 Item=G4_2_1_NO_OF_FUNCTIONING_19,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6600,209,6616
+Position=50,6690,209,6706
 Text=G4.2.1 No. of Functioning
  
   
 [Field]
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_19
-Position=646,6627,857,6647
+Position=646,6717,857,6737
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_19,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6630,246,6646
+Position=50,6720,246,6736
 Text=G.4.2.2. No. of Non-Functioning
  
   
 [Field]
 Name=G4_2_3_TOTAL_NO_19
-Position=646,6657,857,6677
+Position=646,6747,857,6767
 Item=G4_2_3_TOTAL_NO_19,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6660,158,6676
+Position=50,6750,158,6766
 Text=G4.2.3. Total No. 
  
   
 [Field]
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_18
-Position=646,6687,857,6707
+Position=646,6777,857,6797
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_18,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6690,258,6706
+Position=50,6780,258,6796
 Text=G4.4 Estimated Total Value (Php)
  
   
 [Field]
 Name=G10_2_HAVE_YOU_AVAILED_OF_A_GOVERNMENT_HOUSING_P
-Position=646,6717,661,6737
+Position=646,6807,661,6827
 Item=G10_2_HAVE_YOU_AVAILED_OF_A_GOVERNMENT_HOUSING_P,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,6720,481,6736
+Position=50,6810,481,6826
 Text=G10.2 Have you availed of a government housing program before? *
  
   
 [Field]
 Name=G10_5_DID_YOU_AVAIL_OF_BALIK_PROBINSYA_PROGRAM
-Position=646,6747,661,6767
+Position=646,6837,661,6857
 Item=G10_5_DID_YOU_AVAIL_OF_BALIK_PROBINSYA_PROGRAM,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,6750,367,6766
+Position=50,6840,367,6856
 Text=G10.5 Did you avail of Balik Probinsya Program? *
  
   
 [Field]
 Name=G10_6_IF_PREVIOUSLY_RELOCATED_AND_HAVE_GONE_BACK
-Position=646,6777,731,6797
+Position=646,6867,731,6887
 Item=G10_6_IF_PREVIOUSLY_RELOCATED_AND_HAVE_GONE_BACK,LASSODD_DICT
 DataCaptureType=CheckBox
 Form=13
   
 [Text]
-Position=50,6780,632,6796
+Position=50,6870,632,6886
 Text=G10.6 If previously relocated and have gone back to the area, what made you come back? *
  
   
 [Field]
 Name=SUPPLEMENTARY_SURVEY_QUESTIONNAIRE
-Position=646,6807,664,6827
+Position=646,6897,664,6917
 Item=SUPPLEMENTARY_SURVEY_QUESTIONNAIRE,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6810,334,6826
+Position=50,6900,334,6916
 Text=SUPPLEMENTARY SURVEY QUESTIONNAIRE 
  
   
 [Field]
 Name=J2_1_1_NAME
-Position=646,6837,1056,6857
+Position=646,6927,1056,6947
 Item=J2_1_1_NAME,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6840,117,6856
+Position=50,6930,117,6946
 Text=J2.1.1 First
  
   
 [Field]
 Name=J2_1_1_MIDLE
-Position=646,6867,1056,6887
+Position=646,6957,1056,6977
 Item=J2_1_1_MIDLE,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6870,133,6886
+Position=50,6960,133,6976
 Text=J2.1.1 Middle
  
   
 [Field]
 Name=J2_1_1_LAST
-Position=646,6897,1056,6917
+Position=646,6987,1056,7007
 Item=J2_1_1_LAST,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6900,116,6916
+Position=50,6990,116,7006
 Text=J2.1.1 Last
  
   
 [Field]
 Name=J2_1_2_SEX
-Position=646,6927,661,6947
+Position=646,7017,661,7037
 Item=J2_1_2_SEX,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,6930,124,6946
+Position=50,7020,124,7036
 Text=J2.1.2 Sex *
  
   
 [Field]
 Name=J2_1_3_AGE
-Position=646,6957,661,6977
+Position=646,7047,661,7067
 Item=J2_1_3_AGE,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,6960,115,6976
+Position=50,7050,115,7066
 Text=J2.1.3 Age
  
   
 [Field]
 Name=J2_1_4_RELATIONSHIP_TO_HOUSEHOLD_HEAD
-Position=646,6987,661,7007
+Position=646,7077,661,7097
 Item=J2_1_4_RELATIONSHIP_TO_HOUSEHOLD_HEAD,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,6990,293,7006
+Position=50,7080,293,7096
 Text=J2.1.4 Relationship to Household Head
  
   
 [Field]
 Name=J2_1_5_HIGHEST_EDUCATIONAL_ATTAINMENT
-Position=646,7017,675,7037
+Position=646,7107,675,7127
 Item=J2_1_5_HIGHEST_EDUCATIONAL_ATTAINMENT,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,7020,289,7036
+Position=50,7110,289,7126
 Text=J2.1.5 Highest Educational Attainment
  
   
 [Field]
 Name=J2_1_6_VULNERABILITIES
-Position=646,7047,717,7067
+Position=646,7137,717,7157
 Item=J2_1_6_VULNERABILITIES,LASSODD_DICT
 DataCaptureType=CheckBox
 Form=13
   
 [Text]
-Position=50,7050,182,7066
+Position=50,7140,182,7156
 Text=J2.1.6 Vulnerabilities
  
   
 [Field]
 Name=J3_1_1_PRIMARY_SOURCE_OF_INCOME
-Position=646,7077,661,7097
+Position=646,7167,661,7187
 Item=J3_1_1_PRIMARY_SOURCE_OF_INCOME,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,7080,256,7096
+Position=50,7170,256,7186
 Text=J3.1.1 Primary Source of Income
  
   
 [Field]
 Name=J3_1_2_FROM_PRIMARY_INCOME_PHP_MONTH
-Position=646,7107,857,7127
+Position=646,7197,857,7217
 Item=J3_1_2_FROM_PRIMARY_INCOME_PHP_MONTH,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,7110,308,7126
+Position=50,7200,308,7216
 Text=J3.1.2 From Primary Income (Php/Month)
  
   
 [Field]
 Name=J3_1_3_SECONDARY_SOURCE_OF_INCOME
-Position=646,7137,661,7157
+Position=646,7227,661,7247
 Item=J3_1_3_SECONDARY_SOURCE_OF_INCOME,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=13
   
 [Text]
-Position=50,7140,274,7156
+Position=50,7230,274,7246
 Text=J3.1.3 Secondary Source of Income
  
   
 [Field]
 Name=J3_1_4_FROM_SECONDARY_INCOME_PHP_MONTH
-Position=646,7167,857,7187
+Position=646,7257,857,7277
 Item=J3_1_4_FROM_SECONDARY_INCOME_PHP_MONTH,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,7170,326,7186
+Position=50,7260,326,7276
 Text=J3.1.4 From Secondary Income (Php/Month)
  
   
 [Field]
 Name=J3_1_5_NO_OF_MEMBERS_CONTRIBUTING
-Position=646,7197,787,7217
+Position=646,7287,787,7307
 Item=J3_1_5_NO_OF_MEMBERS_CONTRIBUTING,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,7200,270,7216
+Position=50,7290,270,7306
 Text=J3.1.5 No. of members contributing
  
   
 [Field]
 Name=J3_1_6_TOTAL_COMBINED_HH_MONTHLY_INCOME_PHP
-Position=646,7227,857,7247
+Position=646,7317,857,7337
 Item=J3_1_6_TOTAL_COMBINED_HH_MONTHLY_INCOME_PHP,LASSODD_DICT
 DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,7230,347,7246
+Position=50,7320,347,7336
 Text=J3.1.6 Total Combined HH Monthly Income Php
  
 [EndGroup]
@@ -6572,6 +6699,915 @@ Form=15
 [Text]
 Position=50,2370,246,2386
 Text=3. Swine (Pig) (Annual Income)
+ 
+  
+[Field]
+Name=GOAT_NO_OF_HEADS
+Position=1356,2397,1567,2417
+Item=GOAT_NO_OF_HEADS,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2400,187,2416
+Text=4. Goat (No. of Heads)
+ 
+  
+[Field]
+Name=GOAT_ANNUAL_INCOME
+Position=1356,2427,1567,2447
+Item=GOAT_ANNUAL_INCOME,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2430,203,2446
+Text=4. Goat (Annual Income)
+ 
+  
+[Field]
+Name=SHEEP
+Position=1356,2457,1567,2477
+Item=SHEEP,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2460,198,2476
+Text=5. Sheep (No. of Heads)
+ 
+  
+[Field]
+Name=SHEEP_ANNUAL_INCOME
+Position=1356,2487,1567,2507
+Item=SHEEP_ANNUAL_INCOME,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2490,214,2506
+Text=5. Sheep (Annual Income)
+ 
+  
+[Field]
+Name=HORSE_NO_OF_HEADS
+Position=1356,2517,1567,2537
+Item=HORSE_NO_OF_HEADS,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2520,193,2536
+Text=6. Horse (No. of Heads)
+ 
+  
+[Field]
+Name=HORSE_ANNUAL_INCOME
+Position=1356,2547,1567,2567
+Item=HORSE_ANNUAL_INCOME,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2550,209,2566
+Text=6. Horse (Annual Income)
+ 
+  
+[Field]
+Name=RACE_HORSE
+Position=1356,2577,1567,2597
+Item=RACE_HORSE,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2580,229,2596
+Text=7. Race Horse (No. of Heads)
+ 
+  
+[Field]
+Name=RACE_HORSE_ANNUAL_INCOME
+Position=1356,2607,1567,2627
+Item=RACE_HORSE_ANNUAL_INCOME,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2610,245,2626
+Text=7. Race Horse (Annual Income)
+ 
+  
+[Field]
+Name=BREEDER_DOGS_NO_OF_HEADS
+Position=1356,2637,1567,2657
+Item=BREEDER_DOGS_NO_OF_HEADS,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2640,242,2656
+Text=8. Breeder dogs (No. of Heads)
+ 
+  
+[Field]
+Name=BREEDER_DOGS_ANNUAL_INCOME
+Position=1356,2667,1567,2687
+Item=BREEDER_DOGS_ANNUAL_INCOME,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2670,258,2686
+Text=8. Breeder dogs (Annual Income)
+ 
+  
+[Field]
+Name=OTHER_LIVESTOCK_ANIMALS_SPECIFY_BELOW
+Position=1356,2697,1567,2717
+Item=OTHER_LIVESTOCK_ANIMALS_SPECIFY_BELOW,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2700,308,2716
+Text=9. Other livestock/animals, specify below
+ 
+  
+[Field]
+Name=OTHER_LIVESTOCK_ANIMALS_SPECIFY_BELOW_1
+Position=1356,2727,1567,2747
+Item=OTHER_LIVESTOCK_ANIMALS_SPECIFY_BELOW_1,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2730,308,2746
+Text=9. Other livestock/animals, specify below
+ 
+  
+[Field]
+Name=OTHER_LIVESTOCK_ANIMALS_SPECIFY_BELOW_2
+Position=1356,2757,1567,2777
+Item=OTHER_LIVESTOCK_ANIMALS_SPECIFY_BELOW_2,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2760,308,2776
+Text=9. Other livestock/animals, specify below
+ 
+  
+[Field]
+Name=NATIVE_CHICKEN_NO_OF_BIRDS
+Position=1356,2787,1567,2807
+Item=NATIVE_CHICKEN_NO_OF_BIRDS,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2790,245,2806
+Text=1. Native Chicken (No. of Birds)
+ 
+  
+[Field]
+Name=NATIVE_CHICKEN_ANNUAL_INCOME
+Position=1356,2817,1567,2837
+Item=NATIVE_CHICKEN_ANNUAL_INCOME,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2820,268,2836
+Text=1. Native Chicken (Annual Income)
+ 
+  
+[Field]
+Name=BROILER_CHICKEN_NO_OF_BIRDS
+Position=1356,2847,1567,2867
+Item=BROILER_CHICKEN_NO_OF_BIRDS,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2850,248,2866
+Text=2. Broiler Chicken (No. of Birds)
+ 
+  
+[Field]
+Name=BROILER_CHICKEN_ANNUAL_INCOME
+Position=1356,2877,1567,2897
+Item=BROILER_CHICKEN_ANNUAL_INCOME,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2880,271,2896
+Text=2. Broiler Chicken (Annual Income)
+ 
+  
+[Field]
+Name=LAYER_CHICKEN_NO_OF_BIRDS
+Position=1356,2907,1567,2927
+Item=LAYER_CHICKEN_NO_OF_BIRDS,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2910,241,2926
+Text=3. Layer Chicken (No. of Birds)
+ 
+  
+[Field]
+Name=LAYER_CHICKEN_NO_BIRDS
+Position=1356,2937,1567,2957
+Item=LAYER_CHICKEN_NO_BIRDS,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2940,264,2956
+Text=3. Layer Chicken (Annual Income)
+ 
+  
+[Field]
+Name=GAME_FOWL
+Position=1356,2967,1567,2987
+Item=GAME_FOWL,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,2970,223,2986
+Text=4. Game Fowl (No. of Birds)
+ 
+  
+[Field]
+Name=GAME_FOWL_ANNUAL_INCOME
+Position=1356,2997,1567,3017
+Item=GAME_FOWL_ANNUAL_INCOME,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3000,246,3016
+Text=4. Game Fowl (Annual Income)
+ 
+  
+[Field]
+Name=BROILER_DUCK_NO_OF_BIRDS
+Position=1356,3027,1567,3047
+Item=BROILER_DUCK_NO_OF_BIRDS,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3030,232,3046
+Text=1. Broiler Duck (No. of Birds) 
+ 
+  
+[Field]
+Name=BROILER_DUCK_ANNUAL_INCOME
+Position=1356,3057,1567,3077
+Item=BROILER_DUCK_ANNUAL_INCOME,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3060,251,3076
+Text=1. Broiler Duck (Annual Income)
+ 
+  
+[Field]
+Name=LAYER_DUCK_NO_OF_BIRDS
+Position=1356,3087,1567,3107
+Item=LAYER_DUCK_NO_OF_BIRDS,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3090,221,3106
+Text=2. Layer Duck (No. of Birds)
+ 
+  
+[Field]
+Name=LAYER_DUCK_ANNUAL_INCOME
+Position=1356,3117,1567,3137
+Item=LAYER_DUCK_ANNUAL_INCOME,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3120,244,3136
+Text=2. Layer Duck (Annual Income)
+ 
+  
+[Field]
+Name=BREEDER_DUCK_NO_OF_BIRDS
+Position=1356,3147,1567,3167
+Item=BREEDER_DUCK_NO_OF_BIRDS,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3150,236,3166
+Text=3. Breeder Duck (No. of Birds)
+ 
+  
+[Field]
+Name=BREEDER_DUCK_ANNUAL_INCOME
+Position=1356,3177,1567,3197
+Item=BREEDER_DUCK_ANNUAL_INCOME,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3180,259,3196
+Text=3. Breeder Duck (Annual Income)
+ 
+  
+[Field]
+Name=QUAIL_DUCK_NO_OF_BIRDS
+Position=1356,3207,1567,3227
+Item=QUAIL_DUCK_NO_OF_BIRDS,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3210,219,3226
+Text=4. Quail Duck (No. of Birds)
+ 
+  
+[Field]
+Name=QUAIL_DUCK_ANNUAL_INCOME
+Position=1356,3237,1567,3257
+Item=QUAIL_DUCK_ANNUAL_INCOME,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3240,242,3256
+Text=4. Quail Duck (Annual Income)
+ 
+  
+[Field]
+Name=OTHER_POULTRY_SPECIFY_BELOW
+Position=1356,3267,1567,3287
+Item=OTHER_POULTRY_SPECIFY_BELOW,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3270,244,3286
+Text=5. Other Poultry, specify below
+ 
+  
+[Field]
+Name=OTHER_POULTRY_SPECIFY_BELOW_1
+Position=1356,3297,1567,3317
+Item=OTHER_POULTRY_SPECIFY_BELOW_1,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3300,244,3316
+Text=5. Other Poultry, specify below
+ 
+  
+[Field]
+Name=I3_1_IS_THERE_ANY_MEMBER_OF_THIS_HOUSEHOLD_WHO_I_1
+Position=1356,3327,1371,3347
+Item=I3_1_IS_THERE_ANY_MEMBER_OF_THIS_HOUSEHOLD_WHO_I_1,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=15
+  
+[Text]
+Position=50,3330,1342,3346
+Text=I3.1 Is there any member of this household who is engage/operated in culturing fish, seaweeds or other aquatic plants and animals in a fishpond, fish cage or other types of aqua-farm in the affected area?
+ 
+  
+[Field]
+Name=I3_2_FISH_PEN_POND_INFORMATION
+Position=1356,3357,1374,3377
+Item=I3_2_FISH_PEN_POND_INFORMATION,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3360,253,3376
+Text=I3.2 Fish Pen / Pond Information
+ 
+  
+[Field]
+Name=I3_2_1_FRESH_WATER_AQUAMARINE_PRODUCTS_1
+Position=1356,3387,1374,3407
+Item=I3_2_1_FRESH_WATER_AQUAMARINE_PRODUCTS_1,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3390,313,3406
+Text=I3.2.1 Fresh Water / Aquamarine Products
+ 
+  
+[Field]
+Name=TILAPIA
+Position=1356,3417,1374,3437
+Item=TILAPIA,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3420,109,3436
+Text=1. TIlapia
+ 
+  
+[Field]
+Name=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA
+Position=1356,3447,1567,3467
+Item=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3450,300,3466
+Text=I3.2.2 Size of fish cage/pen/pond (in ha)
+ 
+  
+[Field]
+Name=I3_2_3_NUMBER_OF_CAGES_PENS
+Position=1356,3477,1567,3497
+Item=I3_2_3_NUMBER_OF_CAGES_PENS,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3480,239,3496
+Text=I3.2.3 Number of Cages / Pens
+ 
+  
+[Field]
+Name=I3_2_4_ANNUAL_HARVEST_IN_PHP
+Position=1356,3507,1567,3527
+Item=I3_2_4_ANNUAL_HARVEST_IN_PHP,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3510,236,3526
+Text=I3.2.4 Annual Harvest (In Php)
+ 
+  
+[Field]
+Name=MILK_FISH_BANGUS
+Position=1356,3537,1374,3557
+Item=MILK_FISH_BANGUS,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3540,180,3556
+Text=2. Milk Fish / Bangus
+ 
+  
+[Field]
+Name=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_1
+Position=1356,3567,1567,3587
+Item=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_1,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3570,300,3586
+Text=I3.2.2 Size of fish cage/pen/pond (in ha)
+ 
+  
+[Field]
+Name=I3_2_3_NUMBER_OF_CAGES_PENS_1
+Position=1356,3597,1567,3617
+Item=I3_2_3_NUMBER_OF_CAGES_PENS_1,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3600,239,3616
+Text=I3.2.3 Number of Cages / Pens
+ 
+  
+[Field]
+Name=I3_2_4_ANNUAL_HARVEST_IN_PHP_1
+Position=1356,3627,1567,3647
+Item=I3_2_4_ANNUAL_HARVEST_IN_PHP_1,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3630,236,3646
+Text=I3.2.4 Annual Harvest (In Php)
+ 
+  
+[Field]
+Name=CRUSTACEANS
+Position=1356,3657,1374,3677
+Item=CRUSTACEANS,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3660,142,3676
+Text=3. Crustaceans
+ 
+  
+[Field]
+Name=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_2
+Position=1356,3687,1567,3707
+Item=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_2,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3690,300,3706
+Text=I3.2.2 Size of fish cage/pen/pond (in ha)
+ 
+  
+[Field]
+Name=I3_2_3_NUMBER_OF_CAGES_PENS_2
+Position=1356,3717,1567,3737
+Item=I3_2_3_NUMBER_OF_CAGES_PENS_2,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3720,239,3736
+Text=I3.2.3 Number of Cages / Pens
+ 
+  
+[Field]
+Name=I3_2_4_ANNUAL_HARVEST_IN_PHP_2
+Position=1356,3747,1567,3767
+Item=I3_2_4_ANNUAL_HARVEST_IN_PHP_2,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3750,236,3766
+Text=I3.2.4 Annual Harvest (In Php)
+ 
+  
+[Field]
+Name=SEAWEED
+Position=1356,3777,1374,3797
+Item=SEAWEED,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3780,125,3796
+Text=4. Seaweed
+ 
+  
+[Field]
+Name=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_3
+Position=1356,3807,1567,3827
+Item=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_3,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3810,300,3826
+Text=I3.2.2 Size of fish cage/pen/pond (in ha)
+ 
+  
+[Field]
+Name=I3_2_3_NUMBER_OF_CAGES_PENS_3
+Position=1356,3837,1567,3857
+Item=I3_2_3_NUMBER_OF_CAGES_PENS_3,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3840,239,3856
+Text=I3.2.3 Number of Cages / Pens
+ 
+  
+[Field]
+Name=I3_2_4_ANNUAL_HARVEST_IN_PHP_3
+Position=1356,3867,1567,3887
+Item=I3_2_4_ANNUAL_HARVEST_IN_PHP_3,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3870,236,3886
+Text=I3.2.4 Annual Harvest (In Php)
+ 
+  
+[Field]
+Name=WATER_LILY
+Position=1356,3897,1374,3917
+Item=WATER_LILY,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3900,130,3916
+Text=5. Water Lily
+ 
+  
+[Field]
+Name=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_4
+Position=1356,3927,1567,3947
+Item=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_4,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3930,300,3946
+Text=I3.2.2 Size of fish cage/pen/pond (in ha)
+ 
+  
+[Field]
+Name=I3_2_3_NUMBER_OF_CAGES_PENS_4
+Position=1356,3957,1567,3977
+Item=I3_2_3_NUMBER_OF_CAGES_PENS_4,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3960,239,3976
+Text=I3.2.3 Number of Cages / Pens
+ 
+  
+[Field]
+Name=I3_2_4_ANNUAL_HARVEST_IN_PHP_4
+Position=1356,3987,1567,4007
+Item=I3_2_4_ANNUAL_HARVEST_IN_PHP_4,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,3990,236,4006
+Text=I3.2.4 Annual Harvest (In Php)
+ 
+  
+[Field]
+Name=OTHERS
+Position=1356,4017,1374,4037
+Item=OTHERS,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,4020,110,4036
+Text=6. Others:
+ 
+  
+[Field]
+Name=SPECIFY
+Position=1356,4047,1526,4067
+Item=SPECIFY,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,4050,97,4066
+Text=Specify
+ 
+  
+[Field]
+Name=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_5
+Position=1356,4077,1567,4097
+Item=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_5,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,4080,300,4096
+Text=I3.2.2 Size of fish cage/pen/pond (in ha)
+ 
+  
+[Field]
+Name=I3_2_3_NUMBER_OF_CAGES_PENS_5
+Position=1356,4107,1567,4127
+Item=I3_2_3_NUMBER_OF_CAGES_PENS_5,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,4110,239,4126
+Text=I3.2.3 Number of Cages / Pens
+ 
+  
+[Field]
+Name=I3_2_4_ANNUAL_HARVEST_IN_PHP_5
+Position=1356,4137,1567,4157
+Item=I3_2_4_ANNUAL_HARVEST_IN_PHP_5,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,4140,236,4156
+Text=I3.2.4 Annual Harvest (In Php)
+ 
+  
+[Field]
+Name=I3_3_TOTAL
+Position=1356,4167,1567,4187
+Item=I3_3_TOTAL,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,4170,108,4186
+Text=I3.3 Total
+ 
+  
+[Field]
+Name=I3_4_WHAT_IS_THE_SCALE_OF_FISH_PEN_POND_OPERATIO
+Position=1356,4197,1371,4217
+Item=I3_4_WHAT_IS_THE_SCALE_OF_FISH_PEN_POND_OPERATIO,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=15
+  
+[Text]
+Position=50,4200,363,4216
+Text=I3.4 What is the scale of fish pen/pond operation?
+ 
+  
+[Field]
+Name=I3_5_HOW_IS_THE_FISH_PEN_POND_UTILIZED
+Position=1356,4227,1371,4247
+Item=I3_5_HOW_IS_THE_FISH_PEN_POND_UTILIZED,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=15
+  
+[Text]
+Position=50,4230,291,4246
+Text=I3.5 How is the fish pen/pond utilized?
+ 
+  
+[Field]
+Name=I3_6_DO_YOU_CATCH_FISH_IN_THE_AFFECTED_AREA
+Position=1356,4257,1371,4277
+Item=I3_6_DO_YOU_CATCH_FISH_IN_THE_AFFECTED_AREA,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=15
+  
+[Text]
+Position=50,4260,324,4276
+Text=I3.6 Do you catch fish in the affected area? 
+ 
+  
+[Field]
+Name=I4_1_DID_YOU_ANSWER_YES_IN_ANY_ONE_I1_I2_I3_ABOV
+Position=1356,4287,1371,4307
+Item=I4_1_DID_YOU_ANSWER_YES_IN_ANY_ONE_I1_I2_I3_ABOV,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=15
+  
+[Text]
+Position=50,4290,390,4306
+Text=I4.1 Did you answer YES in any one (I1, I2, I3) above? 
+ 
+  
+[Field]
+Name=I4_2_DID_YOU_REGISTER_YOUR_LAND_WATER_BASED_ACTI
+Position=1356,4317,1371,4337
+Item=I4_2_DID_YOU_REGISTER_YOUR_LAND_WATER_BASED_ACTI,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=15
+  
+[Text]
+Position=50,4320,379,4336
+Text=I4.2 Did you register your land/water-based activity?
+ 
+  
+[Field]
+Name=I4_3_DO_YOU_HAVE_PAID_AGRICULTURE_AQUACULTURE_WO
+Position=1356,4347,1371,4367
+Item=I4_3_DO_YOU_HAVE_PAID_AGRICULTURE_AQUACULTURE_WO,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=15
+  
+[Text]
+Position=50,4350,402,4366
+Text=I4.3 Do you have paid agriculture/aquaculture workers?
+ 
+  
+[Field]
+Name=I4_4_HOW_MANY_PAID_AGRICULTURAL_AQUACULTURE_FISH
+Position=1356,4377,1371,4397
+Item=I4_4_HOW_MANY_PAID_AGRICULTURAL_AQUACULTURE_FISH,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=15
+  
+[Text]
+Position=50,4380,542,4396
+Text=I4.4 How many paid agricultural/aquaculture/fishery workers do you employ? 
+ 
+  
+[Field]
+Name=I4_5_DO_YOU_OWN_THE_OPERATION_OF_THE_AGRICULTURE
+Position=1356,4407,1371,4427
+Item=I4_5_DO_YOU_OWN_THE_OPERATION_OF_THE_AGRICULTURE,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=15
+  
+[Text]
+Position=50,4410,441,4426
+Text=I4.5 Do you own the operation of the agriculture/aquaculture?
+ 
+  
+[Field]
+Name=I4_6_DO_YOU_OWN_THE_AFFECTED_LAND_BODY_OF_WATER
+Position=1356,4437,1371,4457
+Item=I4_6_DO_YOU_OWN_THE_AFFECTED_LAND_BODY_OF_WATER,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=15
+  
+[Text]
+Position=50,4440,361,4456
+Text=I4.6 Do you own the affected land/body of water?
+ 
+  
+[Field]
+Name=I4_7_IF_NOT_WHAT_IS_YOUR_ARRANGEMENT_WITH_THE_LA
+Position=1356,4467,1371,4487
+Item=I4_7_IF_NOT_WHAT_IS_YOUR_ARRANGEMENT_WITH_THE_LA,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=15
+  
+[Text]
+Position=50,4470,599,4486
+Text=I4.7 If not, what is your arrangement with the landowner or lake/marine administrator?
+ 
+  
+[Field]
+Name=I4_8_IF_TENANT_LESSEE_HOW_MUCH_DO_YOU_PAY_THE_LA
+Position=1356,4497,1567,4517
+Item=I4_8_IF_TENANT_LESSEE_HOW_MUCH_DO_YOU_PAY_THE_LA,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,4500,534,4516
+Text=I4.8 If Tenant/Lessee, how much do you pay the landowner per year? ( Php )
+ 
+  
+[Field]
+Name=I4_9_WHAT_IS_THE_SIZE_OF_THE_RENTED_LEASED_USED
+Position=1356,4527,1567,4547
+Item=I4_9_WHAT_IS_THE_SIZE_OF_THE_RENTED_LEASED_USED,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,4530,436,4546
+Text=I4.9 What is the size of the rented/leased/used area? ( sq.m. )
+ 
+  
+[Field]
+Name=I4_10_IF_SHARECROPPER_WHAT_IS_YOUR_SHARING_ARRAN
+Position=1356,4557,1567,4577
+Item=I4_10_IF_SHARECROPPER_WHAT_IS_YOUR_SHARING_ARRAN,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,4560,508,4576
+Text=I4.10 If sharecropper, what is your sharing arrangement with the owner?
+ 
+  
+[Field]
+Name=OWNER
+Position=1356,4587,1567,4607
+Item=OWNER,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,4590,104,4606
+Text=% owner
+ 
+  
+[Field]
+Name=SHARECROPPER
+Position=1356,4617,1567,4637
+Item=SHARECROPPER,LASSODD_DICT
+DataCaptureType=TextBox
+Form=15
+  
+[Text]
+Position=50,4620,148,4636
+Text=% sharecropper
  
 [EndGroup]
   
