@@ -449,21 +449,21 @@
             }, 
             {
               "name": "BIRTH_MONTH", 
-              "labels": [ { "text": "Birth Month" } ], 
+              "labels": [ { "text": "B4. Birth Month" } ], 
               "contentType": "numeric", 
               "length": 2, 
               "zeroFill": false
             }, 
             {
               "name": "BIRTH_DAY", 
-              "labels": [ { "text": "Birth Day" } ], 
+              "labels": [ { "text": "B4. Birth Day" } ], 
               "contentType": "numeric", 
               "length": 2, 
               "zeroFill": false
             }, 
             {
               "name": "BIRTH_YEAR", 
-              "labels": [ { "text": "Birth Year" } ], 
+              "labels": [ { "text": "B4. Birth Year" } ], 
               "contentType": "numeric", 
               "length": 2, 
               "zeroFill": false
@@ -728,7 +728,7 @@
               "name": "TYPE_OF_AFFECTED_STRUCTURE", 
               "labels": [ { "text": "C1. Type of Affected Structure" } ], 
               "contentType": "alpha", 
-              "length": 2, 
+              "length": 1, 
               "valueSets": [
                 {
                   "name": "TYPE_OF_AFFECTED_STRUCTURE_VS1", 
@@ -772,11 +772,11 @@
                     }, 
                     {
                       "labels": [ { "text": "10. Other ( please specify )" } ], 
-                      "pairs": [ { "value": "10" } ]
+                      "pairs": [ { "value": "1" } ]
                     }, 
                     {
                       "labels": [ { "text": "11. No Affected Structure" } ], 
-                      "pairs": [ { "value": "11" } ]
+                      "pairs": [ { "value": "1" } ]
                     }
                   ]
                 }
@@ -786,7 +786,7 @@
               "name": "USE_OF_STRUCTURE_1", 
               "labels": [ { "text": "C2. Use of Structure" } ], 
               "contentType": "alpha", 
-              "length": 2, 
+              "length": 22, 
               "valueSets": [
                 {
                   "name": "USE_OF_STRUCTURE_1_VS1", 
@@ -824,7 +824,9 @@
               "name": "USE_OF_STRUCTURE", 
               "labels": [ { "text": "C2. Use of Structure" } ], 
               "contentType": "alpha", 
-              "length": 20, 
+              "subitem": true, 
+              "subitemOffset": 2, 
+              "length": 15, 
               "valueSets": [
                 {
                   "name": "USE_OF_STRUCTURE_VS1", 
@@ -862,7 +864,7 @@
               "name": "MATERIAL_OF_MAIN_STRUCTURE", 
               "labels": [ { "text": "C3. Material of Main Structure" } ], 
               "contentType": "alpha", 
-              "length": 2, 
+              "length": 1, 
               "valueSets": [
                 {
                   "name": "MATERIAL_OF_MAIN_STRUCTURE_VS1", 
@@ -900,7 +902,7 @@
               "name": "STATUS_CONDITION_OF_USE", 
               "labels": [ { "text": "C4. Status/Condition of Use" } ], 
               "contentType": "alpha", 
-              "length": 2, 
+              "length": 1, 
               "valueSets": [
                 {
                   "name": "STATUS_CONDITION_OF_USE_VS1", 
@@ -1514,7 +1516,7 @@
               "name": "D1_7_HOW_MUCH_IS_THE_AVERAGE_RENT_PER_MONTH_PHP", 
               "labels": [ { "text": "D1.7 How much is the average rent per month? (Php)" } ], 
               "contentType": "numeric", 
-              "length": 10, 
+              "length": 6, 
               "zeroFill": false
             }, 
             {
@@ -1543,7 +1545,7 @@
               "name": "D1_9_IF_YES_HOW_MUCH_IS_PAID_IN_TAXES_ANNUALLY", 
               "labels": [ { "text": "D1.9 If Yes, how much is paid in taxes annually? " } ], 
               "contentType": "numeric", 
-              "length": 15, 
+              "length": 6, 
               "zeroFill": false
             }, 
             {
@@ -1584,7 +1586,7 @@
               "name": "D2_1_IF_RENTER_SHARER_HOW_MUCH_IS_YOUR_RENT_SHAR", 
               "labels": [ { "text": "D2.1 If Renter/Sharer, how much is your rent/share per month? ( Php )" } ], 
               "contentType": "numeric", 
-              "length": 15, 
+              "length": 6, 
               "zeroFill": false
             }, 
             {
@@ -2210,7 +2212,7 @@
               "name": "E3_2_WHAT_IS_THE_SIZE_OF_YOUR_RENTED_AREA_SQUARE", 
               "labels": [ { "text": "E3.2 What is the size of your rented area? (Square Meter)" } ], 
               "contentType": "numeric", 
-              "length": 15, 
+              "length": 6, 
               "zeroFill": false
             }, 
             {
@@ -3757,14 +3759,15 @@
             {
               "name": "RENT_LAND_E3_1", 
               "labels": [ { "text": "1. Rent (land) - E3.1" } ], 
-              "contentType": "alpha", 
-              "length": 1
+              "contentType": "numeric", 
+              "length": 1, 
+              "zeroFill": false
             }, 
             {
               "name": "G3_2_ESTIMATED_COST_PHP_MONTH", 
               "labels": [ { "text": "G3.2 Estimated Cost (Php/Month)" } ], 
               "contentType": "numeric", 
-              "length": 15, 
+              "length": 7, 
               "zeroFill": false
             }, 
             {
@@ -7937,14 +7940,14 @@
               "name": "I4_8_IF_TENANT_LESSEE_HOW_MUCH_DO_YOU_PAY_THE_LA", 
               "labels": [ { "text": "I4.8 If Tenant/Lessee, how much do you pay the landowner per year? ( Php )" } ], 
               "contentType": "numeric", 
-              "length": 15, 
+              "length": 6, 
               "zeroFill": false
             }, 
             {
               "name": "I4_9_WHAT_IS_THE_SIZE_OF_THE_RENTED_LEASED_USED", 
               "labels": [ { "text": "I4.9 What is the size of the rented/leased/used area? ( sq.m. )" } ], 
               "contentType": "numeric", 
-              "length": 15, 
+              "length": 6, 
               "zeroFill": false
             }, 
             {
@@ -8099,7 +8102,7 @@
               "name": "J3_WHAT_IS_ARE_YOUR_CURRENT_SKILLS_EXPERTISE_1", 
               "labels": [ { "text": "J3. What is/are your current skills/expertise?" } ], 
               "contentType": "alpha", 
-              "length": 2, 
+              "length": 5, 
               "valueSets": [
                 {
                   "name": "J3_WHAT_IS_ARE_YOUR_CURRENT_SKILLS_EXPERTISE_1_VS1", 
@@ -8173,7 +8176,7 @@
               "name": "J4_WHAT_IS_ARE_YOUR_PREFERRED_VOCATIONAL_SKILLS_1", 
               "labels": [ { "text": "J4. What is/are your preferred vocational/skills training?" } ], 
               "contentType": "alpha", 
-              "length": 2, 
+              "length": 5, 
               "valueSets": [
                 {
                   "name": "J4_WHAT_IS_ARE_YOUR_PREFERRED_VOCATIONAL_SKILLS_1_VS1", 
@@ -8275,6 +8278,48 @@
                   ]
                 }
               ]
+            }, 
+            {
+              "name": "K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO", 
+              "labels": [ { "text": "K2. What benefits do you think can be derived from this project?" } ], 
+              "contentType": "alpha", 
+              "length": 55, 
+              "valueSets": [
+                {
+                  "name": "K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO_VS1", 
+                  "labels": [ { "text": "K2. What benefits do you think can be derived from this project?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Create job/employment opportunities for the local" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Improve electrification in the rural areas" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Increase land value" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Open opportunities for new businesses/enterprises" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Others (specify):" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO_1", 
+              "labels": [ { "text": "K2. What benefits do you think can be derived from this project?" } ], 
+              "contentType": "alpha", 
+              "subitem": true, 
+              "subitemOffset": 5, 
+              "length": 50
             }, 
             {
               "name": "K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO", 
@@ -8453,76 +8498,6 @@
               "subitem": true, 
               "subitemOffset": 6, 
               "length": 40
-            }, 
-            {
-              "name": "K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO_1", 
-              "labels": [ { "text": "K2. What benefits do you think can be derived from this project?" } ], 
-              "contentType": "alpha", 
-              "length": 50, 
-              "valueSets": [
-                {
-                  "name": "K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO_1_VS1", 
-                  "labels": [ { "text": "K2. What benefits do you think can be derived from this project?" } ], 
-                  "values": [
-                    {
-                      "labels": [ { "text": "1. Create job/employment opportunities for the local" } ], 
-                      "pairs": [ { "value": "1" } ]
-                    }, 
-                    {
-                      "labels": [ { "text": "2. Improve electrification in the rural areas" } ], 
-                      "pairs": [ { "value": "2" } ]
-                    }, 
-                    {
-                      "labels": [ { "text": "3. Increase land value" } ], 
-                      "pairs": [ { "value": "3" } ]
-                    }, 
-                    {
-                      "labels": [ { "text": "4. Open opportunities for new businesses/enterprises" } ], 
-                      "pairs": [ { "value": "4" } ]
-                    }, 
-                    {
-                      "labels": [ { "text": "5. Others (specify):" } ], 
-                      "pairs": [ { "value": "5" } ]
-                    }
-                  ]
-                }
-              ]
-            }, 
-            {
-              "name": "K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO", 
-              "labels": [ { "text": "K2. What benefits do you think can be derived from this project? Others" } ], 
-              "contentType": "alpha", 
-              "subitem": true, 
-              "subitemOffset": 0, 
-              "length": 30, 
-              "valueSets": [
-                {
-                  "name": "K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO_VS1", 
-                  "labels": [ { "text": "K2. What benefits do you think can be derived from this project? Others" } ], 
-                  "values": [
-                    {
-                      "labels": [ { "text": "1. Create job/employment opportunities for the local" } ], 
-                      "pairs": [ { "value": "1" } ]
-                    }, 
-                    {
-                      "labels": [ { "text": "2. Improve electrification in the rural areas" } ], 
-                      "pairs": [ { "value": "2" } ]
-                    }, 
-                    {
-                      "labels": [ { "text": "3. Increase land value" } ], 
-                      "pairs": [ { "value": "3" } ]
-                    }, 
-                    {
-                      "labels": [ { "text": "4. Open opportunities for new businesses/enterprises" } ], 
-                      "pairs": [ { "value": "4" } ]
-                    }, 
-                    {
-                      "labels": [ { "text": "5. Others (specify):" } ], 
-                      "pairs": [ { "value": "5" } ]
-                    }
-                  ]
-                }
-              ]
             }
           ]
         }, 
