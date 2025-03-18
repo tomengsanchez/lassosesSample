@@ -718,7 +718,7 @@
                     }, 
                     {
                       "labels": [ { "text": "No" } ], 
-                      "pairs": [ { "value": "0" } ]
+                      "pairs": [ { "value": "2" } ]
                     }
                   ]
                 }
@@ -1056,8 +1056,9 @@
             {
               "name": "ADD_ANOTHER", 
               "labels": [ { "text": "Add More Associated Structure" } ], 
-              "contentType": "alpha", 
+              "contentType": "numeric", 
               "length": 1, 
+              "zeroFill": false, 
               "valueSets": [
                 {
                   "name": "ADD_ANOTHER_VS1", 
@@ -1069,7 +1070,7 @@
                     }, 
                     {
                       "labels": [ { "text": "No" } ], 
-                      "pairs": [ { "value": "0" } ]
+                      "pairs": [ { "value": "2" } ]
                     }
                   ]
                 }
@@ -1103,7 +1104,7 @@
                     }, 
                     {
                       "labels": [ { "text": "No" } ], 
-                      "pairs": [ { "value": "0" } ]
+                      "pairs": [ { "value": "2" } ]
                     }
                   ]
                 }
