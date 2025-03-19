@@ -72,7 +72,10 @@
               "name": "INTERVIEWER_ID", 
               "labels": [ { "text": "Interviewer ID" } ], 
               "contentType": "alpha", 
-              "length": 50
+              "length": 10, 
+              "capture": {
+                "type": "dropDown"
+              }
             }, 
             {
               "name": "TYPE_OF_INTERVIEW", 
@@ -122,7 +125,7 @@
                   "labels": [ { "text": "Type of Project Affected Person/s" } ], 
                   "values": [
                     {
-                      "labels": [ { "text": "1. Residing" } ], 
+                      "labels": [ { "text": "Residing" } ], 
                       "pairs": [ { "value": "1" } ]
                     }, 
                     {
@@ -264,7 +267,7 @@
                     }, 
                     {
                       "labels": [ { "text": "No" } ], 
-                      "pairs": [ { "value": "0" } ]
+                      "pairs": [ { "value": "2" } ]
                     }
                   ]
                 }
@@ -278,6 +281,60 @@
               "valueSets": [
                 {
                   "name": "A2_IF_REPRESENTATIVE_RELATIONSHIP_OF_THE_RESPOND_VS1", 
+                  "labels": [ { "text": "A2. If representative, relationship of the respondent to the PAP." } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Spouse" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Child" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Sibling" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Parent" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Worker/Employee" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Caretaker" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "7. Other Relatives (specify)" } ], 
+                      "pairs": [ { "value": "7" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "8. Others (specify)" } ], 
+                      "pairs": [ { "value": "8" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "A2", 
+              "labels": [ { "text": "A2" } ], 
+              "contentType": "alpha", 
+              "length": 1
+            }, 
+            {
+              "name": "A2_IF_REPRESENTATIVE_RELATIONSHIP_OF_THE_RESPOND_1", 
+              "labels": [ { "text": "A2. If representative, relationship of the respondent to the PAP." } ], 
+              "contentType": "alpha", 
+              "subitem": true, 
+              "subitemOffset": 0, 
+              "length": 1, 
+              "valueSets": [
+                {
+                  "name": "A2_IF_REPRESENTATIVE_RELATIONSHIP_OF_THE_RESPOND_1_VS1", 
                   "labels": [ { "text": "A2. If representative, relationship of the respondent to the PAP." } ], 
                   "values": [
                     {
@@ -339,7 +396,7 @@
                     }, 
                     {
                       "labels": [ { "text": "Female" } ], 
-                      "pairs": [ { "value": "0" } ]
+                      "pairs": [ { "value": "2" } ]
                     }
                   ]
                 }
@@ -380,7 +437,7 @@
                     }, 
                     {
                       "labels": [ { "text": "No" } ], 
-                      "pairs": [ { "value": "0" } ]
+                      "pairs": [ { "value": "2" } ]
                     }
                   ]
                 }
@@ -406,10 +463,12 @@
             }, 
             {
               "name": "B2_CONTACT_NUMBER", 
-              "labels": [ { "text": "B2. Contact Number" } ], 
-              "contentType": "numeric", 
-              "length": 10, 
-              "zeroFill": true
+              "labels": [ { "text": "Label" } ], 
+              "contentType": "alpha", 
+              "length": 1, 
+              "capture": {
+                "type": "textBox"
+              }
             }, 
             {
               "name": "MOBILE", 
