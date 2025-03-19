@@ -121,7 +121,6 @@ Size=1597,300
 Item=IS_THERE_ANY_ASSOCIATED_STRUCTURE
 Item=TYPE_OF_AFFECTED_STRUCTURE
 Item=USE_OF_STRUCTURE_1
-Item=USE_OF_STRUCTURE
 Item=MATERIAL_OF_MAIN_STRUCTURE
 Item=STATUS_CONDITION_OF_USE
   
@@ -704,10 +703,17 @@ Level=1
 Size=1597,300
   
 Item=K1_HAVE_YOU_HEARD_ABOUT_THE_LASSO_2_PROJECT
+<<<<<<< HEAD
 Item=K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO_1
 Item=K4_DO_YOU_SUPPORT_THE_PROPOSED_PROJECT
 Item=K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR_1
 Item=K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO
+=======
+Item=K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO
+Item=K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO
+Item=K4_DO_YOU_SUPPORT_THE_PROPOSED_PROJECT
+Item=K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR
+>>>>>>> 8b2513cb944f2704e0f495092576aeeaf8991f4e
   
 [EndForm]
   
@@ -1230,8 +1236,8 @@ DataCaptureType=TextBox
 Form=7
   
 [Text]
-Position=50,270,123,286
-Text=Birth Month
+Position=50,270,147,286
+Text=B4. Birth Month
  
   
 [Field]
@@ -1243,8 +1249,8 @@ DataCaptureType=TextBox
 Form=7
   
 [Text]
-Position=50,300,108,316
-Text=Birth Day
+Position=50,300,132,316
+Text=B4. Birth Day
  
   
 [Field]
@@ -1256,8 +1262,8 @@ DataCaptureType=TextBox
 Form=7
   
 [Text]
-Position=50,330,113,346
-Text=Birth Year
+Position=50,330,137,346
+Text=B4. Birth Year
  
   
 [Field]
@@ -1349,7 +1355,7 @@ Text=Is there any associated structure
   
 [Field]
 Name=TYPE_OF_AFFECTED_STRUCTURE
-Position=268,57,297,77
+Position=268,57,283,77
 Item=TYPE_OF_AFFECTED_STRUCTURE,LASSODD_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1362,7 +1368,7 @@ Text=C1. Type of Affected Structure
   
 [Field]
 Name=USE_OF_STRUCTURE_1
-Position=268,87,297,107
+Position=268,87,577,107
 Item=USE_OF_STRUCTURE_1,LASSODD_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
@@ -1374,6 +1380,7 @@ Text=C2. Use of Structure
  
   
 [Field]
+<<<<<<< HEAD
 Name=USE_OF_STRUCTURE
 Position=268,117,549,137
 Item=USE_OF_STRUCTURE,LASSODD_DICT
@@ -1387,28 +1394,38 @@ Text=C2. Use of Structure
  
   
 [Field]
+=======
+>>>>>>> 8b2513cb944f2704e0f495092576aeeaf8991f4e
 Name=MATERIAL_OF_MAIN_STRUCTURE
-Position=268,147,297,167
+Position=268,117,283,137
 Item=MATERIAL_OF_MAIN_STRUCTURE,LASSODD_DICT
+<<<<<<< HEAD
 FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
+=======
+DataCaptureType=RadioButton
+>>>>>>> 8b2513cb944f2704e0f495092576aeeaf8991f4e
 Form=8
   
 [Text]
-Position=50,150,239,166
+Position=50,120,239,136
 Text=C3. Material of Main Structure
  
   
 [Field]
 Name=STATUS_CONDITION_OF_USE
-Position=268,177,297,197
+Position=268,147,283,167
 Item=STATUS_CONDITION_OF_USE,LASSODD_DICT
+<<<<<<< HEAD
 FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
+=======
+DataCaptureType=RadioButton
+>>>>>>> 8b2513cb944f2704e0f495092576aeeaf8991f4e
 Form=8
   
 [Text]
-Position=50,180,221,196
+Position=50,150,221,166
 Text=C4. Status/Condition of Use
  
 [EndGroup]
@@ -2070,7 +2087,7 @@ Text=D1.6 Number of renters/tenants, if any ): *
   
 [Field]
 Name=D1_7_HOW_MUCH_IS_THE_AVERAGE_RENT_PER_MONTH_PHP
-Position=584,1017,725,1037
+Position=584,1017,669,1037
 Item=D1_7_HOW_MUCH_IS_THE_AVERAGE_RENT_PER_MONTH_PHP,LASSODD_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
@@ -2096,7 +2113,7 @@ Text=D1.8 Do you pay taxes for the structure?
   
 [Field]
 Name=D1_9_IF_YES_HOW_MUCH_IS_PAID_IN_TAXES_ANNUALLY
-Position=584,1077,795,1097
+Position=584,1077,669,1097
 Item=D1_9_IF_YES_HOW_MUCH_IS_PAID_IN_TAXES_ANNUALLY,LASSODD_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
@@ -2122,7 +2139,7 @@ Text=D2. If not the owner, what type of arrangement do you have with structure o
   
 [Field]
 Name=D2_1_IF_RENTER_SHARER_HOW_MUCH_IS_YOUR_RENT_SHAR
-Position=584,1137,795,1157
+Position=584,1137,669,1157
 Item=D2_1_IF_RENTER_SHARER_HOW_MUCH_IS_YOUR_RENT_SHAR,LASSODD_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
@@ -2472,7 +2489,7 @@ Text=E3. If not the landowner, what is your arrangement with the owner?
   
 [Field]
 Name=E3_2_WHAT_IS_THE_SIZE_OF_YOUR_RENTED_AREA_SQUARE
-Position=594,717,805,737
+Position=594,717,679,737
 Item=E3_2_WHAT_IS_THE_SIZE_OF_YOUR_RENTED_AREA_SQUARE,LASSODD_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
@@ -3026,10 +3043,13 @@ Text=G3.1 Expense Items
   
 [Field]
 Name=RENT_LAND_E3_1
-Position=646,1047,664,1067
+Position=646,1047,661,1067
 Item=RENT_LAND_E3_1,LASSODD_DICT
+<<<<<<< HEAD
 FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
+=======
+>>>>>>> 8b2513cb944f2704e0f495092576aeeaf8991f4e
 DataCaptureType=TextBox
 Form=13
   
@@ -3040,7 +3060,7 @@ Text=1. Rent (land) - E3.1
   
 [Field]
 Name=G3_2_ESTIMATED_COST_PHP_MONTH
-Position=646,1077,857,1097
+Position=646,1077,745,1097
 Item=G3_2_ESTIMATED_COST_PHP_MONTH,LASSODD_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
@@ -8106,7 +8126,7 @@ Text=I4.7 If not, what is your arrangement with the landowner or lake/marine adm
   
 [Field]
 Name=I4_8_IF_TENANT_LESSEE_HOW_MUCH_DO_YOU_PAY_THE_LA
-Position=1356,4497,1567,4517
+Position=1356,4497,1441,4517
 Item=I4_8_IF_TENANT_LESSEE_HOW_MUCH_DO_YOU_PAY_THE_LA,LASSODD_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
@@ -8119,7 +8139,7 @@ Text=I4.8 If Tenant/Lessee, how much do you pay the landowner per year? ( Php )
   
 [Field]
 Name=I4_9_WHAT_IS_THE_SIZE_OF_THE_RENTED_LEASED_USED
-Position=1356,4527,1567,4547
+Position=1356,4527,1441,4547
 Item=I4_9_WHAT_IS_THE_SIZE_OF_THE_RENTED_LEASED_USED,LASSODD_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
@@ -8205,7 +8225,11 @@ Text=J2. Where is your preferred location for employment or new business?
   
 [Field]
 Name=J3_WHAT_IS_ARE_YOUR_CURRENT_SKILLS_EXPERTISE_1
+<<<<<<< HEAD
 Position=1065,87,1094,107
+=======
+Position=1020,87,1091,107
+>>>>>>> 8b2513cb944f2704e0f495092576aeeaf8991f4e
 Item=J3_WHAT_IS_ARE_YOUR_CURRENT_SKILLS_EXPERTISE_1,LASSODD_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -8218,7 +8242,11 @@ Text=J3. What is/are your current skills/expertise?
   
 [Field]
 Name=J4_WHAT_IS_ARE_YOUR_PREFERRED_VOCATIONAL_SKILLS_1
+<<<<<<< HEAD
 Position=1065,117,1094,137
+=======
+Position=1020,117,1091,137
+>>>>>>> 8b2513cb944f2704e0f495092576aeeaf8991f4e
 Item=J4_WHAT_IS_ARE_YOUR_PREFERRED_VOCATIONAL_SKILLS_1,LASSODD_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -8251,32 +8279,60 @@ Text=K1. Have you heard about the Lasso 2 project?
  
   
 [Field]
+<<<<<<< HEAD
 Name=K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO_1
 Position=581,57,1002,77
 Item=K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO_1,LASSODD_DICT
 FieldLabelType=DictionaryLabel
+=======
+Name=K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO
+Position=536,57,1307,77
+Item=K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO,LASSODD_DICT
+DataCaptureType=CheckBox
+Form=17
+  
+[Text]
+Position=50,60,457,76
+Text=K2. What benefits do you think can be derived from this project?
+ 
+  
+[Field]
+Name=K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO
+Position=536,87,1237,107
+Item=K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO,LASSODD_DICT
+>>>>>>> 8b2513cb944f2704e0f495092576aeeaf8991f4e
 DataCaptureType=RadioButton
 Form=17
   
 [Text]
+<<<<<<< HEAD
 Position=50,60,508,76
 Text=K3. What are your overall issues and concerns about the project? Others
+=======
+Position=50,90,463,106
+Text=K3. What are your overall issues and concerns about the project?
+>>>>>>> 8b2513cb944f2704e0f495092576aeeaf8991f4e
  
   
 [Field]
 Name=K4_DO_YOU_SUPPORT_THE_PROPOSED_PROJECT
+<<<<<<< HEAD
 Position=581,87,596,107
+=======
+Position=536,117,551,137
+>>>>>>> 8b2513cb944f2704e0f495092576aeeaf8991f4e
 Item=K4_DO_YOU_SUPPORT_THE_PROPOSED_PROJECT,LASSODD_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=17
   
 [Text]
-Position=50,90,316,106
+Position=50,120,316,136
 Text=K4. Do you support the proposed project? 
  
   
 [Field]
+<<<<<<< HEAD
 Name=K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR_1
 Position=581,117,911,137
 Item=K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR_1,LASSODD_DICT
@@ -8302,6 +8358,18 @@ Form=17
 Position=50,150,502,166
 Text=K2. What benefits do you think can be derived from this project? Others
  
+=======
+Name=K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR
+Position=536,147,1321,167
+Item=K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR,LASSODD_DICT
+DataCaptureType=CheckBox
+Form=17
+  
+[Text]
+Position=50,150,522,166
+Text=K5. What are your recommendations to address your issues and concerns?
+ 
+>>>>>>> 8b2513cb944f2704e0f495092576aeeaf8991f4e
 [EndGroup]
   
 [Group]
