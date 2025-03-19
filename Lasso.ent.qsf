@@ -26,5 +26,19 @@ styles:
     css: |
       font-family: Arial;font-size: 18px;
 questions:
-  []
+  - name: LASSODD_DICT.DATA_PRIVACY
+    conditions:
+      - questionText:
+          EN: |
+            <br><p></p>
+  - name: LASSODD_DICT.INTERVIEWER_ID
+    conditions:
+      - questionText:
+          EN: |
+            <br><p></p>
+  - name: LASSODD_DICT.LASSODD_ID
+    conditions:
+      - questionText:
+          EN: |
+            <br><p></p>
 ...
