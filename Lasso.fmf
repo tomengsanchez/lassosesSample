@@ -80,7 +80,7 @@ Item=MIDDLE
 Item=LAST
 Item=ARE_YOU_A_REPRESENTATIVE_OF_THE_PAP
 Item=A2_IF_REPRESENTATIVE_RELATIONSHIP_OF_THE_RESPOND
-Item=A2_IF_REPRESENTATIVE_RELATIONSHIP_OF_THE_RESPOND_1
+Item=A2
 Item=CONTACT_NUMBER
 Item=SEX
 Item=AGE
@@ -107,7 +107,7 @@ Item=BIRTH_YEAR
 Item=CIVIL_STATUS
 Item=WITH_DEPENDENTS_1
 Item=RELIGION
-Item=ETHNICITY_SPECIFY
+Item=ETHNICITY
 Item=WHAT_ARE_YOU_LOSING_AS_A_RESULT_OF_THE_PROJECT_M
   
 [EndForm]
@@ -249,8 +249,8 @@ Item=BIRTH_MONTH_1
 Item=BIRTH_DAY_1
 Item=BIRTH_YEAR_1
 Item=G1_1_5_AGE
-Item=G1_1_6_ETHNICITY
-Item=G1_1_7_RELATIONSHIP_TO_HOUSEHOLD_HEAD
+Item=G1_1_6_ETHNICITY_1
+Item=G1_1_7_RELATIONSHIP_TO_HOUSEHOLD_HEAD_1
 Item=G1_1_8_HIGHEST_EDUCATIONAL_ATTAINMENT
 Item=G1_1_9_IF_ONGOING_EDUCATION_LOCATION_OF_SCHOOL
 Item=G1_3_1_MAIN_SOURCE_OF_INCOME_1
@@ -494,10 +494,10 @@ Size=1597,780
   
 Item=H1_DO_YOU_OWN_OPERATE_A_BUSINESS_INSTITUTION_IN
 Item=H1_1_BUSINESS_INSTITUTION_NAME
-Item=H1_2_TYPE_OF_BUSINESS_INSTITUTION
-Item=H1_3_TYPE_OF_BUSINESS_INSTITUTION_OWNERSHIP
+Item=H1_2_TYPE_OF_BUSINESS_INSTITUTION_1
+Item=H1_3_TYPE_OF_BUSINESS_INSTITUTION_OWNERSHIP_1
 Item=H1_4_IS_THIS_AN_INCOME_GENERATING_ACTIVITY
-Item=H1_5_TYPE_OF_SERVICE
+Item=H1_5_TYPE_OF_SERVICE_1
 Item=H1_6_LENGTH_OF_BUSINESS_INSTITUTION_IN_OPERATION
 Item=H1_7_START_OF_OPERATION_SPECIFY_YEAR
 Item=H1_8_BUSINESS_LICENSE_REGISTRATION_PERMIT_MULTIP
@@ -689,7 +689,9 @@ Label=J. LIVELIHOOD REHABILITATION MEASURES (may include more than one response)
 Level=1
 Size=1597,300
   
-Item=J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2
+Item=J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2_1_1
+Item=J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2_1
+Item=J2_WHERE_IS_YOUR_PREFERRED_LOCATION_FOR_EMPLOYME_1_1
 Item=J2_WHERE_IS_YOUR_PREFERRED_LOCATION_FOR_EMPLOYME_1
 Item=J3_WHAT_IS_ARE_YOUR_CURRENT_SKILLS_EXPERTISE_1
 Item=J4_WHAT_IS_ARE_YOUR_PREFERRED_VOCATIONAL_SKILLS_1
@@ -703,17 +705,13 @@ Level=1
 Size=1597,300
   
 Item=K1_HAVE_YOU_HEARD_ABOUT_THE_LASSO_2_PROJECT
-<<<<<<< HEAD
+Item=K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO_1
+Item=K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO
 Item=K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO_1
-Item=K4_DO_YOU_SUPPORT_THE_PROPOSED_PROJECT
-Item=K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR_1
-Item=K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO
-=======
-Item=K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO
 Item=K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO
 Item=K4_DO_YOU_SUPPORT_THE_PROPOSED_PROJECT
 Item=K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR
->>>>>>> 8b2513cb944f2704e0f495092576aeeaf8991f4e
+Item=K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR_1
   
 [EndForm]
   
@@ -750,7 +748,6 @@ Max=1
 Name=LASSODD_ID
 Position=164,27,294,47
 Item=LASSODD_ID,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=1
@@ -772,7 +769,6 @@ Max=1
 Name=DATA_PRIVACY
 Position=176,27,191,47
 Item=DATA_PRIVACY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=2
   
@@ -785,7 +781,6 @@ Text=Data Privacy
 Name=INTERVIEWER_ID
 Position=176,57,317,77
 Item=INTERVIEWER_ID,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 CaptureType=Unspecified
 Form=2
   
@@ -798,7 +793,6 @@ Text=Interviewer ID
 Name=TYPE_OF_INTERVIEW
 Position=176,87,191,107
 Item=TYPE_OF_INTERVIEW,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=2
   
@@ -819,7 +813,6 @@ Max=1
 Name=TYPE_OF_PROJECT_AFFECTED_PERSON_S_1
 Position=274,27,289,47
 Item=TYPE_OF_PROJECT_AFFECTED_PERSON_S_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=3
   
@@ -840,7 +833,6 @@ Max=1
 Name=HOUSEHOLD_NUMBER_BUSINESS_NUMBER_IF_ANY
 Position=353,27,763,47
 Item=HOUSEHOLD_NUMBER_BUSINESS_NUMBER_IF_ANY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=4
@@ -854,7 +846,6 @@ Text=Household Number / Business Number, if any:
 Name=UNIT_BLDG_NO
 Position=353,57,763,77
 Item=UNIT_BLDG_NO,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=4
@@ -868,7 +859,6 @@ Text=Unit/Bldg. No.
 Name=STREET
 Position=353,87,763,107
 Item=STREET,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=4
@@ -882,7 +872,6 @@ Text=Street
 Name=VILLAGE_SUBDIVISION
 Position=353,117,763,137
 Item=VILLAGE_SUBDIVISION,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=4
@@ -896,7 +885,6 @@ Text=Village/Subdivision
 Name=BARANGAY
 Position=353,147,763,167
 Item=BARANGAY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=4
@@ -910,7 +898,6 @@ Text=Barangay
 Name=CITY_MUNICIPALITY
 Position=353,177,763,197
 Item=CITY_MUNICIPALITY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=4
@@ -932,7 +919,6 @@ Max=1
 Name=TITLE_NO
 Position=155,27,285,47
 Item=TITLE_NO,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=5
@@ -946,7 +932,6 @@ Text=Title Number
 Name=PIN
 Position=155,57,285,77
 Item=PIN,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=5
@@ -960,7 +945,6 @@ Text=PIN
 Name=TD_NUMBER
 Position=155,87,285,107
 Item=TD_NUMBER,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=5
@@ -974,7 +958,6 @@ Text=TD Number
 Name=LOT_ID_NUMBER
 Position=155,117,285,137
 Item=LOT_ID_NUMBER,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=5
@@ -996,7 +979,6 @@ Max=1
 Name=FIRST
 Position=464,27,874,47
 Item=FIRST,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=6
@@ -1010,7 +992,6 @@ Text=First
 Name=MIDDLE
 Position=464,57,874,77
 Item=MIDDLE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=6
@@ -1024,7 +1005,6 @@ Text=Middle
 Name=LAST
 Position=464,87,874,107
 Item=LAST,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=6
@@ -1038,7 +1018,6 @@ Text=Last
 Name=ARE_YOU_A_REPRESENTATIVE_OF_THE_PAP
 Position=464,117,479,137
 Item=ARE_YOU_A_REPRESENTATIVE_OF_THE_PAP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=6
   
@@ -1051,7 +1030,6 @@ Text=Are you a representative of the PAP
 Name=A2_IF_REPRESENTATIVE_RELATIONSHIP_OF_THE_RESPOND
 Position=464,147,479,167
 Item=A2_IF_REPRESENTATIVE_RELATIONSHIP_OF_THE_RESPOND,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=6
   
@@ -1061,23 +1039,22 @@ Text=A2. If representative, relationship of the respondent to the PAP.
  
   
 [Field]
-Name=A2_IF_REPRESENTATIVE_RELATIONSHIP_OF_THE_RESPOND_1
-Position=464,177,479,197
-Item=A2_IF_REPRESENTATIVE_RELATIONSHIP_OF_THE_RESPOND_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
-DataCaptureType=RadioButton
+Name=A2
+Position=464,177,482,197
+Item=A2,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
 Form=6
   
 [Text]
-Position=50,180,450,196
-Text=A2. If representative, relationship of the respondent to the PAP.
+Position=50,180,66,196
+Text=A2
  
   
 [Field]
 Name=CONTACT_NUMBER
 Position=464,207,605,227
 Item=CONTACT_NUMBER,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=6
   
@@ -1090,7 +1067,6 @@ Text=A3. Contact Number
 Name=SEX
 Position=464,237,479,257
 Item=SEX,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=6
   
@@ -1103,7 +1079,6 @@ Text=Sex
 Name=AGE
 Position=464,267,493,287
 Item=AGE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=6
   
@@ -1124,7 +1099,6 @@ Max=1
 Name=SAME_AS_RESPONDENT
 Position=515,27,530,47
 Item=SAME_AS_RESPONDENT,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=7
   
@@ -1137,7 +1111,6 @@ Text=Same as Respondent?
 Name=FIRST_1
 Position=515,57,925,77
 Item=FIRST_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=7
@@ -1151,7 +1124,6 @@ Text=First
 Name=MIDDLE_1
 Position=515,87,925,107
 Item=MIDDLE_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=7
@@ -1165,7 +1137,6 @@ Text=Middle
 Name=LAST_1
 Position=515,117,925,137
 Item=LAST_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=7
@@ -1179,7 +1150,6 @@ Text=Last
 Name=B2_CONTACT_NUMBER
 Position=515,147,530,167
 Item=B2_CONTACT_NUMBER,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 CaptureType=Unspecified
 Form=7
   
@@ -1192,7 +1162,6 @@ Text=Label
 Name=MOBILE
 Position=515,177,726,197
 Item=MOBILE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=7
   
@@ -1205,7 +1174,6 @@ Text=Mobile
 Name=LAND_LINE
 Position=515,207,726,227
 Item=LAND_LINE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=7
   
@@ -1218,7 +1186,6 @@ Text=Land Line
 Name=B3_SEX
 Position=515,237,544,257
 Item=B3_SEX,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
 Form=7
   
@@ -1231,7 +1198,6 @@ Text=B3. Sex
 Name=BIRTH_MONTH
 Position=515,267,544,287
 Item=BIRTH_MONTH,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=7
   
@@ -1244,7 +1210,6 @@ Text=B4. Birth Month
 Name=BIRTH_DAY
 Position=515,297,544,317
 Item=BIRTH_DAY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=7
   
@@ -1257,7 +1222,6 @@ Text=B4. Birth Day
 Name=BIRTH_YEAR
 Position=515,327,544,347
 Item=BIRTH_YEAR,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=7
   
@@ -1270,7 +1234,6 @@ Text=B4. Birth Year
 Name=CIVIL_STATUS
 Position=515,357,530,377
 Item=CIVIL_STATUS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=7
   
@@ -1283,7 +1246,6 @@ Text=B6. Civil Status
 Name=WITH_DEPENDENTS_1
 Position=515,387,530,407
 Item=WITH_DEPENDENTS_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=7
   
@@ -1296,7 +1258,6 @@ Text=B7. With dependents?
 Name=RELIGION
 Position=515,417,530,437
 Item=RELIGION,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=7
   
@@ -1306,24 +1267,21 @@ Text=B8. Religion
  
   
 [Field]
-Name=ETHNICITY_SPECIFY
-Position=515,447,925,467
-Item=ETHNICITY_SPECIFY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
-UseUnicodeTextBox=Yes
-DataCaptureType=TextBox
+Name=ETHNICITY
+Position=515,447,1244,467
+Item=ETHNICITY,LASSODD_DICT
+DataCaptureType=RadioButton
 Form=7
   
 [Text]
-Position=50,450,186,466
-Text=B9.1 Ethnicity Specify
+Position=50,450,128,466
+Text=B9. Ethnicity
  
   
 [Field]
 Name=WHAT_ARE_YOU_LOSING_AS_A_RESULT_OF_THE_PROJECT_M
 Position=515,477,544,497
 Item=WHAT_ARE_YOU_LOSING_AS_A_RESULT_OF_THE_PROJECT_M,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=7
   
@@ -1344,7 +1302,6 @@ Max=1
 Name=IS_THERE_ANY_ASSOCIATED_STRUCTURE
 Position=268,27,283,47
 Item=IS_THERE_ANY_ASSOCIATED_STRUCTURE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=8
   
@@ -1357,7 +1314,6 @@ Text=Is there any associated structure
 Name=TYPE_OF_AFFECTED_STRUCTURE
 Position=268,57,283,77
 Item=TYPE_OF_AFFECTED_STRUCTURE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=8
   
@@ -1370,7 +1326,6 @@ Text=C1. Type of Affected Structure
 Name=USE_OF_STRUCTURE_1
 Position=268,87,577,107
 Item=USE_OF_STRUCTURE_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
 Form=8
   
@@ -1380,31 +1335,10 @@ Text=C2. Use of Structure
  
   
 [Field]
-<<<<<<< HEAD
-Name=USE_OF_STRUCTURE
-Position=268,117,549,137
-Item=USE_OF_STRUCTURE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
-DataCaptureType=CheckBox
-Form=8
-  
-[Text]
-Position=50,120,175,136
-Text=C2. Use of Structure
- 
-  
-[Field]
-=======
->>>>>>> 8b2513cb944f2704e0f495092576aeeaf8991f4e
 Name=MATERIAL_OF_MAIN_STRUCTURE
 Position=268,117,283,137
 Item=MATERIAL_OF_MAIN_STRUCTURE,LASSODD_DICT
-<<<<<<< HEAD
-FieldLabelType=DictionaryLabel
-DataCaptureType=CheckBox
-=======
 DataCaptureType=RadioButton
->>>>>>> 8b2513cb944f2704e0f495092576aeeaf8991f4e
 Form=8
   
 [Text]
@@ -1416,12 +1350,7 @@ Text=C3. Material of Main Structure
 Name=STATUS_CONDITION_OF_USE
 Position=268,147,283,167
 Item=STATUS_CONDITION_OF_USE,LASSODD_DICT
-<<<<<<< HEAD
-FieldLabelType=DictionaryLabel
-DataCaptureType=CheckBox
-=======
 DataCaptureType=RadioButton
->>>>>>> 8b2513cb944f2704e0f495092576aeeaf8991f4e
 Form=8
   
 [Text]
@@ -1523,7 +1452,6 @@ Text=C5. Structure Tag Number
 [Field]
 Name=STRUCTURE_TAG
 Item=STRUCTURE_TAG,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
   
@@ -1540,7 +1468,6 @@ Text=C6. Type of Associated Structure
 [Field]
 Name=TYPE_OF_ASSOCIATED_STRUCTURE
 Item=TYPE_OF_ASSOCIATED_STRUCTURE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
@@ -1556,7 +1483,6 @@ Text=C7. Material of Associated Structure
 [Field]
 Name=DO_YOU_WANT_TO_ADD_ANOTHER
 Item=DO_YOU_WANT_TO_ADD_ANOTHER,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
   
 [Text]
@@ -1572,7 +1498,6 @@ Text=C8. Used for Business Purposes?
 [Field]
 Name=C8_USED_FOR_BUSINESS_PURPOSES
 Item=C8_USED_FOR_BUSINESS_PURPOSES,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
   
@@ -1589,7 +1514,6 @@ Text=Associated Structure 1
 [Field]
 Name=ASSOCIATED_STRUCTURE_1
 Item=ASSOCIATED_STRUCTURE_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
@@ -1605,7 +1529,6 @@ Text=Associated Structure 2
 [Field]
 Name=ASSOCIATED_STRUCTURE_2
 Item=ASSOCIATED_STRUCTURE_2,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
@@ -1621,7 +1544,6 @@ Text=Add More Associated Structure
 [Field]
 Name=ADD_ANOTHER
 Item=ADD_ANOTHER,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
@@ -1644,7 +1566,6 @@ Max=1
 Name=DO_YOU_OWN_THE_TAGGED_STRUCTURE
 Position=584,27,599,47
 Item=DO_YOU_OWN_THE_TAGGED_STRUCTURE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=10
   
@@ -1657,7 +1578,6 @@ Text=D1. Do you own the tagged structure?
 Name=IF_YES
 Position=584,57,599,77
 Item=IF_YES,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=10
   
@@ -1670,7 +1590,6 @@ Text=D1.1 If, yes
 Name=D1_2_STRUCTURE_OWNER_CO_OWNER_DETAILS
 Position=584,87,994,107
 Item=D1_2_STRUCTURE_OWNER_CO_OWNER_DETAILS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=10
@@ -1684,7 +1603,6 @@ Text=D1.2 Structure Owner/Co-Owner Details
 Name=FIRST_2
 Position=584,117,994,137
 Item=FIRST_2,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=10
@@ -1698,7 +1616,6 @@ Text=First
 Name=MIDDLE_2
 Position=584,147,994,167
 Item=MIDDLE_2,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=10
@@ -1712,7 +1629,6 @@ Text=Middle
 Name=LAST_2
 Position=584,177,994,197
 Item=LAST_2,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=10
@@ -1726,7 +1642,6 @@ Text=Last
 Name=GENDER
 Position=584,207,599,227
 Item=GENDER,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=10
   
@@ -1739,7 +1654,6 @@ Text=Gender
 Name=ADDRESS
 Position=584,237,599,257
 Item=ADDRESS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=10
   
@@ -1752,7 +1666,6 @@ Text=Address
 Name=CONTACT_NUMBER_1
 Position=584,267,725,287
 Item=CONTACT_NUMBER_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=10
   
@@ -1765,7 +1678,6 @@ Text=Contact Number
 Name=D1_3_STRUCTURE_OWNER_CO_OWNER_DETAILS_IF_MORE_TH
 Position=584,297,599,317
 Item=D1_3_STRUCTURE_OWNER_CO_OWNER_DETAILS_IF_MORE_TH,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=10
   
@@ -1778,7 +1690,6 @@ Text=D1.3 Structure Owner/Co-Owner Details (if more than one)
 Name=FIRST_3
 Position=584,327,994,347
 Item=FIRST_3,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=10
@@ -1792,7 +1703,6 @@ Text=First
 Name=MIDDLE_3
 Position=584,357,994,377
 Item=MIDDLE_3,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=10
@@ -1806,7 +1716,6 @@ Text=Middle
 Name=LAST_3
 Position=584,387,994,407
 Item=LAST_3,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=10
@@ -1820,7 +1729,6 @@ Text=Last
 Name=GENDER_1
 Position=584,417,599,437
 Item=GENDER_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=10
   
@@ -1833,7 +1741,6 @@ Text=Gender
 Name=ADDRESS_1
 Position=584,447,1285,467
 Item=ADDRESS_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
 Form=10
   
@@ -1846,7 +1753,6 @@ Text=Address
 Name=CONTACT_NUMBER_2
 Position=584,477,725,497
 Item=CONTACT_NUMBER_2,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=10
   
@@ -1859,7 +1765,6 @@ Text=Contact Number
 Name=ADD_MORE_STRUCTURE_OWNER_CO_OWNER
 Position=584,507,602,527
 Item=ADD_MORE_STRUCTURE_OWNER_CO_OWNER,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=10
@@ -1873,7 +1778,6 @@ Text=Add More Structure Owner/Co-Owner
 Name=D1_4_HOW_DID_YOU_OBTAIN_THE_STRUCTURE_1
 Position=584,537,599,557
 Item=D1_4_HOW_DID_YOU_OBTAIN_THE_STRUCTURE_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=10
   
@@ -1886,7 +1790,6 @@ Text=D1.4 How did you obtain the structure?
 Name=D1_4_HOW_DID_YOU_OBTAIN_THE_STRUCTURE
 Position=584,567,865,587
 Item=D1_4_HOW_DID_YOU_OBTAIN_THE_STRUCTURE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
 Form=10
   
@@ -1899,7 +1802,6 @@ Text=D1.4 How did you obtain the structure? Others
 Name=D1_5_DO_YOU_RENT_OUT_THE_STRUCTURE
 Position=584,597,599,617
 Item=D1_5_DO_YOU_RENT_OUT_THE_STRUCTURE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=10
   
@@ -1912,7 +1814,6 @@ Text=D1.5 Do you rent out the structure?
 Name=FIRST_8
 Position=584,627,994,647
 Item=FIRST_8,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=10
@@ -1926,7 +1827,6 @@ Text=First
 Name=LAST_8
 Position=584,657,994,677
 Item=LAST_8,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=10
@@ -1940,7 +1840,6 @@ Text=Last
 Name=CONTACT_NUMBER_7
 Position=584,687,725,707
 Item=CONTACT_NUMBER_7,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=10
   
@@ -1953,7 +1852,6 @@ Text=Contact Number
 Name=FIRST_4
 Position=584,717,994,737
 Item=FIRST_4,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=10
@@ -1967,7 +1865,6 @@ Text=First
 Name=LAST_4
 Position=584,747,994,767
 Item=LAST_4,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=10
@@ -1981,7 +1878,6 @@ Text=Last
 Name=CONTACT
 Position=584,777,725,797
 Item=CONTACT,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=10
   
@@ -1994,7 +1890,6 @@ Text=Contact
 Name=FIRST_5_1
 Position=584,807,994,827
 Item=FIRST_5_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=10
@@ -2008,7 +1903,6 @@ Text=First
 Name=LAST_5_1
 Position=584,837,994,857
 Item=LAST_5_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=10
@@ -2022,7 +1916,6 @@ Text=Last
 Name=CONTACT_NUMBER_3_1
 Position=584,867,725,887
 Item=CONTACT_NUMBER_3_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=10
   
@@ -2035,7 +1928,6 @@ Text=Contact Number
 Name=FIRST_5
 Position=584,897,994,917
 Item=FIRST_5,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=10
@@ -2049,7 +1941,6 @@ Text=First
 Name=LAST_5
 Position=584,927,994,947
 Item=LAST_5,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=10
@@ -2063,7 +1954,6 @@ Text=Last
 Name=CONTACT_NUMBER_3
 Position=584,957,725,977
 Item=CONTACT_NUMBER_3,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=10
   
@@ -2076,7 +1966,6 @@ Text=Contact Number
 Name=D1_6_NUMBER_OF_RENTERS_TENANTS_IF_ANY
 Position=584,987,795,1007
 Item=D1_6_NUMBER_OF_RENTERS_TENANTS_IF_ANY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=10
   
@@ -2089,7 +1978,6 @@ Text=D1.6 Number of renters/tenants, if any ): *
 Name=D1_7_HOW_MUCH_IS_THE_AVERAGE_RENT_PER_MONTH_PHP
 Position=584,1017,669,1037
 Item=D1_7_HOW_MUCH_IS_THE_AVERAGE_RENT_PER_MONTH_PHP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=10
   
@@ -2102,7 +1990,6 @@ Text=D1.7 How much is the average rent per month? (Php)
 Name=D1_8_DO_YOU_PAY_TAXES_FOR_THE_STRUCTURE
 Position=584,1047,599,1067
 Item=D1_8_DO_YOU_PAY_TAXES_FOR_THE_STRUCTURE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=10
   
@@ -2115,7 +2002,6 @@ Text=D1.8 Do you pay taxes for the structure?
 Name=D1_9_IF_YES_HOW_MUCH_IS_PAID_IN_TAXES_ANNUALLY
 Position=584,1077,669,1097
 Item=D1_9_IF_YES_HOW_MUCH_IS_PAID_IN_TAXES_ANNUALLY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=10
   
@@ -2128,7 +2014,6 @@ Text=D1.9 If Yes, how much is paid in taxes annually?
 Name=D2_IF_NOT_THE_OWNER_WHAT_TYPE_OF_ARRANGEMENT_DO
 Position=584,1107,599,1127
 Item=D2_IF_NOT_THE_OWNER_WHAT_TYPE_OF_ARRANGEMENT_DO,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=10
   
@@ -2141,7 +2026,6 @@ Text=D2. If not the owner, what type of arrangement do you have with structure o
 Name=D2_1_IF_RENTER_SHARER_HOW_MUCH_IS_YOUR_RENT_SHAR
 Position=584,1137,669,1157
 Item=D2_1_IF_RENTER_SHARER_HOW_MUCH_IS_YOUR_RENT_SHAR,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=10
   
@@ -2154,7 +2038,6 @@ Text=D2.1 If Renter/Sharer, how much is your rent/share per month? ( Php )
 Name=D3_WHAT_PROOF_DO_YOU_HAVE_TO_SHOW_ARRANGEMENT_WI
 Position=584,1167,599,1187
 Item=D3_WHAT_PROOF_DO_YOU_HAVE_TO_SHOW_ARRANGEMENT_WI,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=10
   
@@ -2167,7 +2050,6 @@ Text=D3 What proof do you have to show arrangement with owner?
 Name=D3_1_IF_WRITTEN_CONTRACT_WHAT_ARE_THE_TERMS
 Position=584,1197,599,1217
 Item=D3_1_IF_WRITTEN_CONTRACT_WHAT_ARE_THE_TERMS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=10
   
@@ -2188,7 +2070,6 @@ Max=1
 Name=E1_DO_YOU_OWN_THE_LAND_S_ANYWHERE_IN_THE_PROJECT
 Position=594,27,609,47
 Item=E1_DO_YOU_OWN_THE_LAND_S_ANYWHERE_IN_THE_PROJECT,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
@@ -2201,7 +2082,6 @@ Text=E1. Do you own the land/s anywhere in the project area?
 Name=E1_2_IF_YES_WHAT_IS_THE_TENURE_STATUS_OF_THE_PAR
 Position=594,57,609,77
 Item=E1_2_IF_YES_WHAT_IS_THE_TENURE_STATUS_OF_THE_PAR,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
@@ -2214,7 +2094,6 @@ Text=E1.2 If Yes, what is the tenure status of the parcel
 Name=E1_3_NAME_OF_LAND_OWNER
 Position=594,87,612,107
 Item=E1_3_NAME_OF_LAND_OWNER,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=11
@@ -2228,7 +2107,6 @@ Text=E1.3 Name of Land Owner
 Name=FIRST_6
 Position=594,117,1004,137
 Item=FIRST_6,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=11
@@ -2242,7 +2120,6 @@ Text=First
 Name=MIDDLE_4
 Position=594,147,1004,167
 Item=MIDDLE_4,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=11
@@ -2256,7 +2133,6 @@ Text=Middle
 Name=LAST_6
 Position=594,177,1004,197
 Item=LAST_6,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=11
@@ -2270,7 +2146,6 @@ Text=Last
 Name=E1_4_TYPE
 Position=594,207,609,227
 Item=E1_4_TYPE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
@@ -2283,7 +2158,6 @@ Text=E1.4 Type
 Name=E1_5_SEX
 Position=594,237,609,257
 Item=E1_5_SEX,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
@@ -2296,7 +2170,6 @@ Text=E1.5 Sex
 Name=E1_6_ADDRESS
 Position=594,267,609,287
 Item=E1_6_ADDRESS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
@@ -2309,7 +2182,6 @@ Text=E1.6 Address
 Name=ADD_MULTIPLE_LAND_OWNERS_INFORMATION
 Position=594,297,609,317
 Item=ADD_MULTIPLE_LAND_OWNERS_INFORMATION,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
@@ -2322,7 +2194,6 @@ Text=Add Multiple Land Owners Information?
 Name=E1_7_REGISTERED_OWNER
 Position=594,327,623,347
 Item=E1_7_REGISTERED_OWNER,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
@@ -2335,7 +2206,6 @@ Text=E1.7 Registered Owner:
 Name=E2_DO_YOU_HAVE_A_VALID_LEGAL_DOCUMENT_TO_PROVE_O
 Position=594,357,609,377
 Item=E2_DO_YOU_HAVE_A_VALID_LEGAL_DOCUMENT_TO_PROVE_O,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
@@ -2348,7 +2218,6 @@ Text=E2. Do you have a valid/ legal document to prove ownership of this land?
 Name=E2_1_IF_YES_WHAT_IS_YOUR_PROOF_OF_OWNERSHIP_CAN
 Position=594,387,609,407
 Item=E2_1_IF_YES_WHAT_IS_YOUR_PROOF_OF_OWNERSHIP_CAN,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
@@ -2361,7 +2230,6 @@ Text=E2.1 If yes, what is your proof of Ownership? (can be multiple responses)
 Name=E2_3_HOW_DID_YOU_OBTAIN_THE_LAND_1
 Position=594,417,609,437
 Item=E2_3_HOW_DID_YOU_OBTAIN_THE_LAND_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
@@ -2374,7 +2242,6 @@ Text=E2.3 How did you obtain the land?
 Name=E2_3_HOW_DID_YOU_OBTAIN_THE_LAND
 Position=594,447,1295,467
 Item=E2_3_HOW_DID_YOU_OBTAIN_THE_LAND,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
 Form=11
   
@@ -2387,7 +2254,6 @@ Text=E2.3 How did you obtain the land? Others
 Name=E2_4_DO_YOU_PAY_THE_REAL_ESTATE_TAX_FOR_THE_LAND
 Position=594,477,609,497
 Item=E2_4_DO_YOU_PAY_THE_REAL_ESTATE_TAX_FOR_THE_LAND,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
@@ -2400,7 +2266,6 @@ Text=E2.4 Do you pay the real estate tax for the land?
 Name=E2_5_IF_YES_HOW_MUCH_PER_YEAR_PHP
 Position=594,507,735,527
 Item=E2_5_IF_YES_HOW_MUCH_PER_YEAR_PHP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=11
   
@@ -2413,7 +2278,6 @@ Text=E2.5 If yes, how much per year? (Php)
 Name=E2_6_DO_YOU_HAVE_TENANT_LESSEES
 Position=594,537,609,557
 Item=E2_6_DO_YOU_HAVE_TENANT_LESSEES,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
@@ -2426,7 +2290,6 @@ Text=E2.6 Do you have tenant/lessees?
 Name=E2_6_2_HOW_MUCH_IS_THE_RENT_SHARE
 Position=594,567,609,587
 Item=E2_6_2_HOW_MUCH_IS_THE_RENT_SHARE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
@@ -2439,7 +2302,6 @@ Text=E2.6.2 How much is the rent/share?
 Name=MODE_OF_PAYMENT
 Position=594,597,609,617
 Item=MODE_OF_PAYMENT,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
@@ -2452,7 +2314,6 @@ Text=Mode of Payment
 Name=AMOUNT_PHP
 Position=594,627,805,647
 Item=AMOUNT_PHP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=11
   
@@ -2465,7 +2326,6 @@ Text=Amount (Php)
 Name=E2_7_IS_THIS_LOT_CURRENTLY_ON_LOAN_OR_USED_AS_MO
 Position=594,657,609,677
 Item=E2_7_IS_THIS_LOT_CURRENTLY_ON_LOAN_OR_USED_AS_MO,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
@@ -2478,7 +2338,6 @@ Text=E2.7 Is this lot currently on loan or used as mortgage to a bank or private
 Name=E3_IF_NOT_THE_LANDOWNER_WHAT_IS_YOUR_ARRANGEMENT
 Position=594,687,609,707
 Item=E3_IF_NOT_THE_LANDOWNER_WHAT_IS_YOUR_ARRANGEMENT,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
@@ -2491,7 +2350,6 @@ Text=E3. If not the landowner, what is your arrangement with the owner?
 Name=E3_2_WHAT_IS_THE_SIZE_OF_YOUR_RENTED_AREA_SQUARE
 Position=594,717,679,737
 Item=E3_2_WHAT_IS_THE_SIZE_OF_YOUR_RENTED_AREA_SQUARE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=11
   
@@ -2504,7 +2362,6 @@ Text=E3.2 What is the size of your rented area? (Square Meter)
 Name=E3_3_WHAT_PROOF_DO_YOU_HAVE_TO_SHOW_ARRANGEMENT
 Position=594,747,609,767
 Item=E3_3_WHAT_PROOF_DO_YOU_HAVE_TO_SHOW_ARRANGEMENT,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
@@ -2517,7 +2374,6 @@ Text=E3.3 What proof do you have to show arrangement with land owner?
 Name=E4_ASIDE_FROM_THIS_PARCEL_DO_YOU_OWN_ANY_OTHER_L
 Position=594,777,609,797
 Item=E4_ASIDE_FROM_THIS_PARCEL_DO_YOU_OWN_ANY_OTHER_L,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=11
   
@@ -2538,7 +2394,6 @@ Max=1
 Name=F1_TYPE_OF_LAND
 Position=491,27,506,47
 Item=F1_TYPE_OF_LAND,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=12
   
@@ -2551,7 +2406,6 @@ Text=F1. Type of Land *
 Name=F1_1_TYPE_OF_OWNERSHIP
 Position=491,57,506,77
 Item=F1_1_TYPE_OF_OWNERSHIP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=12
   
@@ -2564,7 +2418,6 @@ Text=F1.1 Type of Ownership *
 Name=F2_CURRENT_ACTUAL_USE_OF_LAND_CAN_BE_MULTIPLE_RE
 Position=491,87,534,107
 Item=F2_CURRENT_ACTUAL_USE_OF_LAND_CAN_BE_MULTIPLE_RE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
 Form=12
   
@@ -2577,7 +2430,6 @@ Text=F2. Current Actual Use of Land (Can be multiple responses) *
 Name=F2_CURRENT_ACTUAL_USE_OF_LAND_CAN_BE_MULTIPLE_RE_1
 Position=491,117,1192,137
 Item=F2_CURRENT_ACTUAL_USE_OF_LAND_CAN_BE_MULTIPLE_RE_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
 Form=12
   
@@ -2598,7 +2450,6 @@ Max=1
 Name=G1_1_1_NUMBER_OF_HOUSEHOLD_MEMBERS
 Position=646,27,675,47
 Item=G1_1_1_NUMBER_OF_HOUSEHOLD_MEMBERS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -2611,7 +2462,6 @@ Text=G1.1.1 Number of Household Members
 Name=G2_1_2_NAME
 Position=646,57,1056,77
 Item=G2_1_2_NAME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -2625,7 +2475,6 @@ Text=G1.1.2 Name
 Name=FIRST_7
 Position=646,87,1056,107
 Item=FIRST_7,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -2639,7 +2488,6 @@ Text=First
 Name=MIDDLE_5
 Position=646,117,1056,137
 Item=MIDDLE_5,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -2653,7 +2501,6 @@ Text=Middle
 Name=LAST_7
 Position=646,147,1056,167
 Item=LAST_7,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -2667,7 +2514,6 @@ Text=Last
 Name=G1_1_3_SEX
 Position=646,177,661,197
 Item=G1_1_3_SEX,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -2680,7 +2526,6 @@ Text=G1.1.3 Sex *
 Name=BIRTH_MONTH_1
 Position=646,207,675,227
 Item=BIRTH_MONTH_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -2693,7 +2538,6 @@ Text=G1.1.4 Birth Month
 Name=BIRTH_DAY_1
 Position=646,237,675,257
 Item=BIRTH_DAY_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -2706,7 +2550,6 @@ Text=G1.1.4 Birth day
 Name=BIRTH_YEAR_1
 Position=646,267,675,287
 Item=BIRTH_YEAR_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -2719,7 +2562,6 @@ Text=G1.1.4 Birth Year
 Name=G1_1_5_AGE
 Position=646,297,675,317
 Item=G1_1_5_AGE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -2729,10 +2571,9 @@ Text=G1.1.5 Age *
  
   
 [Field]
-Name=G1_1_6_ETHNICITY
-Position=646,327,1347,347
-Item=G1_1_6_ETHNICITY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
+Name=G1_1_6_ETHNICITY_1
+Position=646,327,1431,347
+Item=G1_1_6_ETHNICITY_1,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=13
   
@@ -2742,10 +2583,9 @@ Text=G1.1.6 Ethnicity *
  
   
 [Field]
-Name=G1_1_7_RELATIONSHIP_TO_HOUSEHOLD_HEAD
-Position=646,357,815,377
-Item=G1_1_7_RELATIONSHIP_TO_HOUSEHOLD_HEAD,LASSODD_DICT
-FieldLabelType=DictionaryLabel
+Name=G1_1_7_RELATIONSHIP_TO_HOUSEHOLD_HEAD_1
+Position=646,357,829,377
+Item=G1_1_7_RELATIONSHIP_TO_HOUSEHOLD_HEAD_1,LASSODD_DICT
 DataCaptureType=CheckBox
 Form=13
   
@@ -2758,7 +2598,6 @@ Text=G1.1.7 Relationship to Household Head *
 Name=G1_1_8_HIGHEST_EDUCATIONAL_ATTAINMENT
 Position=646,387,675,407
 Item=G1_1_8_HIGHEST_EDUCATIONAL_ATTAINMENT,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -2771,7 +2610,6 @@ Text=G1.1.8 Highest Educational Attainment *
 Name=G1_1_9_IF_ONGOING_EDUCATION_LOCATION_OF_SCHOOL
 Position=646,417,661,437
 Item=G1_1_9_IF_ONGOING_EDUCATION_LOCATION_OF_SCHOOL,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -2784,7 +2622,6 @@ Text=G1.1.9 If ongoing education, location of School? *
 Name=G1_3_1_MAIN_SOURCE_OF_INCOME_1
 Position=646,447,857,467
 Item=G1_3_1_MAIN_SOURCE_OF_INCOME_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -2797,7 +2634,6 @@ Text=G1.3.1 Main Source of Income *
 Name=G1_3_2_INCOME_PHP_MONTH
 Position=646,477,857,497
 Item=G1_3_2_INCOME_PHP_MONTH,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -2810,7 +2646,6 @@ Text=G1.3.2 Income (Php/Month) *
 Name=G1_3_3_LOCATION
 Position=646,507,661,527
 Item=G1_3_3_LOCATION,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -2823,7 +2658,6 @@ Text=G1.3.3 Location *
 Name=G1_3_4_BASIS_OF_INCOME_PAYMENT
 Position=646,537,661,557
 Item=G1_3_4_BASIS_OF_INCOME_PAYMENT,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -2836,7 +2670,6 @@ Text=G1.3.4 Basis of Income Payment *
 Name=G1_3_6_IF_WAGE_BASED_WHAT_IS_THE_STATUS_OF_EMPLO
 Position=646,567,661,587
 Item=G1_3_6_IF_WAGE_BASED_WHAT_IS_THE_STATUS_OF_EMPLO,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -2849,7 +2682,6 @@ Text=G1.3.6 If wage-based, what is the status of employment? *
 Name=G1_3_7_IF_WAGE_BASED_WHAT_TYPE_PLEASE_SPECIFY
 Position=646,597,675,617
 Item=G1_3_7_IF_WAGE_BASED_WHAT_TYPE_PLEASE_SPECIFY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -2862,7 +2694,6 @@ Text=G1.3.7 If wage-based what type? (please specify) *
 Name=G1_4_1_SECONDARY_SOURCE_OF_INCOME
 Position=646,627,661,647
 Item=G1_4_1_SECONDARY_SOURCE_OF_INCOME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -2875,7 +2706,6 @@ Text=G1.4.1 Secondary Source of Income *
 Name=G1_4_2_INCOME_PHP_MONTH
 Position=646,657,857,677
 Item=G1_4_2_INCOME_PHP_MONTH,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -2888,7 +2718,6 @@ Text=G1.4.2 Income (Php/Month) *
 Name=G1_4_3_LOCATION
 Position=646,687,661,707
 Item=G1_4_3_LOCATION,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -2901,7 +2730,6 @@ Text=G1.4.3 Location *
 Name=G1_4_4_BASIS_OF_INCOME_PAYMENT
 Position=646,717,661,737
 Item=G1_4_4_BASIS_OF_INCOME_PAYMENT,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -2914,7 +2742,6 @@ Text=G1.4.4 Basis of Income Payment *
 Name=G1_4_5_IF_LAND_BASED_WHAT_TYPE
 Position=646,747,661,767
 Item=G1_4_5_IF_LAND_BASED_WHAT_TYPE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -2927,7 +2754,6 @@ Text=G1.4.5 If land-based, what type? *
 Name=G1_4_6_IF_WAGE_BASED_WHAT_IS_THE_STATUS_OF_EMPLO
 Position=646,777,661,797
 Item=G1_4_6_IF_WAGE_BASED_WHAT_IS_THE_STATUS_OF_EMPLO,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -2940,7 +2766,6 @@ Text=G1.4.6 If wage-based, what is the status of employment? *
 Name=G1_4_7_IF_WAGE_BASED_WHAT_TYPE_PLEASE_SPECIFY
 Position=646,807,675,827
 Item=G1_4_7_IF_WAGE_BASED_WHAT_TYPE_PLEASE_SPECIFY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -2953,7 +2778,6 @@ Text=G1.4.7 If wage-based what type? (please specify) *
 Name=G1_5_1_CURRENT_SKILLS
 Position=646,837,815,857
 Item=G1_5_1_CURRENT_SKILLS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -2966,7 +2790,6 @@ Text=G1.5.1 Current Skills *
 Name=G1_5_2_PREFERRED_SKILLS_TRAINING
 Position=646,867,815,887
 Item=G1_5_2_PREFERRED_SKILLS_TRAINING,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -2979,7 +2802,6 @@ Text=G1.5.2 Preferred Skills Training *
 Name=G1_5_3_LOCATION_OF_ORGANIZATION
 Position=646,897,731,917
 Item=G1_5_3_LOCATION_OF_ORGANIZATION,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
 Form=13
   
@@ -2992,7 +2814,6 @@ Text=G1.5.3 Location of Organization
 Name=G1_5_4_VULNERABILITY
 Position=646,927,759,947
 Item=G1_5_4_VULNERABILITY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -3005,7 +2826,6 @@ Text=G1.5.4 Vulnerability *
 Name=G1_5_5_WHO_TAKES_CARE_OF_VULNERABLE_HOUSEHOLD_ME
 Position=646,957,661,977
 Item=G1_5_5_WHO_TAKES_CARE_OF_VULNERABLE_HOUSEHOLD_ME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -3018,7 +2838,6 @@ Text=G1.5.5 Who takes care of vulnerable household member? *
 Name=G2_1_DO_YOU_RESIDE_IN_THE_AFFECTED_AREA
 Position=646,987,661,1007
 Item=G2_1_DO_YOU_RESIDE_IN_THE_AFFECTED_AREA,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -3031,7 +2850,6 @@ Text=G2.1 Do you reside in the affected area? *
 Name=G3_1_EXPENSE_ITEMS
 Position=646,1017,664,1037
 Item=G3_1_EXPENSE_ITEMS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3045,11 +2863,6 @@ Text=G3.1 Expense Items
 Name=RENT_LAND_E3_1
 Position=646,1047,661,1067
 Item=RENT_LAND_E3_1,LASSODD_DICT
-<<<<<<< HEAD
-FieldLabelType=DictionaryLabel
-UseUnicodeTextBox=Yes
-=======
->>>>>>> 8b2513cb944f2704e0f495092576aeeaf8991f4e
 DataCaptureType=TextBox
 Form=13
   
@@ -3062,7 +2875,6 @@ Text=1. Rent (land) - E3.1
 Name=G3_2_ESTIMATED_COST_PHP_MONTH
 Position=646,1077,745,1097
 Item=G3_2_ESTIMATED_COST_PHP_MONTH,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3075,7 +2887,6 @@ Text=G3.2 Estimated Cost (Php/Month)
 Name=G3_3_REMARKS
 Position=646,1107,816,1127
 Item=G3_3_REMARKS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3089,7 +2900,6 @@ Text=G3.3 Remarks
 Name=RENT_HOUSE_ROOM_D2_1
 Position=646,1137,661,1157
 Item=RENT_HOUSE_ROOM_D2_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3102,7 +2912,6 @@ Text=2. Rent (house/room) - D2.1
 Name=G3_2_ESTIMATED_COST_PHP_MONTH_1
 Position=646,1167,857,1187
 Item=G3_2_ESTIMATED_COST_PHP_MONTH_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3115,7 +2924,6 @@ Text=G3.2 Estimated Cost (Php/Month)
 Name=G3_3_REMARKS_1
 Position=646,1197,816,1217
 Item=G3_3_REMARKS_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3129,7 +2937,6 @@ Text=G3.3 Remarks
 Name=HOUSING_AMORTIZATION
 Position=646,1227,661,1247
 Item=HOUSING_AMORTIZATION,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3142,7 +2949,6 @@ Text=3. Housing amortization
 Name=G3_2_ESTIMATED_COST_PHP_MONTH_2
 Position=646,1257,857,1277
 Item=G3_2_ESTIMATED_COST_PHP_MONTH_2,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3155,7 +2961,6 @@ Text=G3.2 Estimated Cost (Php/Month)
 Name=G3_3_REMARKS_2
 Position=646,1287,816,1307
 Item=G3_3_REMARKS_2,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3169,7 +2974,6 @@ Text=G3.3 Remarks
 Name=CAR_MOTORCYCLE_AMORTIZATION
 Position=646,1317,661,1337
 Item=CAR_MOTORCYCLE_AMORTIZATION,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3182,7 +2986,6 @@ Text=4. Car/motorcycle amortization
 Name=G3_2_ESTIMATED_COST_PHP_MONTH_3
 Position=646,1347,857,1367
 Item=G3_2_ESTIMATED_COST_PHP_MONTH_3,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3195,7 +2998,6 @@ Text=G3.2 Estimated Cost (Php/Month)
 Name=G3_3_REMARKS_3
 Position=646,1377,816,1397
 Item=G3_3_REMARKS_3,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3209,7 +3011,6 @@ Text=G3.3 Remarks
 Name=SAVINGS
 Position=646,1407,661,1427
 Item=SAVINGS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3222,7 +3023,6 @@ Text=5. Savings
 Name=G3_2_ESTIMATED_COST_PHP_MONTH_4
 Position=646,1437,857,1457
 Item=G3_2_ESTIMATED_COST_PHP_MONTH_4,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3235,7 +3035,6 @@ Text=G3.2 Estimated Cost (Php/Month)
 Name=G3_3_REMARKS_4
 Position=646,1467,816,1487
 Item=G3_3_REMARKS_4,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3249,7 +3048,6 @@ Text=G3.3 Remarks
 Name=IN_BANK
 Position=646,1497,661,1517
 Item=IN_BANK,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -3262,7 +3060,6 @@ Text=In bank?
 Name=TAX_LAND_STRUCTURE_D1_10_E2_4
 Position=646,1527,661,1547
 Item=TAX_LAND_STRUCTURE_D1_10_E2_4,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3275,7 +3072,6 @@ Text=6.Tax (Land/Structure) - D1.10, E2.4
 Name=G3_2_ESTIMATED_COST_PHP_MONTH_5
 Position=646,1557,857,1577
 Item=G3_2_ESTIMATED_COST_PHP_MONTH_5,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3288,7 +3084,6 @@ Text=G3.2 Estimated Cost (Php/Month)
 Name=G3_3_REMARKS_5
 Position=646,1587,816,1607
 Item=G3_3_REMARKS_5,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3302,7 +3097,6 @@ Text=G3.3 Remarks
 Name=FOOD_GROCERIES
 Position=646,1617,661,1637
 Item=FOOD_GROCERIES,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3315,7 +3109,6 @@ Text=7. Food /Groceries
 Name=G3_2_ESTIMATED_COST_PHP_MONTH_6
 Position=646,1647,857,1667
 Item=G3_2_ESTIMATED_COST_PHP_MONTH_6,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3328,7 +3121,6 @@ Text=G3.2 Estimated Cost (Php/Month)
 Name=G3_3_REMARKS_6
 Position=646,1677,816,1697
 Item=G3_3_REMARKS_6,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3342,7 +3134,6 @@ Text=G3.3 Remarks
 Name=NON_FOOD_ITEMS_GROCERIES
 Position=646,1707,661,1727
 Item=NON_FOOD_ITEMS_GROCERIES,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3355,7 +3146,6 @@ Text=8. Non-Food Items/ Groceries
 Name=G3_2_ESTIMATED_COST_PHP_MONTH_7
 Position=646,1737,857,1757
 Item=G3_2_ESTIMATED_COST_PHP_MONTH_7,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3368,7 +3158,6 @@ Text=G3.2 Estimated Cost (Php/Month)
 Name=G3_3_REMARKS_7
 Position=646,1767,816,1787
 Item=G3_3_REMARKS_7,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3382,7 +3171,6 @@ Text=G3.3 Remarks
 Name=LIGHT_ELECTRICITY
 Position=646,1797,661,1817
 Item=LIGHT_ELECTRICITY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3395,7 +3183,6 @@ Text=9. Light (Electricity)
 Name=G3_2_ESTIMATED_COST_PHP_MONTH_8
 Position=646,1827,776,1847
 Item=G3_2_ESTIMATED_COST_PHP_MONTH_8,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3409,7 +3196,6 @@ Text=G3.2 Estimated Cost (Php/Month)
 Name=G3_3_REMARKS_8
 Position=646,1857,816,1877
 Item=G3_3_REMARKS_8,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3423,7 +3209,6 @@ Text=G3.3 Remarks
 Name=WATER
 Position=646,1887,661,1907
 Item=WATER,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3436,7 +3221,6 @@ Text=10. Water
 Name=G3_2_ESTIMATED_COST_PHP_MONTH_9
 Position=646,1917,776,1937
 Item=G3_2_ESTIMATED_COST_PHP_MONTH_9,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3450,7 +3234,6 @@ Text=G3.2 Estimated Cost (Php/Month)
 Name=G3_3_REMARKS_9
 Position=646,1947,816,1967
 Item=G3_3_REMARKS_9,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3464,7 +3247,6 @@ Text=G3.3 Remarks
 Name=EDUCATION
 Position=646,1977,661,1997
 Item=EDUCATION,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3477,7 +3259,6 @@ Text=11. Education
 Name=G3_2_ESTIMATED_COST_PHP_MONTH_10
 Position=646,2007,776,2027
 Item=G3_2_ESTIMATED_COST_PHP_MONTH_10,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3491,7 +3272,6 @@ Text=G3.2 Estimated Cost (Php/Month)
 Name=G3_3_REMARKS_10
 Position=646,2037,816,2057
 Item=G3_3_REMARKS_10,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3505,7 +3285,6 @@ Text=G3.3 Remarks
 Name=COMMUNICATION_LANDLINE_MOBILE_PHONE
 Position=646,2067,661,2087
 Item=COMMUNICATION_LANDLINE_MOBILE_PHONE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3518,7 +3297,6 @@ Text=12. Communication (landline/mobile phone)
 Name=G3_2_ESTIMATED_COST_PHP_MONTH_11
 Position=646,2097,857,2117
 Item=G3_2_ESTIMATED_COST_PHP_MONTH_11,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3531,7 +3309,6 @@ Text=G3.2 Estimated Cost (Php/Month)
 Name=G3_3_REMARKS_11
 Position=646,2127,816,2147
 Item=G3_3_REMARKS_11,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3545,7 +3322,6 @@ Text=G3.3 Remarks
 Name=INTERNET_CONNECTION
 Position=646,2157,661,2177
 Item=INTERNET_CONNECTION,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3558,7 +3334,6 @@ Text=13. Internet Connection
 Name=G3_2_ESTIMATED_COST_PHP_MONTH_12
 Position=646,2187,776,2207
 Item=G3_2_ESTIMATED_COST_PHP_MONTH_12,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3572,7 +3347,6 @@ Text=G3.2 Estimated Cost (Php/Month)
 Name=G3_3_REMARKS_12
 Position=646,2217,816,2237
 Item=G3_3_REMARKS_12,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3586,7 +3360,6 @@ Text=G3.3 Remarks
 Name=CABLE_CONNECTION
 Position=646,2247,661,2267
 Item=CABLE_CONNECTION,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3599,7 +3372,6 @@ Text=14. Cable Connection
 Name=G3_2_ESTIMATED_COST_PHP_MONTH_13
 Position=646,2277,776,2297
 Item=G3_2_ESTIMATED_COST_PHP_MONTH_13,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3613,7 +3385,6 @@ Text=G3.2 Estimated Cost (Php/Month)
 Name=G3_3_REMARKS_13
 Position=646,2307,816,2327
 Item=G3_3_REMARKS_13,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3627,7 +3398,6 @@ Text=G3.3 Remarks
 Name=TRANSPORTATION_FARE_GAS
 Position=646,2337,661,2357
 Item=TRANSPORTATION_FARE_GAS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3640,7 +3410,6 @@ Text=15.Transportation (Fare/Gas)
 Name=G3_2_ESTIMATED_COST_PHP_MONTH_14
 Position=646,2367,776,2387
 Item=G3_2_ESTIMATED_COST_PHP_MONTH_14,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3654,7 +3423,6 @@ Text=G3.2 Estimated Cost (Php/Month)
 Name=G3_3_REMARKS_14
 Position=646,2397,816,2417
 Item=G3_3_REMARKS_14,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3668,7 +3436,6 @@ Text=G3.3 Remarks
 Name=RECREATION_TRAVEL_EAT_OUT_ETC
 Position=646,2427,661,2447
 Item=RECREATION_TRAVEL_EAT_OUT_ETC,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3681,7 +3448,6 @@ Text=16. Recreation (Travel, Eat Out, etc.)
 Name=G3_2_ESTIMATED_COST_PHP_MONTH_15
 Position=646,2457,857,2477
 Item=G3_2_ESTIMATED_COST_PHP_MONTH_15,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3694,7 +3460,6 @@ Text=G3.2 Estimated Cost (Php/Month)
 Name=G3_3_REMARKS_15
 Position=646,2487,816,2507
 Item=G3_3_REMARKS_15,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3708,7 +3473,6 @@ Text=G3.3 Remarks
 Name=HEALTH_CHECK_UP_MAINTENANCE_MEDICINE
 Position=646,2517,661,2537
 Item=HEALTH_CHECK_UP_MAINTENANCE_MEDICINE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3721,7 +3485,6 @@ Text=17.Health (Check-up, Maintenance Medicine)
 Name=G3_2_ESTIMATED_COST_PHP_MONTH_16
 Position=646,2547,857,2567
 Item=G3_2_ESTIMATED_COST_PHP_MONTH_16,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3734,7 +3497,6 @@ Text=G3.2 Estimated Cost (Php/Month)
 Name=G3_3_REMARKS_16
 Position=646,2577,816,2597
 Item=G3_3_REMARKS_16,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3748,7 +3510,6 @@ Text=G3.3 Remarks
 Name=COOKING_LPG_GAS_CHARCOAL
 Position=646,2607,661,2627
 Item=COOKING_LPG_GAS_CHARCOAL,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3761,7 +3522,6 @@ Text=18. Cooking (LPG, Gas, Charcoal)
 Name=G3_2_ESTIMATED_COST_PHP_MONTH_17
 Position=646,2637,776,2657
 Item=G3_2_ESTIMATED_COST_PHP_MONTH_17,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3775,7 +3535,6 @@ Text=G3.2 Estimated Cost (Php/Month)
 Name=G3_3_REMARKS_17
 Position=646,2667,816,2687
 Item=G3_3_REMARKS_17,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3789,7 +3548,6 @@ Text=G3.3 Remarks
 Name=LOAN_PAYMENT_AMORTIZATION_CAR_APPLIANCES_FURNITU
 Position=646,2697,661,2717
 Item=LOAN_PAYMENT_AMORTIZATION_CAR_APPLIANCES_FURNITU,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3802,7 +3560,6 @@ Text=19. Loan Payment/Amortization (Car, Appliances, Furniture, etc.)
 Name=G3_2_ESTIMATED_COST_PHP_MONTH_18
 Position=646,2727,776,2747
 Item=G3_2_ESTIMATED_COST_PHP_MONTH_18,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3816,7 +3573,6 @@ Text=G3.2 Estimated Cost (Php/Month)
 Name=G3_3_REMARKS_18
 Position=646,2757,816,2777
 Item=G3_3_REMARKS_18,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3830,7 +3586,6 @@ Text=G3.3 Remarks
 Name=FINANCIAL_SUPPORT
 Position=646,2787,661,2807
 Item=FINANCIAL_SUPPORT,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3843,7 +3598,6 @@ Text=20. Financial Support
 Name=G3_2_ESTIMATED_COST_PHP_MONTH_19
 Position=646,2817,776,2837
 Item=G3_2_ESTIMATED_COST_PHP_MONTH_19,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3857,7 +3611,6 @@ Text=G3.2 Estimated Cost (Php/Month)
 Name=G3_3_REMARKS_19
 Position=646,2847,816,2867
 Item=G3_3_REMARKS_19,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3871,7 +3624,6 @@ Text=G3.3 Remarks
 Name=SALARY_HOUSE_HELP_DRIVER_EMPLOYEE_ETC
 Position=646,2877,661,2897
 Item=SALARY_HOUSE_HELP_DRIVER_EMPLOYEE_ETC,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3884,7 +3636,6 @@ Text=21. Salary (House help, Driver, Employee, etc)
 Name=G3_2_ESTIMATED_COST_PHP_MONTH_20
 Position=646,2907,857,2927
 Item=G3_2_ESTIMATED_COST_PHP_MONTH_20,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3897,7 +3648,6 @@ Text=G3.2 Estimated Cost (Php/Month)
 Name=G3_3_REMARKS_20
 Position=646,2937,816,2957
 Item=G3_3_REMARKS_20,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3911,7 +3661,6 @@ Text=G3.3 Remarks
 Name=OTHERS_SPECIFY
 Position=646,2967,816,2987
 Item=OTHERS_SPECIFY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3925,7 +3674,6 @@ Text=22.Others (Specify)
 Name=G3_2_ESTIMATED_COST_PHP_MONTH_21
 Position=646,2997,857,3017
 Item=G3_2_ESTIMATED_COST_PHP_MONTH_21,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3938,7 +3686,6 @@ Text=G3.2 Estimated Cost (Php/Month)
 Name=G3_3_REMARKS_21
 Position=646,3027,816,3047
 Item=G3_3_REMARKS_21,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -3952,7 +3699,6 @@ Text=G3.3 Remarks
 Name=TOTAL_MONTHLY_EXPENDITURE
 Position=646,3057,857,3077
 Item=TOTAL_MONTHLY_EXPENDITURE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3965,7 +3711,6 @@ Text=TOTAL MONTHLY EXPENDITURE
 Name=G4_HOUSEHOLD_GOODS_OWNED
 Position=646,3087,661,3107
 Item=G4_HOUSEHOLD_GOODS_OWNED,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3978,7 +3723,6 @@ Text=G4. HOUSEHOLD GOODS OWNED
 Name=G4_1_ITEM
 Position=646,3117,661,3137
 Item=G4_1_ITEM,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -3991,7 +3735,6 @@ Text=G4.1 Item
 Name=HOUSE
 Position=646,3147,661,3167
 Item=HOUSE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4004,7 +3747,6 @@ Text=1. House
 Name=G4_2_QUANTITY
 Position=646,3177,661,3197
 Item=G4_2_QUANTITY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4017,7 +3759,6 @@ Text=G4.2 Quantity
 Name=G4_2_1_NO_OF_FUNCTIONING
 Position=646,3207,857,3227
 Item=G4_2_1_NO_OF_FUNCTIONING,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4030,7 +3771,6 @@ Text=G4.2.1 No. of Functioning
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING
 Position=646,3237,857,3257
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4043,7 +3783,6 @@ Text=G.4.2.2. No. of Non-Functioning
 Name=G4_2_3_TOTAL_NO
 Position=646,3267,857,3287
 Item=G4_2_3_TOTAL_NO,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4056,7 +3795,6 @@ Text=G4.2.3. Total No.
 Name=G4_3_SEX_OF_OWNERS
 Position=646,3297,661,3317
 Item=G4_3_SEX_OF_OWNERS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -4069,7 +3807,6 @@ Text=G4.3 Sex of Owners
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP
 Position=646,3327,857,3347
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4082,7 +3819,6 @@ Text=G4.4 Estimated Total Value (Php)
 Name=CAR
 Position=646,3357,661,3377
 Item=CAR,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4095,7 +3831,6 @@ Text=2. Car
 Name=G4_2_QUANTITY_1
 Position=646,3387,661,3407
 Item=G4_2_QUANTITY_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4108,7 +3843,6 @@ Text=G4.2 Quantity
 Name=G4_2_1_NO_OF_FUNCTIONING_1
 Position=646,3417,857,3437
 Item=G4_2_1_NO_OF_FUNCTIONING_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4121,7 +3855,6 @@ Text=G4.2.1 No. of Functioning
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_1
 Position=646,3447,857,3467
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4134,7 +3867,6 @@ Text=G.4.2.2. No. of Non-Functioning
 Name=G4_2_3_TOTAL_NO_1
 Position=646,3477,857,3497
 Item=G4_2_3_TOTAL_NO_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4147,7 +3879,6 @@ Text=G4.2.3. Total No.
 Name=G4_3_SEX_OF_OWNERS_1
 Position=646,3507,661,3527
 Item=G4_3_SEX_OF_OWNERS_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -4160,7 +3891,6 @@ Text=G4.3 Sex of Owners
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_1
 Position=646,3537,857,3557
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4173,7 +3903,6 @@ Text=G4.4 Estimated Total Value (Php)
 Name=BICYCLE
 Position=646,3567,661,3587
 Item=BICYCLE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4186,7 +3915,6 @@ Text=3. Bicycle
 Name=G4_2_QUANTITY_2
 Position=646,3597,661,3617
 Item=G4_2_QUANTITY_2,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4199,7 +3927,6 @@ Text=G4.2 Quantity
 Name=G4_2_1_NO_OF_FUNCTIONING_2
 Position=646,3627,857,3647
 Item=G4_2_1_NO_OF_FUNCTIONING_2,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4212,7 +3939,6 @@ Text=G4.2.1 No. of Functioning
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_2
 Position=646,3657,857,3677
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_2,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4225,7 +3951,6 @@ Text=G.4.2.2. No. of Non-Functioning
 Name=G4_2_3_TOTAL_NO_2
 Position=646,3687,857,3707
 Item=G4_2_3_TOTAL_NO_2,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4238,7 +3963,6 @@ Text=G4.2.3. Total No.
 Name=G4_3_SEX_OF_OWNERS_2
 Position=646,3717,661,3737
 Item=G4_3_SEX_OF_OWNERS_2,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -4251,7 +3975,6 @@ Text=G4.3 Sex of Owners
 Name=G4_2_QUANTITY_3
 Position=646,3747,661,3767
 Item=G4_2_QUANTITY_3,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4264,7 +3987,6 @@ Text=G4.2 Quantity
 Name=G4_2_1_NO_OF_FUNCTIONING_3
 Position=646,3777,857,3797
 Item=G4_2_1_NO_OF_FUNCTIONING_3,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4277,7 +3999,6 @@ Text=G4.2.1 No. of Functioning
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_3
 Position=646,3807,857,3827
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_3,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4290,7 +4011,6 @@ Text=G.4.2.2. No. of Non-Functioning
 Name=G4_2_3_TOTAL_NO_3
 Position=646,3837,857,3857
 Item=G4_2_3_TOTAL_NO_3,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4303,7 +4023,6 @@ Text=G4.2.3. Total No.
 Name=G4_3_SEX_OF_OWNERS_3
 Position=646,3867,661,3887
 Item=G4_3_SEX_OF_OWNERS_3,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -4316,7 +4035,6 @@ Text=G4.3 Sex of Owners
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_2
 Position=646,3897,857,3917
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_2,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4329,7 +4047,6 @@ Text=G4.4 Estimated Total Value (Php)
 Name=MOTORCYCLE
 Position=646,3927,661,3947
 Item=MOTORCYCLE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4342,7 +4059,6 @@ Text=5. Motorcycle
 Name=G4_2_QUANTITY_4
 Position=646,3957,661,3977
 Item=G4_2_QUANTITY_4,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4355,7 +4071,6 @@ Text=G4.2 Quantity
 Name=G4_2_1_NO_OF_FUNCTIONING_4
 Position=646,3987,857,4007
 Item=G4_2_1_NO_OF_FUNCTIONING_4,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4368,7 +4083,6 @@ Text=G4.2.1 No. of Functioning
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_4
 Position=646,4017,857,4037
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_4,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4381,7 +4095,6 @@ Text=G.4.2.2. No. of Non-Functioning
 Name=G4_2_3_TOTAL_NO_4
 Position=646,4047,857,4067
 Item=G4_2_3_TOTAL_NO_4,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4394,7 +4107,6 @@ Text=G4.2.3. Total No.
 Name=G4_3_SEX_OF_OWNERS_4
 Position=646,4077,664,4097
 Item=G4_3_SEX_OF_OWNERS_4,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -4408,7 +4120,6 @@ Text=G4.3 Sex of Owners
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_3
 Position=646,4107,857,4127
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_3,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4421,7 +4132,6 @@ Text=G4.4 Estimated Total Value (Php)
 Name=LANDLINE_TELEPHONE
 Position=646,4137,661,4157
 Item=LANDLINE_TELEPHONE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4434,7 +4144,6 @@ Text=6. Landline telephone
 Name=G4_2_QUANTITY_5
 Position=646,4167,661,4187
 Item=G4_2_QUANTITY_5,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4447,7 +4156,6 @@ Text=G4.2 Quantity
 Name=G4_2_1_NO_OF_FUNCTIONING_5
 Position=646,4197,857,4217
 Item=G4_2_1_NO_OF_FUNCTIONING_5,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4460,7 +4168,6 @@ Text=G4.2.1 No. of Functioning
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_5
 Position=646,4227,857,4247
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_5,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4473,7 +4180,6 @@ Text=G.4.2.2. No. of Non-Functioning
 Name=G4_2_3_TOTAL_NO_5
 Position=646,4257,857,4277
 Item=G4_2_3_TOTAL_NO_5,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4486,7 +4192,6 @@ Text=G4.2.3. Total No.
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_4
 Position=646,4287,857,4307
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_4,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4499,7 +4204,6 @@ Text=G4.4 Estimated Total Value (Php)
 Name=COMPUTER
 Position=646,4317,661,4337
 Item=COMPUTER,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4512,7 +4216,6 @@ Text=8. Computer
 Name=G4_2_QUANTITY_6
 Position=646,4347,661,4367
 Item=G4_2_QUANTITY_6,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4525,7 +4228,6 @@ Text=G4.2 Quantity
 Name=G4_2_1_NO_OF_FUNCTIONING_6
 Position=646,4377,857,4397
 Item=G4_2_1_NO_OF_FUNCTIONING_6,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4538,7 +4240,6 @@ Text=G4.2.1 No. of Functioning
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_6
 Position=646,4407,857,4427
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_6,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4551,7 +4252,6 @@ Text=G.4.2.2. No. of Non-Functioning
 Name=G4_2_3_TOTAL_NO_6
 Position=646,4437,857,4457
 Item=G4_2_3_TOTAL_NO_6,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4564,7 +4264,6 @@ Text=G4.2.3. Total No.
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_5
 Position=646,4467,857,4487
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_5,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4577,7 +4276,6 @@ Text=G4.4 Estimated Total Value (Php)
 Name=TV_SET
 Position=646,4497,661,4517
 Item=TV_SET,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4590,7 +4288,6 @@ Text=9. TV set
 Name=G4_2_QUANTITY_7
 Position=646,4527,661,4547
 Item=G4_2_QUANTITY_7,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4603,7 +4300,6 @@ Text=G4.2 Quantity
 Name=G4_2_1_NO_OF_FUNCTIONING_7
 Position=646,4557,857,4577
 Item=G4_2_1_NO_OF_FUNCTIONING_7,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4616,7 +4312,6 @@ Text=G4.2.1 No. of Functioning
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_7
 Position=646,4587,857,4607
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_7,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4629,7 +4324,6 @@ Text=G.4.2.2. No. of Non-Functioning
 Name=G4_2_3_TOTAL_NO_7
 Position=646,4617,857,4637
 Item=G4_2_3_TOTAL_NO_7,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4642,7 +4336,6 @@ Text=G4.2.3. Total No.
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_6
 Position=646,4647,857,4667
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_6,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4655,7 +4348,6 @@ Text=G4.4 Estimated Total Value (Php)
 Name=VCD_DVD
 Position=646,4677,661,4697
 Item=VCD_DVD,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4668,7 +4360,6 @@ Text=10. VCD/DVD
 Name=G4_2_QUANTITY_8
 Position=646,4707,661,4727
 Item=G4_2_QUANTITY_8,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4681,7 +4372,6 @@ Text=G4.2 Quantity
 Name=G4_2_1_NO_OF_FUNCTIONING_8
 Position=646,4737,857,4757
 Item=G4_2_1_NO_OF_FUNCTIONING_8,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4694,7 +4384,6 @@ Text=G4.2.1 No. of Functioning
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_8
 Position=646,4767,857,4787
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_8,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4707,7 +4396,6 @@ Text=G.4.2.2. No. of Non-Functioning
 Name=G4_2_3_TOTAL_NO_8
 Position=646,4797,857,4817
 Item=G4_2_3_TOTAL_NO_8,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4720,7 +4408,6 @@ Text=G4.2.3. Total No.
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_7
 Position=646,4827,857,4847
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_7,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4733,7 +4420,6 @@ Text=G4.4 Estimated Total Value (Php)
 Name=STEREO_COMPONENT
 Position=646,4857,661,4877
 Item=STEREO_COMPONENT,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4746,7 +4432,6 @@ Text=11. Stereo Component
 Name=G4_2_QUANTITY_9
 Position=646,4887,661,4907
 Item=G4_2_QUANTITY_9,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4759,7 +4444,6 @@ Text=G4.2 Quantity
 Name=G4_2_1_NO_OF_FUNCTIONING_9
 Position=646,4917,857,4937
 Item=G4_2_1_NO_OF_FUNCTIONING_9,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4772,7 +4456,6 @@ Text=G4.2.1 No. of Functioning
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_9
 Position=646,4947,857,4967
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_9,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4785,7 +4468,6 @@ Text=G.4.2.2. No. of Non-Functioning
 Name=G4_2_3_TOTAL_NO_9
 Position=646,4977,857,4997
 Item=G4_2_3_TOTAL_NO_9,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4798,7 +4480,6 @@ Text=G4.2.3. Total No.
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_8
 Position=646,5007,857,5027
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_8,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4811,7 +4492,6 @@ Text=G4.4 Estimated Total Value (Php)
 Name=REFRIGERATOR
 Position=646,5037,661,5057
 Item=REFRIGERATOR,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4824,7 +4504,6 @@ Text=12. Refrigerator
 Name=G4_2_QUANTITY_10
 Position=646,5067,661,5087
 Item=G4_2_QUANTITY_10,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4837,7 +4516,6 @@ Text=G4.2 Quantity
 Name=G4_2_1_NO_OF_FUNCTIONING_10
 Position=646,5097,857,5117
 Item=G4_2_1_NO_OF_FUNCTIONING_10,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4850,7 +4528,6 @@ Text=G4.2.1 No. of Functioning
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_10
 Position=646,5127,857,5147
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_10,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4863,7 +4540,6 @@ Text=G.4.2.2. No. of Non-Functioning
 Name=G4_2_3_TOTAL_NO_10
 Position=646,5157,857,5177
 Item=G4_2_3_TOTAL_NO_10,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4876,7 +4552,6 @@ Text=G4.2.3. Total No.
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_9
 Position=646,5187,857,5207
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_9,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4889,7 +4564,6 @@ Text=G4.4 Estimated Total Value (Php)
 Name=WASHING_MACHINE
 Position=646,5217,661,5237
 Item=WASHING_MACHINE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4902,7 +4576,6 @@ Text=13. Washing machine
 Name=G4_2_QUANTITY_11
 Position=646,5247,661,5267
 Item=G4_2_QUANTITY_11,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4915,7 +4588,6 @@ Text=G4.2 Quantity
 Name=G4_2_1_NO_OF_FUNCTIONING_11
 Position=646,5277,857,5297
 Item=G4_2_1_NO_OF_FUNCTIONING_11,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4928,7 +4600,6 @@ Text=G4.2.1 No. of Functioning
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_11
 Position=646,5307,857,5327
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_11,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4941,7 +4612,6 @@ Text=G.4.2.2. No. of Non-Functioning
 Name=G4_2_3_TOTAL_NO_11
 Position=646,5337,857,5357
 Item=G4_2_3_TOTAL_NO_11,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4954,7 +4624,6 @@ Text=G4.2.3. Total No.
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_10
 Position=646,5367,857,5387
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_10,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4967,7 +4636,6 @@ Text=G4.4 Estimated Total Value (Php)
 Name=OVEN_RANGE
 Position=646,5397,661,5417
 Item=OVEN_RANGE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4980,7 +4648,6 @@ Text=14. Oven/Range
 Name=G4_2_QUANTITY_12
 Position=646,5427,661,5447
 Item=G4_2_QUANTITY_12,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -4993,7 +4660,6 @@ Text=G4.2 Quantity
 Name=G4_2_1_NO_OF_FUNCTIONING_12
 Position=646,5457,857,5477
 Item=G4_2_1_NO_OF_FUNCTIONING_12,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5006,7 +4672,6 @@ Text=G4.2.1 No. of Functioning
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_12
 Position=646,5487,857,5507
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_12,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5019,7 +4684,6 @@ Text=G.4.2.2. No. of Non-Functioning
 Name=G4_2_3_TOTAL_NO_12
 Position=646,5517,857,5537
 Item=G4_2_3_TOTAL_NO_12,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5032,7 +4696,6 @@ Text=G4.2.3. Total No.
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_11
 Position=646,5547,857,5567
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_11,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5045,7 +4708,6 @@ Text=G4.4 Estimated Total Value (Php)
 Name=MICROWAVE
 Position=646,5577,661,5597
 Item=MICROWAVE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5058,7 +4720,6 @@ Text=15. Microwave
 Name=G4_2_QUANTITY_13
 Position=646,5607,661,5627
 Item=G4_2_QUANTITY_13,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5071,7 +4732,6 @@ Text=G4.2 Quantity
 Name=G4_2_1_NO_OF_FUNCTIONING_13
 Position=646,5637,857,5657
 Item=G4_2_1_NO_OF_FUNCTIONING_13,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5084,7 +4744,6 @@ Text=G4.2.1 No. of Functioning
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_13
 Position=646,5667,857,5687
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_13,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5097,7 +4756,6 @@ Text=G.4.2.2. No. of Non-Functioning
 Name=G4_2_3_TOTAL_NO_13
 Position=646,5697,857,5717
 Item=G4_2_3_TOTAL_NO_13,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5110,7 +4768,6 @@ Text=G4.2.3. Total No.
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_12
 Position=646,5727,857,5747
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_12,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5123,7 +4780,6 @@ Text=G4.4 Estimated Total Value (Php)
 Name=BED
 Position=646,5757,661,5777
 Item=BED,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5136,7 +4792,6 @@ Text=16. Bed
 Name=G4_2_QUANTITY_14
 Position=646,5787,661,5807
 Item=G4_2_QUANTITY_14,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5149,7 +4804,6 @@ Text=G4.2 Quantity
 Name=G4_2_1_NO_OF_FUNCTIONING_14
 Position=646,5817,857,5837
 Item=G4_2_1_NO_OF_FUNCTIONING_14,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5162,7 +4816,6 @@ Text=G4.2.1 No. of Functioning
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_14
 Position=646,5847,857,5867
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_14,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5175,7 +4828,6 @@ Text=G.4.2.2. No. of Non-Functioning
 Name=G4_2_3_TOTAL_NO_14
 Position=646,5877,857,5897
 Item=G4_2_3_TOTAL_NO_14,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5188,7 +4840,6 @@ Text=G4.2.3. Total No.
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_13
 Position=646,5907,857,5927
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_13,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5201,7 +4852,6 @@ Text=G4.4 Estimated Total Value (Php)
 Name=SALA_SET
 Position=646,5937,661,5957
 Item=SALA_SET,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5214,7 +4864,6 @@ Text=17. Sala Set
 Name=G4_2_QUANTITY_15
 Position=646,5967,661,5987
 Item=G4_2_QUANTITY_15,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5227,7 +4876,6 @@ Text=G4.2 Quantity
 Name=G4_2_1_NO_OF_FUNCTIONING_15
 Position=646,5997,857,6017
 Item=G4_2_1_NO_OF_FUNCTIONING_15,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5240,7 +4888,6 @@ Text=G4.2.1 No. of Functioning
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_15
 Position=646,6027,857,6047
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_15,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5253,7 +4900,6 @@ Text=G.4.2.2. No. of Non-Functioning
 Name=G4_2_3_TOTAL_NO_15
 Position=646,6057,857,6077
 Item=G4_2_3_TOTAL_NO_15,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5266,7 +4912,6 @@ Text=G4.2.3. Total No.
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_14
 Position=646,6087,857,6107
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_14,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5279,7 +4924,6 @@ Text=G4.4 Estimated Total Value (Php)
 Name=DINING_SET
 Position=646,6117,661,6137
 Item=DINING_SET,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5292,7 +4936,6 @@ Text=18. Dining Set
 Name=G4_2_QUANTITY_16
 Position=646,6147,661,6167
 Item=G4_2_QUANTITY_16,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5305,7 +4948,6 @@ Text=G4.2 Quantity
 Name=G4_2_1_NO_OF_FUNCTIONING_16
 Position=646,6177,857,6197
 Item=G4_2_1_NO_OF_FUNCTIONING_16,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5318,7 +4960,6 @@ Text=G4.2.1 No. of Functioning
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_16
 Position=646,6207,857,6227
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_16,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5331,7 +4972,6 @@ Text=G.4.2.2. No. of Non-Functioning
 Name=G4_2_3_TOTAL_NO_16
 Position=646,6237,857,6257
 Item=G4_2_3_TOTAL_NO_16,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5344,7 +4984,6 @@ Text=G4.2.3. Total No.
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_15
 Position=646,6267,857,6287
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_15,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5357,7 +4996,6 @@ Text=G4.4 Estimated Total Value (Php)
 Name=ELECTRIC_FAN
 Position=646,6297,661,6317
 Item=ELECTRIC_FAN,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5370,7 +5008,6 @@ Text=19. Electric Fan
 Name=G4_2_QUANTITY_17
 Position=646,6327,661,6347
 Item=G4_2_QUANTITY_17,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5383,7 +5020,6 @@ Text=G4.2 Quantity
 Name=G4_2_1_NO_OF_FUNCTIONING_17
 Position=646,6357,857,6377
 Item=G4_2_1_NO_OF_FUNCTIONING_17,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5396,7 +5032,6 @@ Text=G4.2.1 No. of Functioning
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_17
 Position=646,6387,857,6407
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_17,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5409,7 +5044,6 @@ Text=G.4.2.2. No. of Non-Functioning
 Name=G4_2_3_TOTAL_NO_17
 Position=646,6417,857,6437
 Item=G4_2_3_TOTAL_NO_17,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5422,7 +5056,6 @@ Text=G4.2.3. Total No.
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_16
 Position=646,6447,857,6467
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_16,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5435,7 +5068,6 @@ Text=G4.4 Estimated Total Value (Php)
 Name=AIRCON
 Position=646,6477,661,6497
 Item=AIRCON,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5448,7 +5080,6 @@ Text=20. Aircon
 Name=G4_2_QUANTITY_18
 Position=646,6507,661,6527
 Item=G4_2_QUANTITY_18,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5461,7 +5092,6 @@ Text=G4.2 Quantity
 Name=G4_2_1_NO_OF_FUNCTIONING_18
 Position=646,6537,857,6557
 Item=G4_2_1_NO_OF_FUNCTIONING_18,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5474,7 +5104,6 @@ Text=G4.2.1 No. of Functioning
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_18
 Position=646,6567,857,6587
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_18,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5487,7 +5116,6 @@ Text=G.4.2.2. No. of Non-Functioning
 Name=G4_2_3_TOTAL_NO_18
 Position=646,6597,857,6617
 Item=G4_2_3_TOTAL_NO_18,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5500,7 +5128,6 @@ Text=G4.2.3. Total No.
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_17
 Position=646,6627,857,6647
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_17,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5513,7 +5140,6 @@ Text=G4.4 Estimated Total Value (Php)
 Name=OTHERS_SPECIFY_1
 Position=646,6657,776,6677
 Item=OTHERS_SPECIFY_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -5527,7 +5153,6 @@ Text=21. Others, specify
 Name=G4_2_1_NO_OF_FUNCTIONING_19
 Position=646,6687,857,6707
 Item=G4_2_1_NO_OF_FUNCTIONING_19,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5540,7 +5165,6 @@ Text=G4.2.1 No. of Functioning
 Name=G_4_2_2_NO_OF_NON_FUNCTIONING_19
 Position=646,6717,857,6737
 Item=G_4_2_2_NO_OF_NON_FUNCTIONING_19,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5553,7 +5177,6 @@ Text=G.4.2.2. No. of Non-Functioning
 Name=G4_2_3_TOTAL_NO_19
 Position=646,6747,857,6767
 Item=G4_2_3_TOTAL_NO_19,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5566,7 +5189,6 @@ Text=G4.2.3. Total No.
 Name=G4_4_ESTIMATED_TOTAL_VALUE_PHP_18
 Position=646,6777,857,6797
 Item=G4_4_ESTIMATED_TOTAL_VALUE_PHP_18,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5579,7 +5201,6 @@ Text=G4.4 Estimated Total Value (Php)
 Name=G10_2_HAVE_YOU_AVAILED_OF_A_GOVERNMENT_HOUSING_P
 Position=646,6807,661,6827
 Item=G10_2_HAVE_YOU_AVAILED_OF_A_GOVERNMENT_HOUSING_P,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -5592,7 +5213,6 @@ Text=G10.2 Have you availed of a government housing program before? *
 Name=G10_5_DID_YOU_AVAIL_OF_BALIK_PROBINSYA_PROGRAM
 Position=646,6837,661,6857
 Item=G10_5_DID_YOU_AVAIL_OF_BALIK_PROBINSYA_PROGRAM,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -5605,7 +5225,6 @@ Text=G10.5 Did you avail of Balik Probinsya Program? *
 Name=G10_6_IF_PREVIOUSLY_RELOCATED_AND_HAVE_GONE_BACK
 Position=646,6867,731,6887
 Item=G10_6_IF_PREVIOUSLY_RELOCATED_AND_HAVE_GONE_BACK,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
 Form=13
   
@@ -5618,7 +5237,6 @@ Text=G10.6 If previously relocated and have gone back to the area, what made you
 Name=SUPPLEMENTARY_SURVEY_QUESTIONNAIRE
 Position=646,6897,664,6917
 Item=SUPPLEMENTARY_SURVEY_QUESTIONNAIRE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -5632,7 +5250,6 @@ Text=SUPPLEMENTARY SURVEY QUESTIONNAIRE
 Name=J2_1_1_NAME
 Position=646,6927,1056,6947
 Item=J2_1_1_NAME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -5646,7 +5263,6 @@ Text=J2.1.1 First
 Name=J2_1_1_MIDLE
 Position=646,6957,1056,6977
 Item=J2_1_1_MIDLE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -5660,7 +5276,6 @@ Text=J2.1.1 Middle
 Name=J2_1_1_LAST
 Position=646,6987,1056,7007
 Item=J2_1_1_LAST,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=13
@@ -5674,7 +5289,6 @@ Text=J2.1.1 Last
 Name=J2_1_2_SEX
 Position=646,7017,661,7037
 Item=J2_1_2_SEX,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -5687,7 +5301,6 @@ Text=J2.1.2 Sex *
 Name=J2_1_3_AGE
 Position=646,7047,661,7067
 Item=J2_1_3_AGE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -5700,7 +5313,6 @@ Text=J2.1.3 Age
 Name=J2_1_4_RELATIONSHIP_TO_HOUSEHOLD_HEAD
 Position=646,7077,661,7097
 Item=J2_1_4_RELATIONSHIP_TO_HOUSEHOLD_HEAD,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -5713,7 +5325,6 @@ Text=J2.1.4 Relationship to Household Head
 Name=J2_1_5_HIGHEST_EDUCATIONAL_ATTAINMENT
 Position=646,7107,675,7127
 Item=J2_1_5_HIGHEST_EDUCATIONAL_ATTAINMENT,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -5726,7 +5337,6 @@ Text=J2.1.5 Highest Educational Attainment
 Name=J2_1_6_VULNERABILITIES
 Position=646,7137,717,7157
 Item=J2_1_6_VULNERABILITIES,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
 Form=13
   
@@ -5739,7 +5349,6 @@ Text=J2.1.6 Vulnerabilities
 Name=J3_1_1_PRIMARY_SOURCE_OF_INCOME
 Position=646,7167,661,7187
 Item=J3_1_1_PRIMARY_SOURCE_OF_INCOME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -5752,7 +5361,6 @@ Text=J3.1.1 Primary Source of Income
 Name=J3_1_2_FROM_PRIMARY_INCOME_PHP_MONTH
 Position=646,7197,857,7217
 Item=J3_1_2_FROM_PRIMARY_INCOME_PHP_MONTH,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5765,7 +5373,6 @@ Text=J3.1.2 From Primary Income (Php/Month)
 Name=J3_1_3_SECONDARY_SOURCE_OF_INCOME
 Position=646,7227,661,7247
 Item=J3_1_3_SECONDARY_SOURCE_OF_INCOME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=13
   
@@ -5778,7 +5385,6 @@ Text=J3.1.3 Secondary Source of Income
 Name=J3_1_4_FROM_SECONDARY_INCOME_PHP_MONTH
 Position=646,7257,857,7277
 Item=J3_1_4_FROM_SECONDARY_INCOME_PHP_MONTH,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5791,7 +5397,6 @@ Text=J3.1.4 From Secondary Income (Php/Month)
 Name=J3_1_5_NO_OF_MEMBERS_CONTRIBUTING
 Position=646,7287,787,7307
 Item=J3_1_5_NO_OF_MEMBERS_CONTRIBUTING,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5804,7 +5409,6 @@ Text=J3.1.5 No. of members contributing
 Name=J3_1_6_TOTAL_COMBINED_HH_MONTHLY_INCOME_PHP
 Position=646,7317,857,7337
 Item=J3_1_6_TOTAL_COMBINED_HH_MONTHLY_INCOME_PHP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=13
   
@@ -5825,7 +5429,6 @@ Max=1
 Name=H1_DO_YOU_OWN_OPERATE_A_BUSINESS_INSTITUTION_IN
 Position=488,27,503,47
 Item=H1_DO_YOU_OWN_OPERATE_A_BUSINESS_INSTITUTION_IN,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=14
   
@@ -5838,7 +5441,6 @@ Text=H1 Do you own/operate a business/institution in the affected area?
 Name=H1_1_BUSINESS_INSTITUTION_NAME
 Position=488,57,898,77
 Item=H1_1_BUSINESS_INSTITUTION_NAME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=14
@@ -5849,36 +5451,33 @@ Text=H1.1 Business/ Institution Name
  
   
 [Field]
-Name=H1_2_TYPE_OF_BUSINESS_INSTITUTION
-Position=488,87,909,107
-Item=H1_2_TYPE_OF_BUSINESS_INSTITUTION,LASSODD_DICT
-FieldLabelType=DictionaryLabel
+Name=H1_2_TYPE_OF_BUSINESS_INSTITUTION_1
+Position=488,87,1189,107
+Item=H1_2_TYPE_OF_BUSINESS_INSTITUTION_1,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=50,90,360,106
-Text=H1.2 Type of Business/Institution (Other's Specify)
+Position=50,90,253,106
+Text=H1.2 Type of Business/Institution
  
   
 [Field]
-Name=H1_3_TYPE_OF_BUSINESS_INSTITUTION_OWNERSHIP
-Position=488,117,1189,137
-Item=H1_3_TYPE_OF_BUSINESS_INSTITUTION_OWNERSHIP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
+Name=H1_3_TYPE_OF_BUSINESS_INSTITUTION_OWNERSHIP_1
+Position=488,117,1203,137
+Item=H1_3_TYPE_OF_BUSINESS_INSTITUTION_OWNERSHIP_1,LASSODD_DICT
 DataCaptureType=CheckBox
 Form=14
   
 [Text]
-Position=50,120,432,136
-Text=H1.3 Type of Business/Institution Ownership (Other's Specify)
+Position=50,120,325,136
+Text=H1.3 Type of Business/Institution Ownership
  
   
 [Field]
 Name=H1_4_IS_THIS_AN_INCOME_GENERATING_ACTIVITY
 Position=488,147,503,167
 Item=H1_4_IS_THIS_AN_INCOME_GENERATING_ACTIVITY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=14
   
@@ -5888,24 +5487,22 @@ Text=H1.4 Is this an income generating activity?
  
   
 [Field]
-Name=H1_5_TYPE_OF_SERVICE
-Position=488,177,618,197
-Item=H1_5_TYPE_OF_SERVICE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
+Name=H1_5_TYPE_OF_SERVICE_1
+Position=488,177,818,197
+Item=H1_5_TYPE_OF_SERVICE_1,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=14
   
 [Text]
-Position=50,180,287,196
-Text=H1.5 Type of Service (Other's Specify)
+Position=50,180,180,196
+Text=H1.5 Type of Service
  
   
 [Field]
 Name=H1_6_LENGTH_OF_BUSINESS_INSTITUTION_IN_OPERATION
 Position=488,207,898,227
 Item=H1_6_LENGTH_OF_BUSINESS_INSTITUTION_IN_OPERATION,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=14
@@ -5919,7 +5516,6 @@ Text=H1.6 Length of Business / Institution in Operation: (No. of years)
 Name=H1_7_START_OF_OPERATION_SPECIFY_YEAR
 Position=488,237,530,257
 Item=H1_7_START_OF_OPERATION_SPECIFY_YEAR,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=14
@@ -5933,7 +5529,6 @@ Text=H1.7 Start of operation (Specify year)
 Name=H1_8_BUSINESS_LICENSE_REGISTRATION_PERMIT_MULTIP
 Position=488,267,559,287
 Item=H1_8_BUSINESS_LICENSE_REGISTRATION_PERMIT_MULTIP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
 Form=14
   
@@ -5946,7 +5541,6 @@ Text=H1.8 Business License / Registration / Permit (Multiple Response)
 Name=H1_9_HOW_MUCH_IS_YOUR_CAPITAL_BUSINESS_ASSET
 Position=488,297,503,317
 Item=H1_9_HOW_MUCH_IS_YOUR_CAPITAL_BUSINESS_ASSET,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=14
   
@@ -5959,7 +5553,6 @@ Text=H1.9 How much is your capital/business asset?
 Name=H1_10_1_AVE_GROSS_MONTHLY_INCOME_PHP
 Position=488,327,699,347
 Item=H1_10_1_AVE_GROSS_MONTHLY_INCOME_PHP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=14
   
@@ -5972,7 +5565,6 @@ Text=H1.10.1 Ave. Gross Monthly Income: (Php)
 Name=H1_10_2_AVE_NET_MONTHLY_INCOME_PHP
 Position=488,357,699,377
 Item=H1_10_2_AVE_NET_MONTHLY_INCOME_PHP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=14
   
@@ -5985,7 +5577,6 @@ Text=H1.10.2 Ave. Net Monthly Income: (Php)
 Name=H2_1_WHO_HELP_YOU_IN_YOUR_BUSINESS_OPERATION_PRO
 Position=488,387,503,407
 Item=H2_1_WHO_HELP_YOU_IN_YOUR_BUSINESS_OPERATION_PRO,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=14
   
@@ -5998,7 +5589,6 @@ Text=H2.1 Who help you in your business operation / production?
 Name=H2_2_DO_YOU_HAVE_PAID_EMPLOYEES
 Position=488,417,503,437
 Item=H2_2_DO_YOU_HAVE_PAID_EMPLOYEES,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=14
   
@@ -6011,7 +5601,6 @@ Text=H2.2 Do you have paid employees?
 Name=H2_3_HOW_MANY_EMPLOYEE_DO_YOU_HAVE
 Position=488,447,503,467
 Item=H2_3_HOW_MANY_EMPLOYEE_DO_YOU_HAVE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=14
   
@@ -6024,7 +5613,6 @@ Text=H2.3 How many employee do you have?
 Name=H2_3_1_TOTAL_NUMBER_OF_EMPLOYEES
 Position=488,477,503,497
 Item=H2_3_1_TOTAL_NUMBER_OF_EMPLOYEES,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=14
   
@@ -6037,7 +5625,6 @@ Text=H2.3.1 Total Number of Employees
 Name=H2_3_2_NO_OF_EMPLOYEES_BY_SEX
 Position=488,507,503,527
 Item=H2_3_2_NO_OF_EMPLOYEES_BY_SEX,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=14
   
@@ -6050,7 +5637,6 @@ Text=H2.3.2 No of Employees by Sex
 Name=H2_3_3_AVERAGE_MONTHLY_SALARY
 Position=488,537,699,557
 Item=H2_3_3_AVERAGE_MONTHLY_SALARY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=14
   
@@ -6063,7 +5649,6 @@ Text=H2.3.3 Average Monthly Salary
 Name=H2_3_4_SKILLS
 Position=488,567,699,587
 Item=H2_3_4_SKILLS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=14
   
@@ -6076,7 +5661,6 @@ Text=H2.3.4 Skills
 Name=H2_3_2_NO_OF_EMPLOYEES_BY_SEX_1
 Position=488,597,503,617
 Item=H2_3_2_NO_OF_EMPLOYEES_BY_SEX_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=14
   
@@ -6089,7 +5673,6 @@ Text=H2.3.2 No of Employees by Sex
 Name=H2_3_3_AVERAGE_MONTHLY_SALARY_1
 Position=488,627,699,647
 Item=H2_3_3_AVERAGE_MONTHLY_SALARY_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=14
   
@@ -6102,7 +5685,6 @@ Text=H2.3.3 Average Monthly Salary
 Name=H2_3_4_SKILLS_1
 Position=488,657,699,677
 Item=H2_3_4_SKILLS_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=14
   
@@ -6115,7 +5697,6 @@ Text=H2.3.4 Skills
 Name=H2_3_2_NO_OF_EMPLOYEES_BY_SEX_2
 Position=488,687,503,707
 Item=H2_3_2_NO_OF_EMPLOYEES_BY_SEX_2,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=14
   
@@ -6128,7 +5709,6 @@ Text=H2.3.2 No of Employees by Sex
 Name=H2_3_3_AVERAGE_MONTHLY_SALARY_2
 Position=488,717,699,737
 Item=H2_3_3_AVERAGE_MONTHLY_SALARY_2,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=14
   
@@ -6141,7 +5721,6 @@ Text=H2.3.3 Average Monthly Salary
 Name=H2_3_4_SKILLS_2
 Position=488,747,618,767
 Item=H2_3_4_SKILLS_2,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=14
@@ -6163,7 +5742,6 @@ Max=1
 Name=I1_DO_YOU_OWN_OPERATE_AN_AGRICULTURE_AQUACULTURE
 Position=1356,27,1371,47
 Item=I1_DO_YOU_OWN_OPERATE_AN_AGRICULTURE_AQUACULTURE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -6176,7 +5754,6 @@ Text=I1 Do you own/operate an agriculture / aquaculture activities in the affect
 Name=IF_YES_WHICH_OF_THE_FOLLOWING_ACTIVITIES_DOES_TH
 Position=1356,57,1455,77
 Item=IF_YES_WHICH_OF_THE_FOLLOWING_ACTIVITIES_DOES_TH,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
 Form=15
   
@@ -6189,7 +5766,6 @@ Text=If Yes, which of the following activities does the household engage/operate
 Name=I1_1_DO_YOU_OR_ANY_MEMBER_OF_YOUR_FAMILY_OWN_HAR
 Position=1356,87,1371,107
 Item=I1_1_DO_YOU_OR_ANY_MEMBER_OF_YOUR_FAMILY_OWN_HAR,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -6202,7 +5778,6 @@ Text=I1.1 Do you or any member of your family own/harvest crops/trees in the aff
 Name=I2_1_DO_YOU_OR_ANY_MEMBER_OF_YOUR_FAMILY_GRAZE_R
 Position=1356,117,1371,137
 Item=I2_1_DO_YOU_OR_ANY_MEMBER_OF_YOUR_FAMILY_GRAZE_R,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -6215,7 +5790,6 @@ Text=I2.1 Do you or any member of your family graze/raise animals in the affecte
 Name=I1_2_AFFECTED_TREES
 Position=1356,147,1374,167
 Item=I1_2_AFFECTED_TREES,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -6229,7 +5803,6 @@ Text=I1.2 Affected Trees:
 Name=TIMBER_NAME
 Position=1356,177,1766,197
 Item=TIMBER_NAME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -6243,7 +5816,6 @@ Text=1. Timber - Name
 Name=TIMBER_AGE
 Position=1356,207,1385,227
 Item=TIMBER_AGE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6256,7 +5828,6 @@ Text=1. Timber - Age
 Name=TIMBER_QTY
 Position=1356,237,1567,257
 Item=TIMBER_QTY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6269,7 +5840,6 @@ Text=1. Timber - Qty
 Name=TIMBER_ANNUAL_HARVERT_PHP
 Position=1356,267,1567,287
 Item=TIMBER_ANNUAL_HARVERT_PHP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6282,7 +5852,6 @@ Text=1. Timber - Annual Harvert (Php)
 Name=FRUIT_BEARING_NAME
 Position=1356,297,1766,317
 Item=FRUIT_BEARING_NAME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -6296,7 +5865,6 @@ Text=2. Fruit Bearing - Name
 Name=FRUIT_BEARING_AGE
 Position=1356,327,1385,347
 Item=FRUIT_BEARING_AGE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6309,7 +5877,6 @@ Text=2. Fruit Bearing - Age
 Name=FRUIT_BEARING_QTY
 Position=1356,357,1567,377
 Item=FRUIT_BEARING_QTY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6322,7 +5889,6 @@ Text=2. Fruit Bearing - Qty
 Name=FRUIT_BEARING_ANNUAL_HARVERT_PHP
 Position=1356,387,1567,407
 Item=FRUIT_BEARING_ANNUAL_HARVERT_PHP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6335,7 +5901,6 @@ Text=2. Fruit Bearing - Annual Harvert (Php)
 Name=PALMS_NAME
 Position=1356,417,1766,437
 Item=PALMS_NAME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -6349,7 +5914,6 @@ Text=3. Palms - Name
 Name=PALMS_AGE
 Position=1356,447,1385,467
 Item=PALMS_AGE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6362,7 +5926,6 @@ Text=3. Palms - Age
 Name=PALMS_QTY
 Position=1356,477,1567,497
 Item=PALMS_QTY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6375,7 +5938,6 @@ Text=3. Palms - Qty
 Name=PALMS_ANNUAL_HARVERT_PHP
 Position=1356,507,1567,527
 Item=PALMS_ANNUAL_HARVERT_PHP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6388,7 +5950,6 @@ Text=3. Palms - Annual Harvert (Php)
 Name=ORNAMENTAL_NAME
 Position=1356,537,1766,557
 Item=ORNAMENTAL_NAME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -6402,7 +5963,6 @@ Text=4. Ornamental - Name
 Name=ORNAMENTAL_AGE
 Position=1356,567,1385,587
 Item=ORNAMENTAL_AGE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6415,7 +5975,6 @@ Text=4. Ornamental - Age
 Name=ORNAMENTAL_QTY
 Position=1356,597,1567,617
 Item=ORNAMENTAL_QTY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6428,7 +5987,6 @@ Text=4. Ornamental - Qty
 Name=ORNAMENTAL_ANNUAL_HARVERT_PHP
 Position=1356,627,1567,647
 Item=ORNAMENTAL_ANNUAL_HARVERT_PHP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6441,7 +5999,6 @@ Text=4. Ornamental - Annual Harvert (Php)
 Name=OTHERS_NAME
 Position=1356,657,1766,677
 Item=OTHERS_NAME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -6455,7 +6012,6 @@ Text=5. Others - Name
 Name=OTHERS_AGE
 Position=1356,687,1385,707
 Item=OTHERS_AGE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6468,7 +6024,6 @@ Text=5. Others - Age
 Name=OTHERS_QTY
 Position=1356,717,1567,737
 Item=OTHERS_QTY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6481,7 +6036,6 @@ Text=5. Others - Qty
 Name=OTHERS_ANNUAL_HARVERT_PHP
 Position=1356,747,1567,767
 Item=OTHERS_ANNUAL_HARVERT_PHP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6494,7 +6048,6 @@ Text=5. Others - Annual Harvert (Php)
 Name=I3_1_IS_THERE_ANY_MEMBER_OF_THIS_HOUSEHOLD_WHO_I
 Position=1356,777,1371,797
 Item=I3_1_IS_THERE_ANY_MEMBER_OF_THIS_HOUSEHOLD_WHO_I,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -6507,7 +6060,6 @@ Text=I3.1 Is there any member of this household who is engage/operated in cultur
 Name=TOTAL_QTY_FOR_TYPE_OF_TREE
 Position=1356,807,1567,827
 Item=TOTAL_QTY_FOR_TYPE_OF_TREE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6520,7 +6072,6 @@ Text=Total Qty for Type of Tree
 Name=TOTAL_ANNUAL_HARVEST_PHP_FOR_TYPE_OF_TREE
 Position=1356,837,1567,857
 Item=TOTAL_ANNUAL_HARVEST_PHP_FOR_TYPE_OF_TREE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6533,7 +6084,6 @@ Text=Total Annual Harvest (PHP) for Type of Tree
 Name=TYPE_OF_CROP
 Position=1356,867,1374,887
 Item=TYPE_OF_CROP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -6547,7 +6097,6 @@ Text=TYPE OF CROP
 Name=RICE_NAME
 Position=1356,897,1766,917
 Item=RICE_NAME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -6561,7 +6110,6 @@ Text=1. Rice - Name
 Name=RICE_AREA_SQM
 Position=1356,927,1567,947
 Item=RICE_AREA_SQM,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6574,7 +6122,6 @@ Text=1. Rice - Area SQM
 Name=RICE_ANNUAL_HARVEST_PHP
 Position=1356,957,1766,977
 Item=RICE_ANNUAL_HARVEST_PHP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -6588,7 +6135,6 @@ Text=1. Rice - Annual Harvest (Php)
 Name=CORN_NAME
 Position=1356,987,1766,1007
 Item=CORN_NAME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -6602,7 +6148,6 @@ Text=2. Corn - Name
 Name=CORN_AREA_SQM
 Position=1356,1017,1567,1037
 Item=CORN_AREA_SQM,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6615,7 +6160,6 @@ Text=2. Corn - Area SQM
 Name=CORN_ANNUAL_HARVEST_PHP
 Position=1356,1047,1567,1067
 Item=CORN_ANNUAL_HARVEST_PHP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6628,7 +6172,6 @@ Text=2. Corn - Annual Harvest (Php)
 Name=ROOT_CROP_NAME
 Position=1356,1077,1766,1097
 Item=ROOT_CROP_NAME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -6642,7 +6185,6 @@ Text=3. Root crop - Name
 Name=ROOT_CROP_AREA_SQM
 Position=1356,1107,1567,1127
 Item=ROOT_CROP_AREA_SQM,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6655,7 +6197,6 @@ Text=3. Root crop - Area SQM
 Name=ROOT_CROP_ANNUAL_HARVEST_PHP
 Position=1356,1137,1567,1157
 Item=ROOT_CROP_ANNUAL_HARVEST_PHP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6668,7 +6209,6 @@ Text=3. Root crop - Annual Harvest (Php)
 Name=ORCHID_NAME_S
 Position=1356,1167,1766,1187
 Item=ORCHID_NAME_S,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -6682,7 +6222,6 @@ Text=4. Orchid - Name/s
 Name=ORCHID_AREA_SQM
 Position=1356,1197,1567,1217
 Item=ORCHID_AREA_SQM,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6695,7 +6234,6 @@ Text=4. Orchid - Area SQM
 Name=ORCHID_ANNUAL_HARVEST_PHP
 Position=1356,1227,1567,1247
 Item=ORCHID_ANNUAL_HARVEST_PHP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6708,7 +6246,6 @@ Text=4. Orchid - Annual Harvest (Php)
 Name=VEGETABLE_ANNUAL_NAME
 Position=1356,1257,1371,1277
 Item=VEGETABLE_ANNUAL_NAME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6721,7 +6258,6 @@ Text=5. Vegetable (Annual) - Name
 Name=VEGETABLE_ANNUAL_AREA_SQM
 Position=1356,1287,1567,1307
 Item=VEGETABLE_ANNUAL_AREA_SQM,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6734,7 +6270,6 @@ Text=5. Vegetable (Annual) - Area SQM
 Name=VEGETABLE_ANNUAL_ANNUAL_HARVEST_PHP
 Position=1356,1317,1567,1337
 Item=VEGETABLE_ANNUAL_ANNUAL_HARVEST_PHP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6747,7 +6282,6 @@ Text=5. Vegetable (Annual) - Annual Harvest (Php)
 Name=VEGETABLE_PERENNIAL_NAME
 Position=1356,1347,1766,1367
 Item=VEGETABLE_PERENNIAL_NAME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -6761,7 +6295,6 @@ Text=6. Vegetable (Perennial) - Name
 Name=VEGETABLE_PERENNIAL_AREA_SQM
 Position=1356,1377,1567,1397
 Item=VEGETABLE_PERENNIAL_AREA_SQM,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6774,7 +6307,6 @@ Text=6. Vegetable (Perennial) - Area SQM
 Name=VEGETABLE_PERENNIAL_ANNUAL_HARVEST_PHP
 Position=1356,1407,1567,1427
 Item=VEGETABLE_PERENNIAL_ANNUAL_HARVEST_PHP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6787,7 +6319,6 @@ Text=6. Vegetable (Perennial) - Annual Harvest (Php)
 Name=FRUIT_ANNUAL_NAME
 Position=1356,1437,1766,1457
 Item=FRUIT_ANNUAL_NAME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -6801,7 +6332,6 @@ Text=7. Fruit (Annual) - Name
 Name=FRUIT_ANNUAL_AREA_SQM
 Position=1356,1467,1567,1487
 Item=FRUIT_ANNUAL_AREA_SQM,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6814,7 +6344,6 @@ Text=7. Fruit (Annual) - Area SQM
 Name=FRUIT_ANNUAL_ANNUAL_HARVEST_PHP
 Position=1356,1497,1567,1517
 Item=FRUIT_ANNUAL_ANNUAL_HARVEST_PHP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6827,7 +6356,6 @@ Text=7. Fruit (Annual) - Annual Harvest (Php)
 Name=FRUIT_PERENNIAL_NAME
 Position=1356,1527,1766,1547
 Item=FRUIT_PERENNIAL_NAME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -6841,7 +6369,6 @@ Text=8. Fruit (Perennial) - Name
 Name=FRUIT_PERENNIAL_AREA_SQM
 Position=1356,1557,1567,1577
 Item=FRUIT_PERENNIAL_AREA_SQM,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6854,7 +6381,6 @@ Text=8. Fruit (Perennial) - Area SQM
 Name=FRUIT_PERENNIAL_ANNUAL_HARVEST_PHP
 Position=1356,1587,1567,1607
 Item=FRUIT_PERENNIAL_ANNUAL_HARVEST_PHP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6867,7 +6393,6 @@ Text=8. Fruit (Perennial) - Annual Harvest (Php)
 Name=OTHER_ANNUAL_CROPS_NAME_S
 Position=1356,1617,1766,1637
 Item=OTHER_ANNUAL_CROPS_NAME_S,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -6881,7 +6406,6 @@ Text=9. Other Annual Crops - Name/s
 Name=OTHER_ANNUAL_CROPS_AREA_SQM
 Position=1356,1647,1567,1667
 Item=OTHER_ANNUAL_CROPS_AREA_SQM,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6894,7 +6418,6 @@ Text=9. Other Annual Crops - Area SQM
 Name=OTHER_ANNUAL_CROPS_ANNUAL_HARVEST_PHP
 Position=1356,1677,1567,1697
 Item=OTHER_ANNUAL_CROPS_ANNUAL_HARVEST_PHP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6907,7 +6430,6 @@ Text=9. Other Annual Crops - Annual Harvest (Php)
 Name=OTHER_PERENNIAL_CROPS_NAME_S
 Position=1356,1707,1766,1727
 Item=OTHER_PERENNIAL_CROPS_NAME_S,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -6921,7 +6443,6 @@ Text=10. Other Perennial Crops - Name/s
 Name=OTHER_PERENNIAL_CROPS_AREA_SQM
 Position=1356,1737,1567,1757
 Item=OTHER_PERENNIAL_CROPS_AREA_SQM,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6934,7 +6455,6 @@ Text=10. Other Perennial Crops - Area SQM
 Name=OTHER_PERENNIAL_CROPS_ANNUAL_HARVEST_PHP
 Position=1356,1767,1567,1787
 Item=OTHER_PERENNIAL_CROPS_ANNUAL_HARVEST_PHP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6947,7 +6467,6 @@ Text=10. Other Perennial Crops - Annual Harvest (Php)
 Name=TOTAL_SQ_METER_FOR_TYPE_FO_CROP
 Position=1356,1797,1567,1817
 Item=TOTAL_SQ_METER_FOR_TYPE_FO_CROP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6960,7 +6479,6 @@ Text=Total SQ Meter for Type fo Crop
 Name=TOTAL_ANNUAL_HARVEST_PHP_FOR_TYPE_OF_CROP
 Position=1356,1827,1567,1847
 Item=TOTAL_ANNUAL_HARVEST_PHP_FOR_TYPE_OF_CROP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -6973,7 +6491,6 @@ Text=Total Annual Harvest (Php) for Type of Crop
 Name=I1_5_WHAT_IS_THE_PLANTING_PATTERN_OF_THE_CROPS_F
 Position=1356,1857,1371,1877
 Item=I1_5_WHAT_IS_THE_PLANTING_PATTERN_OF_THE_CROPS_F,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -6986,7 +6503,6 @@ Text=I1.5 What is the planting pattern of the crops (for annual crops only)?
 Name=I1_6_WHAT_IS_THE_PLANTING_PATTERN_OF_THE_CROPS_F
 Position=1356,1887,1371,1907
 Item=I1_6_WHAT_IS_THE_PLANTING_PATTERN_OF_THE_CROPS_F,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -6999,7 +6515,6 @@ Text=I1.6 What is the planting pattern of the crops (for perennial crops / trees
 Name=I1_7_WHAT_IS_THE_SCALE_OF_CROP_PRODUCTION
 Position=1356,1917,1371,1937
 Item=I1_7_WHAT_IS_THE_SCALE_OF_CROP_PRODUCTION,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -7012,7 +6527,6 @@ Text=I1.7 What is the scale of crop production?
 Name=I1_8_HOW_ARE_THE_CROPS_UTILIZED
 Position=1356,1947,1371,1967
 Item=I1_8_HOW_ARE_THE_CROPS_UTILIZED,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -7025,7 +6539,6 @@ Text=I1.8 How are the crops utilized?
 Name=I1_9_HOW_ARE_THE_FOREST_TREES_FRUIT_BEARING_TREE
 Position=1356,1977,1371,1997
 Item=I1_9_HOW_ARE_THE_FOREST_TREES_FRUIT_BEARING_TREE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -7038,7 +6551,6 @@ Text=I1.9 How are the forest trees, fruit bearing trees, palms and ornamental ut
 Name=I1_10_PRIMARY_PRODUCT_GOODS_PRODUCED
 Position=1356,2007,1766,2027
 Item=I1_10_PRIMARY_PRODUCT_GOODS_PRODUCED,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -7052,7 +6564,6 @@ Text=I1.10 Primary product / goods produced:
 Name=I1_11_WHAT_IS_THE_PRIMARY_SOURCE_OF_WATER_IRRIGA
 Position=1356,2037,1371,2057
 Item=I1_11_WHAT_IS_THE_PRIMARY_SOURCE_OF_WATER_IRRIGA,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -7065,7 +6576,6 @@ Text=I1.11 What is the primary source of water / irrigation for the crops / tree
 Name=I2_1_DO_YOU_OR_ANY_MEMBER_OF_YOUR_FAMILY_GRAZE_R_1
 Position=1356,2067,1371,2087
 Item=I2_1_DO_YOU_OR_ANY_MEMBER_OF_YOUR_FAMILY_GRAZE_R_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -7078,7 +6588,6 @@ Text=I2.1 Do you or any member of your family graze/raise animals in the affecte
 Name=I2_2_IF_YES_WHICH_OF_THE_FOLLOWING_ACTIVITIES_AR
 Position=1356,2097,1469,2117
 Item=I2_2_IF_YES_WHICH_OF_THE_FOLLOWING_ACTIVITIES_AR,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
 Form=15
   
@@ -7091,7 +6600,6 @@ Text=I2.2 If Yes, which of the following activities are you engage in?
 Name=I2_3_SCALE_OF_PRODUCTION
 Position=1356,2127,1371,2147
 Item=I2_3_SCALE_OF_PRODUCTION,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -7104,7 +6612,6 @@ Text=I2.3 Scale of production:
 Name=I2_4_WHAT_IS_THE_PURPOSE_USE_OF_LIVESTOCK_ANIMAL
 Position=1356,2157,1371,2177
 Item=I2_4_WHAT_IS_THE_PURPOSE_USE_OF_LIVESTOCK_ANIMAL,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -7117,7 +6624,6 @@ Text=I2.4 What is the purpose/use of livestock/animal raising?
 Name=I2_5_LIVESTOCK_OTHER_ANIMALS
 Position=1356,2187,1374,2207
 Item=I2_5_LIVESTOCK_OTHER_ANIMALS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -7131,7 +6637,6 @@ Text=I2.5 Livestock/other animals
 Name=CATTLE_COW_NO_OF_HEADS
 Position=1356,2217,1567,2237
 Item=CATTLE_COW_NO_OF_HEADS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7144,7 +6649,6 @@ Text=1. Cattle (Cow) (No. of Heads)
 Name=CATTLE_COW_ANNUAL_INCOME
 Position=1356,2247,1567,2267
 Item=CATTLE_COW_ANNUAL_INCOME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7157,7 +6661,6 @@ Text=1. Cattle (Cow) (Annual Income)
 Name=CARABAO_NO_HEADS
 Position=1356,2277,1567,2297
 Item=CARABAO_NO_HEADS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7170,7 +6673,6 @@ Text=2. Carabao (No. Heads)
 Name=CARABAO_ANNUAL_INCOME
 Position=1356,2307,1567,2327
 Item=CARABAO_ANNUAL_INCOME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7183,7 +6685,6 @@ Text=2. Carabao (Annual Income)
 Name=SWINE_PIG_NO_OF_HEADS
 Position=1356,2337,1567,2357
 Item=SWINE_PIG_NO_OF_HEADS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7196,7 +6697,6 @@ Text=3. Swine (Pig) (No. of Heads)
 Name=SWINE_PIG_ANNUAL_INCOME
 Position=1356,2367,1567,2387
 Item=SWINE_PIG_ANNUAL_INCOME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7209,7 +6709,6 @@ Text=3. Swine (Pig) (Annual Income)
 Name=GOAT_NO_OF_HEADS
 Position=1356,2397,1567,2417
 Item=GOAT_NO_OF_HEADS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7222,7 +6721,6 @@ Text=4. Goat (No. of Heads)
 Name=GOAT_ANNUAL_INCOME
 Position=1356,2427,1567,2447
 Item=GOAT_ANNUAL_INCOME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7235,7 +6733,6 @@ Text=4. Goat (Annual Income)
 Name=SHEEP
 Position=1356,2457,1567,2477
 Item=SHEEP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7248,7 +6745,6 @@ Text=5. Sheep (No. of Heads)
 Name=SHEEP_ANNUAL_INCOME
 Position=1356,2487,1567,2507
 Item=SHEEP_ANNUAL_INCOME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7261,7 +6757,6 @@ Text=5. Sheep (Annual Income)
 Name=HORSE_NO_OF_HEADS
 Position=1356,2517,1567,2537
 Item=HORSE_NO_OF_HEADS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7274,7 +6769,6 @@ Text=6. Horse (No. of Heads)
 Name=HORSE_ANNUAL_INCOME
 Position=1356,2547,1567,2567
 Item=HORSE_ANNUAL_INCOME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7287,7 +6781,6 @@ Text=6. Horse (Annual Income)
 Name=RACE_HORSE
 Position=1356,2577,1567,2597
 Item=RACE_HORSE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7300,7 +6793,6 @@ Text=7. Race Horse (No. of Heads)
 Name=RACE_HORSE_ANNUAL_INCOME
 Position=1356,2607,1567,2627
 Item=RACE_HORSE_ANNUAL_INCOME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7313,7 +6805,6 @@ Text=7. Race Horse (Annual Income)
 Name=BREEDER_DOGS_NO_OF_HEADS
 Position=1356,2637,1567,2657
 Item=BREEDER_DOGS_NO_OF_HEADS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7326,7 +6817,6 @@ Text=8. Breeder dogs (No. of Heads)
 Name=BREEDER_DOGS_ANNUAL_INCOME
 Position=1356,2667,1567,2687
 Item=BREEDER_DOGS_ANNUAL_INCOME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7339,7 +6829,6 @@ Text=8. Breeder dogs (Annual Income)
 Name=OTHER_LIVESTOCK_ANIMALS_SPECIFY_BELOW
 Position=1356,2697,1567,2717
 Item=OTHER_LIVESTOCK_ANIMALS_SPECIFY_BELOW,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7352,7 +6841,6 @@ Text=9. Other livestock/animals, specify below
 Name=OTHER_LIVESTOCK_ANIMALS_SPECIFY_BELOW_1
 Position=1356,2727,1567,2747
 Item=OTHER_LIVESTOCK_ANIMALS_SPECIFY_BELOW_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7365,7 +6853,6 @@ Text=9. Other livestock/animals, specify below
 Name=OTHER_LIVESTOCK_ANIMALS_SPECIFY_BELOW_2
 Position=1356,2757,1567,2777
 Item=OTHER_LIVESTOCK_ANIMALS_SPECIFY_BELOW_2,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7378,7 +6865,6 @@ Text=9. Other livestock/animals, specify below
 Name=NATIVE_CHICKEN_NO_OF_BIRDS
 Position=1356,2787,1567,2807
 Item=NATIVE_CHICKEN_NO_OF_BIRDS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7391,7 +6877,6 @@ Text=1. Native Chicken (No. of Birds)
 Name=NATIVE_CHICKEN_ANNUAL_INCOME
 Position=1356,2817,1567,2837
 Item=NATIVE_CHICKEN_ANNUAL_INCOME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7404,7 +6889,6 @@ Text=1. Native Chicken (Annual Income)
 Name=BROILER_CHICKEN_NO_OF_BIRDS
 Position=1356,2847,1567,2867
 Item=BROILER_CHICKEN_NO_OF_BIRDS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7417,7 +6901,6 @@ Text=2. Broiler Chicken (No. of Birds)
 Name=BROILER_CHICKEN_ANNUAL_INCOME
 Position=1356,2877,1567,2897
 Item=BROILER_CHICKEN_ANNUAL_INCOME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7430,7 +6913,6 @@ Text=2. Broiler Chicken (Annual Income)
 Name=LAYER_CHICKEN_NO_OF_BIRDS
 Position=1356,2907,1567,2927
 Item=LAYER_CHICKEN_NO_OF_BIRDS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7443,7 +6925,6 @@ Text=3. Layer Chicken (No. of Birds)
 Name=LAYER_CHICKEN_NO_BIRDS
 Position=1356,2937,1567,2957
 Item=LAYER_CHICKEN_NO_BIRDS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7456,7 +6937,6 @@ Text=3. Layer Chicken (Annual Income)
 Name=GAME_FOWL
 Position=1356,2967,1567,2987
 Item=GAME_FOWL,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7469,7 +6949,6 @@ Text=4. Game Fowl (No. of Birds)
 Name=GAME_FOWL_ANNUAL_INCOME
 Position=1356,2997,1567,3017
 Item=GAME_FOWL_ANNUAL_INCOME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7482,7 +6961,6 @@ Text=4. Game Fowl (Annual Income)
 Name=BROILER_DUCK_NO_OF_BIRDS
 Position=1356,3027,1567,3047
 Item=BROILER_DUCK_NO_OF_BIRDS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7495,7 +6973,6 @@ Text=1. Broiler Duck (No. of Birds)
 Name=BROILER_DUCK_ANNUAL_INCOME
 Position=1356,3057,1567,3077
 Item=BROILER_DUCK_ANNUAL_INCOME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7508,7 +6985,6 @@ Text=1. Broiler Duck (Annual Income)
 Name=LAYER_DUCK_NO_OF_BIRDS
 Position=1356,3087,1567,3107
 Item=LAYER_DUCK_NO_OF_BIRDS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7521,7 +6997,6 @@ Text=2. Layer Duck (No. of Birds)
 Name=LAYER_DUCK_ANNUAL_INCOME
 Position=1356,3117,1567,3137
 Item=LAYER_DUCK_ANNUAL_INCOME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7534,7 +7009,6 @@ Text=2. Layer Duck (Annual Income)
 Name=BREEDER_DUCK_NO_OF_BIRDS
 Position=1356,3147,1567,3167
 Item=BREEDER_DUCK_NO_OF_BIRDS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7547,7 +7021,6 @@ Text=3. Breeder Duck (No. of Birds)
 Name=BREEDER_DUCK_ANNUAL_INCOME
 Position=1356,3177,1567,3197
 Item=BREEDER_DUCK_ANNUAL_INCOME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7560,7 +7033,6 @@ Text=3. Breeder Duck (Annual Income)
 Name=QUAIL_DUCK_NO_OF_BIRDS
 Position=1356,3207,1567,3227
 Item=QUAIL_DUCK_NO_OF_BIRDS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7573,7 +7045,6 @@ Text=4. Quail Duck (No. of Birds)
 Name=QUAIL_DUCK_ANNUAL_INCOME
 Position=1356,3237,1567,3257
 Item=QUAIL_DUCK_ANNUAL_INCOME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7586,7 +7057,6 @@ Text=4. Quail Duck (Annual Income)
 Name=OTHER_POULTRY_SPECIFY_BELOW
 Position=1356,3267,1567,3287
 Item=OTHER_POULTRY_SPECIFY_BELOW,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7599,7 +7069,6 @@ Text=5. Other Poultry, specify below
 Name=OTHER_POULTRY_SPECIFY_BELOW_1
 Position=1356,3297,1567,3317
 Item=OTHER_POULTRY_SPECIFY_BELOW_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7612,7 +7081,6 @@ Text=5. Other Poultry, specify below
 Name=I3_1_IS_THERE_ANY_MEMBER_OF_THIS_HOUSEHOLD_WHO_I_1
 Position=1356,3327,1371,3347
 Item=I3_1_IS_THERE_ANY_MEMBER_OF_THIS_HOUSEHOLD_WHO_I_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -7625,7 +7093,6 @@ Text=I3.1 Is there any member of this household who is engage/operated in cultur
 Name=I3_2_FISH_PEN_POND_INFORMATION
 Position=1356,3357,1374,3377
 Item=I3_2_FISH_PEN_POND_INFORMATION,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -7639,7 +7106,6 @@ Text=I3.2 Fish Pen / Pond Information
 Name=I3_2_1_FRESH_WATER_AQUAMARINE_PRODUCTS_1
 Position=1356,3387,1374,3407
 Item=I3_2_1_FRESH_WATER_AQUAMARINE_PRODUCTS_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -7653,7 +7119,6 @@ Text=I3.2.1 Fresh Water / Aquamarine Products
 Name=TILAPIA
 Position=1356,3417,1374,3437
 Item=TILAPIA,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -7667,7 +7132,6 @@ Text=1. TIlapia
 Name=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA
 Position=1356,3447,1567,3467
 Item=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7680,7 +7144,6 @@ Text=I3.2.2 Size of fish cage/pen/pond (in ha)
 Name=I3_2_3_NUMBER_OF_CAGES_PENS
 Position=1356,3477,1567,3497
 Item=I3_2_3_NUMBER_OF_CAGES_PENS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7693,7 +7156,6 @@ Text=I3.2.3 Number of Cages / Pens
 Name=I3_2_4_ANNUAL_HARVEST_IN_PHP
 Position=1356,3507,1567,3527
 Item=I3_2_4_ANNUAL_HARVEST_IN_PHP,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7706,7 +7168,6 @@ Text=I3.2.4 Annual Harvest (In Php)
 Name=MILK_FISH_BANGUS
 Position=1356,3537,1374,3557
 Item=MILK_FISH_BANGUS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -7720,7 +7181,6 @@ Text=2. Milk Fish / Bangus
 Name=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_1
 Position=1356,3567,1567,3587
 Item=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7733,7 +7193,6 @@ Text=I3.2.2 Size of fish cage/pen/pond (in ha)
 Name=I3_2_3_NUMBER_OF_CAGES_PENS_1
 Position=1356,3597,1567,3617
 Item=I3_2_3_NUMBER_OF_CAGES_PENS_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7746,7 +7205,6 @@ Text=I3.2.3 Number of Cages / Pens
 Name=I3_2_4_ANNUAL_HARVEST_IN_PHP_1
 Position=1356,3627,1567,3647
 Item=I3_2_4_ANNUAL_HARVEST_IN_PHP_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7759,7 +7217,6 @@ Text=I3.2.4 Annual Harvest (In Php)
 Name=CRUSTACEANS
 Position=1356,3657,1374,3677
 Item=CRUSTACEANS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -7773,7 +7230,6 @@ Text=3. Crustaceans
 Name=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_2
 Position=1356,3687,1567,3707
 Item=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_2,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7786,7 +7242,6 @@ Text=I3.2.2 Size of fish cage/pen/pond (in ha)
 Name=I3_2_3_NUMBER_OF_CAGES_PENS_2
 Position=1356,3717,1567,3737
 Item=I3_2_3_NUMBER_OF_CAGES_PENS_2,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7799,7 +7254,6 @@ Text=I3.2.3 Number of Cages / Pens
 Name=I3_2_4_ANNUAL_HARVEST_IN_PHP_2
 Position=1356,3747,1567,3767
 Item=I3_2_4_ANNUAL_HARVEST_IN_PHP_2,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7812,7 +7266,6 @@ Text=I3.2.4 Annual Harvest (In Php)
 Name=SEAWEED
 Position=1356,3777,1374,3797
 Item=SEAWEED,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -7826,7 +7279,6 @@ Text=4. Seaweed
 Name=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_3
 Position=1356,3807,1567,3827
 Item=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_3,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7839,7 +7291,6 @@ Text=I3.2.2 Size of fish cage/pen/pond (in ha)
 Name=I3_2_3_NUMBER_OF_CAGES_PENS_3
 Position=1356,3837,1567,3857
 Item=I3_2_3_NUMBER_OF_CAGES_PENS_3,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7852,7 +7303,6 @@ Text=I3.2.3 Number of Cages / Pens
 Name=I3_2_4_ANNUAL_HARVEST_IN_PHP_3
 Position=1356,3867,1567,3887
 Item=I3_2_4_ANNUAL_HARVEST_IN_PHP_3,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7865,7 +7315,6 @@ Text=I3.2.4 Annual Harvest (In Php)
 Name=WATER_LILY
 Position=1356,3897,1374,3917
 Item=WATER_LILY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -7879,7 +7328,6 @@ Text=5. Water Lily
 Name=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_4
 Position=1356,3927,1567,3947
 Item=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_4,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7892,7 +7340,6 @@ Text=I3.2.2 Size of fish cage/pen/pond (in ha)
 Name=I3_2_3_NUMBER_OF_CAGES_PENS_4
 Position=1356,3957,1567,3977
 Item=I3_2_3_NUMBER_OF_CAGES_PENS_4,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7905,7 +7352,6 @@ Text=I3.2.3 Number of Cages / Pens
 Name=I3_2_4_ANNUAL_HARVEST_IN_PHP_4
 Position=1356,3987,1567,4007
 Item=I3_2_4_ANNUAL_HARVEST_IN_PHP_4,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7918,7 +7364,6 @@ Text=I3.2.4 Annual Harvest (In Php)
 Name=OTHERS
 Position=1356,4017,1374,4037
 Item=OTHERS,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -7932,7 +7377,6 @@ Text=6. Others:
 Name=SPECIFY
 Position=1356,4047,1526,4067
 Item=SPECIFY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=15
@@ -7946,7 +7390,6 @@ Text=Specify
 Name=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_5
 Position=1356,4077,1567,4097
 Item=I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_5,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7959,7 +7402,6 @@ Text=I3.2.2 Size of fish cage/pen/pond (in ha)
 Name=I3_2_3_NUMBER_OF_CAGES_PENS_5
 Position=1356,4107,1567,4127
 Item=I3_2_3_NUMBER_OF_CAGES_PENS_5,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7972,7 +7414,6 @@ Text=I3.2.3 Number of Cages / Pens
 Name=I3_2_4_ANNUAL_HARVEST_IN_PHP_5
 Position=1356,4137,1567,4157
 Item=I3_2_4_ANNUAL_HARVEST_IN_PHP_5,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7985,7 +7426,6 @@ Text=I3.2.4 Annual Harvest (In Php)
 Name=I3_3_TOTAL
 Position=1356,4167,1567,4187
 Item=I3_3_TOTAL,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -7998,7 +7438,6 @@ Text=I3.3 Total
 Name=I3_4_WHAT_IS_THE_SCALE_OF_FISH_PEN_POND_OPERATIO
 Position=1356,4197,1371,4217
 Item=I3_4_WHAT_IS_THE_SCALE_OF_FISH_PEN_POND_OPERATIO,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -8011,7 +7450,6 @@ Text=I3.4 What is the scale of fish pen/pond operation?
 Name=I3_5_HOW_IS_THE_FISH_PEN_POND_UTILIZED
 Position=1356,4227,1371,4247
 Item=I3_5_HOW_IS_THE_FISH_PEN_POND_UTILIZED,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -8024,7 +7462,6 @@ Text=I3.5 How is the fish pen/pond utilized?
 Name=I3_6_DO_YOU_CATCH_FISH_IN_THE_AFFECTED_AREA
 Position=1356,4257,1371,4277
 Item=I3_6_DO_YOU_CATCH_FISH_IN_THE_AFFECTED_AREA,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -8037,7 +7474,6 @@ Text=I3.6 Do you catch fish in the affected area?
 Name=I4_1_DID_YOU_ANSWER_YES_IN_ANY_ONE_I1_I2_I3_ABOV
 Position=1356,4287,1371,4307
 Item=I4_1_DID_YOU_ANSWER_YES_IN_ANY_ONE_I1_I2_I3_ABOV,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -8050,7 +7486,6 @@ Text=I4.1 Did you answer YES in any one (I1, I2, I3) above?
 Name=I4_2_DID_YOU_REGISTER_YOUR_LAND_WATER_BASED_ACTI
 Position=1356,4317,1371,4337
 Item=I4_2_DID_YOU_REGISTER_YOUR_LAND_WATER_BASED_ACTI,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -8063,7 +7498,6 @@ Text=I4.2 Did you register your land/water-based activity?
 Name=I4_3_DO_YOU_HAVE_PAID_AGRICULTURE_AQUACULTURE_WO
 Position=1356,4347,1371,4367
 Item=I4_3_DO_YOU_HAVE_PAID_AGRICULTURE_AQUACULTURE_WO,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -8076,7 +7510,6 @@ Text=I4.3 Do you have paid agriculture/aquaculture workers?
 Name=I4_4_HOW_MANY_PAID_AGRICULTURAL_AQUACULTURE_FISH
 Position=1356,4377,1371,4397
 Item=I4_4_HOW_MANY_PAID_AGRICULTURAL_AQUACULTURE_FISH,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -8089,7 +7522,6 @@ Text=I4.4 How many paid agricultural/aquaculture/fishery workers do you employ?
 Name=I4_5_DO_YOU_OWN_THE_OPERATION_OF_THE_AGRICULTURE
 Position=1356,4407,1371,4427
 Item=I4_5_DO_YOU_OWN_THE_OPERATION_OF_THE_AGRICULTURE,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -8102,7 +7534,6 @@ Text=I4.5 Do you own the operation of the agriculture/aquaculture?
 Name=I4_6_DO_YOU_OWN_THE_AFFECTED_LAND_BODY_OF_WATER
 Position=1356,4437,1371,4457
 Item=I4_6_DO_YOU_OWN_THE_AFFECTED_LAND_BODY_OF_WATER,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -8115,7 +7546,6 @@ Text=I4.6 Do you own the affected land/body of water?
 Name=I4_7_IF_NOT_WHAT_IS_YOUR_ARRANGEMENT_WITH_THE_LA
 Position=1356,4467,1371,4487
 Item=I4_7_IF_NOT_WHAT_IS_YOUR_ARRANGEMENT_WITH_THE_LA,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=15
   
@@ -8128,7 +7558,6 @@ Text=I4.7 If not, what is your arrangement with the landowner or lake/marine adm
 Name=I4_8_IF_TENANT_LESSEE_HOW_MUCH_DO_YOU_PAY_THE_LA
 Position=1356,4497,1441,4517
 Item=I4_8_IF_TENANT_LESSEE_HOW_MUCH_DO_YOU_PAY_THE_LA,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -8141,7 +7570,6 @@ Text=I4.8 If Tenant/Lessee, how much do you pay the landowner per year? ( Php )
 Name=I4_9_WHAT_IS_THE_SIZE_OF_THE_RENTED_LEASED_USED
 Position=1356,4527,1441,4547
 Item=I4_9_WHAT_IS_THE_SIZE_OF_THE_RENTED_LEASED_USED,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -8154,7 +7582,6 @@ Text=I4.9 What is the size of the rented/leased/used area? ( sq.m. )
 Name=I4_10_IF_SHARECROPPER_WHAT_IS_YOUR_SHARING_ARRAN
 Position=1356,4557,1567,4577
 Item=I4_10_IF_SHARECROPPER_WHAT_IS_YOUR_SHARING_ARRAN,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -8167,7 +7594,6 @@ Text=I4.10 If sharecropper, what is your sharing arrangement with the owner?
 Name=OWNER
 Position=1356,4587,1567,4607
 Item=OWNER,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -8180,7 +7606,6 @@ Text=% owner
 Name=SHARECROPPER
 Position=1356,4617,1567,4637
 Item=SHARECROPPER,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=15
   
@@ -8198,62 +7623,74 @@ Form=16
 Max=1
   
 [Field]
-Name=J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2
-Position=1065,27,1346,47
-Item=J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2,LASSODD_DICT
-FieldLabelType=DictionaryLabel
+Name=J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2_1_1
+Position=1020,27,1105,47
+Item=J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2_1_1,LASSODD_DICT
 DataCaptureType=CheckBox
 Form=16
   
 [Text]
-Position=50,30,1051,46
-Text=J1. In case you lose your job/close enterprise or business due to the implementation of the project, what type of livelihood assistance would you need? Others
+Position=50,30,1006,46
+Text=J1. In case you lose your job/close enterprise or business due to the implementation of the project, what type of livelihood assistance would you need?
  
   
 [Field]
-Name=J2_WHERE_IS_YOUR_PREFERRED_LOCATION_FOR_EMPLOYME_1
-Position=1065,57,1080,77
-Item=J2_WHERE_IS_YOUR_PREFERRED_LOCATION_FOR_EMPLOYME_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
-DataCaptureType=RadioButton
+Name=J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2_1
+Position=1020,57,1721,77
+Item=J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2_1,LASSODD_DICT
+DataCaptureType=CheckBox
 Form=16
   
 [Text]
-Position=50,60,496,76
+Position=50,60,142,76
+Text=Others Specify
+ 
+  
+[Field]
+Name=J2_WHERE_IS_YOUR_PREFERRED_LOCATION_FOR_EMPLOYME_1_1
+Position=1020,87,1105,107
+Item=J2_WHERE_IS_YOUR_PREFERRED_LOCATION_FOR_EMPLOYME_1_1,LASSODD_DICT
+DataCaptureType=CheckBox
+Form=16
+  
+[Text]
+Position=50,90,496,106
 Text=J2. Where is your preferred location for employment or new business?
  
   
 [Field]
+Name=J2_WHERE_IS_YOUR_PREFERRED_LOCATION_FOR_EMPLOYME_1
+Position=1020,117,1721,137
+Item=J2_WHERE_IS_YOUR_PREFERRED_LOCATION_FOR_EMPLOYME_1,LASSODD_DICT
+DataCaptureType=CheckBox
+Form=16
+  
+[Text]
+Position=50,120,142,136
+Text=Others Specify
+ 
+  
+[Field]
 Name=J3_WHAT_IS_ARE_YOUR_CURRENT_SKILLS_EXPERTISE_1
-<<<<<<< HEAD
-Position=1065,87,1094,107
-=======
-Position=1020,87,1091,107
->>>>>>> 8b2513cb944f2704e0f495092576aeeaf8991f4e
+Position=1020,147,1091,167
 Item=J3_WHAT_IS_ARE_YOUR_CURRENT_SKILLS_EXPERTISE_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=16
   
 [Text]
-Position=50,90,331,106
+Position=50,150,331,166
 Text=J3. What is/are your current skills/expertise?
  
   
 [Field]
 Name=J4_WHAT_IS_ARE_YOUR_PREFERRED_VOCATIONAL_SKILLS_1
-<<<<<<< HEAD
-Position=1065,117,1094,137
-=======
-Position=1020,117,1091,137
->>>>>>> 8b2513cb944f2704e0f495092576aeeaf8991f4e
+Position=1020,177,1091,197
 Item=J4_WHAT_IS_ARE_YOUR_PREFERRED_VOCATIONAL_SKILLS_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=16
   
 [Text]
-Position=50,120,405,136
+Position=50,180,405,196
 Text=J4. What is/are your preferred vocational/skills training?
  
 [EndGroup]
@@ -8267,9 +7704,8 @@ Max=1
   
 [Field]
 Name=K1_HAVE_YOU_HEARD_ABOUT_THE_LASSO_2_PROJECT
-Position=581,27,596,47
+Position=536,27,551,47
 Item=K1_HAVE_YOU_HEARD_ABOUT_THE_LASSO_2_PROJECT,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=17
   
@@ -8279,15 +7715,9 @@ Text=K1. Have you heard about the Lasso 2 project?
  
   
 [Field]
-<<<<<<< HEAD
-Name=K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO_1
-Position=581,57,1002,77
-Item=K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
-=======
-Name=K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO
-Position=536,57,1307,77
-Item=K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO,LASSODD_DICT
+Name=K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO_1
+Position=536,57,607,77
+Item=K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO_1,LASSODD_DICT
 DataCaptureType=CheckBox
 Form=17
   
@@ -8297,79 +7727,76 @@ Text=K2. What benefits do you think can be derived from this project?
  
   
 [Field]
-Name=K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO
-Position=536,87,1237,107
-Item=K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO,LASSODD_DICT
->>>>>>> 8b2513cb944f2704e0f495092576aeeaf8991f4e
-DataCaptureType=RadioButton
-Form=17
-  
-[Text]
-<<<<<<< HEAD
-Position=50,60,508,76
-Text=K3. What are your overall issues and concerns about the project? Others
-=======
-Position=50,90,463,106
-Text=K3. What are your overall issues and concerns about the project?
->>>>>>> 8b2513cb944f2704e0f495092576aeeaf8991f4e
- 
-  
-[Field]
-Name=K4_DO_YOU_SUPPORT_THE_PROPOSED_PROJECT
-<<<<<<< HEAD
-Position=581,87,596,107
-=======
-Position=536,117,551,137
->>>>>>> 8b2513cb944f2704e0f495092576aeeaf8991f4e
-Item=K4_DO_YOU_SUPPORT_THE_PROPOSED_PROJECT,LASSODD_DICT
-FieldLabelType=DictionaryLabel
-DataCaptureType=RadioButton
-Form=17
-  
-[Text]
-Position=50,120,316,136
-Text=K4. Do you support the proposed project? 
- 
-  
-[Field]
-<<<<<<< HEAD
-Name=K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR_1
-Position=581,117,911,137
-Item=K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
-UseUnicodeTextBox=Yes
-DataCaptureType=TextBox
-Form=17
-  
-[Text]
-Position=50,120,567,136
-Text=K5. What are your recommendations to address your issues and concerns? Others
- 
-  
-[Field]
 Name=K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO
-Position=581,147,1002,167
+Position=536,87,1307,107
 Item=K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
 Form=17
   
 [Text]
-Position=50,150,502,166
-Text=K2. What benefits do you think can be derived from this project? Others
+Position=50,90,146,106
+Text=Others Specify:
  
-=======
+  
+[Field]
+Name=K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO_1
+Position=536,117,607,137
+Item=K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO_1,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=17
+  
+[Text]
+Position=50,120,463,136
+Text=K3. What are your overall issues and concerns about the project?
+ 
+  
+[Field]
+Name=K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO
+Position=536,147,1237,167
+Item=K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=17
+  
+[Text]
+Position=50,150,146,166
+Text=Others Specify:
+ 
+  
+[Field]
+Name=K4_DO_YOU_SUPPORT_THE_PROPOSED_PROJECT
+Position=536,177,551,197
+Item=K4_DO_YOU_SUPPORT_THE_PROPOSED_PROJECT,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=17
+  
+[Text]
+Position=50,180,316,196
+Text=K4. Do you support the proposed project? 
+ 
+  
+[Field]
 Name=K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR
-Position=536,147,1321,167
+Position=536,207,607,227
 Item=K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR,LASSODD_DICT
 DataCaptureType=CheckBox
 Form=17
   
 [Text]
-Position=50,150,522,166
+Position=50,210,522,226
 Text=K5. What are your recommendations to address your issues and concerns?
  
->>>>>>> 8b2513cb944f2704e0f495092576aeeaf8991f4e
+  
+[Field]
+Name=K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR_1
+Position=536,237,1321,257
+Item=K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR_1,LASSODD_DICT
+DataCaptureType=CheckBox
+Form=17
+  
+[Text]
+Position=50,240,146,256
+Text=Others Specify:
+ 
 [EndGroup]
   
 [Group]
@@ -8381,9 +7808,8 @@ Max=1
   
 [Field]
 Name=M_SUMMARY_FOR_PROJECT_AFFECTED_PERSONS_CATEGORY
-Position=572,27,615,47
+Position=572,27,629,47
 Item=M_SUMMARY_FOR_PROJECT_AFFECTED_PERSONS_CATEGORY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=18
   
@@ -8396,7 +7822,6 @@ Text=M. Summary for Project Affected Persons Category (can be multiple responses
 Name=RESPONDENT_NAME
 Position=572,57,982,77
 Item=RESPONDENT_NAME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=18
@@ -8410,7 +7835,6 @@ Text=Respondent Name *
 Name=DATE_TIME
 Position=572,87,601,107
 Item=DATE_TIME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=18
   
@@ -8423,7 +7847,6 @@ Text=MM
 Name=DD
 Position=572,117,601,137
 Item=DD,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=18
   
@@ -8436,7 +7859,6 @@ Text=DD
 Name=YYYY
 Position=572,147,629,167
 Item=YYYY,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=18
   
@@ -8449,7 +7871,6 @@ Text=YYYY
 Name=INTERVIEWER_NAME
 Position=572,177,982,197
 Item=INTERVIEWER_NAME,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=18
@@ -8463,7 +7884,6 @@ Text=Interviewer Name *
 Name=MM
 Position=572,207,601,227
 Item=MM,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=18
   
@@ -8476,7 +7896,6 @@ Text=MM
 Name=DD_1
 Position=572,237,601,257
 Item=DD_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=18
   
@@ -8489,7 +7908,6 @@ Text=DD
 Name=YYYY_1
 Position=572,267,629,287
 Item=YYYY_1,LASSODD_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=TextBox
 Form=18
   
