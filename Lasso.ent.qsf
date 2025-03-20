@@ -36,9 +36,22 @@ questions:
       - questionText:
           EN: |
             <br><p></p>
+  - name: LASSODD_DICT.K1_HAVE_YOU_HEARD_ABOUT_THE_LASSO_2_PROJECT
+    conditions:
+      - questionText:
+          EN: |
+            K. PROJECT AWARENESS
+  - name: LASSODD_DICT.K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO
+    conditions:
+      - {}
   - name: LASSODD_DICT.LASSODD_ID
     conditions:
       - questionText:
           EN: |
             <br><p></p>
+  - name: LASSODD_DICT.M_SUMMARY_FOR_PROJECT_AFFECTED_PERSONS_CATEGORY
+    conditions:
+      - questionText:
+          EN: |
+            M. Summary<br><br><p></p>
 ...

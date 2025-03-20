@@ -8042,13 +8042,13 @@
           }, 
           "items": [
             {
-              "name": "J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2_1", 
+              "name": "J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2_1_1", 
               "labels": [ { "text": "J1. In case you lose your job/close enterprise or business due to the implementation of the project, what type of livelihood assistance would you need?" } ], 
               "contentType": "alpha", 
-              "length": 56, 
+              "length": 6, 
               "valueSets": [
                 {
-                  "name": "J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2_1_VS1", 
+                  "name": "J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2_1_1_VS1", 
                   "labels": [ { "text": "J1. In case you lose your job/close enterprise or business due to the implementation of the project, what type of livelihood assistance would you need?" } ], 
                   "values": [
                     {
@@ -8080,16 +8080,14 @@
               ]
             }, 
             {
-              "name": "J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2", 
-              "labels": [ { "text": "J1. In case you lose your job/close enterprise or business due to the implementation of the project, what type of livelihood assistance would you need? Others" } ], 
+              "name": "J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2_1", 
+              "labels": [ { "text": "Others Specify" } ], 
               "contentType": "alpha", 
-              "subitem": true, 
-              "subitemOffset": 6, 
-              "length": 20, 
+              "length": 50, 
               "valueSets": [
                 {
-                  "name": "J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2_VS1", 
-                  "labels": [ { "text": "J1. In case you lose your job/close enterprise or business due to the implementation of the project, what type of livelihood assistance would you need? Others" } ], 
+                  "name": "J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2_1_VS1", 
+                  "labels": [ { "text": "Others Specify" } ], 
                   "values": [
                     {
                       "labels": [ { "text": "1. Job/employment within the current sector" } ], 
@@ -8120,14 +8118,52 @@
               ]
             }, 
             {
-              "name": "J2_WHERE_IS_YOUR_PREFERRED_LOCATION_FOR_EMPLOYME_1", 
+              "name": "J2_WHERE_IS_YOUR_PREFERRED_LOCATION_FOR_EMPLOYME_1_1", 
               "labels": [ { "text": "J2. Where is your preferred location for employment or new business?" } ], 
               "contentType": "alpha", 
-              "length": 1, 
+              "length": 6, 
+              "valueSets": [
+                {
+                  "name": "J2_WHERE_IS_YOUR_PREFERRED_LOCATION_FOR_EMPLOYME_1_1_VS1", 
+                  "labels": [ { "text": "J2. Where is your preferred location for employment or new business?" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Current barangay" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Any barangay within current city" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Any city within same province" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Near relocation site" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Other province" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Abroad/Outside the country" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "J2_WHERE_IS_YOUR_PREFERRED_LOCATION_FOR_EMPLOYME_1", 
+              "labels": [ { "text": "Others Specify" } ], 
+              "contentType": "alpha", 
+              "length": 50, 
               "valueSets": [
                 {
                   "name": "J2_WHERE_IS_YOUR_PREFERRED_LOCATION_FOR_EMPLOYME_1_VS1", 
-                  "labels": [ { "text": "J2. Where is your preferred location for employment or new business?" } ], 
+                  "labels": [ { "text": "Others Specify" } ], 
                   "values": [
                     {
                       "labels": [ { "text": "1. Current barangay" } ], 
@@ -8339,13 +8375,13 @@
               ]
             }, 
             {
-              "name": "K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO", 
+              "name": "K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO_1", 
               "labels": [ { "text": "K2. What benefits do you think can be derived from this project?" } ], 
               "contentType": "alpha", 
-              "length": 55, 
+              "length": 5, 
               "valueSets": [
                 {
-                  "name": "K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO_VS1", 
+                  "name": "K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO_1_VS1", 
                   "labels": [ { "text": "K2. What benefits do you think can be derived from this project?" } ], 
                   "values": [
                     {
@@ -8373,21 +8409,47 @@
               ]
             }, 
             {
-              "name": "K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO_1", 
-              "labels": [ { "text": "K2. What benefits do you think can be derived from this project?" } ], 
+              "name": "K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO", 
+              "labels": [ { "text": "Others Specify:" } ], 
               "contentType": "alpha", 
-              "subitem": true, 
-              "subitemOffset": 5, 
-              "length": 50
-            }, 
-            {
-              "name": "K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO", 
-              "labels": [ { "text": "K3. What are your overall issues and concerns about the project?" } ], 
-              "contentType": "alpha", 
-              "length": 50, 
+              "length": 55, 
               "valueSets": [
                 {
-                  "name": "K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO_VS1", 
+                  "name": "K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO_VS1", 
+                  "labels": [ { "text": "Others Specify:" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Create job/employment opportunities for the local" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Improve electrification in the rural areas" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Increase land value" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Open opportunities for new businesses/enterprises" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Others (specify):" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "name": "K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO_1", 
+              "labels": [ { "text": "K3. What are your overall issues and concerns about the project?" } ], 
+              "contentType": "alpha", 
+              "length": 5, 
+              "valueSets": [
+                {
+                  "name": "K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO_1_VS1", 
                   "labels": [ { "text": "K3. What are your overall issues and concerns about the project?" } ], 
                   "values": [
                     {
@@ -8435,16 +8497,14 @@
               ]
             }, 
             {
-              "name": "K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO_1", 
-              "labels": [ { "text": "K3. What are your overall issues and concerns about the project? Others" } ], 
+              "name": "K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO", 
+              "labels": [ { "text": "Others Specify:" } ], 
               "contentType": "alpha", 
-              "subitem": true, 
-              "subitemOffset": 10, 
-              "length": 30, 
+              "length": 50, 
               "valueSets": [
                 {
-                  "name": "K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO_1_VS1", 
-                  "labels": [ { "text": "K3. What are your overall issues and concerns about the project? Others" } ], 
+                  "name": "K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO_VS1", 
+                  "labels": [ { "text": "Others Specify:" } ], 
                   "values": [
                     {
                       "labels": [ { "text": "1. My house will be demolished/We will be relocated to another area." } ], 
@@ -8516,7 +8576,7 @@
               "name": "K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR", 
               "labels": [ { "text": "K5. What are your recommendations to address your issues and concerns?" } ], 
               "contentType": "alpha", 
-              "length": 56, 
+              "length": 5, 
               "valueSets": [
                 {
                   "name": "K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR_VS1_1", 
@@ -8552,11 +8612,41 @@
             }, 
             {
               "name": "K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR_1", 
-              "labels": [ { "text": "K5. What are your recommendations to address your issues and concerns? Others" } ], 
+              "labels": [ { "text": "Others Specify:" } ], 
               "contentType": "alpha", 
-              "subitem": true, 
-              "subitemOffset": 6, 
-              "length": 40
+              "length": 56, 
+              "valueSets": [
+                {
+                  "name": "K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR_1_VS1", 
+                  "labels": [ { "text": "Others Specify:" } ], 
+                  "values": [
+                    {
+                      "labels": [ { "text": "1. Redesign the Project" } ], 
+                      "pairs": [ { "value": "1" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "2. Provision of Compensation" } ], 
+                      "pairs": [ { "value": "2" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "3. Financial Assistance" } ], 
+                      "pairs": [ { "value": "3" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "4. Livelihood Restoration" } ], 
+                      "pairs": [ { "value": "4" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "5. Relocation House/Structure" } ], 
+                      "pairs": [ { "value": "5" } ]
+                    }, 
+                    {
+                      "labels": [ { "text": "6. Others:" } ], 
+                      "pairs": [ { "value": "6" } ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }, 
@@ -8573,7 +8663,7 @@
               "name": "M_SUMMARY_FOR_PROJECT_AFFECTED_PERSONS_CATEGORY", 
               "labels": [ { "text": "M. Summary for Project Affected Persons Category (can be multiple responses) *" } ], 
               "contentType": "alpha", 
-              "length": 3, 
+              "length": 4, 
               "valueSets": [
                 {
                   "name": "M_SUMMARY_FOR_PROJECT_AFFECTED_PERSONS_CATEGORY_VS1", 
