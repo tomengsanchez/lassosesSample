@@ -26,32 +26,67 @@ styles:
     css: |
       font-family: Arial;font-size: 18px;
 questions:
-  - name: LASSODD_DICT.DATA_PRIVACY
-    conditions:
-      - questionText:
-          EN: |
-            <br><p></p>
-  - name: LASSODD_DICT.INTERVIEWER_ID
-    conditions:
-      - questionText:
-          EN: |
-            <br><p></p>
-  - name: LASSODD_DICT.K1_HAVE_YOU_HEARD_ABOUT_THE_LASSO_2_PROJECT
-    conditions:
-      - questionText:
-          EN: |
-            K. PROJECT AWARENESS
-  - name: LASSODD_DICT.K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO
-    conditions:
-      - {}
   - name: LASSODD_DICT.LASSODD_ID
     conditions:
       - questionText:
           EN: |
-            <br><p></p>
+            <p><b>SOCIO-ECONOMIC SURVEY INSTRUMENT -&nbsp; LASSO 2 PROJECT</b></p><p><b><br></b><p></p></p>
+  - name: LASSODD_DICT.DATA_PRIVACY
+    conditions:
+      - questionText:
+          EN: |
+            <h2><p style="font-size: 16px; font-weight: 400;"><b>DATA PRIVACY CONSENT</b></p></h2><h2><span style="font-weight: normal;">I understand that the information above is collected for the purpose of the Lasso 2 project and I express my consent for the EcosysCorp, Inc. and its clients to collect, record, organize, store, retrieve, consult, use, consolidate, block, erase or destroy my personal data as part of my information. I also agree that my personal data and all privileged information herein shall be processed only in accordance with the provisions set forth in Chapter 3 of Republic Act No. 10173 of the Philippines, Data Privacy Act of 2012 and its corresponding Implementing Rules and Regulations, provided further that all information herein shall be protected and shall not be used for other purposes aside from the above project without my knowledge and consent.</span></h2><div><span style="font-weight: normal;"><br></span></div><h2><span style="font-weight: normal;"><br></span></h2><p><b><br></b></p><p></p><p></p>
+  - name: LASSODD_DICT.INTERVIEWER_ID
+    conditions:
+      - questionText:
+          EN: |
+            <p><b>DATA PRIVACY CONSENT</b></p><h2><span style="font-weight: normal;">I understand that the information above is collected for the purpose of the Lasso 2 project and I express my consent for the EcosysCorp, Inc. and its clients to collect, record, organize, store, retrieve, consult, use, consolidate, block, erase or destroy my personal data as part of my information. I also agree that my personal data and all privileged information herein shall be processed only in accordance with the provisions set forth in Chapter 3 of Republic Act No. 10173 of the Philippines, Data Privacy Act of 2012 and its corresponding Implementing Rules and Regulations, provided further that all information herein shall be protected and shall not be used for other purposes aside from the above project without my knowledge and consent.</span></h2><div><span style="font-weight: normal;"><br></span></div>
+  - name: LASSODD_DICT.TYPE_OF_PROJECT_AFFECTED_PERSON_S_1
+    conditions:
+      - questionText:
+          EN: |
+            <p><b>TYPE OF PROJECT AFFECTED PERSON/S</b></p>
+  - name: LASSODD_DICT.FIRST
+    conditions:
+      - questionText:
+          EN: |
+            <p><b>A. RESPONDENT'S PROFILE</b></p>
+  - name: LASSODD_DICT.SAME_AS_RESPONDENT
+    conditions:
+      - questionText:
+          EN: |
+            <p><b>B. PAP'S PROFILE</b></p>
+  - name: LASSODD_DICT.IS_THERE_ANY_ASSOCIATED_STRUCTURE
+    conditions:
+      - questionText:
+          EN: |
+            <p><b>C. STRUCTURE TYPE AND USE</b></p>
+  - name: LASSODD_DICT.E1_DO_YOU_OWN_THE_LAND_S_ANYWHERE_IN_THE_PROJECT
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.H1_DO_YOU_OWN_OPERATE_A_BUSINESS_INSTITUTION_IN
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2_1_1
+    conditions:
+      - questionText:
+          EN: |
+            <b>J. LIVELIHOOD REHABILITATION MEASURES (May include more than one response)</b><p></p>
+  - name: LASSODD_DICT.K1_HAVE_YOU_HEARD_ABOUT_THE_LASSO_2_PROJECT
+    conditions:
+      - questionText:
+          EN: |
+            <b>K. PROJECT AWARENESS</b>
+  - name: LASSODD_DICT.K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO
+    conditions:
+      - {}
   - name: LASSODD_DICT.M_SUMMARY_FOR_PROJECT_AFFECTED_PERSONS_CATEGORY
     conditions:
       - questionText:
           EN: |
-            M. Summary<br><br><p></p>
+            <b>M. SUMMARY</b><br><br><p></p>
 ...
