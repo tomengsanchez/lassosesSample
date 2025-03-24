@@ -13,7 +13,7 @@ File=.\LassoDD.dcf
 Name=FORM000
 Label=(Id Items)
 Level=1
-Size=1597,300
+Size=1580,300
   
 Item=LASSODD_ID
   
@@ -22,8 +22,9 @@ Item=LASSODD_ID
 [Form]
 Name=FORM001
 Label=Agreement
+QuestionTextHeight=220
 Level=1
-Size=1597,300
+Size=1580,300
   
 Item=DATA_PRIVACY
 Item=INTERVIEWER_ID
@@ -35,7 +36,7 @@ Item=TYPE_OF_INTERVIEW
 Name=FORM002
 Label=Type of Project Affected Person/s
 Level=1
-Size=1597,300
+Size=1580,300
   
 Item=TYPE_OF_PROJECT_AFFECTED_PERSON_S_1
   
@@ -45,7 +46,7 @@ Item=TYPE_OF_PROJECT_AFFECTED_PERSON_S_1
 Name=FORM003
 Label=Location/Address of Structure/Land/Farm/Fish Pen
 Level=1
-Size=1597,300
+Size=1580,300
   
 Item=HOUSEHOLD_NUMBER_BUSINESS_NUMBER_IF_ANY
 Item=UNIT_BLDG_NO
@@ -60,7 +61,7 @@ Item=CITY_MUNICIPALITY
 Name=FORM004
 Label=To be filled up by encoder
 Level=1
-Size=1597,300
+Size=1580,300
   
 Item=TITLE_NO
 Item=PIN
@@ -73,14 +74,14 @@ Item=LOT_ID_NUMBER
 Name=FORM005
 Label=Respondent's Profile
 Level=1
-Size=1597,300
+Size=1580,300
   
 Item=FIRST
 Item=MIDDLE
 Item=LAST
 Item=ARE_YOU_A_REPRESENTATIVE_OF_THE_PAP
 Item=A2_IF_REPRESENTATIVE_RELATIONSHIP_OF_THE_RESPOND
-Item=A2
+Item=OTHERS_SPECIFY_14
 Item=CONTACT_NUMBER
 Item=SEX
 Item=AGE
@@ -91,7 +92,7 @@ Item=AGE
 Name=FORM006
 Label=PAP's Profile
 Level=1
-Size=1597,510
+Size=1580,600
   
 Item=SAME_AS_RESPONDENT
 Item=FIRST_1
@@ -107,8 +108,11 @@ Item=BIRTH_YEAR
 Item=CIVIL_STATUS
 Item=WITH_DEPENDENTS_1
 Item=RELIGION
+Item=OTHERS_SPECIFY_11
 Item=ETHNICITY
+Item=OTHERS_SPECIFY_12
 Item=WHAT_ARE_YOU_LOSING_AS_A_RESULT_OF_THE_PROJECT_M
+Item=OTHERS_SPECIFY_13
   
 [EndForm]
   
@@ -116,12 +120,15 @@ Item=WHAT_ARE_YOU_LOSING_AS_A_RESULT_OF_THE_PROJECT_M
 Name=FORM007
 Label=C Structure Type and Use
 Level=1
-Size=1597,300
+Size=1580,300
   
 Item=IS_THERE_ANY_ASSOCIATED_STRUCTURE
 Item=TYPE_OF_AFFECTED_STRUCTURE
+Item=OTHERS_SPECIFY_8
 Item=USE_OF_STRUCTURE_1
+Item=OTHERS_SPECIFY_9
 Item=MATERIAL_OF_MAIN_STRUCTURE
+Item=OTHERS_SPECIFY_10
 Item=STATUS_CONDITION_OF_USE
   
 [EndForm]
@@ -140,7 +147,7 @@ Item=C5_ASSOCIATED_STRUCTURE000
 Name=FORM009
 Label=D Structure Ownership
 Level=1
-Size=1597,1230
+Size=1580,1230
   
 Item=DO_YOU_OWN_THE_TAGGED_STRUCTURE
 Item=IF_YES
@@ -160,7 +167,7 @@ Item=ADDRESS_1
 Item=CONTACT_NUMBER_2
 Item=ADD_MORE_STRUCTURE_OWNER_CO_OWNER
 Item=D1_4_HOW_DID_YOU_OBTAIN_THE_STRUCTURE_1
-Item=D1_4_HOW_DID_YOU_OBTAIN_THE_STRUCTURE
+Item=OTHERS_SPECIFY_7
 Item=D1_5_DO_YOU_RENT_OUT_THE_STRUCTURE
 Item=FIRST_8
 Item=LAST_8
@@ -189,7 +196,7 @@ Item=D3_1_IF_WRITTEN_CONTRACT_WHAT_ARE_THE_TERMS
 Name=FORM010
 Label=E. LAND OWNERSHIP
 Level=1
-Size=1597,810
+Size=1580,840
   
 Item=E1_DO_YOU_OWN_THE_LAND_S_ANYWHERE_IN_THE_PROJECT
 Item=E1_2_IF_YES_WHAT_IS_THE_TENURE_STATUS_OF_THE_PAR
@@ -204,8 +211,9 @@ Item=ADD_MULTIPLE_LAND_OWNERS_INFORMATION
 Item=E1_7_REGISTERED_OWNER
 Item=E2_DO_YOU_HAVE_A_VALID_LEGAL_DOCUMENT_TO_PROVE_O
 Item=E2_1_IF_YES_WHAT_IS_YOUR_PROOF_OF_OWNERSHIP_CAN
+Item=OTHERS_SPECIFY_5
 Item=E2_3_HOW_DID_YOU_OBTAIN_THE_LAND_1
-Item=E2_3_HOW_DID_YOU_OBTAIN_THE_LAND
+Item=OTHERS_SPECIFY_6
 Item=E2_4_DO_YOU_PAY_THE_REAL_ESTATE_TAX_FOR_THE_LAND
 Item=E2_5_IF_YES_HOW_MUCH_PER_YEAR_PHP
 Item=E2_6_DO_YOU_HAVE_TENANT_LESSEES
@@ -224,12 +232,12 @@ Item=E4_ASIDE_FROM_THIS_PARCEL_DO_YOU_OWN_ANY_OTHER_L
 Name=FORM011
 Label=F. LAND TYPE AND USE
 Level=1
-Size=1597,300
+Size=1580,300
   
 Item=F1_TYPE_OF_LAND
 Item=F1_1_TYPE_OF_OWNERSHIP
 Item=F2_CURRENT_ACTUAL_USE_OF_LAND_CAN_BE_MULTIPLE_RE
-Item=F2_CURRENT_ACTUAL_USE_OF_LAND_CAN_BE_MULTIPLE_RE_1
+Item=OTHERS_SPECIFY_4
   
 [EndForm]
   
@@ -237,7 +245,7 @@ Item=F2_CURRENT_ACTUAL_USE_OF_LAND_CAN_BE_MULTIPLE_RE_1
 Name=FORM012
 Label=G1. HOUSEHOLD INFORMATION
 Level=1
-Size=1597,7350
+Size=1580,7350
   
 Item=G1_1_1_NUMBER_OF_HOUSEHOLD_MEMBERS
 Item=G2_1_2_NAME
@@ -490,14 +498,17 @@ Item=J3_1_6_TOTAL_COMBINED_HH_MONTHLY_INCOME_PHP
 Name=FORM013
 Label=H1. PROFILE OF BUSINESS/INSTITUTION
 Level=1
-Size=1597,780
+Size=1580,870
   
 Item=H1_DO_YOU_OWN_OPERATE_A_BUSINESS_INSTITUTION_IN
 Item=H1_1_BUSINESS_INSTITUTION_NAME
+Item=H1_2_TYPE_OF_BUSINESS_INSTITUTION_1_1
 Item=H1_2_TYPE_OF_BUSINESS_INSTITUTION_1
 Item=H1_3_TYPE_OF_BUSINESS_INSTITUTION_OWNERSHIP_1
+Item=OTHERS_SPECIFY_2
 Item=H1_4_IS_THIS_AN_INCOME_GENERATING_ACTIVITY
 Item=H1_5_TYPE_OF_SERVICE_1
+Item=OTHERS_SPECIFY_3
 Item=H1_6_LENGTH_OF_BUSINESS_INSTITUTION_IN_OPERATION
 Item=H1_7_START_OF_OPERATION_SPECIFY_YEAR
 Item=H1_8_BUSINESS_LICENSE_REGISTRATION_PERMIT_MULTIP
@@ -524,7 +535,7 @@ Item=H2_3_4_SKILLS_2
 Name=FORM014
 Label=I. CENSUS OF AGRICULTURE AND FISHERIES
 Level=1
-Size=1597,4650
+Size=1580,4650
   
 Item=I1_DO_YOU_OWN_OPERATE_AN_AGRICULTURE_AQUACULTURE
 Item=IF_YES_WHICH_OF_THE_FOLLOWING_ACTIVITIES_DOES_TH
@@ -687,7 +698,7 @@ Item=SHARECROPPER
 Name=FORM015
 Label=J. LIVELIHOOD REHABILITATION MEASURES (may include more than one response)
 Level=1
-Size=1597,300
+Size=1580,300
   
 Item=J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2_1_1
 Item=J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2_1
@@ -702,7 +713,7 @@ Item=J4_WHAT_IS_ARE_YOUR_PREFERRED_VOCATIONAL_SKILLS_1
 Name=FORM016
 Label=K. PROJECT AWARENESS
 Level=1
-Size=1597,300
+Size=1580,300
   
 Item=K1_HAVE_YOU_HEARD_ABOUT_THE_LASSO_2_PROJECT
 Item=K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO_1
@@ -719,7 +730,7 @@ Item=K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR_1
 Name=FORM017
 Label=M. SUMMARY
 Level=1
-Size=1597,300
+Size=1580,300
   
 Item=M_SUMMARY_FOR_PROJECT_AFFECTED_PERSONS_CATEGORY
 Item=RESPONDENT_NAME
@@ -1039,16 +1050,16 @@ Text=A2. If representative, relationship of the respondent to the PAP.
  
   
 [Field]
-Name=A2
-Position=464,177,482,197
-Item=A2,LASSODD_DICT
+Name=OTHERS_SPECIFY_14
+Position=464,177,874,197
+Item=OTHERS_SPECIFY_14,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=6
   
 [Text]
-Position=50,180,66,196
-Text=A2
+Position=50,180,146,196
+Text=Others Specify:
  
   
 [Field]
@@ -1267,27 +1278,66 @@ Text=B8. Religion
  
   
 [Field]
+Name=OTHERS_SPECIFY_11
+Position=515,447,925,467
+Item=OTHERS_SPECIFY_11,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=7
+  
+[Text]
+Position=50,450,146,466
+Text=Others Specify:
+ 
+  
+[Field]
 Name=ETHNICITY
-Position=515,447,1244,467
+Position=515,477,1244,497
 Item=ETHNICITY,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=7
   
 [Text]
-Position=50,450,128,466
+Position=50,480,128,496
 Text=B9. Ethnicity
  
   
 [Field]
+Name=OTHERS_SPECIFY_12
+Position=515,507,925,527
+Item=OTHERS_SPECIFY_12,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=7
+  
+[Text]
+Position=50,510,146,526
+Text=Others Specify:
+ 
+  
+[Field]
 Name=WHAT_ARE_YOU_LOSING_AS_A_RESULT_OF_THE_PROJECT_M
-Position=515,477,544,497
+Position=515,537,544,557
 Item=WHAT_ARE_YOU_LOSING_AS_A_RESULT_OF_THE_PROJECT_M,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=7
   
 [Text]
-Position=50,480,501,496
+Position=50,540,501,556
 Text=B10. What are you losing as a result of the project? (Multiple Response)
+ 
+  
+[Field]
+Name=OTHERS_SPECIFY_13
+Position=515,567,925,587
+Item=OTHERS_SPECIFY_13,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=7
+  
+[Text]
+Position=50,570,146,586
+Text=Others Specify:
  
 [EndGroup]
   
@@ -1323,38 +1373,77 @@ Text=C1. Type of Affected Structure
  
   
 [Field]
+Name=OTHERS_SPECIFY_8
+Position=268,87,678,107
+Item=OTHERS_SPECIFY_8,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=8
+  
+[Text]
+Position=50,90,146,106
+Text=Others Specify:
+ 
+  
+[Field]
 Name=USE_OF_STRUCTURE_1
-Position=268,87,577,107
+Position=268,117,577,137
 Item=USE_OF_STRUCTURE_1,LASSODD_DICT
 DataCaptureType=CheckBox
 Form=8
   
 [Text]
-Position=50,90,175,106
+Position=50,120,175,136
 Text=C2. Use of Structure
  
   
 [Field]
+Name=OTHERS_SPECIFY_9
+Position=268,147,678,167
+Item=OTHERS_SPECIFY_9,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=8
+  
+[Text]
+Position=50,150,146,166
+Text=Others Specify:
+ 
+  
+[Field]
 Name=MATERIAL_OF_MAIN_STRUCTURE
-Position=268,117,283,137
+Position=268,177,283,197
 Item=MATERIAL_OF_MAIN_STRUCTURE,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=8
   
 [Text]
-Position=50,120,239,136
+Position=50,180,239,196
 Text=C3. Material of Main Structure
  
   
 [Field]
+Name=OTHERS_SPECIFY_10
+Position=268,207,678,227
+Item=OTHERS_SPECIFY_10,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=8
+  
+[Text]
+Position=50,210,146,226
+Text=Others Specify:
+ 
+  
+[Field]
 Name=STATUS_CONDITION_OF_USE
-Position=268,147,283,167
+Position=268,237,283,257
 Item=STATUS_CONDITION_OF_USE,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=8
   
 [Text]
-Position=50,150,221,166
+Position=50,240,221,256
 Text=C4. Status/Condition of Use
  
 [EndGroup]
@@ -1676,8 +1765,9 @@ Text=Contact Number
   
 [Field]
 Name=D1_3_STRUCTURE_OWNER_CO_OWNER_DETAILS_IF_MORE_TH
-Position=584,297,599,317
+Position=584,297,610,317
 Item=D1_3_STRUCTURE_OWNER_CO_OWNER_DETAILS_IF_MORE_TH,LASSODD_DICT
+UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=10
   
@@ -1739,7 +1829,7 @@ Text=Gender
   
 [Field]
 Name=ADDRESS_1
-Position=584,447,1285,467
+Position=584,447,599,467
 Item=ADDRESS_1,LASSODD_DICT
 DataCaptureType=CheckBox
 Form=10
@@ -1787,15 +1877,16 @@ Text=D1.4 How did you obtain the structure?
  
   
 [Field]
-Name=D1_4_HOW_DID_YOU_OBTAIN_THE_STRUCTURE
-Position=584,567,865,587
-Item=D1_4_HOW_DID_YOU_OBTAIN_THE_STRUCTURE,LASSODD_DICT
-DataCaptureType=CheckBox
+Name=OTHERS_SPECIFY_7
+Position=584,567,994,587
+Item=OTHERS_SPECIFY_7,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
 Form=10
   
 [Text]
-Position=50,570,340,586
-Text=D1.4 How did you obtain the structure? Others
+Position=50,570,142,586
+Text=Others Specify
  
   
 [Field]
@@ -2227,158 +2318,172 @@ Text=E2.1 If yes, what is your proof of Ownership? (can be multiple responses)
  
   
 [Field]
+Name=OTHERS_SPECIFY_5
+Position=594,417,1004,437
+Item=OTHERS_SPECIFY_5,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=11
+  
+[Text]
+Position=50,420,146,436
+Text=Others Specify:
+ 
+  
+[Field]
 Name=E2_3_HOW_DID_YOU_OBTAIN_THE_LAND_1
-Position=594,417,609,437
+Position=594,447,609,467
 Item=E2_3_HOW_DID_YOU_OBTAIN_THE_LAND_1,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,420,267,436
+Position=50,450,267,466
 Text=E2.3 How did you obtain the land?
  
   
 [Field]
-Name=E2_3_HOW_DID_YOU_OBTAIN_THE_LAND
-Position=594,447,1295,467
-Item=E2_3_HOW_DID_YOU_OBTAIN_THE_LAND,LASSODD_DICT
-DataCaptureType=CheckBox
+Name=OTHERS_SPECIFY_6
+Position=594,477,1004,497
+Item=OTHERS_SPECIFY_6,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
 Form=11
   
 [Text]
-Position=50,450,312,466
-Text=E2.3 How did you obtain the land? Others
+Position=50,480,146,496
+Text=Others Specify:
  
   
 [Field]
 Name=E2_4_DO_YOU_PAY_THE_REAL_ESTATE_TAX_FOR_THE_LAND
-Position=594,477,609,497
+Position=594,507,609,527
 Item=E2_4_DO_YOU_PAY_THE_REAL_ESTATE_TAX_FOR_THE_LAND,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,480,355,496
+Position=50,510,355,526
 Text=E2.4 Do you pay the real estate tax for the land?
  
   
 [Field]
 Name=E2_5_IF_YES_HOW_MUCH_PER_YEAR_PHP
-Position=594,507,735,527
+Position=594,537,693,557
 Item=E2_5_IF_YES_HOW_MUCH_PER_YEAR_PHP,LASSODD_DICT
 DataCaptureType=TextBox
 Form=11
   
 [Text]
-Position=50,510,289,526
+Position=50,540,289,556
 Text=E2.5 If yes, how much per year? (Php)
  
   
 [Field]
 Name=E2_6_DO_YOU_HAVE_TENANT_LESSEES
-Position=594,537,609,557
+Position=594,567,609,587
 Item=E2_6_DO_YOU_HAVE_TENANT_LESSEES,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,540,265,556
+Position=50,570,265,586
 Text=E2.6 Do you have tenant/lessees? 
  
   
 [Field]
 Name=E2_6_2_HOW_MUCH_IS_THE_RENT_SHARE
-Position=594,567,609,587
+Position=594,597,609,617
 Item=E2_6_2_HOW_MUCH_IS_THE_RENT_SHARE,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,570,276,586
+Position=50,600,276,616
 Text=E2.6.2 How much is the rent/share? 
  
   
 [Field]
 Name=MODE_OF_PAYMENT
-Position=594,597,609,617
+Position=594,627,609,647
 Item=MODE_OF_PAYMENT,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,600,161,616
+Position=50,630,161,646
 Text=Mode of Payment
  
   
 [Field]
 Name=AMOUNT_PHP
-Position=594,627,805,647
+Position=594,657,805,677
 Item=AMOUNT_PHP,LASSODD_DICT
 DataCaptureType=TextBox
 Form=11
   
 [Text]
-Position=50,630,136,646
+Position=50,660,136,676
 Text=Amount (Php)
  
   
 [Field]
 Name=E2_7_IS_THIS_LOT_CURRENTLY_ON_LOAN_OR_USED_AS_MO
-Position=594,657,609,677
+Position=594,687,609,707
 Item=E2_7_IS_THIS_LOT_CURRENTLY_ON_LOAN_OR_USED_AS_MO,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,660,557,676
+Position=50,690,557,706
 Text=E2.7 Is this lot currently on loan or used as mortgage to a bank or private entity?
  
   
 [Field]
 Name=E3_IF_NOT_THE_LANDOWNER_WHAT_IS_YOUR_ARRANGEMENT
-Position=594,687,609,707
+Position=594,717,609,737
 Item=E3_IF_NOT_THE_LANDOWNER_WHAT_IS_YOUR_ARRANGEMENT,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,690,479,706
+Position=50,720,479,736
 Text=E3. If not the landowner, what is your arrangement with the owner?
  
   
 [Field]
 Name=E3_2_WHAT_IS_THE_SIZE_OF_YOUR_RENTED_AREA_SQUARE
-Position=594,717,679,737
+Position=594,747,679,767
 Item=E3_2_WHAT_IS_THE_SIZE_OF_YOUR_RENTED_AREA_SQUARE,LASSODD_DICT
 DataCaptureType=TextBox
 Form=11
   
 [Text]
-Position=50,720,412,736
+Position=50,750,412,766
 Text=E3.2 What is the size of your rented area? (Square Meter)
  
   
 [Field]
 Name=E3_3_WHAT_PROOF_DO_YOU_HAVE_TO_SHOW_ARRANGEMENT
-Position=594,747,609,767
+Position=594,777,609,797
 Item=E3_3_WHAT_PROOF_DO_YOU_HAVE_TO_SHOW_ARRANGEMENT,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,750,486,766
+Position=50,780,486,796
 Text=E3.3 What proof do you have to show arrangement with land owner?
  
   
 [Field]
 Name=E4_ASIDE_FROM_THIS_PARCEL_DO_YOU_OWN_ANY_OTHER_L
-Position=594,777,609,797
+Position=594,807,609,827
 Item=E4_ASIDE_FROM_THIS_PARCEL_DO_YOU_OWN_ANY_OTHER_L,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,780,580,796
+Position=50,810,580,826
 Text=E4. Aside from this parcel, do you own any other land within the project alignment?
  
 [EndGroup]
@@ -2392,7 +2497,7 @@ Max=1
   
 [Field]
 Name=F1_TYPE_OF_LAND
-Position=491,27,506,47
+Position=446,27,461,47
 Item=F1_TYPE_OF_LAND,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=12
@@ -2404,7 +2509,7 @@ Text=F1. Type of Land *
   
 [Field]
 Name=F1_1_TYPE_OF_OWNERSHIP
-Position=491,57,506,77
+Position=446,57,461,77
 Item=F1_1_TYPE_OF_OWNERSHIP,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=12
@@ -2416,7 +2521,7 @@ Text=F1.1 Type of Ownership *
   
 [Field]
 Name=F2_CURRENT_ACTUAL_USE_OF_LAND_CAN_BE_MULTIPLE_RE
-Position=491,87,534,107
+Position=446,87,489,107
 Item=F2_CURRENT_ACTUAL_USE_OF_LAND_CAN_BE_MULTIPLE_RE,LASSODD_DICT
 DataCaptureType=CheckBox
 Form=12
@@ -2427,15 +2532,15 @@ Text=F2. Current Actual Use of Land (Can be multiple responses) *
  
   
 [Field]
-Name=F2_CURRENT_ACTUAL_USE_OF_LAND_CAN_BE_MULTIPLE_RE_1
-Position=491,117,1192,137
-Item=F2_CURRENT_ACTUAL_USE_OF_LAND_CAN_BE_MULTIPLE_RE_1,LASSODD_DICT
-DataCaptureType=CheckBox
+Name=OTHERS_SPECIFY_4
+Position=446,117,489,137
+Item=OTHERS_SPECIFY_4,LASSODD_DICT
+DataCaptureType=TextBox
 Form=12
   
 [Text]
-Position=50,120,477,136
-Text=F2. Current Actual Use of Land (Can be multiple responses) * Others
+Position=50,120,146,136
+Text=Others Specify:
  
 [EndGroup]
   
@@ -5451,9 +5556,9 @@ Text=H1.1 Business/ Institution Name
  
   
 [Field]
-Name=H1_2_TYPE_OF_BUSINESS_INSTITUTION_1
-Position=488,87,1189,107
-Item=H1_2_TYPE_OF_BUSINESS_INSTITUTION_1,LASSODD_DICT
+Name=H1_2_TYPE_OF_BUSINESS_INSTITUTION_1_1
+Position=488,87,503,107
+Item=H1_2_TYPE_OF_BUSINESS_INSTITUTION_1_1,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=14
   
@@ -5463,204 +5568,205 @@ Text=H1.2 Type of Business/Institution
  
   
 [Field]
-Name=H1_3_TYPE_OF_BUSINESS_INSTITUTION_OWNERSHIP_1
-Position=488,117,1203,137
-Item=H1_3_TYPE_OF_BUSINESS_INSTITUTION_OWNERSHIP_1,LASSODD_DICT
-DataCaptureType=CheckBox
+Name=H1_2_TYPE_OF_BUSINESS_INSTITUTION_1
+Position=488,117,898,137
+Item=H1_2_TYPE_OF_BUSINESS_INSTITUTION_1,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
 Form=14
   
 [Text]
-Position=50,120,325,136
+Position=50,120,136,136
+Text=Other Specify
+ 
+  
+[Field]
+Name=H1_3_TYPE_OF_BUSINESS_INSTITUTION_OWNERSHIP_1
+Position=488,147,503,167
+Item=H1_3_TYPE_OF_BUSINESS_INSTITUTION_OWNERSHIP_1,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=14
+  
+[Text]
+Position=50,150,325,166
 Text=H1.3 Type of Business/Institution Ownership
  
   
 [Field]
+Name=OTHERS_SPECIFY_2
+Position=488,177,898,197
+Item=OTHERS_SPECIFY_2,LASSODD_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=14
+  
+[Text]
+Position=50,180,146,196
+Text=Others Specify:
+ 
+  
+[Field]
 Name=H1_4_IS_THIS_AN_INCOME_GENERATING_ACTIVITY
-Position=488,147,503,167
+Position=488,207,503,227
 Item=H1_4_IS_THIS_AN_INCOME_GENERATING_ACTIVITY,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=50,150,318,166
+Position=50,210,318,226
 Text=H1.4 Is this an income generating activity?
  
   
 [Field]
 Name=H1_5_TYPE_OF_SERVICE_1
-Position=488,177,818,197
+Position=488,237,818,257
 Item=H1_5_TYPE_OF_SERVICE_1,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=14
   
 [Text]
-Position=50,180,180,196
+Position=50,240,180,256
 Text=H1.5 Type of Service
  
   
 [Field]
-Name=H1_6_LENGTH_OF_BUSINESS_INSTITUTION_IN_OPERATION
-Position=488,207,898,227
-Item=H1_6_LENGTH_OF_BUSINESS_INSTITUTION_IN_OPERATION,LASSODD_DICT
+Name=OTHERS_SPECIFY_3
+Position=488,267,898,287
+Item=OTHERS_SPECIFY_3,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=14
   
 [Text]
-Position=50,210,448,226
+Position=50,270,146,286
+Text=Others Specify:
+ 
+  
+[Field]
+Name=H1_6_LENGTH_OF_BUSINESS_INSTITUTION_IN_OPERATION
+Position=488,297,545,317
+Item=H1_6_LENGTH_OF_BUSINESS_INSTITUTION_IN_OPERATION,LASSODD_DICT
+DataCaptureType=TextBox
+Form=14
+  
+[Text]
+Position=50,300,448,316
 Text=H1.6 Length of Business / Institution in Operation: (No. of years)
  
   
 [Field]
 Name=H1_7_START_OF_OPERATION_SPECIFY_YEAR
-Position=488,237,530,257
+Position=488,327,545,347
 Item=H1_7_START_OF_OPERATION_SPECIFY_YEAR,LASSODD_DICT
-UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=14
   
 [Text]
-Position=50,240,283,256
+Position=50,330,283,346
 Text=H1.7 Start of operation (Specify year)
  
   
 [Field]
 Name=H1_8_BUSINESS_LICENSE_REGISTRATION_PERMIT_MULTIP
-Position=488,267,559,287
+Position=488,357,559,377
 Item=H1_8_BUSINESS_LICENSE_REGISTRATION_PERMIT_MULTIP,LASSODD_DICT
 DataCaptureType=CheckBox
 Form=14
   
 [Text]
-Position=50,270,459,286
+Position=50,360,459,376
 Text=H1.8 Business License / Registration / Permit (Multiple Response)
  
   
 [Field]
 Name=H1_9_HOW_MUCH_IS_YOUR_CAPITAL_BUSINESS_ASSET
-Position=488,297,503,317
+Position=488,387,503,407
 Item=H1_9_HOW_MUCH_IS_YOUR_CAPITAL_BUSINESS_ASSET,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=50,300,343,316
+Position=50,390,343,406
 Text=H1.9 How much is your capital/business asset?
  
   
 [Field]
 Name=H1_10_1_AVE_GROSS_MONTHLY_INCOME_PHP
-Position=488,327,699,347
+Position=488,417,629,437
 Item=H1_10_1_AVE_GROSS_MONTHLY_INCOME_PHP,LASSODD_DICT
 DataCaptureType=TextBox
 Form=14
   
 [Text]
-Position=50,330,312,346
+Position=50,420,312,436
 Text=H1.10.1 Ave. Gross Monthly Income: (Php)
  
   
 [Field]
 Name=H1_10_2_AVE_NET_MONTHLY_INCOME_PHP
-Position=488,357,699,377
+Position=488,447,629,467
 Item=H1_10_2_AVE_NET_MONTHLY_INCOME_PHP,LASSODD_DICT
 DataCaptureType=TextBox
 Form=14
   
 [Text]
-Position=50,360,298,376
+Position=50,450,298,466
 Text=H1.10.2 Ave. Net Monthly Income: (Php)
  
   
 [Field]
 Name=H2_1_WHO_HELP_YOU_IN_YOUR_BUSINESS_OPERATION_PRO
-Position=488,387,503,407
+Position=488,477,503,497
 Item=H2_1_WHO_HELP_YOU_IN_YOUR_BUSINESS_OPERATION_PRO,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=50,390,428,406
+Position=50,480,428,496
 Text=H2.1 Who help you in your business operation / production?
  
   
 [Field]
 Name=H2_2_DO_YOU_HAVE_PAID_EMPLOYEES
-Position=488,417,503,437
+Position=488,507,503,527
 Item=H2_2_DO_YOU_HAVE_PAID_EMPLOYEES,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=50,420,277,436
+Position=50,510,277,526
 Text=H2.2 Do you have paid employees? 
  
   
 [Field]
 Name=H2_3_HOW_MANY_EMPLOYEE_DO_YOU_HAVE
-Position=488,447,503,467
+Position=488,537,503,557
 Item=H2_3_HOW_MANY_EMPLOYEE_DO_YOU_HAVE,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=50,450,305,466
+Position=50,540,305,556
 Text=H2.3 How many employee do you have?
  
   
 [Field]
 Name=H2_3_1_TOTAL_NUMBER_OF_EMPLOYEES
-Position=488,477,503,497
+Position=488,567,503,587
 Item=H2_3_1_TOTAL_NUMBER_OF_EMPLOYEES,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=50,480,267,496
+Position=50,570,267,586
 Text=H2.3.1 Total Number of Employees
  
   
 [Field]
 Name=H2_3_2_NO_OF_EMPLOYEES_BY_SEX
-Position=488,507,503,527
-Item=H2_3_2_NO_OF_EMPLOYEES_BY_SEX,LASSODD_DICT
-DataCaptureType=RadioButton
-Form=14
-  
-[Text]
-Position=50,510,246,526
-Text=H2.3.2 No of Employees by Sex
- 
-  
-[Field]
-Name=H2_3_3_AVERAGE_MONTHLY_SALARY
-Position=488,537,699,557
-Item=H2_3_3_AVERAGE_MONTHLY_SALARY,LASSODD_DICT
-DataCaptureType=TextBox
-Form=14
-  
-[Text]
-Position=50,540,244,556
-Text=H2.3.3 Average Monthly Salary
- 
-  
-[Field]
-Name=H2_3_4_SKILLS
-Position=488,567,699,587
-Item=H2_3_4_SKILLS,LASSODD_DICT
-DataCaptureType=RadioButton
-Form=14
-  
-[Text]
-Position=50,570,126,586
-Text=H2.3.4 Skills
- 
-  
-[Field]
-Name=H2_3_2_NO_OF_EMPLOYEES_BY_SEX_1
 Position=488,597,503,617
-Item=H2_3_2_NO_OF_EMPLOYEES_BY_SEX_1,LASSODD_DICT
+Item=H2_3_2_NO_OF_EMPLOYEES_BY_SEX,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=14
   
@@ -5670,9 +5776,9 @@ Text=H2.3.2 No of Employees by Sex
  
   
 [Field]
-Name=H2_3_3_AVERAGE_MONTHLY_SALARY_1
-Position=488,627,699,647
-Item=H2_3_3_AVERAGE_MONTHLY_SALARY_1,LASSODD_DICT
+Name=H2_3_3_AVERAGE_MONTHLY_SALARY
+Position=488,627,587,647
+Item=H2_3_3_AVERAGE_MONTHLY_SALARY,LASSODD_DICT
 DataCaptureType=TextBox
 Form=14
   
@@ -5682,9 +5788,9 @@ Text=H2.3.3 Average Monthly Salary
  
   
 [Field]
-Name=H2_3_4_SKILLS_1
+Name=H2_3_4_SKILLS
 Position=488,657,699,677
-Item=H2_3_4_SKILLS_1,LASSODD_DICT
+Item=H2_3_4_SKILLS,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=14
   
@@ -5694,9 +5800,9 @@ Text=H2.3.4 Skills
  
   
 [Field]
-Name=H2_3_2_NO_OF_EMPLOYEES_BY_SEX_2
+Name=H2_3_2_NO_OF_EMPLOYEES_BY_SEX_1
 Position=488,687,503,707
-Item=H2_3_2_NO_OF_EMPLOYEES_BY_SEX_2,LASSODD_DICT
+Item=H2_3_2_NO_OF_EMPLOYEES_BY_SEX_1,LASSODD_DICT
 DataCaptureType=RadioButton
 Form=14
   
@@ -5706,9 +5812,9 @@ Text=H2.3.2 No of Employees by Sex
  
   
 [Field]
-Name=H2_3_3_AVERAGE_MONTHLY_SALARY_2
-Position=488,717,699,737
-Item=H2_3_3_AVERAGE_MONTHLY_SALARY_2,LASSODD_DICT
+Name=H2_3_3_AVERAGE_MONTHLY_SALARY_1
+Position=488,717,587,737
+Item=H2_3_3_AVERAGE_MONTHLY_SALARY_1,LASSODD_DICT
 DataCaptureType=TextBox
 Form=14
   
@@ -5718,15 +5824,51 @@ Text=H2.3.3 Average Monthly Salary
  
   
 [Field]
+Name=H2_3_4_SKILLS_1
+Position=488,747,699,767
+Item=H2_3_4_SKILLS_1,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=14
+  
+[Text]
+Position=50,750,126,766
+Text=H2.3.4 Skills
+ 
+  
+[Field]
+Name=H2_3_2_NO_OF_EMPLOYEES_BY_SEX_2
+Position=488,777,503,797
+Item=H2_3_2_NO_OF_EMPLOYEES_BY_SEX_2,LASSODD_DICT
+DataCaptureType=RadioButton
+Form=14
+  
+[Text]
+Position=50,780,246,796
+Text=H2.3.2 No of Employees by Sex
+ 
+  
+[Field]
+Name=H2_3_3_AVERAGE_MONTHLY_SALARY_2
+Position=488,807,587,827
+Item=H2_3_3_AVERAGE_MONTHLY_SALARY_2,LASSODD_DICT
+DataCaptureType=TextBox
+Form=14
+  
+[Text]
+Position=50,810,244,826
+Text=H2.3.3 Average Monthly Salary
+ 
+  
+[Field]
 Name=H2_3_4_SKILLS_2
-Position=488,747,618,767
+Position=488,837,618,857
 Item=H2_3_4_SKILLS_2,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
 Form=14
   
 [Text]
-Position=50,750,126,766
+Position=50,840,126,856
 Text=H2.3.4 Skills
  
 [EndGroup]
@@ -7636,9 +7778,10 @@ Text=J1. In case you lose your job/close enterprise or business due to the imple
   
 [Field]
 Name=J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2_1
-Position=1020,57,1721,77
+Position=1020,57,1430,77
 Item=J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2_1,LASSODD_DICT
-DataCaptureType=CheckBox
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
 Form=16
   
 [Text]
@@ -7660,9 +7803,10 @@ Text=J2. Where is your preferred location for employment or new business?
   
 [Field]
 Name=J2_WHERE_IS_YOUR_PREFERRED_LOCATION_FOR_EMPLOYME_1
-Position=1020,117,1721,137
+Position=1020,117,1430,137
 Item=J2_WHERE_IS_YOUR_PREFERRED_LOCATION_FOR_EMPLOYME_1,LASSODD_DICT
-DataCaptureType=CheckBox
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
 Form=16
   
 [Text]
@@ -7728,9 +7872,10 @@ Text=K2. What benefits do you think can be derived from this project?
   
 [Field]
 Name=K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO
-Position=536,87,1307,107
+Position=536,87,986,107
 Item=K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO,LASSODD_DICT
-DataCaptureType=CheckBox
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
 Form=17
   
 [Text]
@@ -7752,9 +7897,10 @@ Text=K3. What are your overall issues and concerns about the project?
   
 [Field]
 Name=K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO
-Position=536,147,1237,167
+Position=536,147,946,167
 Item=K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO,LASSODD_DICT
-DataCaptureType=RadioButton
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
 Form=17
   
 [Text]
@@ -7788,9 +7934,10 @@ Text=K5. What are your recommendations to address your issues and concerns?
   
 [Field]
 Name=K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR_1
-Position=536,237,1321,257
+Position=536,237,994,257
 Item=K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR_1,LASSODD_DICT
-DataCaptureType=CheckBox
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
 Form=17
   
 [Text]
