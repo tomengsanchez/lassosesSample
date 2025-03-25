@@ -46,7 +46,7 @@ Item=TYPE_OF_PROJECT_AFFECTED_PERSON_S_1
 Name=FORM003
 Label=Location/Address of Structure/Land/Farm/Fish Pen
 Level=1
-Size=1580,300
+Size=788,222
   
 Item=HOUSEHOLD_NUMBER_BUSINESS_NUMBER_IF_ANY
 Item=UNIT_BLDG_NO
@@ -862,7 +862,7 @@ DataCaptureType=TextBox
 Form=4
   
 [Text]
-Position=50,60,137,76
+Position=50,61,137,77
 Text=Unit/Bldg. No.
  
   
@@ -1165,8 +1165,8 @@ CaptureType=Unspecified
 Form=7
   
 [Text]
-Position=50,150,86,166
-Text=Label
+Position=50,150,158,166
+Text=CONTACT LABEL
  
   
 [Field]
@@ -1463,69 +1463,84 @@ Required=Yes
 Type=Record
 TypeName=C5_ASSOCIATED_STRUCTURE
 Max=15
-DisplaySize=40,30,0,0
+DisplaySize=40,30,2536,366
 Orientation=Horizontal
 FieldRowHeight=0
 HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
+Position=7,4,22,28
 Text=1
  
   
 [Text]
+Position=7,4,22,28
 Text=2
  
   
 [Text]
+Position=7,4,22,28
 Text=3
  
   
 [Text]
+Position=7,4,22,28
 Text=4
  
   
 [Text]
+Position=7,4,22,28
 Text=5
  
   
 [Text]
+Position=7,4,22,28
 Text=6
  
   
 [Text]
+Position=7,4,22,28
 Text=7
  
   
 [Text]
+Position=7,4,22,28
 Text=8
  
   
 [Text]
+Position=7,4,22,28
 Text=9
  
   
 [Text]
+Position=0,4,22,28
 Text=10
  
   
 [Text]
+Position=1,4,22,28
 Text=11
  
   
 [Text]
+Position=0,4,22,28
 Text=12
  
   
 [Text]
+Position=0,4,22,28
 Text=13
  
   
 [Text]
+Position=0,4,22,28
 Text=14
  
   
 [Text]
+Position=0,4,22,28
 Text=15
  
   
@@ -1534,12 +1549,15 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=709
   
 [HeaderText]
+Position=615,16,709,56
 Text=C5. Structure Tag Number
  
 [Field]
 Name=STRUCTURE_TAG
+Position=0,0,701,20
 Item=STRUCTURE_TAG,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
@@ -1550,12 +1568,15 @@ Text=C5. Structure Tag Number
 [EndColumn]
   
 [Column]
+Width=709
   
 [HeaderText]
+Position=627,0,709,56
 Text=C6. Type of Associated Structure
  
 [Field]
 Name=TYPE_OF_ASSOCIATED_STRUCTURE
+Position=0,0,701,20
 Item=TYPE_OF_ASSOCIATED_STRUCTURE,LASSODD_DICT
 DataCaptureType=RadioButton
   
@@ -1565,12 +1586,15 @@ Text=C6. Type of Associated Structure
 [EndColumn]
   
 [Column]
+Width=709
   
 [HeaderText]
+Position=605,0,709,56
 Text=C7. Material of Associated Structure
  
 [Field]
 Name=DO_YOU_WANT_TO_ADD_ANOTHER
+Position=0,0,701,20
 Item=DO_YOU_WANT_TO_ADD_ANOTHER,LASSODD_DICT
 DataCaptureType=CheckBox
   
@@ -1580,12 +1604,15 @@ Text=C7. Material of Associated Structure
 [EndColumn]
   
 [Column]
+Width=88
   
 [HeaderText]
+Position=0,0,88,56
 Text=C8. Used for Business Purposes?
  
 [Field]
 Name=C8_USED_FOR_BUSINESS_PURPOSES
+Position=65,0,80,20
 Item=C8_USED_FOR_BUSINESS_PURPOSES,LASSODD_DICT
 UseUnicodeTextBox=Yes
 DataCaptureType=TextBox
@@ -1596,12 +1623,15 @@ Text=C8. Used for Business Purposes?
 [EndColumn]
   
 [Column]
+Width=81
   
 [HeaderText]
+Position=0,16,81,56
 Text=Associated Structure 1
  
 [Field]
 Name=ASSOCIATED_STRUCTURE_1
+Position=58,0,73,20
 Item=ASSOCIATED_STRUCTURE_1,LASSODD_DICT
 DataCaptureType=RadioButton
   
@@ -1611,12 +1641,15 @@ Text=Associated Structure 1
 [EndColumn]
   
 [Column]
+Width=81
   
 [HeaderText]
+Position=0,16,81,56
 Text=Associated Structure 2
  
 [Field]
 Name=ASSOCIATED_STRUCTURE_2
+Position=58,0,73,20
 Item=ASSOCIATED_STRUCTURE_2,LASSODD_DICT
 DataCaptureType=RadioButton
   
@@ -1626,12 +1659,15 @@ Text=Associated Structure 2
 [EndColumn]
   
 [Column]
+Width=80
   
 [HeaderText]
+Position=0,0,80,56
 Text=Add More Associated Structure
  
 [Field]
 Name=ADD_ANOTHER
+Position=57,0,72,20
 Item=ADD_ANOTHER,LASSODD_DICT
 DataCaptureType=RadioButton
   
@@ -2085,8 +2121,8 @@ DataCaptureType=RadioButton
 Form=10
   
 [Text]
-Position=50,1050,306,1066
-Text=D1.8 Do you pay taxes for the structure? 
+Position=50,1050,302,1066
+Text=D1.8 Do you pay taxes for the structure?
  
   
 [Field]
@@ -2097,8 +2133,8 @@ DataCaptureType=TextBox
 Form=10
   
 [Text]
-Position=50,1080,360,1096
-Text=D1.9 If Yes, how much is paid in taxes annually? 
+Position=50,1080,356,1096
+Text=D1.9 If Yes, how much is paid in taxes annually?
  
   
 [Field]
@@ -2177,8 +2213,8 @@ DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,60,364,76
-Text=E1.2 If Yes, what is the tenure status of the parcel 
+Position=50,60,360,76
+Text=E1.2 If Yes, what is the tenure status of the parcel
  
   
 [Field]
@@ -2301,8 +2337,8 @@ DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,360,518,376
-Text=E2. Do you have a valid/ legal document to prove ownership of this land? 
+Position=50,360,514,376
+Text=E2. Do you have a valid/ legal document to prove ownership of this land?
  
   
 [Field]
@@ -2387,8 +2423,8 @@ DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,570,265,586
-Text=E2.6 Do you have tenant/lessees? 
+Position=50,570,261,586
+Text=E2.6 Do you have tenant/lessees?
  
   
 [Field]
@@ -2399,8 +2435,8 @@ DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=50,600,276,616
-Text=E2.6.2 How much is the rent/share? 
+Position=50,600,272,616
+Text=E2.6.2 How much is the rent/share?
  
   
 [Field]
@@ -3868,8 +3904,8 @@ DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3210,213,3226
-Text=G4.2.1 No. of Functioning 
+Position=50,3210,209,3226
+Text=G4.2.1 No. of Functioning
  
   
 [Field]
@@ -4060,8 +4096,8 @@ DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,3690,158,3706
-Text=G4.2.3. Total No. 
+Position=50,3690,154,3706
+Text=G4.2.3. Total No.
  
   
 [Field]
@@ -4721,8 +4757,8 @@ DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5340,158,5356
-Text=G4.2.3. Total No. 
+Position=50,5340,154,5356
+Text=G4.2.3. Total No.
  
   
 [Field]
@@ -4793,8 +4829,8 @@ DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5520,158,5536
-Text=G4.2.3. Total No. 
+Position=50,5520,154,5536
+Text=G4.2.3. Total No.
  
   
 [Field]
@@ -4937,8 +4973,8 @@ DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,5880,158,5896
-Text=G4.2.3. Total No. 
+Position=50,5880,154,5896
+Text=G4.2.3. Total No.
  
   
 [Field]
@@ -5225,8 +5261,8 @@ DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6600,158,6616
-Text=G4.2.3. Total No. 
+Position=50,6600,154,6616
+Text=G4.2.3. Total No.
  
   
 [Field]
@@ -5286,8 +5322,8 @@ DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6750,158,6766
-Text=G4.2.3. Total No. 
+Position=50,6750,154,6766
+Text=G4.2.3. Total No.
  
   
 [Field]
@@ -5347,8 +5383,8 @@ DataCaptureType=TextBox
 Form=13
   
 [Text]
-Position=50,6900,334,6916
-Text=SUPPLEMENTARY SURVEY QUESTIONNAIRE 
+Position=50,6900,330,6916
+Text=SUPPLEMENTARY SURVEY QUESTIONNAIRE
  
   
 [Field]
@@ -5538,8 +5574,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=50,30,474,46
-Text=H1 Do you own/operate a business/institution in the affected area? 
+Position=50,30,470,46
+Text=H1 Do you own/operate a business/institution in the affected area?
  
   
 [Field]
@@ -5735,8 +5771,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=50,510,277,526
-Text=H2.2 Do you have paid employees? 
+Position=50,510,273,526
+Text=H2.2 Do you have paid employees?
  
   
 [Field]
@@ -5962,8 +5998,8 @@ DataCaptureType=TextBox
 Form=15
   
 [Text]
-Position=50,210,151,226
-Text=1. Timber - Age 
+Position=50,210,147,226
+Text=1. Timber - Age
  
   
 [Field]
@@ -7107,8 +7143,8 @@ DataCaptureType=TextBox
 Form=15
   
 [Text]
-Position=50,3030,232,3046
-Text=1. Broiler Duck (No. of Birds) 
+Position=50,3030,228,3046
+Text=1. Broiler Duck (No. of Birds)
  
   
 [Field]
@@ -7608,8 +7644,8 @@ DataCaptureType=RadioButton
 Form=15
   
 [Text]
-Position=50,4260,324,4276
-Text=I3.6 Do you catch fish in the affected area? 
+Position=50,4260,320,4276
+Text=I3.6 Do you catch fish in the affected area?
  
   
 [Field]
@@ -7620,8 +7656,8 @@ DataCaptureType=RadioButton
 Form=15
   
 [Text]
-Position=50,4290,390,4306
-Text=I4.1 Did you answer YES in any one (I1, I2, I3) above? 
+Position=50,4290,386,4306
+Text=I4.1 Did you answer YES in any one (I1, I2, I3) above?
  
   
 [Field]
@@ -7656,8 +7692,8 @@ DataCaptureType=RadioButton
 Form=15
   
 [Text]
-Position=50,4380,542,4396
-Text=I4.4 How many paid agricultural/aquaculture/fishery workers do you employ? 
+Position=50,4380,538,4396
+Text=I4.4 How many paid agricultural/aquaculture/fishery workers do you employ?
  
   
 [Field]
@@ -7916,8 +7952,8 @@ DataCaptureType=RadioButton
 Form=17
   
 [Text]
-Position=50,180,316,196
-Text=K4. Do you support the proposed project? 
+Position=50,180,312,196
+Text=K4. Do you support the proposed project?
  
   
 [Field]

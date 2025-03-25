@@ -35,37 +35,642 @@ questions:
     conditions:
       - questionText:
           EN: |
-            <h2><p style="font-size: 16px; font-weight: 400;"><b>DATA PRIVACY CONSENT</b></p></h2><h2><span style="font-weight: normal;">I understand that the information above is collected for the purpose of the Lasso 2 project and I express my consent for the EcosysCorp, Inc. and its clients to collect, record, organize, store, retrieve, consult, use, consolidate, block, erase or destroy my personal data as part of my information. I also agree that my personal data and all privileged information herein shall be processed only in accordance with the provisions set forth in Chapter 3 of Republic Act No. 10173 of the Philippines, Data Privacy Act of 2012 and its corresponding Implementing Rules and Regulations, provided further that all information herein shall be protected and shall not be used for other purposes aside from the above project without my knowledge and consent.</span></h2><div><span style="font-weight: normal;"><br></span></div><h2><span style="font-weight: normal;"><br></span></h2><p><b><br></b></p><p></p><p></p>
+            <h2><p style="font-size: 16px; font-weight: 400;"><b>DATA PRIVACY CONSENT</b></p></h2><h2><span style="font-weight: normal;">I understand that the information above is collected for the purpose of the Lasso 2 project and I express my consent for the EcosysCorp, Inc. and its clients to collect, record, organize, store, retrieve, consult, use, consolidate, block, erase or destroy my personal data as part of my information. I also agree that my personal data and all privileged information herein shall be processed only in accordance with the provisions set forth in Chapter 3 of Republic Act No. 10173 of the Philippines, Data Privacy Act of 2012 and its corresponding Implementing Rules and Regulations, provided further that all information herein shall be protected and shall not be used for other purposes aside from the above project without my knowledge and consent.</span></h2><p></p><p></p>
   - name: LASSODD_DICT.INTERVIEWER_ID
     conditions:
       - questionText:
           EN: |
-            <p><b>DATA PRIVACY CONSENT</b></p><h2><span style="font-weight: normal;">I understand that the information above is collected for the purpose of the Lasso 2 project and I express my consent for the EcosysCorp, Inc. and its clients to collect, record, organize, store, retrieve, consult, use, consolidate, block, erase or destroy my personal data as part of my information. I also agree that my personal data and all privileged information herein shall be processed only in accordance with the provisions set forth in Chapter 3 of Republic Act No. 10173 of the Philippines, Data Privacy Act of 2012 and its corresponding Implementing Rules and Regulations, provided further that all information herein shall be protected and shall not be used for other purposes aside from the above project without my knowledge and consent.</span></h2><div><span style="font-weight: normal;"><br></span></div>
+            <h2><p style="font-size: 16px; font-weight: 400;"><b>DATA PRIVACY CONSENT</b></p></h2><h2><span style="font-weight: normal;">I understand that the information above is collected for the purpose of the Lasso 2 project and I express my consent for the EcosysCorp, Inc. and its clients to collect, record, organize, store, retrieve, consult, use, consolidate, block, erase or destroy my personal data as part of my information. I also agree that my personal data and all privileged information herein shall be processed only in accordance with the provisions set forth in Chapter 3 of Republic Act No. 10173 of the Philippines, Data Privacy Act of 2012 and its corresponding Implementing Rules and Regulations, provided further that all information herein shall be protected and shall not be used for other purposes aside from the above project without my knowledge and consent.</span></h2>
+  - name: LASSODD_DICT.TYPE_OF_INTERVIEW
+    conditions:
+      - questionText:
+          EN: |
+            <h2><p style="font-size: 16px; font-weight: 400;"><b>DATA PRIVACY CONSENT</b></p></h2><h2><span style="font-weight: normal;">I understand that the information above is collected for the purpose of the Lasso 2 project and I express my consent for the EcosysCorp, Inc. and its clients to collect, record, organize, store, retrieve, consult, use, consolidate, block, erase or destroy my personal data as part of my information. I also agree that my personal data and all privileged information herein shall be processed only in accordance with the provisions set forth in Chapter 3 of Republic Act No. 10173 of the Philippines, Data Privacy Act of 2012 and its corresponding Implementing Rules and Regulations, provided further that all information herein shall be protected and shall not be used for other purposes aside from the above project without my knowledge and consent.</span></h2><p></p>
   - name: LASSODD_DICT.TYPE_OF_PROJECT_AFFECTED_PERSON_S_1
     conditions:
       - questionText:
           EN: |
             <p><b>TYPE OF PROJECT AFFECTED PERSON/S</b></p>
+  - name: LASSODD_DICT.HOUSEHOLD_NUMBER_BUSINESS_NUMBER_IF_ANY
+    conditions:
+      - questionText:
+          EN: |
+            Location/Address of Structure/Land/Farm/Fish Pen<p></p>
+  - name: LASSODD_DICT.UNIT_BLDG_NO
+    conditions:
+      - questionText:
+          EN: |
+            Location/Address of Structure/Land/Farm/Fish Pen<p></p>
+  - name: LASSODD_DICT.STREET
+    conditions:
+      - questionText:
+          EN: |
+            Location/Address of Structure/Land/Farm/Fish Pen<p></p>
+  - name: LASSODD_DICT.VILLAGE_SUBDIVISION
+    conditions:
+      - questionText:
+          EN: |
+            Location/Address of Structure/Land/Farm/Fish Pen<p></p>
+  - name: LASSODD_DICT.BARANGAY
+    conditions:
+      - questionText:
+          EN: |
+            Location/Address of Structure/Land/Farm/Fish Pen<p></p>
+  - name: LASSODD_DICT.CITY_MUNICIPALITY
+    conditions:
+      - questionText:
+          EN: |
+            Location/Address of Structure/Land/Farm/Fish Pen<p></p>
+  - name: LASSODD_DICT.TITLE_NO
+    conditions:
+      - questionText:
+          EN: |
+            To be filled up by encoder<p></p>
+  - name: LASSODD_DICT.PIN
+    conditions:
+      - questionText:
+          EN: |
+            To be filled up by encoder<p></p>
+  - name: LASSODD_DICT.TD_NUMBER
+    conditions:
+      - questionText:
+          EN: |
+            To be filled up by encoder<p></p>
+  - name: LASSODD_DICT.LOT_ID_NUMBER
+    conditions:
+      - questionText:
+          EN: |
+            To be filled up by encoder<p></p>
   - name: LASSODD_DICT.FIRST
     conditions:
       - questionText:
           EN: |
             <p><b>A. RESPONDENT'S PROFILE</b></p>
+  - name: LASSODD_DICT.MIDDLE
+    conditions:
+      - questionText:
+          EN: |
+            <b>A. RESPONDENT'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.LAST
+    conditions:
+      - questionText:
+          EN: |
+            <b>A. RESPONDENT'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.ARE_YOU_A_REPRESENTATIVE_OF_THE_PAP
+    conditions:
+      - questionText:
+          EN: |
+            <b>A. RESPONDENT'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.A2_IF_REPRESENTATIVE_RELATIONSHIP_OF_THE_RESPOND
+    conditions:
+      - questionText:
+          EN: |
+            <b>A. RESPONDENT'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.OTHERS_SPECIFY_14
+    conditions:
+      - questionText:
+          EN: |
+            <b>A. RESPONDENT'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.CONTACT_NUMBER
+    conditions:
+      - questionText:
+          EN: |
+            <b>A. RESPONDENT'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.SEX
+    conditions:
+      - questionText:
+          EN: |
+            <b>A. RESPONDENT'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.AGE
+    conditions:
+      - questionText:
+          EN: |
+            <b>A. RESPONDENT'S PROFILE</b><p></p>
   - name: LASSODD_DICT.SAME_AS_RESPONDENT
     conditions:
       - questionText:
           EN: |
             <p><b>B. PAP'S PROFILE</b></p>
+  - name: LASSODD_DICT.FIRST_1
+    conditions:
+      - questionText:
+          EN: |
+            <b>B. PAP'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.MIDDLE_1
+    conditions:
+      - questionText:
+          EN: |
+            <b>B. PAP'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.LAST_1
+    conditions:
+      - questionText:
+          EN: |
+            <b>B. PAP'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.B2_CONTACT_NUMBER
+    conditions:
+      - questionText:
+          EN: |
+            <b>B. PAP'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.MOBILE
+    conditions:
+      - questionText:
+          EN: |
+            <b>B. PAP'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.LAND_LINE
+    conditions:
+      - questionText:
+          EN: |
+            <b>B. PAP'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.B3_SEX
+    conditions:
+      - questionText:
+          EN: |
+            <b>B. PAP'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.BIRTH_MONTH
+    conditions:
+      - questionText:
+          EN: |
+            <b>B. PAP'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.BIRTH_DAY
+    conditions:
+      - questionText:
+          EN: |
+            <b>B. PAP'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.BIRTH_YEAR
+    conditions:
+      - questionText:
+          EN: |
+            <b>B. PAP'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.CIVIL_STATUS
+    conditions:
+      - questionText:
+          EN: |
+            <b>B. PAP'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.WITH_DEPENDENTS_1
+    conditions:
+      - questionText:
+          EN: |
+            <b>B. PAP'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.RELIGION
+    conditions:
+      - questionText:
+          EN: |
+            <b>B. PAP'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.OTHERS_SPECIFY_11
+    conditions:
+      - questionText:
+          EN: |
+            <b>B. PAP'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.ETHNICITY
+    conditions:
+      - questionText:
+          EN: |
+            <b>B. PAP'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.OTHERS_SPECIFY_12
+    conditions:
+      - questionText:
+          EN: |
+            <b>B. PAP'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.WHAT_ARE_YOU_LOSING_AS_A_RESULT_OF_THE_PROJECT_M
+    conditions:
+      - questionText:
+          EN: |
+            <b>B. PAP'S PROFILE</b><p></p>
+  - name: LASSODD_DICT.OTHERS_SPECIFY_13
+    conditions:
+      - questionText:
+          EN: |
+            <b>B. PAP'S PROFILE</b><p></p>
   - name: LASSODD_DICT.IS_THERE_ANY_ASSOCIATED_STRUCTURE
     conditions:
       - questionText:
           EN: |
             <p><b>C. STRUCTURE TYPE AND USE</b></p>
+  - name: LASSODD_DICT.TYPE_OF_AFFECTED_STRUCTURE
+    conditions:
+      - questionText:
+          EN: |
+            <b>C. STRUCTURE TYPE AND USE</b><p></p>
+  - name: LASSODD_DICT.OTHERS_SPECIFY_8
+    conditions:
+      - questionText:
+          EN: |
+            <b>C. STRUCTURE TYPE AND USE</b><p></p>
+  - name: LASSODD_DICT.USE_OF_STRUCTURE_1
+    conditions:
+      - questionText:
+          EN: |
+            <b>C. STRUCTURE TYPE AND USE</b><p></p>
+  - name: LASSODD_DICT.OTHERS_SPECIFY_9
+    conditions:
+      - questionText:
+          EN: |
+            <b>C. STRUCTURE TYPE AND USE</b><p></p>
+  - name: LASSODD_DICT.MATERIAL_OF_MAIN_STRUCTURE
+    conditions:
+      - questionText:
+          EN: |
+            <b>C. STRUCTURE TYPE AND USE</b><p></p>
+  - name: LASSODD_DICT.OTHERS_SPECIFY_10
+    conditions:
+      - questionText:
+          EN: |
+            <b>C. STRUCTURE TYPE AND USE</b><p></p>
+  - name: LASSODD_DICT.STATUS_CONDITION_OF_USE
+    conditions:
+      - questionText:
+          EN: |
+            <b>C. STRUCTURE TYPE AND USE</b><p></p>
+  - name: LASSODD_DICT.STRUCTURE_TAG
+    conditions:
+      - questionText:
+          EN: |
+            C5 Associated Structure<p></p>
+  - name: LASSODD_DICT.TYPE_OF_ASSOCIATED_STRUCTURE
+    conditions:
+      - questionText:
+          EN: |
+            C5 Associated Structure<p></p>
+  - name: LASSODD_DICT.DO_YOU_WANT_TO_ADD_ANOTHER
+    conditions:
+      - questionText:
+          EN: |
+            C5 Associated Structure<p></p>
+  - name: LASSODD_DICT.C8_USED_FOR_BUSINESS_PURPOSES
+    conditions:
+      - questionText:
+          EN: |
+            C5 Associated Structure<p></p>
+  - name: LASSODD_DICT.ASSOCIATED_STRUCTURE_1
+    conditions:
+      - questionText:
+          EN: |
+            C5 Associated Structure<p></p>
+  - name: LASSODD_DICT.ASSOCIATED_STRUCTURE_2
+    conditions:
+      - questionText:
+          EN: |
+            C5 Associated Structure<p></p>
+  - name: LASSODD_DICT.ADD_ANOTHER
+    conditions:
+      - questionText:
+          EN: |
+            C5 Associated Structure<p></p>
+  - name: LASSODD_DICT.DO_YOU_OWN_THE_TAGGED_STRUCTURE
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.IF_YES
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.D1_2_STRUCTURE_OWNER_CO_OWNER_DETAILS
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.FIRST_2
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.MIDDLE_2
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.LAST_2
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.GENDER
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.ADDRESS
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.CONTACT_NUMBER_1
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.D1_3_STRUCTURE_OWNER_CO_OWNER_DETAILS_IF_MORE_TH
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.FIRST_3
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.MIDDLE_3
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.LAST_3
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.GENDER_1
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.ADDRESS_1
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.CONTACT_NUMBER_2
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.ADD_MORE_STRUCTURE_OWNER_CO_OWNER
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.D1_4_HOW_DID_YOU_OBTAIN_THE_STRUCTURE_1
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.OTHERS_SPECIFY_7
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.D1_5_DO_YOU_RENT_OUT_THE_STRUCTURE
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.FIRST_8
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.LAST_8
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.CONTACT_NUMBER_7
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.FIRST_4
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.LAST_4
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.CONTACT
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.FIRST_5_1
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.LAST_5_1
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.CONTACT_NUMBER_3_1
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.FIRST_5
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.LAST_5
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.CONTACT_NUMBER_3
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.D1_6_NUMBER_OF_RENTERS_TENANTS_IF_ANY
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.D1_7_HOW_MUCH_IS_THE_AVERAGE_RENT_PER_MONTH_PHP
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.D1_8_DO_YOU_PAY_TAXES_FOR_THE_STRUCTURE
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.D1_9_IF_YES_HOW_MUCH_IS_PAID_IN_TAXES_ANNUALLY
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.D2_IF_NOT_THE_OWNER_WHAT_TYPE_OF_ARRANGEMENT_DO
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.D2_1_IF_RENTER_SHARER_HOW_MUCH_IS_YOUR_RENT_SHAR
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.D3_WHAT_PROOF_DO_YOU_HAVE_TO_SHOW_ARRANGEMENT_WI
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
+  - name: LASSODD_DICT.D3_1_IF_WRITTEN_CONTRACT_WHAT_ARE_THE_TERMS
+    conditions:
+      - questionText:
+          EN: |
+            D Structure Ownership<p></p>
   - name: LASSODD_DICT.E1_DO_YOU_OWN_THE_LAND_S_ANYWHERE_IN_THE_PROJECT
     conditions:
       - questionText:
           EN: |
+            <p><b>E. LAND OWNERSHIP</b></p><p></p><p></p>
+  - name: LASSODD_DICT.E1_2_IF_YES_WHAT_IS_THE_TENURE_STATUS_OF_THE_PAR
+    conditions:
+      - questionText:
+          EN: |
             <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.E1_3_NAME_OF_LAND_OWNER
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.FIRST_6
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.MIDDLE_4
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.LAST_6
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.E1_4_TYPE
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.E1_5_SEX
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.E1_6_ADDRESS
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.ADD_MULTIPLE_LAND_OWNERS_INFORMATION
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.E1_7_REGISTERED_OWNER
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.E2_DO_YOU_HAVE_A_VALID_LEGAL_DOCUMENT_TO_PROVE_O
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.E2_1_IF_YES_WHAT_IS_YOUR_PROOF_OF_OWNERSHIP_CAN
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.OTHERS_SPECIFY_5
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.E2_3_HOW_DID_YOU_OBTAIN_THE_LAND_1
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.OTHERS_SPECIFY_6
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.E2_4_DO_YOU_PAY_THE_REAL_ESTATE_TAX_FOR_THE_LAND
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.E2_5_IF_YES_HOW_MUCH_PER_YEAR_PHP
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.E2_6_DO_YOU_HAVE_TENANT_LESSEES
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.E2_6_2_HOW_MUCH_IS_THE_RENT_SHARE
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.MODE_OF_PAYMENT
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.AMOUNT_PHP
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.E2_7_IS_THIS_LOT_CURRENTLY_ON_LOAN_OR_USED_AS_MO
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.E3_IF_NOT_THE_LANDOWNER_WHAT_IS_YOUR_ARRANGEMENT
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.E3_2_WHAT_IS_THE_SIZE_OF_YOUR_RENTED_AREA_SQUARE
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.E3_3_WHAT_PROOF_DO_YOU_HAVE_TO_SHOW_ARRANGEMENT
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.E4_ASIDE_FROM_THIS_PARCEL_DO_YOU_OWN_ANY_OTHER_L
+    conditions:
+      - questionText:
+          EN: |
+            <b>E. LAND OWNERSHIP</b><p></p>
+  - name: LASSODD_DICT.F1_TYPE_OF_LAND
+    conditions:
+      - questionText:
+          EN: |
+            F. LAND TYPE AND USE<p></p>
+  - name: LASSODD_DICT.F1_1_TYPE_OF_OWNERSHIP
+    conditions:
+      - questionText:
+          EN: |
+            F. LAND TYPE AND USE<p></p>
+  - name: LASSODD_DICT.F2_CURRENT_ACTUAL_USE_OF_LAND_CAN_BE_MULTIPLE_RE
+    conditions:
+      - questionText:
+          EN: |
+            F. LAND TYPE AND USE<p></p>
+  - name: LASSODD_DICT.OTHERS_SPECIFY_4
+    conditions:
+      - questionText:
+          EN: |
+            F. LAND TYPE AND USE<p></p>
   - name: LASSODD_DICT.H1_DO_YOU_OWN_OPERATE_A_BUSINESS_INSTITUTION_IN
     conditions:
       - questionText:
@@ -89,4 +694,7 @@ questions:
       - questionText:
           EN: |
             <b>M. SUMMARY</b><br><br><p></p>
+  - name: ""
+    conditions:
+      - {}
 ...
