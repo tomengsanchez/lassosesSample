@@ -706,29 +706,2186 @@ questions:
       - questionText:
           EN: |
             <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.BIRTH_DAY_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.BIRTH_YEAR_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_1_5_AGE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_1_6_ETHNICITY_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_1_7_RELATIONSHIP_TO_HOUSEHOLD_HEAD_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_1_8_HIGHEST_EDUCATIONAL_ATTAINMENT
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_1_9_IF_ONGOING_EDUCATION_LOCATION_OF_SCHOOL
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_3_1_MAIN_SOURCE_OF_INCOME_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_3_2_INCOME_PHP_MONTH
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_3_3_LOCATION
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_3_4_BASIS_OF_INCOME_PAYMENT
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_3_6_IF_WAGE_BASED_WHAT_IS_THE_STATUS_OF_EMPLO
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_3_7_IF_WAGE_BASED_WHAT_TYPE_PLEASE_SPECIFY
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_4_1_SECONDARY_SOURCE_OF_INCOME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_4_2_INCOME_PHP_MONTH
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_4_3_LOCATION
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_4_4_BASIS_OF_INCOME_PAYMENT
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_4_5_IF_LAND_BASED_WHAT_TYPE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_4_6_IF_WAGE_BASED_WHAT_IS_THE_STATUS_OF_EMPLO
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_4_7_IF_WAGE_BASED_WHAT_TYPE_PLEASE_SPECIFY
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_5_1_CURRENT_SKILLS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_5_2_PREFERRED_SKILLS_TRAINING
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_5_3_LOCATION_OF_ORGANIZATION
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_5_4_VULNERABILITY
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_5_5_WHO_TAKES_CARE_OF_VULNERABLE_HOUSEHOLD_ME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G2_1_DO_YOU_RESIDE_IN_THE_AFFECTED_AREA
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_1_EXPENSE_ITEMS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.RENT_LAND_E3_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_2_ESTIMATED_COST_PHP_MONTH
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_3_REMARKS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.RENT_HOUSE_ROOM_D2_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_2_ESTIMATED_COST_PHP_MONTH_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_3_REMARKS_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.HOUSING_AMORTIZATION
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_2_ESTIMATED_COST_PHP_MONTH_2
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_3_REMARKS_2
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.CAR_MOTORCYCLE_AMORTIZATION
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_2_ESTIMATED_COST_PHP_MONTH_3
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_3_REMARKS_3
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.SAVINGS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_2_ESTIMATED_COST_PHP_MONTH_4
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_3_REMARKS_4
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.IN_BANK
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.TAX_LAND_STRUCTURE_D1_10_E2_4
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_2_ESTIMATED_COST_PHP_MONTH_5
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_3_REMARKS_5
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.FOOD_GROCERIES
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_2_ESTIMATED_COST_PHP_MONTH_6
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_3_REMARKS_6
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.NON_FOOD_ITEMS_GROCERIES
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_2_ESTIMATED_COST_PHP_MONTH_7
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_3_REMARKS_7
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.LIGHT_ELECTRICITY
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_2_ESTIMATED_COST_PHP_MONTH_8
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_3_REMARKS_8
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.WATER
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_2_ESTIMATED_COST_PHP_MONTH_9
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_3_REMARKS_9
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.EDUCATION
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_2_ESTIMATED_COST_PHP_MONTH_10
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_3_REMARKS_10
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.COMMUNICATION_LANDLINE_MOBILE_PHONE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_2_ESTIMATED_COST_PHP_MONTH_11
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_3_REMARKS_11
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.INTERNET_CONNECTION
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_2_ESTIMATED_COST_PHP_MONTH_12
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_3_REMARKS_12
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.CABLE_CONNECTION
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_2_ESTIMATED_COST_PHP_MONTH_13
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_3_REMARKS_13
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.TRANSPORTATION_FARE_GAS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_2_ESTIMATED_COST_PHP_MONTH_14
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_3_REMARKS_14
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.RECREATION_TRAVEL_EAT_OUT_ETC
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_2_ESTIMATED_COST_PHP_MONTH_15
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_3_REMARKS_15
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.HEALTH_CHECK_UP_MAINTENANCE_MEDICINE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_2_ESTIMATED_COST_PHP_MONTH_16
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_3_REMARKS_16
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.COOKING_LPG_GAS_CHARCOAL
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_2_ESTIMATED_COST_PHP_MONTH_17
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_3_REMARKS_17
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.LOAN_PAYMENT_AMORTIZATION_CAR_APPLIANCES_FURNITU
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_2_ESTIMATED_COST_PHP_MONTH_18
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_3_REMARKS_18
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.FINANCIAL_SUPPORT
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_2_ESTIMATED_COST_PHP_MONTH_19
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_3_REMARKS_19
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.SALARY_HOUSE_HELP_DRIVER_EMPLOYEE_ETC
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_2_ESTIMATED_COST_PHP_MONTH_20
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_3_REMARKS_20
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.OTHERS_SPECIFY
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_2_ESTIMATED_COST_PHP_MONTH_21
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G3_3_REMARKS_21
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.TOTAL_MONTHLY_EXPENDITURE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_HOUSEHOLD_GOODS_OWNED
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_1_ITEM
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.HOUSE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_QUANTITY
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_1_NO_OF_FUNCTIONING
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G_4_2_2_NO_OF_NON_FUNCTIONING
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_3_TOTAL_NO
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_3_SEX_OF_OWNERS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_4_ESTIMATED_TOTAL_VALUE_PHP
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.CAR
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_QUANTITY_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_1_NO_OF_FUNCTIONING_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G_4_2_2_NO_OF_NON_FUNCTIONING_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_3_TOTAL_NO_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_3_SEX_OF_OWNERS_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_4_ESTIMATED_TOTAL_VALUE_PHP_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.BICYCLE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_QUANTITY_2
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_1_NO_OF_FUNCTIONING_2
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G_4_2_2_NO_OF_NON_FUNCTIONING_2
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_3_TOTAL_NO_2
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_3_SEX_OF_OWNERS_2
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_QUANTITY_3
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_1_NO_OF_FUNCTIONING_3
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G_4_2_2_NO_OF_NON_FUNCTIONING_3
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_3_TOTAL_NO_3
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_3_SEX_OF_OWNERS_3
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_4_ESTIMATED_TOTAL_VALUE_PHP_2
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.MOTORCYCLE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_QUANTITY_4
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_1_NO_OF_FUNCTIONING_4
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G_4_2_2_NO_OF_NON_FUNCTIONING_4
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_3_TOTAL_NO_4
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_3_SEX_OF_OWNERS_4
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_4_ESTIMATED_TOTAL_VALUE_PHP_3
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.LANDLINE_TELEPHONE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_QUANTITY_5
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_1_NO_OF_FUNCTIONING_5
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G_4_2_2_NO_OF_NON_FUNCTIONING_5
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_3_TOTAL_NO_5
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_4_ESTIMATED_TOTAL_VALUE_PHP_4
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.COMPUTER
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_QUANTITY_6
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_1_NO_OF_FUNCTIONING_6
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G_4_2_2_NO_OF_NON_FUNCTIONING_6
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_3_TOTAL_NO_6
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_4_ESTIMATED_TOTAL_VALUE_PHP_5
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.TV_SET
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_QUANTITY_7
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_1_NO_OF_FUNCTIONING_7
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G_4_2_2_NO_OF_NON_FUNCTIONING_7
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_3_TOTAL_NO_7
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_4_ESTIMATED_TOTAL_VALUE_PHP_6
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.VCD_DVD
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_QUANTITY_8
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_1_NO_OF_FUNCTIONING_8
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G_4_2_2_NO_OF_NON_FUNCTIONING_8
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_3_TOTAL_NO_8
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_4_ESTIMATED_TOTAL_VALUE_PHP_7
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.STEREO_COMPONENT
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_QUANTITY_9
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_1_NO_OF_FUNCTIONING_9
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G_4_2_2_NO_OF_NON_FUNCTIONING_9
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_3_TOTAL_NO_9
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_4_ESTIMATED_TOTAL_VALUE_PHP_8
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.REFRIGERATOR
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_QUANTITY_10
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_1_NO_OF_FUNCTIONING_10
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G_4_2_2_NO_OF_NON_FUNCTIONING_10
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_3_TOTAL_NO_10
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_4_ESTIMATED_TOTAL_VALUE_PHP_9
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.WASHING_MACHINE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_QUANTITY_11
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_1_NO_OF_FUNCTIONING_11
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G_4_2_2_NO_OF_NON_FUNCTIONING_11
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_3_TOTAL_NO_11
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_4_ESTIMATED_TOTAL_VALUE_PHP_10
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.OVEN_RANGE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_QUANTITY_12
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_1_NO_OF_FUNCTIONING_12
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G_4_2_2_NO_OF_NON_FUNCTIONING_12
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_3_TOTAL_NO_12
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_4_ESTIMATED_TOTAL_VALUE_PHP_11
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.MICROWAVE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_QUANTITY_13
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_1_NO_OF_FUNCTIONING_13
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G_4_2_2_NO_OF_NON_FUNCTIONING_13
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_3_TOTAL_NO_13
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_4_ESTIMATED_TOTAL_VALUE_PHP_12
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.BED
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_QUANTITY_14
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_1_NO_OF_FUNCTIONING_14
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G_4_2_2_NO_OF_NON_FUNCTIONING_14
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_3_TOTAL_NO_14
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_4_ESTIMATED_TOTAL_VALUE_PHP_13
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.SALA_SET
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_QUANTITY_15
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_1_NO_OF_FUNCTIONING_15
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G_4_2_2_NO_OF_NON_FUNCTIONING_15
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_3_TOTAL_NO_15
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_4_ESTIMATED_TOTAL_VALUE_PHP_14
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.DINING_SET
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_QUANTITY_16
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_1_NO_OF_FUNCTIONING_16
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G_4_2_2_NO_OF_NON_FUNCTIONING_16
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_3_TOTAL_NO_16
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_4_ESTIMATED_TOTAL_VALUE_PHP_15
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.ELECTRIC_FAN
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_QUANTITY_17
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_1_NO_OF_FUNCTIONING_17
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G_4_2_2_NO_OF_NON_FUNCTIONING_17
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_3_TOTAL_NO_17
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_4_ESTIMATED_TOTAL_VALUE_PHP_16
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.AIRCON
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_QUANTITY_18
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_1_NO_OF_FUNCTIONING_18
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G_4_2_2_NO_OF_NON_FUNCTIONING_18
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_3_TOTAL_NO_18
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_4_ESTIMATED_TOTAL_VALUE_PHP_17
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.OTHERS_SPECIFY_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_1_NO_OF_FUNCTIONING_19
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G_4_2_2_NO_OF_NON_FUNCTIONING_19
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_2_3_TOTAL_NO_19
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G4_4_ESTIMATED_TOTAL_VALUE_PHP_18
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G10_2_HAVE_YOU_AVAILED_OF_A_GOVERNMENT_HOUSING_P
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G10_5_DID_YOU_AVAIL_OF_BALIK_PROBINSYA_PROGRAM
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G10_6_IF_PREVIOUSLY_RELOCATED_AND_HAVE_GONE_BACK
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.SUPPLEMENTARY_SURVEY_QUESTIONNAIRE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.J2_1_1_NAME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.J2_1_1_MIDLE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.J2_1_1_LAST
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.J2_1_2_SEX
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.J2_1_3_AGE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.J2_1_4_RELATIONSHIP_TO_HOUSEHOLD_HEAD
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.J2_1_5_HIGHEST_EDUCATIONAL_ATTAINMENT
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.J2_1_6_VULNERABILITIES
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.J3_1_1_PRIMARY_SOURCE_OF_INCOME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.J3_1_2_FROM_PRIMARY_INCOME_PHP_MONTH
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.J3_1_3_SECONDARY_SOURCE_OF_INCOME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.J3_1_4_FROM_SECONDARY_INCOME_PHP_MONTH
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.J3_1_5_NO_OF_MEMBERS_CONTRIBUTING
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.J3_1_6_TOTAL_COMBINED_HH_MONTHLY_INCOME_PHP
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
   - name: LASSODD_DICT.H1_DO_YOU_OWN_OPERATE_A_BUSINESS_INSTITUTION_IN
     conditions:
       - questionText:
           EN: |
             <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H1_1_BUSINESS_INSTITUTION_NAME
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H1_2_TYPE_OF_BUSINESS_INSTITUTION_1_1
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H1_2_TYPE_OF_BUSINESS_INSTITUTION_1
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H1_3_TYPE_OF_BUSINESS_INSTITUTION_OWNERSHIP_1
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.OTHERS_SPECIFY_2
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H1_4_IS_THIS_AN_INCOME_GENERATING_ACTIVITY
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H1_5_TYPE_OF_SERVICE_1
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.OTHERS_SPECIFY_3
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H1_6_LENGTH_OF_BUSINESS_INSTITUTION_IN_OPERATION
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H1_7_START_OF_OPERATION_SPECIFY_YEAR
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H1_8_BUSINESS_LICENSE_REGISTRATION_PERMIT_MULTIP
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H1_9_HOW_MUCH_IS_YOUR_CAPITAL_BUSINESS_ASSET
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H1_10_1_AVE_GROSS_MONTHLY_INCOME_PHP
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H1_10_2_AVE_NET_MONTHLY_INCOME_PHP
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H2_1_WHO_HELP_YOU_IN_YOUR_BUSINESS_OPERATION_PRO
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H2_2_DO_YOU_HAVE_PAID_EMPLOYEES
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H2_3_HOW_MANY_EMPLOYEE_DO_YOU_HAVE
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H2_3_1_TOTAL_NUMBER_OF_EMPLOYEES
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H2_3_2_NO_OF_EMPLOYEES_BY_SEX
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H2_3_3_AVERAGE_MONTHLY_SALARY
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H2_3_4_SKILLS
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H2_3_2_NO_OF_EMPLOYEES_BY_SEX_1
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H2_3_3_AVERAGE_MONTHLY_SALARY_1
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H2_3_4_SKILLS_1
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H2_3_2_NO_OF_EMPLOYEES_BY_SEX_2
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H2_3_3_AVERAGE_MONTHLY_SALARY_2
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.H2_3_4_SKILLS_2
+    conditions:
+      - questionText:
+          EN: |
+            <b>H1. PROFILE OF BUSINESS/INSTITUTION</b><p></p>
+  - name: LASSODD_DICT.I1_DO_YOU_OWN_OPERATE_AN_AGRICULTURE_AQUACULTURE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.IF_YES_WHICH_OF_THE_FOLLOWING_ACTIVITIES_DOES_TH
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I1_1_DO_YOU_OR_ANY_MEMBER_OF_YOUR_FAMILY_OWN_HAR
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I2_1_DO_YOU_OR_ANY_MEMBER_OF_YOUR_FAMILY_GRAZE_R
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I1_2_AFFECTED_TREES
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.TIMBER_NAME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.TIMBER_AGE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.TIMBER_QTY
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.TIMBER_ANNUAL_HARVERT_PHP
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.FRUIT_BEARING_NAME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.FRUIT_BEARING_AGE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.FRUIT_BEARING_QTY
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.FRUIT_BEARING_ANNUAL_HARVERT_PHP
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.PALMS_NAME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.PALMS_AGE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.PALMS_QTY
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.PALMS_ANNUAL_HARVERT_PHP
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.ORNAMENTAL_NAME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.ORNAMENTAL_AGE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.ORNAMENTAL_QTY
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.ORNAMENTAL_ANNUAL_HARVERT_PHP
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.OTHERS_NAME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.OTHERS_AGE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.OTHERS_QTY
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.OTHERS_ANNUAL_HARVERT_PHP
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_1_IS_THERE_ANY_MEMBER_OF_THIS_HOUSEHOLD_WHO_I
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.TOTAL_QTY_FOR_TYPE_OF_TREE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.TOTAL_ANNUAL_HARVEST_PHP_FOR_TYPE_OF_TREE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.TYPE_OF_CROP
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.RICE_NAME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.RICE_AREA_SQM
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.RICE_ANNUAL_HARVEST_PHP
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.CORN_NAME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.CORN_AREA_SQM
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.CORN_ANNUAL_HARVEST_PHP
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.ROOT_CROP_NAME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.ROOT_CROP_AREA_SQM
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.ROOT_CROP_ANNUAL_HARVEST_PHP
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.ORCHID_NAME_S
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.ORCHID_AREA_SQM
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.ORCHID_ANNUAL_HARVEST_PHP
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.VEGETABLE_ANNUAL_NAME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.VEGETABLE_ANNUAL_AREA_SQM
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.VEGETABLE_ANNUAL_ANNUAL_HARVEST_PHP
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.VEGETABLE_PERENNIAL_NAME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.VEGETABLE_PERENNIAL_AREA_SQM
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.VEGETABLE_PERENNIAL_ANNUAL_HARVEST_PHP
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.FRUIT_ANNUAL_NAME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.FRUIT_ANNUAL_AREA_SQM
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.FRUIT_ANNUAL_ANNUAL_HARVEST_PHP
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.FRUIT_PERENNIAL_NAME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.FRUIT_PERENNIAL_AREA_SQM
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.FRUIT_PERENNIAL_ANNUAL_HARVEST_PHP
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.OTHER_ANNUAL_CROPS_NAME_S
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.OTHER_ANNUAL_CROPS_AREA_SQM
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.OTHER_ANNUAL_CROPS_ANNUAL_HARVEST_PHP
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.OTHER_PERENNIAL_CROPS_NAME_S
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.OTHER_PERENNIAL_CROPS_AREA_SQM
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.OTHER_PERENNIAL_CROPS_ANNUAL_HARVEST_PHP
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.TOTAL_SQ_METER_FOR_TYPE_FO_CROP
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.TOTAL_ANNUAL_HARVEST_PHP_FOR_TYPE_OF_CROP
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I1_5_WHAT_IS_THE_PLANTING_PATTERN_OF_THE_CROPS_F
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I1_6_WHAT_IS_THE_PLANTING_PATTERN_OF_THE_CROPS_F
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I1_7_WHAT_IS_THE_SCALE_OF_CROP_PRODUCTION
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I1_8_HOW_ARE_THE_CROPS_UTILIZED
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I1_9_HOW_ARE_THE_FOREST_TREES_FRUIT_BEARING_TREE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I1_10_PRIMARY_PRODUCT_GOODS_PRODUCED
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I1_11_WHAT_IS_THE_PRIMARY_SOURCE_OF_WATER_IRRIGA
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I2_1_DO_YOU_OR_ANY_MEMBER_OF_YOUR_FAMILY_GRAZE_R_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I2_2_IF_YES_WHICH_OF_THE_FOLLOWING_ACTIVITIES_AR
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I2_3_SCALE_OF_PRODUCTION
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I2_4_WHAT_IS_THE_PURPOSE_USE_OF_LIVESTOCK_ANIMAL
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I2_5_LIVESTOCK_OTHER_ANIMALS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.CATTLE_COW_NO_OF_HEADS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.CATTLE_COW_ANNUAL_INCOME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.CARABAO_NO_HEADS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.CARABAO_ANNUAL_INCOME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.SWINE_PIG_NO_OF_HEADS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.SWINE_PIG_ANNUAL_INCOME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.GOAT_NO_OF_HEADS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.GOAT_ANNUAL_INCOME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.SHEEP
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.SHEEP_ANNUAL_INCOME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.HORSE_NO_OF_HEADS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.HORSE_ANNUAL_INCOME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.RACE_HORSE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.RACE_HORSE_ANNUAL_INCOME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.BREEDER_DOGS_NO_OF_HEADS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.BREEDER_DOGS_ANNUAL_INCOME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.OTHER_LIVESTOCK_ANIMALS_SPECIFY_BELOW
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.OTHER_LIVESTOCK_ANIMALS_SPECIFY_BELOW_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.OTHER_LIVESTOCK_ANIMALS_SPECIFY_BELOW_2
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.NATIVE_CHICKEN_NO_OF_BIRDS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.NATIVE_CHICKEN_ANNUAL_INCOME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.BROILER_CHICKEN_NO_OF_BIRDS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.BROILER_CHICKEN_ANNUAL_INCOME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.LAYER_CHICKEN_NO_OF_BIRDS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.LAYER_CHICKEN_NO_BIRDS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.GAME_FOWL
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.GAME_FOWL_ANNUAL_INCOME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.BROILER_DUCK_NO_OF_BIRDS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.BROILER_DUCK_ANNUAL_INCOME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.LAYER_DUCK_NO_OF_BIRDS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.LAYER_DUCK_ANNUAL_INCOME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.BREEDER_DUCK_NO_OF_BIRDS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.BREEDER_DUCK_ANNUAL_INCOME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.QUAIL_DUCK_NO_OF_BIRDS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.QUAIL_DUCK_ANNUAL_INCOME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.OTHER_POULTRY_SPECIFY_BELOW
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.OTHER_POULTRY_SPECIFY_BELOW_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_1_IS_THERE_ANY_MEMBER_OF_THIS_HOUSEHOLD_WHO_I_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_2_FISH_PEN_POND_INFORMATION
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_2_1_FRESH_WATER_AQUAMARINE_PRODUCTS_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.TILAPIA
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_2_3_NUMBER_OF_CAGES_PENS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_2_4_ANNUAL_HARVEST_IN_PHP
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.MILK_FISH_BANGUS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_2_3_NUMBER_OF_CAGES_PENS_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_2_4_ANNUAL_HARVEST_IN_PHP_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.CRUSTACEANS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_2
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_2_3_NUMBER_OF_CAGES_PENS_2
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_2_4_ANNUAL_HARVEST_IN_PHP_2
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.SEAWEED
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_3
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_2_3_NUMBER_OF_CAGES_PENS_3
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_2_4_ANNUAL_HARVEST_IN_PHP_3
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.WATER_LILY
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_4
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_2_3_NUMBER_OF_CAGES_PENS_4
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_2_4_ANNUAL_HARVEST_IN_PHP_4
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.OTHERS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.SPECIFY
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_2_2_SIZE_OF_FISH_CAGE_PEN_POND_IN_HA_5
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_2_3_NUMBER_OF_CAGES_PENS_5
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_2_4_ANNUAL_HARVEST_IN_PHP_5
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_3_TOTAL
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_4_WHAT_IS_THE_SCALE_OF_FISH_PEN_POND_OPERATIO
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_5_HOW_IS_THE_FISH_PEN_POND_UTILIZED
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I3_6_DO_YOU_CATCH_FISH_IN_THE_AFFECTED_AREA
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I4_1_DID_YOU_ANSWER_YES_IN_ANY_ONE_I1_I2_I3_ABOV
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I4_2_DID_YOU_REGISTER_YOUR_LAND_WATER_BASED_ACTI
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I4_3_DO_YOU_HAVE_PAID_AGRICULTURE_AQUACULTURE_WO
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I4_4_HOW_MANY_PAID_AGRICULTURAL_AQUACULTURE_FISH
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I4_5_DO_YOU_OWN_THE_OPERATION_OF_THE_AGRICULTURE
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I4_6_DO_YOU_OWN_THE_AFFECTED_LAND_BODY_OF_WATER
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I4_7_IF_NOT_WHAT_IS_YOUR_ARRANGEMENT_WITH_THE_LA
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I4_8_IF_TENANT_LESSEE_HOW_MUCH_DO_YOU_PAY_THE_LA
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I4_9_WHAT_IS_THE_SIZE_OF_THE_RENTED_LEASED_USED
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.I4_10_IF_SHARECROPPER_WHAT_IS_YOUR_SHARING_ARRAN
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.OWNER
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
+  - name: LASSODD_DICT.SHARECROPPER
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_960">I. CENSUS OF AGRICULTURE AND FISHERIES</h3><p></p>
   - name: LASSODD_DICT.J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2_1_1
     conditions:
       - questionText:
           EN: |
-            <b>J. LIVELIHOOD REHABILITATION MEASURES (May include more than one response)</b><p></p>
+            <h3 id="wpforms-2826-field_990">J. LIVELIHOOD REHABILITATION MEASURES  (may include more than one response)</h3><p></p>
+  - name: LASSODD_DICT.J1_IN_CASE_YOU_LOSE_YOUR_JOB_CLOSE_ENTERPRISE_OR_2_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_990">J. LIVELIHOOD REHABILITATION MEASURES  (may include more than one response)</h3><p></p>
+  - name: LASSODD_DICT.J2_WHERE_IS_YOUR_PREFERRED_LOCATION_FOR_EMPLOYME_1_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_990">J. LIVELIHOOD REHABILITATION MEASURES  (may include more than one response)</h3><p></p>
+  - name: LASSODD_DICT.J2_WHERE_IS_YOUR_PREFERRED_LOCATION_FOR_EMPLOYME_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_990">J. LIVELIHOOD REHABILITATION MEASURES  (may include more than one response)</h3><p></p>
+  - name: LASSODD_DICT.J3_WHAT_IS_ARE_YOUR_CURRENT_SKILLS_EXPERTISE_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_990">J. LIVELIHOOD REHABILITATION MEASURES  (may include more than one response)</h3><p></p>
+  - name: LASSODD_DICT.J4_WHAT_IS_ARE_YOUR_PREFERRED_VOCATIONAL_SKILLS_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_990">J. LIVELIHOOD REHABILITATION MEASURES  (may include more than one response)</h3><p></p>
   - name: LASSODD_DICT.K1_HAVE_YOU_HEARD_ABOUT_THE_LASSO_2_PROJECT
     conditions:
       - questionText:
           EN: |
-            <b>K. PROJECT AWARENESS</b>
+            <h3 id="wpforms-2826-field_1123">K. PROJECT AWARENESS</h3>
+  - name: LASSODD_DICT.K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_1123">K. PROJECT AWARENESS</h3><p></p>
   - name: LASSODD_DICT.K2_WHAT_BENEFITS_DO_YOU_THINK_CAN_BE_DERIVED_FRO
     conditions:
-      - {}
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_1123">K. PROJECT AWARENESS</h3><p></p>
+  - name: LASSODD_DICT.K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_1123">K. PROJECT AWARENESS</h3><p></p>
+  - name: LASSODD_DICT.K3_WHAT_ARE_YOUR_OVERALL_ISSUES_AND_CONCERNS_ABO
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_1123">K. PROJECT AWARENESS</h3><p></p>
+  - name: LASSODD_DICT.K4_DO_YOU_SUPPORT_THE_PROPOSED_PROJECT
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_1123">K. PROJECT AWARENESS</h3><p></p>
+  - name: LASSODD_DICT.K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_1123">K. PROJECT AWARENESS</h3><p></p>
+  - name: LASSODD_DICT.K5_WHAT_ARE_YOUR_RECOMMENDATIONS_TO_ADDRESS_YOUR_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_1123">K. PROJECT AWARENESS</h3><p></p>
   - name: LASSODD_DICT.M_SUMMARY_FOR_PROJECT_AFFECTED_PERSONS_CATEGORY
     conditions:
       - questionText:
           EN: |
             <b>M. SUMMARY</b><br><br><p></p>
+  - name: LASSODD_DICT.RESPONDENT_NAME
+    conditions:
+      - questionText:
+          EN: |
+            <br><p></p>
+  - name: LASSODD_DICT.DATE_TIME
+    conditions:
+      - questionText:
+          EN: |
+            M. Summary for Project Affected Persons Category (can be multiple responses) <span class="wpforms-required-label">*</span><p></p>
   - name: ""
     conditions:
       - {}
