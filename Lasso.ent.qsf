@@ -671,6 +671,41 @@ questions:
       - questionText:
           EN: |
             F. LAND TYPE AND USE<p></p>
+  - name: LASSODD_DICT.G1_1_1_NUMBER_OF_HOUSEHOLD_MEMBERS
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G2_1_2_NAME
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.FIRST_7
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.MIDDLE_5
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.LAST_7
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.G1_1_3_SEX
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
+  - name: LASSODD_DICT.BIRTH_MONTH_1
+    conditions:
+      - questionText:
+          EN: |
+            <h3 id="wpforms-2826-field_636">G1. HOUSEHOLD INFORMATION</h3><p></p>
   - name: LASSODD_DICT.H1_DO_YOU_OWN_OPERATE_A_BUSINESS_INSTITUTION_IN
     conditions:
       - questionText:
