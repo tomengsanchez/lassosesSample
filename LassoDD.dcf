@@ -276,8 +276,9 @@
             {
               "name": "A2_IF_REPRESENTATIVE_RELATIONSHIP_OF_THE_RESPOND", 
               "labels": [ { "text": "A2. If representative, relationship of the respondent to the PAP." } ], 
-              "contentType": "alpha", 
+              "contentType": "numeric", 
               "length": 1, 
+              "zeroFill": false, 
               "valueSets": [
                 {
                   "name": "A2_IF_REPRESENTATIVE_RELATIONSHIP_OF_THE_RESPOND_VS1", 
